@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>rcl_action</name>
+  <version>0.8.4</version>
+  <description>Package containing a C-based ROS action implementation</description>
+  <maintainer email="jacob@openrobotics.org">Jacob Perron</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake_ros</buildtool_depend>
+
+  <build_depend>action_msgs</build_depend>
+  <build_depend>rcl</build_depend>
+  <build_depend>rcutils</build_depend>
+  <build_depend>rmw</build_depend>
+  <build_depend>rosidl_generator_c</build_depend>
+
+  <build_export_depend>action_msgs</build_export_depend>
+  <build_export_depend>rcl</build_export_depend>
+  <build_export_depend>rcutils</build_export_depend>
+  <build_export_depend>rmw</build_export_depend>
+  <build_export_depend>rosidl_generator_c</build_export_depend>
+
+  <test_depend>ament_cmake_gtest</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>osrf_testing_tools_cpp</test_depend>
+  <test_depend>rmw_implementation_cmake</test_depend>
+  <test_depend>test_msgs</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

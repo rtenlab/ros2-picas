@@ -1,0 +1,7 @@
+const long KEY_HASH_LENGTH_16 = 16;
+
+struct ConnextStaticSerializedData {
+	@key octet       key_hash[KEY_HASH_LENGTH_16];
+	sequence<octet>  serialized_key;
+	sequence<octet>  serialized_data;
+};

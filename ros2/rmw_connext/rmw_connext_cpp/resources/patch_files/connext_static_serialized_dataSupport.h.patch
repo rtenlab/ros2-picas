@@ -1,0 +1,121 @@
+--- a/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_dataSupport.h
++++ b/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_dataSupport.h
+@@ -15,7 +15,7 @@ or consult the RTI Connext manual.
+ #include "connext_static_serialized_data.h"
+ 
+ #ifndef ndds_cpp_h
+-#include "ndds/ndds_cpp.h"
++#include "rmw_connext_shared_cpp/ndds_include.hpp"
+ #endif
+ 
+ #if (defined(RTI_WIN32) || defined (RTI_WINCE)) && defined(NDDS_USER_DLL_EXPORT)
+@@ -44,13 +44,106 @@ implementing generics in C and C++.
+ 
+ #endif
+ 
+-DDS_TYPESUPPORT_CPP(
+-    ConnextStaticSerializedDataTypeSupport, 
+-    ConnextStaticSerializedData);
++class NDDSUSERDllExport DDSCPPDllExport ConnextStaticSerializedDataTypeSupport : public ::DDSTypeSupport
++{
++public:
++  ConnextStaticSerializedDataTypeSupport(bool osrf)
++  {
++    (void) osrf;
++  }
++
++  ~ConnextStaticSerializedDataTypeSupport();
++
++  static DDS_ReturnCode_t register_type(
++    DDSDomainParticipant * participant,
++    const char * type_name = "ConnextStaticSerializedData");
++
++  static DDS_ReturnCode_t unregister_type(
++    DDSDomainParticipant * participant,
++    const char * type_name = "ConnextStaticSerializedData");
++
++  static const char * get_type_name();
++
++  static ConnextStaticSerializedData * create_data_ex(DDS_Boolean allocatePointers);
++
++  static ConnextStaticSerializedData * create_data(
++    const DDS_TypeAllocationParams_t & alloc_params =
++    DDS_TYPE_ALLOCATION_PARAMS_DEFAULT);
++
++  static DDS_ReturnCode_t delete_data_ex(
++    ConnextStaticSerializedData * a_data,
++    DDS_Boolean deletePointers);
++
++  static DDS_ReturnCode_t delete_data(
++    ConnextStaticSerializedData * a_data,
++    const DDS_TypeDeallocationParams_t & dealloc_params =
++    DDS_TYPE_DEALLOCATION_PARAMS_DEFAULT);
++
++  static void print_data(const ConnextStaticSerializedData * a_data);
++
++  static DDS_ReturnCode_t copy_data(
++    ConnextStaticSerializedData * dst_data, const ConnextStaticSerializedData * src_data);
++
++  static DDS_ReturnCode_t initialize_data_ex(
++    ConnextStaticSerializedData * a_data,
++    DDS_Boolean allocatePointers);
++
++  static DDS_ReturnCode_t initialize_data(
++    ConnextStaticSerializedData * a_data,
++    const DDS_TypeAllocationParams_t & alloc_params =
++    DDS_TYPE_ALLOCATION_PARAMS_DEFAULT);
++
++  static DDS_ReturnCode_t finalize_data_ex(
++    ConnextStaticSerializedData * a_data,
++    DDS_Boolean deletePointers);
++
++  static DDS_ReturnCode_t finalize_data(
++    ConnextStaticSerializedData * a_data,
++    const DDS_TypeDeallocationParams_t & dealloc_params =
++    DDS_TYPE_DEALLOCATION_PARAMS_DEFAULT);
++
++  DDSDataReader * create_datareaderI(DDSDataReader * dataReader);
++
++  DDS_ReturnCode_t destroy_datareaderI(DDSDataReader * dataReader);
++
++  DDSDataWriter * create_datawriterI(DDSDataWriter * dataWriter);
++
++  DDS_ReturnCode_t destroy_datawriterI(DDSDataWriter * dataWriter);
++
++  static DDS_TypeCode * get_typecode();
++
++  static DDS_ReturnCode_t serialize_data_to_cdr_buffer(
++    char * buffer,
++    unsigned int & length,
++    const ConnextStaticSerializedData * a_data);
++
++  static DDS_ReturnCode_t deserialize_data_from_cdr_buffer(
++    ConnextStaticSerializedData * a_data,
++    const char * buffer,
++    unsigned int length);
++
++  static DDS_ReturnCode_t data_to_string(
++    ConnextStaticSerializedData * sample,
++    char * str,
++    DDS_UnsignedLong & str_size,
++    const DDS_PrintFormatProperty & property);
++
++  static void finalize();
++
++private:
++  ConnextStaticSerializedDataTypeSupport();
++};
+ 
+ DDS_DATAWRITER_CPP(ConnextStaticSerializedDataDataWriter, ConnextStaticSerializedData);
+ DDS_DATAREADER_CPP(ConnextStaticSerializedDataDataReader, ConnextStaticSerializedDataSeq, ConnextStaticSerializedData);
+ 
++NDDSUSERDllExport
++DDS_ReturnCode_t
++ConnextStaticSerializedDataSupport_register_external_type(
++  DDSDomainParticipant * participant,
++  const char * type_name,
++  struct DDS_TypeCode * type_code);
++
+ #if (defined(RTI_WIN32) || defined (RTI_WINCE)) && defined(NDDS_USER_DLL_EXPORT)
+ /* If the code is building on Windows, stop exporting symbols.
+ */
