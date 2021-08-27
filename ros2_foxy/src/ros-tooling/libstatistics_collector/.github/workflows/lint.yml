@@ -1,0 +1,20 @@
+name: Lint libstatistics_collector
+on:
+  pull_request:
+
+jobs:
+  ament_lint:
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-bionic-ros-eloquent-ros-base-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        linter: [copyright, cppcheck, cpplint, flake8, pep257, uncrustify, xmllint]
+    steps:
+      - run: sudo chown -R rosbuild:rosbuild "$HOME" .
+      - uses: actions/checkout@v2
+      - uses: ros-tooling/action-ros-lint@0.0.6
+        with:
+          linter: ${{ matrix.linter }}
+          package-name: libstatistics_collector

@@ -1,0 +1,11 @@
+--- a/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_data.h
++++ b/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_data.h
+@@ -14,7 +14,7 @@ or consult the RTI Connext manual.
+ 
+ #ifndef NDDS_STANDALONE_TYPE
+ #ifndef ndds_cpp_h
+-#include "ndds/ndds_cpp.h"
++#include "rmw_connext_shared_cpp/ndds_include.hpp"
+ #endif
+ #else
+ #include "ndds_standalone_type.h"

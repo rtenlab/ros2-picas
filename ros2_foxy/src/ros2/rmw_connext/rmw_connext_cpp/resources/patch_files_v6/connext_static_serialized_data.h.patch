@@ -1,0 +1,26 @@
+--- a/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_data.h
++++ b/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_data.h
+@@ -14,7 +14,7 @@ or consult the RTI Connext manual.
+ 
+ #ifndef NDDS_STANDALONE_TYPE
+ #ifndef ndds_cpp_h
+-#include "ndds/ndds_cpp.h"
++#include "rmw_connext_shared_cpp/ndds_include.hpp"
+ #endif
+ #include "rti/xcdr/Interpreter.hpp"
+ #else
+@@ -63,7 +63,14 @@ or consult the RTI Connext manual.
+ NDDSUSERDllExport RTIXCdrSampleAccessInfo *ConnextStaticSerializedData_get_sample_seq_access_info(void);
+ #endif
+ 
++#ifndef _WIN32
++# pragma GCC diagnostic push
++# pragma GCC diagnostic ignored "-Wpedantic"
++#endif
+ DDS_SEQUENCE(ConnextStaticSerializedDataSeq, ConnextStaticSerializedData);
++#ifndef _WIN32
++# pragma GCC diagnostic pop
++#endif
+ 
+ NDDSUSERDllExport
+ RTIBool ConnextStaticSerializedData_initialize(

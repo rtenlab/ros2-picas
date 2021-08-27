@@ -1,0 +1,32 @@
+name: Test rosbag2
+on:
+  pull_request:
+  push:
+    branches:
+      - foxy
+
+jobs:
+  build_and_test:
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-focal-latest
+    steps:
+    - uses: ros-tooling/action-ros-ci@v0.2
+      with:
+        target-ros2-distro: foxy
+        colcon-defaults: |
+          {
+            "build": {
+              "cmake-args": [
+                "-DCMAKE_CXX_FLAGS=\"-Werror\""
+              ]
+            },
+            "test": {
+              "ctest-args": ["-LE", "xfail"],
+              "pytest-args": ["-m", "not xfail"]
+            }
+          }
+    - uses: actions/upload-artifact@v1
+      with:
+        name: colcon-logs
+        path: ros_ws/log

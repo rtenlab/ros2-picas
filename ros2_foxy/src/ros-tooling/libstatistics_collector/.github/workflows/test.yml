@@ -1,0 +1,99 @@
+name: Test libstatistics_collector
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+  schedule:
+    # Run every hour. This helps detect flakiness,
+    # and broken external dependencies.
+    - cron:  '0 * * * *'
+
+jobs:
+  build_and_test_macOS:
+    runs-on: macOS-latest
+    steps:
+    - uses: ros-tooling/setup-ros@0.0.25
+    - uses: ros-tooling/action-ros-ci@0.0.17
+      with:
+        package-name: libstatistics_collector
+        colcon-mixin-name: coverage-gcc
+        colcon-mixin-repository: https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
+    - uses: actions/upload-artifact@v1
+      with:
+        name: colcon-logs-${{ matrix.os }}
+        path: ros_ws/log
+
+  build_and_test_ubuntu:
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-focal-latest
+    steps:
+    # TODO(setup-ros-docker#7): calling chown is necessary for now
+    - run: sudo chown -R rosbuild:rosbuild "$HOME" .
+    - uses: ros-tooling/action-ros-ci@0.0.17
+      with:
+        package-name: libstatistics_collector
+        colcon-mixin-name: coverage-gcc
+        colcon-mixin-repository: https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
+    - uses: codecov/codecov-action@v1.0.13
+      with:
+        token: ${{ secrets.CODECOV_TOKEN }}
+        file: ros_ws/lcov/total_coverage.info
+        flags: unittests
+        name: codecov-umbrella
+        yml: ./codecov.yml
+        fail_ci_if_error: true
+    - uses: actions/upload-artifact@v1
+      with:
+        name: colcon-logs-${{ matrix.os }}
+        path: ros_ws/log
+
+  build_and_test_asan:
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-focal-latest
+    steps:
+    # TODO(setup-ros-docker#7): calling chown is necessary for now
+    - run: sudo chown -R rosbuild:rosbuild "$HOME" .
+    - uses: ros-tooling/action-ros-ci@0.0.17
+      with:
+        colcon-mixin-name: asan
+        colcon-mixin-repository: https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
+        package-name: libstatistics_collector
+    - uses: actions/upload-artifact@v1
+      with:
+        name: colcon-logs-ubuntu-asan
+        path: ros_ws/log
+
+  log_workflow_status_to_cloudwatch:
+    runs-on: ubuntu-latest
+    container:
+      image: ubuntu:bionic
+    needs:
+    - build_and_test_macOS
+    - build_and_test_ubuntu
+    - build_and_test_asan
+    if: always()  # run even if the dependent jobs have failed to log failures
+    # Allow build reports to fail on pull requests.
+    # When a contribution is made on a fork, the secrets will not be available,
+    # and this step will be failing. This is acceptable.
+    # On the other end, we want to be notified if this happens on merge, or
+    # on schedule.
+    continue-on-error: ${{ github.event_name == 'pull_request'}}
+    steps:
+    - name: Configure AWS Credentials
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+    - uses: ros-tooling/action-cloudwatch-metrics@0.0.5
+      with:
+        # Checks if any of the jobs have failed.
+        #
+        # needs.*.result is returns the list of all success statuses as an
+        # array, i.e. ['success', 'failure, 'success']
+        # join() converts the array to a string 'successfailuresuccess'
+        # contains() checks whether the string contains failure
+        metric-value: ${{ ! contains(join(needs.*.result, ''), 'failure') && ! contains(join(needs.*.result, ''), 'cancelled') }}
