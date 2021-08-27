@@ -1,0 +1,30 @@
+[0.704s] Invoking command in '/home/saitama1/ros2_foxy/build/urdfdom_headers': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/urdfdom_headers -- -j12 -l12
+[0.897s] Invoked command in '/home/saitama1/ros2_foxy/build/urdfdom_headers' returned '0': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/urdfdom_headers -- -j12 -l12
+[0.957s] Invoking command in '/home/saitama1/ros2_foxy/build/urdfdom_headers': /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/urdfdom_headers
+[1.006s] -- Install configuration: ""
+[1.007s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config.cmake
+[1.007s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headers-config-version.cmake
+[1.007s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/lib/pkgconfig/urdfdom_headers.pc
+[1.007s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/lib/urdfdom_headers/cmake/urdfdom_headersExport.cmake
+[1.008s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_sensor
+[1.008s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_sensor/types.h
+[1.008s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_sensor/sensor.h
+[1.008s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model
+[1.009s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/types.h
+[1.009s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/model.h
+[1.010s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/joint.h
+[1.010s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/utils.h
+[1.011s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/color.h
+[1.011s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/pose.h
+[1.011s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/twist.h
+[1.012s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model/link.h
+[1.012s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model_state
+[1.013s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/types.h
+[1.013s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/twist.h
+[1.014s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_model_state/model_state.h
+[1.014s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_world
+[1.014s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_world/world.h
+[1.014s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_world/types.h
+[1.015s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_exception
+[1.015s] -- Up-to-date: /home/saitama1/ros2_foxy/install/urdfdom_headers/include/urdf_exception/exception.h
+[1.086s] Invoked command in '/home/saitama1/ros2_foxy/build/urdfdom_headers' returned '0': /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/urdfdom_headers

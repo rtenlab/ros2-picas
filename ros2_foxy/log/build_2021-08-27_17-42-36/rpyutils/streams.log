@@ -1,0 +1,31 @@
+[1.337s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros2/rpyutils': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_xmllint:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_xmllint/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_xmllint/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../build/rpyutils build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/install.log --single-version-externally-managed
+[1.544s] running egg_info
+[1.544s] creating ../../../build/rpyutils/rpyutils.egg-info
+[1.544s] writing ../../../build/rpyutils/rpyutils.egg-info/PKG-INFO
+[1.544s] writing dependency_links to ../../../build/rpyutils/rpyutils.egg-info/dependency_links.txt
+[1.545s] writing top-level names to ../../../build/rpyutils/rpyutils.egg-info/top_level.txt
+[1.545s] writing manifest file '../../../build/rpyutils/rpyutils.egg-info/SOURCES.txt'
+[1.584s] reading manifest file '../../../build/rpyutils/rpyutils.egg-info/SOURCES.txt'
+[1.585s] writing manifest file '../../../build/rpyutils/rpyutils.egg-info/SOURCES.txt'
+[1.585s] running build
+[1.585s] running build_py
+[1.585s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build
+[1.585s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib
+[1.585s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib/rpyutils
+[1.585s] copying rpyutils/import_c_library.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib/rpyutils
+[1.586s] copying rpyutils/add_dll_directories.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib/rpyutils
+[1.587s] copying rpyutils/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib/rpyutils
+[1.587s] running install
+[1.588s] running install_lib
+[1.589s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils
+[1.589s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib/rpyutils/import_c_library.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils
+[1.590s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib/rpyutils/add_dll_directories.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils
+[1.590s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/build/lib/rpyutils/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils
+[1.590s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils/import_c_library.py to import_c_library.cpython-38.pyc
+[1.590s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils/add_dll_directories.py to add_dll_directories.cpython-38.pyc
+[1.591s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils/__init__.py to __init__.cpython-38.pyc
+[1.591s] running install_data
+[1.591s] running install_egg_info
+[1.593s] Copying ../../../build/rpyutils/rpyutils.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rpyutils/lib/python3.8/site-packages/rpyutils-0.2.0-py3.8.egg-info
+[1.593s] running install_scripts
+[1.610s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rpyutils/install.log'

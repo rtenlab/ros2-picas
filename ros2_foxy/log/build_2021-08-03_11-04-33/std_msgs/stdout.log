@@ -1,0 +1,142 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.0 (/home/saitama1/ros2_foxy/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_default_generators: 1.0.1 (/home/saitama1/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_cppcheck: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_cmake_flake8: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/std_msgs
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target std_msgs__cpp
+[  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target std_msgs__rosidl_generator_c[0m
+[  4%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/empty__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/color_rgba__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/bool__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/byte__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/char__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/byte_multi_array__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/float32__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/float32_multi_array__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/float64__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int32_multi_array__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/float64_multi_array__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int32__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int16_multi_array__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int16__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int64__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int8__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int64_multi_array__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/header__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/multi_array_layout__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/int8_multi_array__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/multi_array_dimension__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/string__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/u_int16_multi_array__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/u_int32__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/u_int16__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/u_int32_multi_array__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/u_int64__functions.c.o[0m
+[ 14%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/u_int64_multi_array__functions.c.o[0m
+[35m[1mScanning dependencies of target std_msgs__rosidl_typesupport_cpp[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/bool__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float64__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/byte__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/empty__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/byte_multi_array__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/char__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float64_multi_array__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float32_multi_array__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/color_rgba__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/float32__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/header__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int16__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int32__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int16_multi_array__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int32_multi_array__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int64_multi_array__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int64__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int8__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/int8_multi_array__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/multi_array_dimension__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/multi_array_layout__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/string__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int16__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int32__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int16_multi_array__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int32_multi_array__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int64_multi_array__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/u_int64__type_support.cpp.o[0m
+[35m[1mScanning dependencies of target std_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mScanning dependencies of target std_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/bool__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/color_rgba__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/byte_multi_array__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/float64__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/float32__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/float32_multi_array__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/empty__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/char__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/float64_multi_array__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/byte__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/header__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/bool__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int16__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int32__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/byte__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int16_multi_array__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/byte_multi_array__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int32_multi_array__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int64__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/char__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int64_multi_array__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/color_rgba__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int8__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/empty__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/multi_array_dimension__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/int8_multi_array__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/multi_array_layout__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/string__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/float32__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/float32_multi_array__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/u_int16__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/u_int16_multi_array__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/float64_multi_array__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/float64__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/header__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int16__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int16_multi_array__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int32__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int32_multi_array__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int64__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int64_multi_array__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int8__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/int8_multi_array__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/multi_array_layout__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/multi_array_dimension__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/string__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/u_int16__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/u_int16_multi_array__type_support.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/u_int32__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/u_int32_multi_array__type_support.cpp.o[0m

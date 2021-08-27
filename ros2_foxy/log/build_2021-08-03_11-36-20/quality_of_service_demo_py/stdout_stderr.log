@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing quality_of_service_demo_py.egg-info/PKG-INFO
+writing dependency_links to quality_of_service_demo_py.egg-info/dependency_links.txt
+writing entry points to quality_of_service_demo_py.egg-info/entry_points.txt
+writing requirements to quality_of_service_demo_py.egg-info/requires.txt
+writing top-level names to quality_of_service_demo_py.egg-info/top_level.txt
+reading manifest file 'quality_of_service_demo_py.egg-info/SOURCES.txt'
+writing manifest file 'quality_of_service_demo_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/quality_of_service_demo_py/lib/python3.8/site-packages/quality-of-service-demo-py.egg-link (link to .)
+Installing deadline script to /home/saitama1/ros2_foxy/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing incompatible_qos script to /home/saitama1/ros2_foxy/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing lifespan script to /home/saitama1/ros2_foxy/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+Installing liveliness script to /home/saitama1/ros2_foxy/install/quality_of_service_demo_py/lib/quality_of_service_demo_py
+
+Installed /home/saitama1/ros2_foxy/build/quality_of_service_demo_py
+running install_data

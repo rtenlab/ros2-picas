@@ -1,0 +1,258 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found builtin_interfaces: 1.0.0 (/home/saitama1/ros2_foxy/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_default_generators: 1.0.1 (/home/saitama1/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/statistics_msgs
+[35m[1mScanning dependencies of target statistics_msgs__cpp[0m
+[  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  2%] Built target statistics_msgs__cpp
+[  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_generator_c[0m
+[  6%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/metrics_message__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_type__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_generator_c.dir/rosidl_generator_c/statistics_msgs/msg/detail/statistic_data_point__functions.c.o[0m
+[ 12%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_generator_c.so[0m
+[ 12%] Built target statistics_msgs__rosidl_generator_c
+[ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/metrics_message__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_type__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/statistics_msgs/msg/detail/dds_fastrtps/statistic_data_point__type_support.cpp.o[0m
+[ 23%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 23%] Built target statistics_msgs__rosidl_typesupport_fastrtps_cpp
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_c[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[ 34%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_c.so[0m
+[ 34%] Built target statistics_msgs__rosidl_typesupport_c
+[ 36%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/metrics_message__type_support_c.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_type__type_support_c.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/statistics_msgs/msg/detail/statistic_data_point__type_support_c.cpp.o[0m
+[ 44%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 44%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c
+[ 46%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_introspection_c[0m
+[ 48%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/metrics_message__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_type__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/statistics_msgs/msg/detail/statistic_data_point__type_support.c.o[0m
+[ 55%] [32m[1mLinking C shared library libstatistics_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 55%] Built target statistics_msgs__rosidl_typesupport_introspection_c
+[ 57%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_cpp[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/metrics_message__type_support.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_type__type_support.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/statistics_msgs/msg/statistic_data_point__type_support.cpp.o[0m
+[ 65%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_cpp.so[0m
+[ 65%] Built target statistics_msgs__rosidl_typesupport_cpp
+[ 68%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/metrics_message__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp.o[0m
+[ 76%] [32m[1mLinking CXX shared library libstatistics_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 76%] Built target statistics_msgs__rosidl_typesupport_introspection_cpp
+[35m[1mScanning dependencies of target statistics_msgs[0m
+[ 76%] Built target statistics_msgs
+[35m[1mScanning dependencies of target statistics_msgs__py[0m
+[ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 78%] Built target statistics_msgs__py
+[35m[1mScanning dependencies of target statistics_msgs__python[0m
+[ 80%] [32mBuilding C object CMakeFiles/statistics_msgs__python.dir/rosidl_generator_py/statistics_msgs/msg/_metrics_message_s.c.o[0m
+[ 82%] [32mBuilding C object CMakeFiles/statistics_msgs__python.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_type_s.c.o[0m
+[ 85%] [32mBuilding C object CMakeFiles/statistics_msgs__python.dir/rosidl_generator_py/statistics_msgs/msg/_statistic_data_point_s.c.o[0m
+[ 87%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/libstatistics_msgs__python.so[0m
+[ 87%] Built target statistics_msgs__python
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_c__pyext[0m
+[ 89%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[ 91%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 91%] Built target statistics_msgs__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[ 93%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 95%] [32m[1mLinking C shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 95%] Built target statistics_msgs__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 97%] [32mBuilding C object CMakeFiles/statistics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/statistics_msgs/_statistics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target statistics_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/ament_index/resource_index/rosidl_interfaces/statistics_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/statistic_data_point.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/statistic_data_type.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/metrics_message.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__struct.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__functions.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__struct.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__functions.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__functions.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__type_support.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__type_support.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__functions.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__functions.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__type_support.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__functions.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__struct.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/library_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/library_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/dds_fastrtps
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__type_support.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__type_support.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__type_support.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/statistic_data_type.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/metrics_message.hpp
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__struct.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__builder.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__traits.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__struct.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__traits.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__traits.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__builder.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__builder.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/statistic_data_point.hpp
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg
+-- Up-to-date: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__type_support.cpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_point__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/statistic_data_type__type_support.cpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/include/statistics_msgs/msg/detail/metrics_message__type_support.cpp
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.sh
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/pythonpath.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/__init__.py
+Compiling '/home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/__init__.py'...
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg/_statistic_data_type.py
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg/__init__.py
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg/_metrics_message_s.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg/_statistic_data_point.py
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg/_metrics_message.py
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg/_statistic_data_point_s.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/msg/_statistic_data_type_s.c
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages/statistics_msgs/statistics_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__python.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/statistics_msgs/lib/libstatistics_msgs__python.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.idl
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.idl
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.idl
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/msg/MetricsMessage.msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataPoint.msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/msg/StatisticDataType.msg
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/ament_index/resource_index/package_run_dependencies/statistics_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/ament_index/resource_index/parent_prefix_path/statistics_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/ament_index/resource_index/packages/statistics_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake/statistics_msgsConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/package.xml

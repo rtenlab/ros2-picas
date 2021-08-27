@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing examples_rclpy_minimal_client.egg-info/PKG-INFO
+writing dependency_links to examples_rclpy_minimal_client.egg-info/dependency_links.txt
+writing entry points to examples_rclpy_minimal_client.egg-info/entry_points.txt
+writing requirements to examples_rclpy_minimal_client.egg-info/requires.txt
+writing top-level names to examples_rclpy_minimal_client.egg-info/top_level.txt
+reading manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+writing manifest file 'examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples-rclpy-minimal-client.egg-link (link to .)
+Installing client script to /home/saitama1/ros2_foxy/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+Installing client_async script to /home/saitama1/ros2_foxy/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+Installing client_async_callback script to /home/saitama1/ros2_foxy/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+Installing client_async_member_function script to /home/saitama1/ros2_foxy/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+
+Installed /home/saitama1/ros2_foxy/build/examples_rclpy_minimal_client
+running install_data

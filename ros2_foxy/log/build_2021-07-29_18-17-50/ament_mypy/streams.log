@@ -1,0 +1,44 @@
+[1.675s] Invoking command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_lint PATH=/home/saitama1/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_mypy build --build-base /home/saitama1/ros2_foxy/build/ament_mypy/build install --prefix /home/saitama1/ros2_foxy/install/ament_mypy --record /home/saitama1/ros2_foxy/build/ament_mypy/install.log --single-version-externally-managed
+[1.933s] running egg_info
+[1.936s] creating ../../../../build/ament_mypy/ament_mypy.egg-info
+[1.936s] writing ../../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[1.936s] writing dependency_links to ../../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[1.936s] writing entry points to ../../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[1.936s] writing requirements to ../../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[1.936s] writing top-level names to ../../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[1.937s] writing manifest file '../../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.978s] reading manifest file '../../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.978s] writing manifest file '../../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[1.978s] running build
+[1.978s] running build_py
+[1.978s] creating /home/saitama1/ros2_foxy/build/ament_mypy/build
+[1.978s] creating /home/saitama1/ros2_foxy/build/ament_mypy/build/lib
+[1.979s] creating /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy
+[1.979s] copying ament_mypy/pytest_marker.py -> /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy
+[1.979s] copying ament_mypy/__init__.py -> /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy
+[1.979s] copying ament_mypy/main.py -> /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy
+[1.979s] creating /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.979s] copying ament_mypy/configuration/ament_mypy.ini -> /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy/configuration
+[1.979s] running install
+[1.979s] running install_lib
+[1.980s] creating /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.980s] copying /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy/pytest_marker.py -> /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.980s] copying /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy/__init__.py -> /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.981s] copying /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy/main.py -> /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy
+[1.981s] creating /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[1.981s] copying /home/saitama1/ros2_foxy/build/ament_mypy/build/lib/ament_mypy/configuration/ament_mypy.ini -> /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/configuration
+[1.981s] byte-compiling /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.982s] byte-compiling /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/__init__.py to __init__.cpython-38.pyc
+[1.983s] byte-compiling /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy/main.py to main.cpython-38.pyc
+[1.984s] running install_data
+[1.985s] copying package.xml -> /home/saitama1/ros2_foxy/install/ament_mypy/share/ament_mypy
+[1.985s] creating /home/saitama1/ros2_foxy/install/ament_mypy/share/ament_index
+[1.985s] creating /home/saitama1/ros2_foxy/install/ament_mypy/share/ament_index/resource_index
+[1.985s] creating /home/saitama1/ros2_foxy/install/ament_mypy/share/ament_index/resource_index/packages
+[1.985s] copying resource/ament_mypy -> /home/saitama1/ros2_foxy/install/ament_mypy/share/ament_index/resource_index/packages
+[1.985s] running install_egg_info
+[1.987s] Copying ../../../../build/ament_mypy/ament_mypy.egg-info to /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.6-py3.8.egg-info
+[1.987s] running install_scripts
+[2.006s] Installing ament_mypy script to /home/saitama1/ros2_foxy/install/ament_mypy/bin
+[2.006s] writing list of installed files to '/home/saitama1/ros2_foxy/build/ament_mypy/install.log'
+[2.101s] Invoked command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_lint PATH=/home/saitama1/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_mypy build --build-base /home/saitama1/ros2_foxy/build/ament_mypy/build install --prefix /home/saitama1/ros2_foxy/install/ament_mypy --record /home/saitama1/ros2_foxy/build/ament_mypy/install.log --single-version-externally-managed

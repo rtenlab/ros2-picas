@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing launch_testing_ros.egg-info/PKG-INFO
+writing dependency_links to launch_testing_ros.egg-info/dependency_links.txt
+writing entry points to launch_testing_ros.egg-info/entry_points.txt
+writing requirements to launch_testing_ros.egg-info/requires.txt
+writing top-level names to launch_testing_ros.egg-info/top_level.txt
+reading manifest file 'launch_testing_ros.egg-info/SOURCES.txt'
+writing manifest file 'launch_testing_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/launch_testing_ros/lib/python3.8/site-packages/launch-testing-ros.egg-link (link to .)
+
+Installed /home/saitama1/ros2_foxy/build/launch_testing_ros
+running install_data

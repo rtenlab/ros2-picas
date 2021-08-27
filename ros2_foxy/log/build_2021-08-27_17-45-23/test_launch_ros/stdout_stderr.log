@@ -1,0 +1,16 @@
+running egg_info
+creating ../../../../build/test_launch_ros/test_launch_ros.egg-info
+writing ../../../../build/test_launch_ros/test_launch_ros.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/test_launch_ros/test_launch_ros.egg-info/dependency_links.txt
+writing requirements to ../../../../build/test_launch_ros/test_launch_ros.egg-info/requires.txt
+writing top-level names to ../../../../build/test_launch_ros/test_launch_ros.egg-info/top_level.txt
+writing manifest file '../../../../build/test_launch_ros/test_launch_ros.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/test_launch_ros/test_launch_ros.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/test_launch_ros/test_launch_ros.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+running install_egg_info
+Copying ../../../../build/test_launch_ros/test_launch_ros.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_launch_ros/lib/python3.8/site-packages/test_launch_ros-0.11.2-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_launch_ros/install.log'

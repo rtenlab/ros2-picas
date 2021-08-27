@@ -1,0 +1,36 @@
+[1.052s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_clang_tidy': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_clang_tidy build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/install.log --single-version-externally-managed
+[1.302s] running egg_info
+[1.302s] creating ../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info
+[1.302s] writing ../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/PKG-INFO
+[1.302s] writing dependency_links to ../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/dependency_links.txt
+[1.302s] writing entry points to ../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/entry_points.txt
+[1.303s] writing requirements to ../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/requires.txt
+[1.303s] writing top-level names to ../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/top_level.txt
+[1.303s] writing manifest file '../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.303s] reading manifest file '../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.303s] writing manifest file '../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info/SOURCES.txt'
+[1.303s] running build
+[1.303s] running build_py
+[1.305s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build
+[1.305s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib
+[1.305s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.305s] copying ament_clang_tidy/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.306s] copying ament_clang_tidy/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy
+[1.306s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[1.306s] copying ament_clang_tidy/configuration/.clang-tidy -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration
+[1.306s] running install
+[1.306s] running install_lib
+[1.306s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.307s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.307s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy
+[1.308s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[1.308s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build/lib/ament_clang_tidy/configuration/.clang-tidy -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/configuration
+[1.308s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/__init__.py to __init__.cpython-38.pyc
+[1.308s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy/main.py to main.cpython-38.pyc
+[1.308s] running install_data
+[1.308s] running install_egg_info
+[1.309s] Copying ../../../../build/ament_clang_tidy/ament_clang_tidy.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages/ament_clang_tidy-0.9.6-py3.8.egg-info
+[1.309s] running install_scripts
+[1.309s] Installing ament_clang_tidy script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/bin
+[1.310s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/install.log'
+[1.398s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_clang_tidy' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_clang_tidy build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_tidy --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_tidy/install.log --single-version-externally-managed

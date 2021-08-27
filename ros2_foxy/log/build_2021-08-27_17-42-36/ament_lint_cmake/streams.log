@@ -1,0 +1,35 @@
+[2.591s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_lint_cmake': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint_cmake build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/install.log --single-version-externally-managed
+[2.976s] running egg_info
+[2.976s] creating ../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info
+[2.976s] writing ../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/PKG-INFO
+[2.977s] writing dependency_links to ../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/dependency_links.txt
+[2.977s] writing entry points to ../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/entry_points.txt
+[2.977s] writing requirements to ../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/requires.txt
+[2.977s] writing top-level names to ../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/top_level.txt
+[2.979s] writing manifest file '../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[3.024s] reading manifest file '../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[3.024s] writing manifest file '../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info/SOURCES.txt'
+[3.024s] running build
+[3.024s] running build_py
+[3.025s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build
+[3.025s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib
+[3.025s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[3.025s] copying ament_lint_cmake/cmakelint.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[3.028s] copying ament_lint_cmake/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[3.028s] copying ament_lint_cmake/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib/ament_lint_cmake
+[3.028s] running install
+[3.028s] running install_lib
+[3.029s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake
+[3.029s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib/ament_lint_cmake/cmakelint.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake
+[3.029s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib/ament_lint_cmake/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake
+[3.029s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build/lib/ament_lint_cmake/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake
+[3.030s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake/cmakelint.py to cmakelint.cpython-38.pyc
+[3.033s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake/__init__.py to __init__.cpython-38.pyc
+[3.033s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake/main.py to main.cpython-38.pyc
+[3.034s] running install_data
+[3.035s] running install_egg_info
+[3.036s] Copying ../../../../build/ament_lint_cmake/ament_lint_cmake.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages/ament_lint_cmake-0.9.6-py3.8.egg-info
+[3.038s] running install_scripts
+[3.054s] Installing ament_lint_cmake script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/bin
+[3.054s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/install.log'
+[3.088s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_lint_cmake' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint_cmake build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_cmake --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint_cmake/install.log --single-version-externally-managed

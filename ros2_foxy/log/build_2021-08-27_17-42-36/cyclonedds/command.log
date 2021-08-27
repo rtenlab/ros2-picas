@@ -1,0 +1,3 @@
+Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/cyclonedds': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/cyclonedds
+Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/cyclonedds' returned '0': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/eclipse-cyclonedds/cyclonedds -DBUILD_IDLC=AUTO -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/cyclonedds
+Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/cyclonedds': /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/cyclonedds -- -j12 -l12

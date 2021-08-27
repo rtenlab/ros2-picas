@@ -1,0 +1,26 @@
+[0.706s] Invoking command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saitama1/ros2_foxy/install/osrf_pycommon:/home/saitama1/ros2_foxy/install/ament_pyflakes:/home/saitama1/ros2_foxy/install/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_mypy:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/ament_cppcheck /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/google_benchmark_vendor -- -j12 -l12
+[0.890s] [100%] Built target benchmark-1.5.3
+[0.901s] Invoked command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saitama1/ros2_foxy/install/osrf_pycommon:/home/saitama1/ros2_foxy/install/ament_pyflakes:/home/saitama1/ros2_foxy/install/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_mypy:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/ament_cppcheck /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/google_benchmark_vendor -- -j12 -l12
+[0.960s] Invoking command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saitama1/ros2_foxy/install/osrf_pycommon:/home/saitama1/ros2_foxy/install/ament_pyflakes:/home/saitama1/ros2_foxy/install/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_mypy:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/ament_cppcheck /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/google_benchmark_vendor
+[1.003s] -- Install configuration: ""
+[1.003s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor
+[1.003s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/include
+[1.004s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/include/benchmark
+[1.005s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/include/benchmark/benchmark.h
+[1.005s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib
+[1.005s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark.so.1.5.3
+[1.005s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark.so
+[1.006s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark_main.so.1
+[1.006s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark_main.so.1.5.3
+[1.006s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/cmake
+[1.006s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark
+[1.006s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[1.006s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[1.007s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfig.cmake
+[1.007s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets.cmake
+[1.007s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark_main.so
+[1.007s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark.so.1
+[1.007s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/pkgconfig
+[1.007s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/pkgconfig/benchmark.pc
+[1.008s] -- Installing: /home/saitama1/ros2_foxy/install/google_benchmark_vendor/share/google_benchmark_vendor/package.xml
+[1.076s] Invoked command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/saitama1/ros2_foxy/install/osrf_pycommon:/home/saitama1/ros2_foxy/install/ament_pyflakes:/home/saitama1/ros2_foxy/install/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_mypy:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/ament_cppcheck /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/google_benchmark_vendor

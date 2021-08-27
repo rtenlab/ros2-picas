@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing ament_lint.egg-info/PKG-INFO
+writing dependency_links to ament_lint.egg-info/dependency_links.txt
+writing entry points to ament_lint.egg-info/entry_points.txt
+writing requirements to ament_lint.egg-info/requires.txt
+writing top-level names to ament_lint.egg-info/top_level.txt
+reading manifest file 'ament_lint.egg-info/SOURCES.txt'
+writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament-lint.egg-link (link to .)
+
+Installed /home/saitama1/ros2_foxy/build/ament_lint
+running install_data

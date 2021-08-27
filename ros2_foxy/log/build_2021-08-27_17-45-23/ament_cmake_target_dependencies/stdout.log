@@ -1,0 +1,26 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cmake_target_dependencies
+-- Install configuration: ""
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_index/resource_index/package_run_dependencies/ament_cmake_target_dependencies
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_index/resource_index/parent_prefix_path/ament_cmake_target_dependencies
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/environment/path.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/local_setup.bash
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/local_setup.sh
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/package.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_index/resource_index/packages/ament_cmake_target_dependencies
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependencies-extras.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_cmake_target_dependenciesConfig-version.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/package.xml
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_get_recursive_properties.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake

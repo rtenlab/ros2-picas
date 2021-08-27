@@ -1,0 +1,22 @@
+[ 50%] Built target locking
+[ 50%] Built target gtest
+[ 75%] Built target gtest_main
+[100%] Built target dummy
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/ament_index/resource_index/package_run_dependencies/test_launch_testing
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/ament_index/resource_index/parent_prefix_path/test_launch_testing
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/ament_index/resource_index/packages/test_launch_testing
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/cmake/test_launch_testingConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/cmake/test_launch_testingConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/test_launch_testing/share/test_launch_testing/package.xml

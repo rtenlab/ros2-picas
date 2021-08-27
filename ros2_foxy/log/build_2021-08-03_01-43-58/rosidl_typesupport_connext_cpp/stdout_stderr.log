@@ -1,0 +1,28 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found connext_cmake_module: 1.0.3 (/home/saitama1/ros2_foxy/install/connext_cmake_module/share/connext_cmake_module/cmake)
+CMake Warning at CMakeLists.txt:32 (message):
+  Could not find RTI Connext - skipping 'rosidl_typesupport_connext_cpp'
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rosidl_typesupport_connext_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_connext_cpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_connext_cpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/ament_index/resource_index/packages/rosidl_typesupport_connext_cpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/cmake/rosidl_typesupport_connext_cppConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/cmake/rosidl_typesupport_connext_cppConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp/share/rosidl_typesupport_connext_cpp/package.xml

@@ -1,0 +1,309 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test R-pedantic
+-- Performing Test R-pedantic - Success
+-- Performing Test R-Wno-long-long
+-- Performing Test R-Wno-long-long - Success
+-- Performing Test R-Wall
+-- Performing Test R-Wall - Success
+-- Performing Test R-Wextra
+-- Performing Test R-Wextra - Success
+-- Performing Test R-Wcast-qual
+-- Performing Test R-Wcast-qual - Success
+-- Performing Test R-Wformat
+-- Performing Test R-Wformat - Success
+-- Performing Test R-Wwrite-strings
+-- Performing Test R-Wwrite-strings - Success
+-- Performing Test R-Wcast-align
+-- Performing Test R-Wcast-align - Success
+-- Performing Test R-Wno-error=cast-align
+-- Performing Test R-Wno-error=cast-align - Success
+-- Performing Test R-Wmissing-declarations
+-- Performing Test R-Wmissing-declarations - Success
+-- Performing Test R-Wconversion
+-- Performing Test R-Wconversion - Success
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found rcl: 1.1.11 (/home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found rosidl_default_generators: 1.0.1 (/home/saitama1/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found statistics_msgs: 1.0.0 (/home/saitama1/ros2_foxy/install/statistics_msgs/share/statistics_msgs/cmake)
+-- Found std_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/std_msgs/share/std_msgs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found performance_test_fixture: 0.0.7 (/home/saitama1/ros2_foxy/install/performance_test_fixture/share/performance_test_fixture/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saitama1/ros2_foxy/src/ros-tooling/libstatistics_collector/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/libstatistics_collector
+[  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__rosidl_generator_c[0m
+[  4%] [32mBuilding C object CMakeFiles/libstatistics_collector_test_msgs__rosidl_generator_c.dir/rosidl_generator_c/libstatistics_collector/msg/detail/dummy_message__functions.c.o[0m
+[  6%] [32m[1mLinking C shared library liblibstatistics_collector_test_msgs__rosidl_generator_c.so[0m
+[  6%] Built target libstatistics_collector_test_msgs__rosidl_generator_c
+[35m[1mScanning dependencies of target gtest_main[0m
+[  8%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 10%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 10%] Built target gtest_main
+[ 12%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__rosidl_typesupport_c[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/libstatistics_collector_test_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/libstatistics_collector/msg/dummy_message__type_support.cpp.o[0m
+[ 16%] [32m[1mLinking CXX shared library liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so[0m
+[ 16%] Built target libstatistics_collector_test_msgs__rosidl_typesupport_c
+[ 18%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__rosidl_typesupport_introspection_c[0m
+[ 20%] [32mBuilding C object CMakeFiles/libstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/libstatistics_collector/msg/detail/dummy_message__type_support.c.o[0m
+[ 22%] [32m[1mLinking C shared library liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 22%] Built target libstatistics_collector_test_msgs__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target gtest[0m
+[ 24%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 26%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 26%] Built target gtest
+[35m[1mScanning dependencies of target libstatistics_collector[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/libstatistics_collector.dir/src/libstatistics_collector/collector/collector.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/libstatistics_collector.dir/src/libstatistics_collector/moving_average_statistics/types.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/libstatistics_collector.dir/src/libstatistics_collector/moving_average_statistics/moving_average.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/libstatistics_collector.dir/src/libstatistics_collector/collector/generate_statistics_message.cpp.o[0m
+[ 36%] [32m[1mLinking CXX shared library liblibstatistics_collector.so[0m
+[ 36%] Built target libstatistics_collector
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__cpp[0m
+[ 38%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[ 38%] Built target libstatistics_collector_test_msgs__cpp
+[35m[1mScanning dependencies of target test_received_message_period[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_received_message_period.dir/test/topic_statistics_collector/test_received_message_period.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_received_message_period[0m
+[ 42%] Built target test_received_message_period
+[ 44%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/libstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/libstatistics_collector/msg/detail/dds_fastrtps/dummy_message__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 48%] Built target libstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_cpp
+[ 50%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/libstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/libstatistics_collector/msg/detail/dummy_message__type_support.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 54%] Built target libstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp
+[ 56%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_c[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/libstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/libstatistics_collector/msg/detail/dummy_message__type_support_c.cpp.o[0m
+[ 60%] [32m[1mLinking CXX shared library liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 60%] Built target libstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_c
+[ 62%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__rosidl_typesupport_cpp[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/libstatistics_collector_test_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/libstatistics_collector/msg/dummy_message__type_support.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so[0m
+[ 66%] Built target libstatistics_collector_test_msgs__rosidl_typesupport_cpp
+[35m[1mScanning dependencies of target test_moving_average_statistics[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/test_moving_average_statistics.dir/test/moving_average_statistics/test_moving_average_statistics.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_moving_average_statistics[0m
+[ 70%] Built target test_moving_average_statistics
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs[0m
+[ 70%] Built target libstatistics_collector_test_msgs
+[35m[1mScanning dependencies of target test_collector[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_collector.dir/test/collector/test_collector.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable test_collector[0m
+[ 74%] Built target test_collector
+[35m[1mScanning dependencies of target test_received_message_age[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/test_received_message_age.dir/test/topic_statistics_collector/test_received_message_age.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_received_message_age[0m
+[ 78%] Built target test_received_message_age
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__py[0m
+[ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 80%] Built target libstatistics_collector_test_msgs__py
+[35m[1mScanning dependencies of target benchmark_iterative[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/benchmark_iterative.dir/test/benchmark/benchmark_iterative.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable benchmark_iterative[0m
+[ 84%] Built target benchmark_iterative
+[35m[1mScanning dependencies of target libstatistics_collector_test_msgs__python[0m
+[ 86%] [32mBuilding C object CMakeFiles/libstatistics_collector_test_msgs__python.dir/rosidl_generator_py/libstatistics_collector/msg/_dummy_message_s.c.o[0m
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/libstatistics_collector/liblibstatistics_collector_test_msgs__python.so[0m
+[ 88%] Built target libstatistics_collector_test_msgs__python
+[35m[1mScanning dependencies of target libstatistics_collector__rosidl_typesupport_c__pyext[0m
+[ 90%] [32mBuilding C object CMakeFiles/libstatistics_collector__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/libstatistics_collector/_libstatistics_collector_s.ep.rosidl_typesupport_c.c.o[0m
+[ 92%] [32m[1mLinking C shared library rosidl_generator_py/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 92%] Built target libstatistics_collector__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target libstatistics_collector__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 94%] [32mBuilding C object CMakeFiles/libstatistics_collector__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/libstatistics_collector/_libstatistics_collector_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 96%] [32m[1mLinking CXX shared library rosidl_generator_py/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] Built target libstatistics_collector__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target libstatistics_collector__rosidl_typesupport_introspection_c__pyext[0m
+[ 98%] [32mBuilding C object CMakeFiles/libstatistics_collector__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/libstatistics_collector/_libstatistics_collector_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target libstatistics_collector__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/library_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/library_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/ament_index/resource_index/rosidl_interfaces/libstatistics_collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/dummy_message.h
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__struct.h
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__functions.c
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__functions.h
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__type_support.h
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dds_fastrtps
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__type_support.c
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__rosidl_typesupport_introspection_c.h
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/dummy_message.hpp
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__traits.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__builder.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__struct.hpp
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__type_support.cpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/msg/detail/dummy_message__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/pythonpath.sh
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/pythonpath.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/__init__.py
+Compiling '/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/__init__.py'...
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/msg
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/msg/__init__.py
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/msg/_dummy_message_s.c
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/msg/_dummy_message.py
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages/libstatistics_collector/libstatistics_collector_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__python.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/liblibstatistics_collector_test_msgs__python.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/msg/DummyMessage.idl
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/msg/DummyMessage.msg
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include
+-- Up-to-date: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/topic_statistics_collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/topic_statistics_collector/received_message_period.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/topic_statistics_collector/received_message_age.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/topic_statistics_collector/constants.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/types.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/moving_average_statistics/moving_average.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/metric_details_interface.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/generate_statistics_message.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/collector/collector.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/include/libstatistics_collector/visibility_control.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/ament_index/resource_index/package_run_dependencies/libstatistics_collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/ament_index/resource_index/parent_prefix_path/libstatistics_collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/ament_index/resource_index/packages/libstatistics_collector
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collectorExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collectorExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collector_test_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collectorConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake/libstatistics_collectorConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/package.xml

@@ -1,0 +1,45 @@
+running egg_info
+creating ../../../../build/launch_yaml/launch_yaml.egg-info
+writing ../../../../build/launch_yaml/launch_yaml.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/launch_yaml/launch_yaml.egg-info/dependency_links.txt
+writing entry points to ../../../../build/launch_yaml/launch_yaml.egg-info/entry_points.txt
+writing requirements to ../../../../build/launch_yaml/launch_yaml.egg-info/requires.txt
+writing top-level names to ../../../../build/launch_yaml/launch_yaml.egg-info/top_level.txt
+writing manifest file '../../../../build/launch_yaml/launch_yaml.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/launch_yaml/launch_yaml.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/launch_yaml/launch_yaml.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/ros2_foxy/build/launch_yaml/build
+creating /home/saitama1/ros2_foxy/build/launch_yaml/build/lib
+creating /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml
+copying launch_yaml/__init__.py -> /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml
+copying launch_yaml/parser.py -> /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml
+copying launch_yaml/entity.py -> /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml
+creating /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/launch_description_sources
+copying launch_yaml/launch_description_sources/__init__.py -> /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/launch_description_sources
+copying launch_yaml/launch_description_sources/yaml_launch_description_source.py -> /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/launch_description_sources
+running install
+running install_lib
+creating /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml
+copying /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/__init__.py -> /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml
+copying /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/parser.py -> /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml
+creating /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/launch_description_sources
+copying /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/launch_description_sources/__init__.py -> /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/launch_description_sources
+copying /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/launch_description_sources/yaml_launch_description_source.py -> /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/launch_description_sources
+copying /home/saitama1/ros2_foxy/build/launch_yaml/build/lib/launch_yaml/entity.py -> /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml
+byte-compiling /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/parser.py to parser.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/launch_description_sources/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/launch_description_sources/yaml_launch_description_source.py to yaml_launch_description_source.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml/entity.py to entity.cpython-38.pyc
+running install_data
+copying package.xml -> /home/saitama1/ros2_foxy/install/launch_yaml/share/launch_yaml
+creating /home/saitama1/ros2_foxy/install/launch_yaml/share/ament_index
+creating /home/saitama1/ros2_foxy/install/launch_yaml/share/ament_index/resource_index
+creating /home/saitama1/ros2_foxy/install/launch_yaml/share/ament_index/resource_index/packages
+copying resource/launch_yaml -> /home/saitama1/ros2_foxy/install/launch_yaml/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/launch_yaml/launch_yaml.egg-info to /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch_yaml-0.10.5-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/ros2_foxy/build/launch_yaml/install.log'

@@ -1,0 +1,21 @@
+[0.505s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8 --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/install.log --single-version-externally-managed
+[0.680s] running egg_info
+[0.680s] writing ../../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.680s] writing dependency_links to ../../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.680s] writing entry points to ../../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.680s] writing requirements to ../../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.681s] writing top-level names to ../../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.709s] reading manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.711s] writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.711s] running build
+[0.712s] running build_py
+[0.712s] running install
+[0.712s] running install_lib
+[0.712s] running install_data
+[0.713s] running install_egg_info
+[0.715s] removing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8-0.9.6-py3.8.egg-info' (and everything under it)
+[0.715s] Copying ../../../../build/ament_flake8/ament_flake8.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8-0.9.6-py3.8.egg-info
+[0.715s] running install_scripts
+[0.728s] Installing ament_flake8 script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin
+[0.728s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/install.log'
+[0.829s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8 --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/install.log --single-version-externally-managed

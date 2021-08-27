@@ -1,0 +1,47 @@
+[0.422s] Invoking command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_lint PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /home/saitama1/ros2_foxy/build/ament_flake8/build install --prefix /home/saitama1/ros2_foxy/install/ament_flake8 --record /home/saitama1/ros2_foxy/build/ament_flake8/install.log --single-version-externally-managed
+[0.631s] running egg_info
+[0.631s] creating ../../../../build/ament_flake8/ament_flake8.egg-info
+[0.631s] writing ../../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.632s] writing dependency_links to ../../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.632s] writing entry points to ../../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.632s] writing requirements to ../../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.632s] writing top-level names to ../../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.632s] writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.668s] reading manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.669s] writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.669s] running build
+[0.669s] running build_py
+[0.671s] creating /home/saitama1/ros2_foxy/build/ament_flake8/build
+[0.673s] creating /home/saitama1/ros2_foxy/build/ament_flake8/build/lib
+[0.673s] creating /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.676s] copying ament_flake8/pytest_marker.py -> /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.677s] copying ament_flake8/legacy.py -> /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.677s] copying ament_flake8/__init__.py -> /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.677s] copying ament_flake8/main.py -> /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.677s] creating /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.677s] copying ament_flake8/configuration/ament_flake8.ini -> /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.677s] running install
+[0.677s] running install_lib
+[0.677s] creating /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.677s] copying /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.677s] copying /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/legacy.py -> /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.678s] copying /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.678s] copying /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.678s] creating /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.678s] copying /home/saitama1/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.678s] byte-compiling /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.678s] byte-compiling /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/legacy.py to legacy.cpython-38.pyc
+[0.678s] byte-compiling /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/__init__.py to __init__.cpython-38.pyc
+[0.678s] byte-compiling /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/main.py to main.cpython-38.pyc
+[0.678s] running install_data
+[0.678s] copying package.xml -> /home/saitama1/ros2_foxy/install/ament_flake8/share/ament_flake8
+[0.678s] creating /home/saitama1/ros2_foxy/install/ament_flake8/share/ament_index
+[0.678s] creating /home/saitama1/ros2_foxy/install/ament_flake8/share/ament_index/resource_index
+[0.679s] creating /home/saitama1/ros2_foxy/install/ament_flake8/share/ament_index/resource_index/packages
+[0.679s] copying resource/ament_flake8 -> /home/saitama1/ros2_foxy/install/ament_flake8/share/ament_index/resource_index/packages
+[0.679s] running install_egg_info
+[0.679s] Copying ../../../../build/ament_flake8/ament_flake8.egg-info to /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8-0.9.6-py3.8.egg-info
+[0.679s] running install_scripts
+[0.698s] Installing ament_flake8 script to /home/saitama1/ros2_foxy/install/ament_flake8/bin
+[0.700s] writing list of installed files to '/home/saitama1/ros2_foxy/build/ament_flake8/install.log'
+[0.837s] Invoked command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_lint PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /home/saitama1/ros2_foxy/build/ament_flake8/build install --prefix /home/saitama1/ros2_foxy/install/ament_flake8 --record /home/saitama1/ros2_foxy/build/ament_flake8/install.log --single-version-externally-managed

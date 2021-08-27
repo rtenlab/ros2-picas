@@ -1,0 +1,21 @@
+[0.335s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_mypy': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_mypy build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_mypy/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_mypy/install.log --single-version-externally-managed
+[0.492s] running egg_info
+[0.492s] writing ../../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+[0.492s] writing dependency_links to ../../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+[0.492s] writing entry points to ../../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+[0.492s] writing requirements to ../../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+[0.492s] writing top-level names to ../../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+[0.522s] reading manifest file '../../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.523s] writing manifest file '../../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+[0.523s] running build
+[0.523s] running build_py
+[0.525s] running install
+[0.525s] running install_lib
+[0.526s] running install_data
+[0.526s] running install_egg_info
+[0.527s] removing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.6-py3.8.egg-info' (and everything under it)
+[0.529s] Copying ../../../../build/ament_mypy/ament_mypy.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.6-py3.8.egg-info
+[0.529s] running install_scripts
+[0.545s] Installing ament_mypy script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/bin
+[0.545s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_mypy/install.log'
+[0.685s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_mypy build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_mypy/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_mypy/install.log --single-version-externally-managed

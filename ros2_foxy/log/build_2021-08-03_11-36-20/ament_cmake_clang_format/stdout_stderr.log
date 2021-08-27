@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_index/resource_index/package_run_dependencies/ament_cmake_clang_format
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_index/resource_index/parent_prefix_path/ament_cmake_clang_format
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_index/resource_index/packages/ament_cmake_clang_format
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/cmake/ament_cmake_clang_format-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/cmake/ament_cmake_clang_formatConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/cmake/ament_cmake_clang_formatConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/cmake/ament_clang_format.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_clang_format/share/ament_cmake_clang_format/cmake/ament_cmake_clang_format_lint_hook.cmake

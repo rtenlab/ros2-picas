@@ -1,0 +1,111 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rmw_fastrtps_cpp: 1.2.5 (/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- 
+-- Default rmw implementation: 'rmw_fastrtps_cpp'
+-- 
+-- Runtime selection of RMW enabled
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Creating API tests for 'rmw_cyclonedds_cpp'
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Creating API tests for 'rmw_fastrtps_cpp'
+-- Creating API tests for 'rmw_fastrtps_dynamic_cpp'
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/ros2_foxy/install/performance_test_fixture/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rmw_implementation
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target rmw_implementation[0m
+[  7%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 14%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rmw_implementation.dir/src/functions.cpp.o[0m
+[ 28%] [32m[1mLinking CXX shared library librmw_implementation.so[0m
+[ 28%] Built target rmw_implementation
+[35m[1mScanning dependencies of target benchmark_symbols__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target benchmark_symbols__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target benchmark_symbols__rmw_fastrtps_cpp[0m
+[ 35%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/benchmark_symbols__rmw_fastrtps_dynamic_cpp.dir/test/benchmark/benchmark_symbols.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/benchmark_symbols__rmw_cyclonedds_cpp.dir/test/benchmark/benchmark_symbols.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/benchmark_symbols__rmw_fastrtps_cpp.dir/test/benchmark/benchmark_symbols.cpp.o[0m
+[ 57%] Built target gtest_main
+[ 64%] [32m[1mLinking CXX executable benchmark_symbols__rmw_fastrtps_dynamic_cpp[0m
+[ 64%] Built target benchmark_symbols__rmw_fastrtps_dynamic_cpp
+[ 71%] [32m[1mLinking CXX executable benchmark_symbols__rmw_fastrtps_cpp[0m
+[ 78%] [32m[1mLinking CXX executable benchmark_symbols__rmw_cyclonedds_cpp[0m
+[ 78%] Built target benchmark_symbols__rmw_cyclonedds_cpp
+[ 78%] Built target benchmark_symbols__rmw_fastrtps_cpp
+[ 85%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 85%] Built target gtest
+[35m[1mScanning dependencies of target test_functions[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_functions.dir/test/test_functions.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_functions[0m
+[100%] Built target test_functions
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/library_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/library_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/lib/librmw_implementation.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rmw_implementation/lib/librmw_implementation.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/rmw_typesupport_c/rmw_implementation
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_implementation
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/rmw_typesupport/rmw_implementation
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/package_run_dependencies/rmw_implementation
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/parent_prefix_path/rmw_implementation
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/packages/rmw_implementation
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementation-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/package.xml

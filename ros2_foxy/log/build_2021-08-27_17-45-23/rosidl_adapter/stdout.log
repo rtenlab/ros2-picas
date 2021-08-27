@@ -1,0 +1,67 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rosidl_adapter
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/pythonpath.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/pythonpath.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__init__.py
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/struct.idl.em
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/msg.idl.em
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/action.idl.em
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/srv.idl.em
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/main.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__main__.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/cli.py
+Listing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__init__.py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/__main__.py'...
+Listing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/cli.py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/main.py'...
+Listing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/parser.py'...
+Listing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/resource/__init__.py'...
+Listing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages/rosidl_adapter/srv/__init__.py'...
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/ament_index/resource_index/package_run_dependencies/rosidl_adapter
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/ament_index/resource_index/parent_prefix_path/rosidl_adapter
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/ament_index/resource_index/packages/rosidl_adapter
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapter-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapterConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/package.xml
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/rosidl_adapter/msg2idl.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/lib/rosidl_adapter/srv2idl.py

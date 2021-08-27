@@ -1,4 +1,0 @@
-struct Data1mb
-{
-    sequence<octet, 1024000> data;
-};

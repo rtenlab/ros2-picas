@@ -1,0 +1,58 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp_components/share/rclcpp_components/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/ros2_foxy/src/ros2/demos/demo_nodes_cpp_native/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/demo_nodes_cpp_native
+[35m[1mScanning dependencies of target talker[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talker.dir/rclcpp_components/node_main_talker.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable talker[0m
+[ 50%] Built target talker
+[35m[1mScanning dependencies of target talker_native[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/talker_native.dir/src/talker.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libtalker_native.so[0m
+[100%] Built target talker_native
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/lib/demo_nodes_cpp_native/talker
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/lib/libtalker_native.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/ament_index/resource_index/package_run_dependencies/demo_nodes_cpp_native
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/ament_index/resource_index/parent_prefix_path/demo_nodes_cpp_native
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/ament_index/resource_index/packages/demo_nodes_cpp_native
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/ament_index/resource_index/rclcpp_components/demo_nodes_cpp_native
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/cmake/demo_nodes_cpp_nativeConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/cmake/demo_nodes_cpp_nativeConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/demo_nodes_cpp_native/share/demo_nodes_cpp_native/package.xml

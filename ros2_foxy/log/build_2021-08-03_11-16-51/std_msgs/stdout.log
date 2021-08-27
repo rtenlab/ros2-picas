@@ -1,0 +1,7 @@
+[  0%] Built target std_msgs__cpp
+[  1%] [32mBuilding C object CMakeFiles/std_msgs__rosidl_generator_c.dir/rosidl_generator_c/std_msgs/msg/detail/string__functions.c.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/string__type_support.cpp.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/u_int8_multi_array__type_support.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/std_msgs/msg/detail/u_int8__type_support.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/std_msgs/msg/string__type_support.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/std_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/std_msgs/msg/detail/dds_fastrtps/string__type_support.cpp.o[0m

@@ -1,0 +1,39 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/test_interface_files
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Arrays.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/BasicTypes.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/BoundedSequences.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Constants.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Defaults.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Empty.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/MultiNested.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Nested.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Strings.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/UnboundedSequences.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/WStrings.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/srv/Arrays.srv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/srv/BasicTypes.srv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/srv/Empty.srv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/action/Fibonacci.action
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/ament_index/resource_index/package_run_dependencies/test_interface_files
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/ament_index/resource_index/parent_prefix_path/test_interface_files
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/ament_index/resource_index/packages/test_interface_files
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/cmake/test_interface_files-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/cmake/test_interface_filesConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/cmake/test_interface_filesConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_interface_files/share/test_interface_files/package.xml

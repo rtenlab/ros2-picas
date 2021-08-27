@@ -1,0 +1,52 @@
+[ 10%] Built target gtest_main
+[ 21%] Built target gtest
+[ 26%] Built target rosidl_generator_cpp__cpp
+[ 26%] Built target rosidl_generator_cpp
+[ 36%] Built target test_name
+[ 47%] Built target test_msg_initialization
+[ 57%] Built target test_traits
+[ 68%] Built target test_msg_builder
+[ 78%] Built target test_srv_initialization
+[ 89%] Built target test_msg_datatype
+[100%] Built target test_interfaces_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/environment/pythonpath.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/ament_index/resource_index/packages/rosidl_generator_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/rosidl_generator_cppConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/rosidl_generator_cppConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/lib/rosidl_generator_cpp/rosidl_generator_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/register_cpp.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/rosidl_generator_cpp_generate_interfaces.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+Listing '/home/saitama1/ros2_foxy/install/rosidl_generator_cpp/lib/python3.8/site-packages/rosidl_generator_cpp'...

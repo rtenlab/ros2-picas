@@ -1,0 +1,25 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ament_cmake_version
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_index/resource_index/package_run_dependencies/ament_cmake_version
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_index/resource_index/parent_prefix_path/ament_cmake_version
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_index/resource_index/packages/ament_cmake_version
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_cmake_version-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_cmake_versionConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_cmake_versionConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_version/share/ament_cmake_version/cmake/ament_export_development_version_if_higher_than_manifest.cmake

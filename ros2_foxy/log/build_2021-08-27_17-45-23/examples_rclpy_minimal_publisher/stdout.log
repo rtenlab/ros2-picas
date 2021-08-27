@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+writing ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+writing dependency_links to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+writing entry points to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+writing requirements to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+writing top-level names to ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+writing manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+reading manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+writing manifest file '../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+copying examples_rclpy_minimal_publisher/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+running install_scripts
+Installing publisher_local_function script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+Installing publisher_member_function script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+Installing publisher_old_school script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_minimal_publisher/install.log'

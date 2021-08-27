@@ -1,0 +1,24 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_export_dependencies: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies/share/ament_cmake_export_dependencies/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cmake
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_index/resource_index/package_run_dependencies/ament_cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_index/resource_index/parent_prefix_path/ament_cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_index/resource_index/packages/ament_cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/package.xml

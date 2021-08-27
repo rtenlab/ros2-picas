@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing ros2lifecycle.egg-info/PKG-INFO
+writing dependency_links to ros2lifecycle.egg-info/dependency_links.txt
+writing entry points to ros2lifecycle.egg-info/entry_points.txt
+writing requirements to ros2lifecycle.egg-info/requires.txt
+writing top-level names to ros2lifecycle.egg-info/top_level.txt
+reading manifest file 'ros2lifecycle.egg-info/SOURCES.txt'
+writing manifest file 'ros2lifecycle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/ros2lifecycle/lib/python3.8/site-packages/ros2lifecycle.egg-link (link to .)
+
+Installed /home/saitama1/ros2_foxy/build/ros2lifecycle
+running install_data

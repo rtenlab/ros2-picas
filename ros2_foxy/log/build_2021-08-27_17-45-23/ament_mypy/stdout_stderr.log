@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../../build/ament_mypy/ament_mypy.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ament_mypy/ament_mypy.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ament_mypy/ament_mypy.egg-info/entry_points.txt
+writing requirements to ../../../../build/ament_mypy/ament_mypy.egg-info/requires.txt
+writing top-level names to ../../../../build/ament_mypy/ament_mypy.egg-info/top_level.txt
+reading manifest file '../../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ament_mypy/ament_mypy.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.6-py3.8.egg-info' (and everything under it)
+Copying ../../../../build/ament_mypy/ament_mypy.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament_mypy-0.9.6-py3.8.egg-info
+running install_scripts
+Installing ament_mypy script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_mypy/bin
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_mypy/install.log'

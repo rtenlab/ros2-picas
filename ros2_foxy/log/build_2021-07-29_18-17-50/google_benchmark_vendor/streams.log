@@ -1,0 +1,126 @@
+[0.672s] Invoking command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor': /usr/bin/cmake /home/saitama1/ros2_foxy/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/saitama1/ros2_foxy/install/google_benchmark_vendor
+[0.878s] -- The CXX compiler identification is GNU 9.3.0
+[0.878s] -- Check for working CXX compiler: /usr/bin/c++
+[0.878s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.878s] -- Detecting CXX compiler ABI info
+[0.881s] -- Detecting CXX compiler ABI info - done
+[0.887s] -- Detecting CXX compile features
+[0.887s] -- Detecting CXX compile features - done
+[0.923s] -- Configuring done
+[0.925s] -- Generating done
+[0.927s] -- Build files have been written to: /home/saitama1/ros2_foxy/build/google_benchmark_vendor
+[0.930s] Invoked command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor' returned '0': /usr/bin/cmake /home/saitama1/ros2_foxy/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/saitama1/ros2_foxy/install/google_benchmark_vendor
+[0.934s] Invoking command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/google_benchmark_vendor -- -j12 -l12
+[1.185s] [35m[1mScanning dependencies of target benchmark-1.5.3[0m
+[1.185s] [ 12%] [34m[1mCreating directories for 'benchmark-1.5.3'[0m
+[1.185s] [ 25%] [34m[1mPerforming download step (git clone) for 'benchmark-1.5.3'[0m
+[1.186s] Cloning into 'benchmark-1.5.3'...
+[2.446s] HEAD is now at c05843a [sysinfo] Fix CPU Frequency reading on AMD Ryzen CPU's (#1117)
+[3.112s] [ 37%] [34m[1mPerforming patch step for 'benchmark-1.5.3'[0m
+[3.116s] [ 50%] [34m[1mNo update step for 'benchmark-1.5.3'[0m
+[3.334s] [ 62%] [34m[1mPerforming configure step for 'benchmark-1.5.3'[0m
+[3.732s] -- The CXX compiler identification is GNU 9.3.0
+[3.744s] -- Check for working CXX compiler: /usr/bin/c++
+[4.095s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.096s] -- Detecting CXX compiler ABI info
+[4.503s] -- Detecting CXX compiler ABI info - done
+[4.525s] -- Detecting CXX compile features
+[4.528s] -- Detecting CXX compile features - done
+[4.530s] -- Failed to find LLVM FileCheck
+[4.545s] -- Found Git: /usr/bin/git (found version "2.25.1") 
+[4.545s] -- Version: 1.5.3
+[4.546s] -- Performing Test HAVE_CXX_FLAG_STD_CXX11
+[4.975s] -- Performing Test HAVE_CXX_FLAG_STD_CXX11 - Success
+[4.976s] -- Performing Test HAVE_CXX_FLAG_WALL
+[5.184s] -- Performing Test HAVE_CXX_FLAG_WALL - Success
+[5.185s] -- Performing Test HAVE_CXX_FLAG_WEXTRA
+[5.409s] -- Performing Test HAVE_CXX_FLAG_WEXTRA - Success
+[5.410s] -- Performing Test HAVE_CXX_FLAG_WSHADOW
+[5.670s] -- Performing Test HAVE_CXX_FLAG_WSHADOW - Success
+[5.671s] -- Performing Test HAVE_CXX_FLAG_WERROR
+[5.880s] -- Performing Test HAVE_CXX_FLAG_WERROR - Success
+[5.881s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32
+[5.977s] -- Performing Test HAVE_CXX_FLAG_WSHORTEN_64_TO_32 - Failed
+[5.977s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING
+[6.160s] -- Performing Test HAVE_CXX_FLAG_FSTRICT_ALIASING - Success
+[6.163s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS
+[6.456s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS - Success
+[6.457s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED
+[6.626s] -- Performing Test HAVE_CXX_FLAG_WNO_DEPRECATED - Success
+[6.628s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING
+[6.791s] -- Performing Test HAVE_CXX_FLAG_WSTRICT_ALIASING - Success
+[6.792s] -- Performing Test HAVE_CXX_FLAG_WD654
+[6.811s] -- Performing Test HAVE_CXX_FLAG_WD654 - Failed
+[6.812s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY
+[6.877s] -- Performing Test HAVE_CXX_FLAG_WTHREAD_SAFETY - Failed
+[6.880s] -- Performing Test HAVE_CXX_FLAG_COVERAGE
+[6.967s] -- Performing Test HAVE_CXX_FLAG_COVERAGE - Success
+[6.967s] -- Performing Test HAVE_STD_REGEX
+[6.968s] -- Performing Test HAVE_STD_REGEX
+[9.289s] -- Performing Test HAVE_STD_REGEX -- success
+[9.289s] -- Performing Test HAVE_GNU_POSIX_REGEX
+[9.289s] -- Performing Test HAVE_GNU_POSIX_REGEX
+[9.316s] -- Performing Test HAVE_GNU_POSIX_REGEX -- failed to compile
+[9.316s] -- Performing Test HAVE_POSIX_REGEX
+[9.317s] -- Performing Test HAVE_POSIX_REGEX
+[9.502s] -- Performing Test HAVE_POSIX_REGEX -- success
+[9.502s] -- Performing Test HAVE_STEADY_CLOCK
+[9.502s] -- Performing Test HAVE_STEADY_CLOCK
+[9.619s] -- Performing Test HAVE_STEADY_CLOCK -- success
+[9.620s] -- Looking for C++ include pthread.h
+[9.690s] -- Looking for C++ include pthread.h - found
+[9.690s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.766s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[9.766s] -- Check if compiler accepts -pthread
+[9.838s] -- Check if compiler accepts -pthread - yes
+[9.839s] -- Found Threads: TRUE  
+[9.849s] -- Configuring done
+[9.854s] -- Generating done
+[9.855s] -- Build files have been written to: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/benchmark-1.5.3-prefix/src/benchmark-1.5.3-build
+[9.870s] [ 75%] [34m[1mPerforming build step for 'benchmark-1.5.3'[0m
+[9.894s] [35m[1mScanning dependencies of target benchmark[0m
+[9.911s] [  4%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/colorprint.cc.o[0m
+[9.912s] [ 14%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_api_internal.cc.o[0m
+[9.912s] [ 14%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark.cc.o[0m
+[9.912s] [ 23%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_name.cc.o[0m
+[9.912s] [ 23%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/commandlineflags.cc.o[0m
+[9.912s] [ 28%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_runner.cc.o[0m
+[9.912s] [ 33%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/benchmark_register.cc.o[0m
+[9.913s] [ 38%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/complexity.cc.o[0m
+[9.913s] [ 42%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/counter.cc.o[0m
+[9.914s] [ 47%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/csv_reporter.cc.o[0m
+[9.921s] [ 52%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/json_reporter.cc.o[0m
+[9.924s] [ 57%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/console_reporter.cc.o[0m
+[10.249s] [ 61%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/reporter.cc.o[0m
+[10.317s] [ 66%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sleep.cc.o[0m
+[10.372s] [ 71%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/statistics.cc.o[0m
+[10.398s] [ 76%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/string_util.cc.o[0m
+[10.506s] [ 80%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/sysinfo.cc.o[0m
+[10.539s] [ 85%] [32mBuilding CXX object src/CMakeFiles/benchmark.dir/timers.cc.o[0m
+[12.568s] [ 90%] [32m[1mLinking CXX shared library libbenchmark.so[0m
+[12.721s] [ 90%] Built target benchmark
+[12.730s] [35m[1mScanning dependencies of target benchmark_main[0m
+[12.739s] [ 95%] [32mBuilding CXX object src/CMakeFiles/benchmark_main.dir/benchmark_main.cc.o[0m
+[12.982s] [100%] [32m[1mLinking CXX shared library libbenchmark_main.so[0m
+[13.033s] [100%] Built target benchmark_main
+[13.053s] [ 87%] [34m[1mPerforming install step for 'benchmark-1.5.3'[0m
+[13.091s] [ 90%] Built target benchmark
+[13.111s] [100%] Built target benchmark_main
+[13.126s] [36mInstall the project...[0m
+[13.133s] -- Install configuration: ""
+[13.133s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1.5.3
+[13.135s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so.1
+[13.135s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark.so
+[13.135s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.5.3
+[13.135s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1
+[13.135s] -- Set runtime path of "/home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so.1.5.3" to ""
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/libbenchmark_main.so
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/include/benchmark/benchmark.h
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfig.cmake
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/pkgconfig/benchmark.pc
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets.cmake
+[13.136s] -- Installing: /home/saitama1/ros2_foxy/build/google_benchmark_vendor/google_benchmark_vendor_install/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[13.150s] [100%] [34m[1mCompleted 'benchmark-1.5.3'[0m
+[13.176s] [100%] Built target benchmark-1.5.3

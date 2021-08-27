@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing tracetools_read.egg-info/PKG-INFO
+writing dependency_links to tracetools_read.egg-info/dependency_links.txt
+writing requirements to tracetools_read.egg-info/requires.txt
+writing top-level names to tracetools_read.egg-info/top_level.txt
+reading manifest file 'tracetools_read.egg-info/SOURCES.txt'
+writing manifest file 'tracetools_read.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/tracetools_read/lib/python3.8/site-packages/tracetools-read.egg-link (link to .)
+
+Installed /home/saitama1/ros2_foxy/build/tracetools_read
+running install_data

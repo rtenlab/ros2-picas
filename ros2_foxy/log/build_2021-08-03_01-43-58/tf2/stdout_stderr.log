@@ -1,0 +1,71 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found console_bridge_vendor: 1.2.4 (/home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/cmake)
+-- Found geometry_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/tf2
+[ 11%] Built target gtest
+[ 17%] [32m[1mLinking CXX shared library libtf2.so[0m
+[ 29%] Built target gtest_main
+[ 52%] Built target tf2
+[ 58%] [32m[1mLinking CXX executable test_static_cache_unittest[0m
+[ 64%] [32m[1mLinking CXX executable test_cache_unittest[0m
+[ 70%] Built target test_cache_unittest
+[ 76%] Built target test_static_cache_unittest
+[ 82%] [32m[1mLinking CXX executable test_time[0m
+[ 88%] Built target test_time
+[ 94%] [32m[1mLinking CXX executable test_simple[0m
+[100%] Built target test_simple
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/LinearMath/Matrix3x3.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/LinearMath/MinMax.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/LinearMath/QuadWord.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/LinearMath/Quaternion.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/LinearMath/Scalar.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/LinearMath/Transform.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/LinearMath/Vector3.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/buffer_core.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/buffer_core_interface.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/convert.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/exceptions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/impl/convert.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/impl/utils.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/time.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/time_cache.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/transform_datatypes.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/transform_storage.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/utils.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/include/tf2/visibility_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/ament_index/resource_index/package_run_dependencies/tf2
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/ament_index/resource_index/parent_prefix_path/tf2
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/ament_index/resource_index/packages/tf2
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/tf2Config.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/tf2Config-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2/share/tf2/package.xml
+-- Installing: /home/saitama1/ros2_foxy/install/tf2/lib/libtf2.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/tf2/lib/libtf2.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/tf2Export.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake/tf2Export-noconfig.cmake

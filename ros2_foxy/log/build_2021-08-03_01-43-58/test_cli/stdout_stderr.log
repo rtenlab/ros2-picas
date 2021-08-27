@@ -1,0 +1,53 @@
+-- Found ament_cmake_auto: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found ament_cmake_pytest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake)
+-- Found rclcpp: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/test_cli
+[35m[1mScanning dependencies of target initial_params_rclcpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/initial_params_rclcpp.dir/test/initial_params.cpp.o[0m
+[100%] [32m[1mLinking CXX executable initial_params_rclcpp[0m
+[100%] Built target initial_params_rclcpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/ament_index/resource_index/package_run_dependencies/test_cli
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/ament_index/resource_index/parent_prefix_path/test_cli
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/ament_index/resource_index/packages/test_cli
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/cmake/test_cliConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/cmake/test_cliConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_cli/share/test_cli/package.xml

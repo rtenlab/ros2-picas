@@ -1,0 +1,64 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found geometry_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found launch_testing_ament_cmake: 0.10.5 (/home/saitama1/ros2_foxy/install/launch_testing_ament_cmake/share/launch_testing_ament_cmake/cmake)
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found rclcpp: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp_action/share/rclcpp_action/cmake)
+-- Found tf2: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/home/saitama1/ros2_foxy/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found tf2_kdl: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/test_tf2
+[ 16%] Built target gtest
+[ 33%] Built target gtest_main
+[35m[1mScanning dependencies of target test_static_publisher[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/test_static_publisher.dir/test/test_static_publisher.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_static_publisher[0m
+[ 50%] Built target test_static_publisher
+[35m[1mScanning dependencies of target buffer_core_test[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/buffer_core_test.dir/test/buffer_core_test.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable buffer_core_test[0m
+[ 66%] Built target buffer_core_test
+[35m[1mScanning dependencies of target test_utils[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_utils.dir/test/test_utils.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable test_utils[0m
+[ 83%] Built target test_utils
+[35m[1mScanning dependencies of target test_message_filter[0m
+[ 91%] [32mBuilding CXX object CMakeFiles/test_message_filter.dir/test/test_message_filter.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_message_filter[0m
+[100%] Built target test_message_filter
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/lib/test_tf2/test_static_publisher
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/lib/test_tf2/test_buffer_client.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/ament_index/resource_index/package_run_dependencies/test_tf2
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/ament_index/resource_index/parent_prefix_path/test_tf2
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/ament_index/resource_index/packages/test_tf2
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/cmake/test_tf2Config.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/cmake/test_tf2Config-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/test_tf2/share/test_tf2/package.xml

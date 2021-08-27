@@ -1,0 +1,16 @@
+running develop
+running egg_info
+creating src/rqt_gui_py.egg-info
+writing src/rqt_gui_py.egg-info/PKG-INFO
+writing dependency_links to src/rqt_gui_py.egg-info/dependency_links.txt
+writing requirements to src/rqt_gui_py.egg-info/requires.txt
+writing top-level names to src/rqt_gui_py.egg-info/top_level.txt
+writing manifest file 'src/rqt_gui_py.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_gui_py.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_gui_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/rqt_gui_py/lib/python3.8/site-packages/site.py
+Creating /home/saitama1/ros2_foxy/install/rqt_gui_py/lib/python3.8/site-packages/rqt-gui-py.egg-link (link to src)
+
+Installed /home/saitama1/ros2_foxy/build/rqt_gui_py/src
+running install_data

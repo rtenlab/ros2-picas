@@ -1,0 +1,113 @@
+running egg_info
+creating ../../../../build/ros2pkg/ros2pkg.egg-info
+writing ../../../../build/ros2pkg/ros2pkg.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2pkg/ros2pkg.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2pkg/ros2pkg.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2pkg/ros2pkg.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2pkg/ros2pkg.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2pkg/ros2pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg
+copying ros2pkg/__init__.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/command
+copying ros2pkg/command/pkg.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/command
+copying ros2pkg/command/__init__.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/command
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/api
+copying ros2pkg/api/create.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/api
+copying ros2pkg/api/__init__.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/api
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/executables.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/xml.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/create.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/prefix.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/__init__.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb
+copying ros2pkg/verb/list.py -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/visibility_control.h.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/main.cpp.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/header.hpp.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+copying ros2pkg/resource/cpp/library.cpp.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+copying ros2pkg/resource/package_environment/package.xml.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/package_environment
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/cmake/Config.cmake.in.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/cmake/CMakeLists.txt.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+copying ros2pkg/resource/cmake/ConfigVersion.cmake.in.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cmake
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+copying ros2pkg/resource/ament_cmake/CMakeLists.txt.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake
+creating /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/setup.py.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/test_flake8.py.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/test_copyright.py.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/setup.cfg.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/main.py.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/test_pep257.py.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/resource_file.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+copying ros2pkg/resource/ament_python/init.py.em -> /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python
+running install
+running install_lib
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/__init__.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/command
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/command/pkg.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/command
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/command/__init__.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/command
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cpp
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp/visibility_control.h.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cpp
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp/main.cpp.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cpp
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp/header.hpp.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cpp
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cpp/library.cpp.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cpp
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/package_environment
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/package_environment/package.xml.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/package_environment
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cmake
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cmake/Config.cmake.in.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cmake
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cmake/CMakeLists.txt.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cmake
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/cmake/ConfigVersion.cmake.in.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/cmake
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_cmake
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_cmake/CMakeLists.txt.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_cmake
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/setup.py.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_flake8.py.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_copyright.py.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/setup.cfg.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/main.py.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/test_pep257.py.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/resource_file.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/resource/ament_python/init.py.em -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/resource/ament_python
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/api
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/api/create.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/api
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/api/__init__.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/api
+creating /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb/executables.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb/xml.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb/create.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb/prefix.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb/__init__.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb
+copying /home/saitama1/ros2_foxy/build/ros2pkg/build/lib/ros2pkg/verb/list.py -> /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/command/pkg.py to pkg.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/api/create.py to create.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb/executables.py to executables.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb/xml.py to xml.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb/create.py to create.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb/prefix.py to prefix.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg/verb/list.py to list.cpython-38.pyc
+running install_data
+copying package.xml -> /home/saitama1/ros2_foxy/install/ros2pkg/share/ros2pkg
+creating /home/saitama1/ros2_foxy/install/ros2pkg/share/ament_index
+creating /home/saitama1/ros2_foxy/install/ros2pkg/share/ament_index/resource_index
+creating /home/saitama1/ros2_foxy/install/ros2pkg/share/ament_index/resource_index/packages
+copying resource/ros2pkg -> /home/saitama1/ros2_foxy/install/ros2pkg/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/ros2pkg/ros2pkg.egg-info to /home/saitama1/ros2_foxy/install/ros2pkg/lib/python3.8/site-packages/ros2pkg-0.9.9-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/ros2_foxy/build/ros2pkg/install.log'

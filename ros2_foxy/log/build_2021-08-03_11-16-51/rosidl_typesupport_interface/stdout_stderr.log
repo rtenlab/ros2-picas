@@ -1,0 +1,24 @@
+[ 33%] Built target gtest
+[ 66%] Built target gtest_main
+[100%] Built target test_macros
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_interface
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_interface
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/ament_index/resource_index/packages/rosidl_typesupport_interface
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rosidl_typesupport_interface/share/rosidl_typesupport_interface/cmake/rosidl_typesupport_interfaceExport.cmake

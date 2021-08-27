@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing ament_flake8.egg-info/PKG-INFO
+writing dependency_links to ament_flake8.egg-info/dependency_links.txt
+writing entry points to ament_flake8.egg-info/entry_points.txt
+writing requirements to ament_flake8.egg-info/requires.txt
+writing top-level names to ament_flake8.egg-info/top_level.txt
+reading manifest file 'ament_flake8.egg-info/SOURCES.txt'
+writing manifest file 'ament_flake8.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/site.py
+Creating /home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament-flake8.egg-link (link to .)
+Installing ament_flake8 script to /home/saitama1/ros2_foxy/install/ament_flake8/bin
+
+Installed /home/saitama1/ros2_foxy/build/ament_flake8
+running install_data

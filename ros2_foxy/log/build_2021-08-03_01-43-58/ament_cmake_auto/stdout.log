@@ -1,0 +1,29 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ament_cmake_auto
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_index/resource_index/package_run_dependencies/ament_cmake_auto
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_index/resource_index/parent_prefix_path/ament_cmake_auto
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_index/resource_index/packages/ament_cmake_auto
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_cmake_auto-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_cmake_autoConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_cmake_autoConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_add_executable.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_add_library.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_generate_code.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake/ament_auto_package.cmake

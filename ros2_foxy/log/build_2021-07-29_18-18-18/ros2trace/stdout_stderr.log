@@ -1,0 +1,44 @@
+running egg_info
+creating ../../../../build/ros2trace/ros2trace.egg-info
+writing ../../../../build/ros2trace/ros2trace.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2trace/ros2trace.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2trace/ros2trace.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2trace/ros2trace.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2trace/ros2trace.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2trace/ros2trace.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/ros2_foxy/build/ros2trace/build
+creating /home/saitama1/ros2_foxy/build/ros2trace/build/lib
+creating /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace
+copying ros2trace/__init__.py -> /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace
+creating /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/command
+copying ros2trace/command/__init__.py -> /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/command
+copying ros2trace/command/trace.py -> /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/command
+creating /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/api
+copying ros2trace/api/__init__.py -> /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/api
+running install
+running install_lib
+creating /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace
+copying /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/__init__.py -> /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace
+creating /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+copying /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/command/__init__.py -> /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+copying /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/command/trace.py -> /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/command
+creating /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/api
+copying /home/saitama1/ros2_foxy/build/ros2trace/build/lib/ros2trace/api/__init__.py -> /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/api
+byte-compiling /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/command/trace.py to trace.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace/api/__init__.py to __init__.cpython-38.pyc
+running install_data
+copying package.xml -> /home/saitama1/ros2_foxy/install/ros2trace/share/ros2trace
+creating /home/saitama1/ros2_foxy/install/ros2trace/share/ament_index
+creating /home/saitama1/ros2_foxy/install/ros2trace/share/ament_index/resource_index
+creating /home/saitama1/ros2_foxy/install/ros2trace/share/ament_index/resource_index/packages
+copying resource/ros2trace -> /home/saitama1/ros2_foxy/install/ros2trace/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/ros2trace/ros2trace.egg-info to /home/saitama1/ros2_foxy/install/ros2trace/lib/python3.8/site-packages/ros2trace-1.0.5-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/ros2_foxy/build/ros2trace/install.log'

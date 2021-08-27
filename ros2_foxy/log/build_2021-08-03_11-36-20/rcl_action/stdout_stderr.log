@@ -1,0 +1,142 @@
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found action_msgs: 1.0.0 (/home/saitama1/ros2_foxy/install/action_msgs/share/action_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rcl: 1.1.11 (/home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found test_msgs: 1.0.0 (/home/saitama1/ros2_foxy/install/test_msgs/share/test_msgs/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found rmw_cyclonedds_cpp: 0.7.6 (/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Found rmw_fastrtps_cpp: 1.2.5 (/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_fastrtps_dynamic_cpp: 1.2.5 (/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp/share/rmw_fastrtps_dynamic_cpp/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saitama1/ros2_foxy/src/ros2/rcl/rcl_action/include>;/home/saitama1/ros2_foxy/src/ros2/rcl/rcl_action/include;/home/saitama1/ros2_foxy/src/ros2/rcl/rcl_action/src
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rcl_action
+[35m[1mScanning dependencies of target rcl_action[0m
+[  4%] Built target gtest_main
+[  9%] Built target gtest
+[ 13%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_server.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/action_client.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_handle.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/types.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/names.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rcl_action.dir/src/rcl_action/goal_state_machine.c.o[0m
+[ 25%] [32m[1mLinking C shared library librcl_action.so[0m
+[ 27%] Built target rcl_action
+[35m[1mScanning dependencies of target test_goal_state_machine[0m
+[35m[1mScanning dependencies of target test_wait[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/test_goal_state_machine.dir/test/rcl_action/test_goal_state_machine.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/test_wait.dir/test/rcl_action/test_wait.cpp.o[0m
+[ 34%] [32m[1mLinking CXX executable test_goal_state_machine[0m
+[ 36%] [32m[1mLinking CXX executable test_wait[0m
+[ 36%] Built target test_goal_state_machine
+[35m[1mScanning dependencies of target test_action_communication__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_action_communication__rmw_fastrtps_cpp[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 40%] Built target test_wait
+[35m[1mScanning dependencies of target test_action_interaction__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target test_goal_handle[0m
+[35m[1mScanning dependencies of target test_types[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/test_goal_handle.dir/test/rcl_action/test_goal_handle.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/test_types.dir/test/rcl_action/test_types.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable test_action_communication__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target test_action_interaction__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target test_graph__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target test_action_client[0m
+[35m[1mScanning dependencies of target test_action_communication__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target test_action_server[0m
+[35m[1mScanning dependencies of target test_names[0m
+[ 52%] [32m[1mLinking CXX executable test_types[0m
+[ 54%] [32m[1mLinking CXX executable test_action_interaction__rmw_cyclonedds_cpp[0m
+[ 56%] [32m[1mLinking CXX executable test_action_communication__rmw_fastrtps_dynamic_cpp[0m
+[ 59%] [32m[1mLinking CXX executable test_goal_handle[0m
+[35m[1mScanning dependencies of target test_action_interaction__rmw_fastrtps_dynamic_cpp[0m
+[ 59%] Built target test_action_communication__rmw_fastrtps_dynamic_cpp
+[ 61%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 61%] Built target test_action_communication__rmw_fastrtps_cpp
+[ 63%] [32mBuilding CXX object CMakeFiles/test_action_communication__rmw_cyclonedds_cpp.dir/test/rcl_action/test_action_communication.cpp.o[0m
+[ 63%] Built target test_goal_handle
+[ 63%] Built target test_action_interaction__rmw_cyclonedds_cpp
+[ 63%] Built target test_types
+[35m[1mScanning dependencies of target test_graph__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target test_graph__rmw_fastrtps_dynamic_cpp[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/test_names.dir/test/rcl_action/test_names.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/test_action_interaction__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_action_interaction.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_action_server.dir/test/rcl_action/test_action_server.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/test_action_client.dir/test/rcl_action/test_action_client.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_cyclonedds_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_fastrtps_dynamic_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/test_graph__rmw_fastrtps_cpp.dir/test/rcl_action/test_graph.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_action_interaction__rmw_fastrtps_cpp[0m
+[ 84%] [32m[1mLinking CXX executable test_action_communication__rmw_cyclonedds_cpp[0m
+[ 86%] [32m[1mLinking CXX executable test_action_client[0m
+[ 88%] [32m[1mLinking CXX executable test_action_interaction__rmw_fastrtps_dynamic_cpp[0m
+[ 88%] Built target test_action_interaction__rmw_fastrtps_cpp
+[ 88%] Built target test_action_communication__rmw_cyclonedds_cpp
+[ 90%] [32m[1mLinking CXX executable test_names[0m
+[ 93%] [32m[1mLinking CXX executable test_graph__rmw_cyclonedds_cpp[0m
+[ 95%] [32m[1mLinking CXX executable test_action_server[0m
+[ 97%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_dynamic_cpp[0m
+[ 97%] Built target test_action_client
+[ 97%] Built target test_action_interaction__rmw_fastrtps_dynamic_cpp
+[100%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_cpp[0m
+[100%] Built target test_names
+[100%] Built target test_graph__rmw_cyclonedds_cpp
+[100%] Built target test_action_server
+[100%] Built target test_graph__rmw_fastrtps_dynamic_cpp
+[100%] Built target test_graph__rmw_fastrtps_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/action_client.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/action_server.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/default_qos.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/goal_handle.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/goal_state_machine.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/graph.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/names.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/rcl_action.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/types.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/visibility_control.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/include/rcl_action/wait.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/environment/library_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/environment/library_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/ament_index/resource_index/package_run_dependencies/rcl_action
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/ament_index/resource_index/parent_prefix_path/rcl_action
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/ament_index/resource_index/packages/rcl_action
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/package.xml
+-- Installing: /home/saitama1/ros2_foxy/install/rcl_action/lib/librcl_action.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rcl_action/lib/librcl_action.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rcl_action/share/rcl_action/cmake/rcl_actionExport-noconfig.cmake

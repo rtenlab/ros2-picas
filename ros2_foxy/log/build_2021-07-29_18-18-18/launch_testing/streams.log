@@ -1,0 +1,164 @@
+[1.226s] Invoking command in '/home/saitama1/ros2_foxy/src/ros2/launch/launch_testing': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/launch:/home/saitama1/ros2_foxy/install/ament_index_python:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/osrf_pycommon:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/test_interface_files:/home/saitama1/ros2_foxy/install/ros_environment:/home/saitama1/ros2_foxy/install/ament_pyflakes:/home/saitama1/ros2_foxy/install/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_cmake_version:/home/saitama1/ros2_foxy/install/ament_cmake_test:/home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_python:/home/saitama1/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_mypy:/home/saitama1/ros2_foxy/install/ament_cppcheck PATH=/home/saitama1/ros2_foxy/install/ament_index_python/bin:/home/saitama1/ros2_foxy/install/ament_copyright/bin:/home/saitama1/ros2_foxy/install/ament_pep257/bin:/home/saitama1/ros2_foxy/install/ament_flake8/bin:/home/saitama1/ros2_foxy/install/ament_pyflakes/bin:/home/saitama1/ros2_foxy/install/ament_pycodestyle/bin:/home/saitama1/ros2_foxy/install/ament_mypy/bin:/home/saitama1/ros2_foxy/install/ament_cppcheck/bin:/home/saitama1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin PYTHONPATH=/home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/launch/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing build --build-base /home/saitama1/ros2_foxy/build/launch_testing/build install --prefix /home/saitama1/ros2_foxy/install/launch_testing --record /home/saitama1/ros2_foxy/build/launch_testing/install.log --single-version-externally-managed
+[1.690s] running egg_info
+[1.690s] creating ../../../../build/launch_testing/launch_testing.egg-info
+[1.690s] writing ../../../../build/launch_testing/launch_testing.egg-info/PKG-INFO
+[1.692s] writing dependency_links to ../../../../build/launch_testing/launch_testing.egg-info/dependency_links.txt
+[1.692s] writing entry points to ../../../../build/launch_testing/launch_testing.egg-info/entry_points.txt
+[1.692s] writing requirements to ../../../../build/launch_testing/launch_testing.egg-info/requires.txt
+[1.692s] writing top-level names to ../../../../build/launch_testing/launch_testing.egg-info/top_level.txt
+[1.694s] writing manifest file '../../../../build/launch_testing/launch_testing.egg-info/SOURCES.txt'
+[1.735s] reading manifest file '../../../../build/launch_testing/launch_testing.egg-info/SOURCES.txt'
+[1.736s] writing manifest file '../../../../build/launch_testing/launch_testing.egg-info/SOURCES.txt'
+[1.814s] running build
+[1.814s] running build_py
+[1.814s] creating /home/saitama1/ros2_foxy/build/launch_testing/build
+[1.814s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib
+[1.814s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.814s] copying launch_testing/junitxml.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.814s] copying launch_testing/test_result.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.815s] copying launch_testing/test_runner.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.815s] copying launch_testing/decorator.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.815s] copying launch_testing/launch_test.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.815s] copying launch_testing/print_arguments.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.815s] copying launch_testing/ready_aggregator.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] copying launch_testing/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] copying launch_testing/loader.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] copying launch_testing/markers.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] copying launch_testing/proc_info_handler.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] copying launch_testing/io_handler.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] copying launch_testing/parametrize.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] copying launch_testing/parse_arguments.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing
+[1.816s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/util
+[1.817s] copying launch_testing/util/proc_lookup.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/util
+[1.817s] copying launch_testing/util/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/util
+[1.817s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+[1.817s] copying launch_testing/asserts/assert_output.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+[1.817s] copying launch_testing/asserts/assert_exit_codes.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+[1.817s] copying launch_testing/asserts/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+[1.818s] copying launch_testing/asserts/assert_sequential_output.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+[1.818s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+[1.818s] copying launch_testing/pytest/hooks.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+[1.818s] copying launch_testing/pytest/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+[1.818s] copying launch_testing/pytest/hookspecs.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+[1.818s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers
+[1.818s] copying launch_testing/event_handlers/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers
+[1.819s] copying launch_testing/event_handlers/stdout_ready_listener.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers
+[1.819s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+[1.819s] copying launch_testing/tools/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+[1.819s] copying launch_testing/tools/output.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+[1.819s] copying launch_testing/tools/process.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+[1.819s] copying launch_testing/tools/text.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+[1.819s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+[1.819s] copying launch_testing/actions/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+[1.820s] copying launch_testing/actions/gtest.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+[1.820s] copying launch_testing/actions/ready.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+[1.820s] copying launch_testing/actions/pytest.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+[1.820s] copying launch_testing/actions/test.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+[1.820s] creating /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy
+[1.820s] copying launch_testing/legacy/__init__.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy
+[1.820s] copying launch_testing/legacy/output.py -> /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy
+[1.821s] running install
+[1.822s] running install_lib
+[1.824s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.825s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/junitxml.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.825s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/test_result.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.825s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util
+[1.825s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/util/proc_lookup.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util
+[1.825s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/util/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util
+[1.826s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/test_runner.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.826s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/decorator.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.826s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+[1.826s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/assert_output.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+[1.826s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/assert_exit_codes.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+[1.826s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+[1.826s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/assert_sequential_output.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+[1.827s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest
+[1.828s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest/hooks.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest
+[1.828s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest
+[1.828s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest/hookspecs.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest
+[1.828s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/launch_test.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.828s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/print_arguments.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.828s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/ready_aggregator.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.828s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.829s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/loader.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.829s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers
+[1.829s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers
+[1.831s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers/stdout_ready_listener.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers
+[1.831s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+[1.831s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+[1.831s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/output.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+[1.831s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/process.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+[1.832s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/text.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+[1.832s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/markers.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.832s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/proc_info_handler.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.832s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/io_handler.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.841s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+[1.841s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+[1.841s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/gtest.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+[1.841s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/ready.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+[1.841s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/pytest.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+[1.842s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/test.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+[1.842s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/parametrize.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.842s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy
+[1.843s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy/__init__.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy
+[1.843s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy/output.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy
+[1.843s] copying /home/saitama1/ros2_foxy/build/launch_testing/build/lib/launch_testing/parse_arguments.py -> /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+[1.845s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/junitxml.py to junitxml.cpython-38.pyc
+[1.853s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/test_result.py to test_result.cpython-38.pyc
+[1.857s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util/proc_lookup.py to proc_lookup.cpython-38.pyc
+[1.861s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util/__init__.py to __init__.cpython-38.pyc
+[1.861s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/test_runner.py to test_runner.cpython-38.pyc
+[1.869s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/decorator.py to decorator.cpython-38.pyc
+[1.870s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/assert_output.py to assert_output.cpython-38.pyc
+[1.873s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/assert_exit_codes.py to assert_exit_codes.cpython-38.pyc
+[1.873s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/__init__.py to __init__.cpython-38.pyc
+[1.873s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/assert_sequential_output.py to assert_sequential_output.cpython-38.pyc
+[1.874s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest/hooks.py to hooks.cpython-38.pyc
+[1.880s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest/__init__.py to __init__.cpython-38.pyc
+[1.880s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest/hookspecs.py to hookspecs.cpython-38.pyc
+[1.880s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/launch_test.py to launch_test.cpython-38.pyc
+[1.886s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/print_arguments.py to print_arguments.cpython-38.pyc
+[1.886s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/ready_aggregator.py to ready_aggregator.cpython-38.pyc
+[1.886s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/__init__.py to __init__.cpython-38.pyc
+[1.889s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/loader.py to loader.cpython-38.pyc
+[1.895s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers/__init__.py to __init__.cpython-38.pyc
+[1.895s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers/stdout_ready_listener.py to stdout_ready_listener.cpython-38.pyc
+[1.898s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/__init__.py to __init__.cpython-38.pyc
+[1.898s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/output.py to output.cpython-38.pyc
+[1.901s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/process.py to process.cpython-38.pyc
+[1.904s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/text.py to text.cpython-38.pyc
+[1.906s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/markers.py to markers.cpython-38.pyc
+[1.907s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/proc_info_handler.py to proc_info_handler.cpython-38.pyc
+[1.909s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/io_handler.py to io_handler.cpython-38.pyc
+[1.911s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/__init__.py to __init__.cpython-38.pyc
+[1.911s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/gtest.py to gtest.cpython-38.pyc
+[1.913s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/ready.py to ready.cpython-38.pyc
+[1.913s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/pytest.py to pytest.cpython-38.pyc
+[1.913s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/test.py to test.cpython-38.pyc
+[1.914s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/parametrize.py to parametrize.cpython-38.pyc
+[1.920s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy/__init__.py to __init__.cpython-38.pyc
+[1.921s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy/output.py to output.cpython-38.pyc
+[1.922s] byte-compiling /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/parse_arguments.py to parse_arguments.cpython-38.pyc
+[1.923s] running install_data
+[1.924s] creating /home/saitama1/ros2_foxy/install/launch_testing/share/ament_index
+[1.925s] creating /home/saitama1/ros2_foxy/install/launch_testing/share/ament_index/resource_index
+[1.925s] creating /home/saitama1/ros2_foxy/install/launch_testing/share/ament_index/resource_index/packages
+[1.925s] copying resource/launch_testing -> /home/saitama1/ros2_foxy/install/launch_testing/share/ament_index/resource_index/packages
+[1.925s] creating /home/saitama1/ros2_foxy/install/launch_testing/lib/launch_testing
+[1.925s] copying example_processes/terminating_proc -> /home/saitama1/ros2_foxy/install/launch_testing/lib/launch_testing
+[1.925s] copying example_processes/exit_code_proc -> /home/saitama1/ros2_foxy/install/launch_testing/lib/launch_testing
+[1.925s] copying example_processes/good_proc -> /home/saitama1/ros2_foxy/install/launch_testing/lib/launch_testing
+[1.926s] copying package.xml -> /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing
+[1.926s] creating /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing/examples
+[1.926s] copying test/launch_testing/examples/args_launch_test.py -> /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing/examples
+[1.927s] copying test/launch_testing/examples/context_launch_test.py -> /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing/examples
+[1.927s] copying test/launch_testing/examples/terminating_proc_launch_test.py -> /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing/examples
+[1.927s] copying test/launch_testing/examples/good_proc_launch_test.py -> /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing/examples
+[1.927s] copying test/launch_testing/examples/ready_action_test.py -> /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing/examples
+[1.927s] copying test/launch_testing/examples/parameters_launch_test.py -> /home/saitama1/ros2_foxy/install/launch_testing/share/launch_testing/examples
+[1.927s] running install_egg_info
+[1.932s] Copying ../../../../build/launch_testing/launch_testing.egg-info to /home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing-0.10.5-py3.8.egg-info
+[1.934s] running install_scripts
+[1.981s] Installing launch_test script to /home/saitama1/ros2_foxy/install/launch_testing/bin
+[1.984s] writing list of installed files to '/home/saitama1/ros2_foxy/build/launch_testing/install.log'
+[2.076s] Invoked command in '/home/saitama1/ros2_foxy/src/ros2/launch/launch_testing' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/launch:/home/saitama1/ros2_foxy/install/ament_index_python:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/osrf_pycommon:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/test_interface_files:/home/saitama1/ros2_foxy/install/ros_environment:/home/saitama1/ros2_foxy/install/ament_pyflakes:/home/saitama1/ros2_foxy/install/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_cmake_version:/home/saitama1/ros2_foxy/install/ament_cmake_test:/home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_python:/home/saitama1/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_mypy:/home/saitama1/ros2_foxy/install/ament_cppcheck PATH=/home/saitama1/ros2_foxy/install/ament_index_python/bin:/home/saitama1/ros2_foxy/install/ament_copyright/bin:/home/saitama1/ros2_foxy/install/ament_pep257/bin:/home/saitama1/ros2_foxy/install/ament_flake8/bin:/home/saitama1/ros2_foxy/install/ament_pyflakes/bin:/home/saitama1/ros2_foxy/install/ament_pycodestyle/bin:/home/saitama1/ros2_foxy/install/ament_mypy/bin:/home/saitama1/ros2_foxy/install/ament_cppcheck/bin:/home/saitama1/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin PYTHONPATH=/home/saitama1/ros2_foxy/install/launch_testing/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/launch/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch_testing build --build-base /home/saitama1/ros2_foxy/build/launch_testing/build install --prefix /home/saitama1/ros2_foxy/install/launch_testing --record /home/saitama1/ros2_foxy/build/launch_testing/install.log --single-version-externally-managed

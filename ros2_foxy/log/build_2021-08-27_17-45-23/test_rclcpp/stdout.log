@@ -1,0 +1,390 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found rmw_cyclonedds_cpp: 0.7.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Found rmw_fastrtps_cpp: 1.2.5 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Found rmw_fastrtps_dynamic_cpp: 1.2.5 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rmw_fastrtps_dynamic_cpp/share/rmw_fastrtps_dynamic_cpp/cmake)
+-- Found gtest sources under '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rclcpp/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/libstatistics_collector/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rcl/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rcpputils/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rcutils/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/builtin_interfaces/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosgraph_msgs/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_typesupport_cpp/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_typesupport_c/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_runtime_cpp/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rcl_yaml_param_parser/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/statistics_msgs/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tracetools/include;/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros2/system_tests/test_rclcpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_rclcpp
+[35m[1mScanning dependencies of target gtest[0m
+[  0%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  1%] [32m[1mLinking CXX static library libgtest.a[0m
+[  1%] Built target gtest
+[35m[1mScanning dependencies of target node_check_names[0m
+[  2%] [32mBuilding CXX object CMakeFiles/node_check_names.dir/test/node_check_names.cpp.o[0m
+[  3%] [32m[1mLinking CXX executable node_check_names[0m
+[  3%] Built target node_check_names
+[35m[1mScanning dependencies of target node_with_name[0m
+[  4%] [32mBuilding CXX object CMakeFiles/node_with_name.dir/test/node_with_name.cpp.o[0m
+[  4%] [32m[1mLinking CXX executable node_with_name[0m
+[  4%] Built target node_with_name
+[35m[1mScanning dependencies of target node_name_list[0m
+[  4%] [32mBuilding CXX object CMakeFiles/node_name_list.dir/test/node_name_list.cpp.o[0m
+[  5%] [32m[1mLinking CXX executable node_name_list[0m
+[  5%] Built target node_name_list
+[35m[1mScanning dependencies of target gtest_main[0m
+[  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  6%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[  6%] Built target gtest_main
+[  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_generator_c[0m
+[  7%] [32mBuilding C object CMakeFiles/test_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/test_rclcpp/msg/detail/u_int32__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/test_rclcpp__rosidl_generator_c.dir/rosidl_generator_c/test_rclcpp/srv/detail/add_two_ints__functions.c.o[0m
+[  8%] [32m[1mLinking C shared library libtest_rclcpp__rosidl_generator_c.so[0m
+[  8%] Built target test_rclcpp__rosidl_generator_c
+[35m[1mScanning dependencies of target test_rclcpp__cpp[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  8%] Built target test_rclcpp__cpp
+[  9%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_c[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_rclcpp/msg/u_int32__type_support.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_rclcpp/srv/add_two_ints__type_support.cpp.o[0m
+[ 11%] [32m[1mLinking CXX shared library libtest_rclcpp__rosidl_typesupport_c.so[0m
+[ 11%] Built target test_rclcpp__rosidl_typesupport_c
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_cpp[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_rclcpp/msg/u_int32__type_support.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_rclcpp/srv/add_two_ints__type_support.cpp.o[0m
+[ 14%] [32m[1mLinking CXX shared library libtest_rclcpp__rosidl_typesupport_cpp.so[0m
+[ 14%] Built target test_rclcpp__rosidl_typesupport_cpp
+[ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_introspection_cpp[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_rclcpp/msg/detail/u_int32__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_rclcpp/srv/detail/add_two_ints__type_support.cpp.o[0m
+[ 16%] [32m[1mLinking CXX shared library libtest_rclcpp__rosidl_typesupport_introspection_cpp.so[0m
+[ 16%] Built target test_rclcpp__rosidl_typesupport_introspection_cpp
+[ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_fastrtps_cpp[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_rclcpp/msg/detail/dds_fastrtps/u_int32__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_rclcpp/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o[0m
+[ 19%] [32m[1mLinking CXX shared library libtest_rclcpp__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 19%] Built target test_rclcpp__rosidl_typesupport_fastrtps_cpp
+[ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_introspection_c[0m
+[ 20%] [32mBuilding C object CMakeFiles/test_rclcpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_rclcpp/msg/detail/u_int32__type_support.c.o[0m
+[ 21%] [32mBuilding C object CMakeFiles/test_rclcpp__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_rclcpp/srv/detail/add_two_ints__type_support.c.o[0m
+[ 22%] [32m[1mLinking C shared library libtest_rclcpp__rosidl_typesupport_introspection_c.so[0m
+[ 22%] Built target test_rclcpp__rosidl_typesupport_introspection_c
+[ 22%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_fastrtps_c[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_rclcpp/msg/detail/u_int32__type_support_c.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/test_rclcpp__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_rclcpp/srv/detail/add_two_ints__type_support_c.cpp.o[0m
+[ 24%] [32m[1mLinking CXX shared library libtest_rclcpp__rosidl_typesupport_fastrtps_c.so[0m
+[ 24%] Built target test_rclcpp__rosidl_typesupport_fastrtps_c
+[35m[1mScanning dependencies of target test_rclcpp[0m
+[ 24%] Built target test_rclcpp
+[35m[1mScanning dependencies of target test_client_scope_consistency_client_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/test_client_scope_consistency_client_cpp.dir/test/test_client_scope_consistency_client.cpp.o[0m
+[ 26%] [32m[1mLinking CXX executable test_client_scope_consistency_client_cpp[0m
+[ 26%] Built target test_client_scope_consistency_client_cpp
+[35m[1mScanning dependencies of target gtest_spin__rmw_cyclonedds_cpp[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/gtest_spin__rmw_cyclonedds_cpp.dir/test/test_spin.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable gtest_spin__rmw_cyclonedds_cpp[0m
+[ 28%] Built target gtest_spin__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_rclcpp__py[0m
+[ 29%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 29%] Built target test_rclcpp__py
+[35m[1mScanning dependencies of target gtest_timeout_subscriber__rmw_fastrtps_cpp[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/gtest_timeout_subscriber__rmw_fastrtps_cpp.dir/test/test_timeout_subscriber.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable gtest_timeout_subscriber__rmw_fastrtps_cpp[0m
+[ 30%] Built target gtest_timeout_subscriber__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_intra_process__rmw_cyclonedds_cpp[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/gtest_intra_process__rmw_cyclonedds_cpp.dir/test/test_intra_process.cpp.o[0m
+[ 32%] [32m[1mLinking CXX executable gtest_intra_process__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target gtest_intra_process__rmw_fastrtps_cpp[0m
+[ 32%] Built target gtest_intra_process__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_publisher__rmw_fastrtps_cpp[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/gtest_intra_process__rmw_fastrtps_cpp.dir/test/test_intra_process.cpp.o[0m
+[35m[1mScanning dependencies of target gtest_publisher__rmw_fastrtps_dynamic_cpp[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/gtest_publisher__rmw_fastrtps_cpp.dir/test/test_publisher.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/gtest_publisher__rmw_fastrtps_dynamic_cpp.dir/test/test_publisher.cpp.o[0m
+[35m[1mScanning dependencies of target gtest_client_wait_for_service_shutdown__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target gtest_repeated_publisher_subscriber__rmw_cyclonedds_cpp[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/gtest_repeated_publisher_subscriber__rmw_cyclonedds_cpp.dir/test/test_repeated_publisher_subscriber.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/gtest_client_wait_for_service_shutdown__rmw_cyclonedds_cpp.dir/test/test_client_wait_for_service_shutdown.cpp.o[0m
+[35m[1mScanning dependencies of target gtest_waitable__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_signal_handler[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/gtest_waitable__rmw_fastrtps_dynamic_cpp.dir/test/test_waitable.cpp.o[0m
+[35m[1mScanning dependencies of target test_parameters_server_cpp[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/test_signal_handler.dir/test/test_signal_handler.cpp.o[0m
+[35m[1mScanning dependencies of target test_services_server_cpp[0m
+[35m[1mScanning dependencies of target test_remote_parameters_cpp[0m
+[35m[1mScanning dependencies of target test_client_scope_client_cpp[0m
+[ 37%] [32m[1mLinking CXX executable test_signal_handler[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/test_client_scope_client_cpp.dir/test/test_client_scope_client.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_parameters_server_cpp.dir/test/test_parameters_server.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_services_server_cpp.dir/test/test_services_server.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/test_remote_parameters_cpp.dir/test/test_remote_parameters.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable gtest_client_wait_for_service_shutdown__rmw_cyclonedds_cpp[0m
+[ 42%] Built target test_signal_handler
+[ 42%] [32m[1mLinking CXX executable gtest_waitable__rmw_fastrtps_dynamic_cpp[0m
+[ 42%] Built target gtest_client_wait_for_service_shutdown__rmw_cyclonedds_cpp
+[ 42%] Built target gtest_waitable__rmw_fastrtps_dynamic_cpp
+[ 43%] [32m[1mLinking CXX executable test_parameters_server_cpp[0m
+[ 44%] [32m[1mLinking CXX executable gtest_intra_process__rmw_fastrtps_cpp[0m
+[ 44%] [32m[1mLinking CXX executable test_services_server_cpp[0m
+[ 44%] Built target test_parameters_server_cpp
+[ 44%] Built target gtest_intra_process__rmw_fastrtps_cpp
+[ 44%] Built target test_services_server_cpp
+[ 45%] [32m[1mLinking CXX executable gtest_publisher__rmw_fastrtps_dynamic_cpp[0m
+[ 46%] [32m[1mLinking CXX executable test_remote_parameters_cpp[0m
+[ 46%] [32m[1mLinking CXX executable test_client_scope_client_cpp[0m
+[ 46%] [32m[1mLinking CXX executable gtest_publisher__rmw_fastrtps_cpp[0m
+[ 46%] Built target gtest_publisher__rmw_fastrtps_dynamic_cpp
+[ 46%] Built target test_client_scope_client_cpp
+[ 46%] Built target gtest_publisher__rmw_fastrtps_cpp
+[ 46%] Built target test_remote_parameters_cpp
+[ 47%] [32m[1mLinking CXX executable gtest_repeated_publisher_subscriber__rmw_cyclonedds_cpp[0m
+[ 47%] Built target gtest_repeated_publisher_subscriber__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_subscription__rmw_cyclonedds_cpp[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/gtest_subscription__rmw_cyclonedds_cpp.dir/test/test_subscription.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable gtest_subscription__rmw_cyclonedds_cpp[0m
+[ 48%] Built target gtest_subscription__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_client_scope_server_cpp[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/test_client_scope_server_cpp.dir/test/test_client_scope_server.cpp.o[0m
+[ 49%] [32m[1mLinking CXX executable test_client_scope_server_cpp[0m
+[ 49%] Built target test_client_scope_server_cpp
+[35m[1mScanning dependencies of target gtest_multithreaded__rmw_fastrtps_dynamic_cpp[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/gtest_multithreaded__rmw_fastrtps_dynamic_cpp.dir/test/test_multithreaded.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable gtest_multithreaded__rmw_fastrtps_dynamic_cpp[0m
+[ 50%] Built target gtest_multithreaded__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_publisher__rmw_cyclonedds_cpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gtest_publisher__rmw_cyclonedds_cpp.dir/test/test_publisher.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable gtest_publisher__rmw_cyclonedds_cpp[0m
+[ 51%] Built target gtest_publisher__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_multithreaded__rmw_cyclonedds_cpp[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/gtest_multithreaded__rmw_cyclonedds_cpp.dir/test/test_multithreaded.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable gtest_multithreaded__rmw_cyclonedds_cpp[0m
+[ 52%] Built target gtest_multithreaded__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_cpp[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_cpp.dir/test/test_avoid_ros_namespace_conventions_qos.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_cpp[0m
+[ 53%] Built target gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_services_in_constructor__rmw_cyclonedds_cpp[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/gtest_services_in_constructor__rmw_cyclonedds_cpp.dir/test/test_services_in_constructor.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable gtest_services_in_constructor__rmw_cyclonedds_cpp[0m
+[ 55%] Built target gtest_services_in_constructor__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_subscription__rmw_fastrtps_cpp[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/gtest_subscription__rmw_fastrtps_cpp.dir/test/test_subscription.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable gtest_subscription__rmw_fastrtps_cpp[0m
+[ 57%] Built target gtest_subscription__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_waitable__rmw_cyclonedds_cpp[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/gtest_waitable__rmw_cyclonedds_cpp.dir/test/test_waitable.cpp.o[0m
+[ 58%] [32m[1mLinking CXX executable gtest_waitable__rmw_cyclonedds_cpp[0m
+[ 58%] Built target gtest_waitable__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_executor__rmw_fastrtps_cpp[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/gtest_executor__rmw_fastrtps_cpp.dir/test/test_executor.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable gtest_executor__rmw_fastrtps_cpp[0m
+[ 59%] Built target gtest_executor__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_services_in_constructor__rmw_fastrtps_cpp[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/gtest_services_in_constructor__rmw_fastrtps_cpp.dir/test/test_services_in_constructor.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable gtest_services_in_constructor__rmw_fastrtps_cpp[0m
+[ 60%] Built target gtest_services_in_constructor__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_client_wait_for_service_shutdown__rmw_fastrtps_cpp[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/gtest_client_wait_for_service_shutdown__rmw_fastrtps_cpp.dir/test/test_client_wait_for_service_shutdown.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable gtest_client_wait_for_service_shutdown__rmw_fastrtps_cpp[0m
+[ 61%] Built target gtest_client_wait_for_service_shutdown__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_spin__rmw_fastrtps_dynamic_cpp[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/gtest_spin__rmw_fastrtps_dynamic_cpp.dir/test/test_spin.cpp.o[0m
+[35m[1mScanning dependencies of target gtest_client_wait_for_service_shutdown__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target gtest_repeated_publisher_subscriber__rmw_fastrtps_cpp[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/gtest_repeated_publisher_subscriber__rmw_fastrtps_cpp.dir/test/test_repeated_publisher_subscriber.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/gtest_client_wait_for_service_shutdown__rmw_fastrtps_dynamic_cpp.dir/test/test_client_wait_for_service_shutdown.cpp.o[0m
+[35m[1mScanning dependencies of target gtest_timeout_subscriber__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target gtest_repeated_publisher_subscriber__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target gtest_timer__rmw_cyclonedds_cpp[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/gtest_timeout_subscriber__rmw_cyclonedds_cpp.dir/test/test_timeout_subscriber.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/gtest_timer__rmw_cyclonedds_cpp.dir/test/test_timer.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/gtest_repeated_publisher_subscriber__rmw_fastrtps_dynamic_cpp.dir/test/test_repeated_publisher_subscriber.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable gtest_spin__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target gtest_services_in_constructor__rmw_fastrtps_dynamic_cpp[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/gtest_services_in_constructor__rmw_fastrtps_dynamic_cpp.dir/test/test_services_in_constructor.cpp.o[0m
+[35m[1mScanning dependencies of target gtest_local_parameters__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target test_services_client_cpp[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/gtest_local_parameters__rmw_cyclonedds_cpp.dir/test/test_local_parameters.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/test_services_client_cpp.dir/test/test_services_client.cpp.o[0m
+[ 68%] Built target gtest_spin__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_avoid_ros_namespace_conventions_qos__rmw_cyclonedds_cpp[0m
+[35m[1mScanning dependencies of target gtest_waitable__rmw_fastrtps_cpp[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/gtest_avoid_ros_namespace_conventions_qos__rmw_cyclonedds_cpp.dir/test/test_avoid_ros_namespace_conventions_qos.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/gtest_waitable__rmw_fastrtps_cpp.dir/test/test_waitable.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable gtest_client_wait_for_service_shutdown__rmw_fastrtps_dynamic_cpp[0m
+[ 68%] Built target gtest_client_wait_for_service_shutdown__rmw_fastrtps_dynamic_cpp
+[ 69%] [32m[1mLinking CXX executable gtest_timer__rmw_cyclonedds_cpp[0m
+[ 69%] Built target gtest_timer__rmw_cyclonedds_cpp
+[ 69%] [32m[1mLinking CXX executable gtest_repeated_publisher_subscriber__rmw_fastrtps_cpp[0m
+[ 69%] Built target gtest_repeated_publisher_subscriber__rmw_fastrtps_cpp
+[ 70%] [32m[1mLinking CXX executable gtest_waitable__rmw_fastrtps_cpp[0m
+[ 70%] [32m[1mLinking CXX executable gtest_services_in_constructor__rmw_fastrtps_dynamic_cpp[0m
+[ 71%] [32m[1mLinking CXX executable test_services_client_cpp[0m
+[ 71%] [32m[1mLinking CXX executable gtest_repeated_publisher_subscriber__rmw_fastrtps_dynamic_cpp[0m
+[ 71%] Built target test_services_client_cpp
+[ 71%] Built target gtest_waitable__rmw_fastrtps_cpp
+[ 71%] [32m[1mLinking CXX executable gtest_local_parameters__rmw_cyclonedds_cpp[0m
+[ 71%] Built target gtest_services_in_constructor__rmw_fastrtps_dynamic_cpp
+[ 71%] Built target gtest_repeated_publisher_subscriber__rmw_fastrtps_dynamic_cpp
+[ 71%] Built target gtest_local_parameters__rmw_cyclonedds_cpp
+[ 72%] [32m[1mLinking CXX executable gtest_avoid_ros_namespace_conventions_qos__rmw_cyclonedds_cpp[0m
+[ 72%] [32m[1mLinking CXX executable gtest_timeout_subscriber__rmw_cyclonedds_cpp[0m
+[ 72%] Built target gtest_avoid_ros_namespace_conventions_qos__rmw_cyclonedds_cpp
+[ 72%] Built target gtest_timeout_subscriber__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_dynamic_cpp[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_dynamic_cpp.dir/test/test_avoid_ros_namespace_conventions_qos.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_dynamic_cpp[0m
+[ 74%] Built target gtest_avoid_ros_namespace_conventions_qos__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_multiple_service_calls__rmw_fastrtps_dynamic_cpp[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/gtest_multiple_service_calls__rmw_fastrtps_dynamic_cpp.dir/test/test_multiple_service_calls.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable gtest_multiple_service_calls__rmw_fastrtps_dynamic_cpp[0m
+[ 75%] Built target gtest_multiple_service_calls__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_executor__rmw_cyclonedds_cpp[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/gtest_executor__rmw_cyclonedds_cpp.dir/test/test_executor.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable gtest_executor__rmw_cyclonedds_cpp[0m
+[ 77%] Built target gtest_executor__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target gtest_timer__rmw_fastrtps_cpp[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/gtest_timer__rmw_fastrtps_cpp.dir/test/test_timer.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable gtest_timer__rmw_fastrtps_cpp[0m
+[ 78%] Built target gtest_timer__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_timer__rmw_fastrtps_dynamic_cpp[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/gtest_timer__rmw_fastrtps_dynamic_cpp.dir/test/test_timer.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable gtest_timer__rmw_fastrtps_dynamic_cpp[0m
+[ 80%] Built target gtest_timer__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_timeout_subscriber__rmw_fastrtps_dynamic_cpp[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/gtest_timeout_subscriber__rmw_fastrtps_dynamic_cpp.dir/test/test_timeout_subscriber.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable gtest_timeout_subscriber__rmw_fastrtps_dynamic_cpp[0m
+[ 82%] Built target gtest_timeout_subscriber__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target test_rclcpp__python[0m
+[ 82%] [32mBuilding C object CMakeFiles/test_rclcpp__python.dir/rosidl_generator_py/test_rclcpp/msg/_u_int32_s.c.o[0m
+[ 83%] [32mBuilding C object CMakeFiles/test_rclcpp__python.dir/rosidl_generator_py/test_rclcpp/srv/_add_two_ints_s.c.o[0m
+[ 84%] [32m[1mLinking C shared library rosidl_generator_py/test_rclcpp/libtest_rclcpp__python.so[0m
+[ 84%] Built target test_rclcpp__python
+[35m[1mScanning dependencies of target gtest_multiple_service_calls__rmw_cyclonedds_cpp[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/gtest_multiple_service_calls__rmw_cyclonedds_cpp.dir/test/test_multiple_service_calls.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable gtest_multiple_service_calls__rmw_cyclonedds_cpp[0m
+[ 85%] Built target gtest_multiple_service_calls__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_c__pyext[0m
+[ 85%] [32mBuilding C object CMakeFiles/test_rclcpp__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/test_rclcpp/_test_rclcpp_s.ep.rosidl_typesupport_c.c.o[0m
+[ 86%] [32m[1mLinking C shared library rosidl_generator_py/test_rclcpp/test_rclcpp_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 86%] Built target test_rclcpp__rosidl_typesupport_c__pyext
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/test_rclcpp__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/test_rclcpp/_test_rclcpp_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32m[1mLinking CXX shared library rosidl_generator_py/test_rclcpp/test_rclcpp_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 87%] Built target test_rclcpp__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target test_rclcpp__rosidl_typesupport_introspection_c__pyext[0m
+[ 87%] [32mBuilding C object CMakeFiles/test_rclcpp__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/test_rclcpp/_test_rclcpp_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 88%] [32m[1mLinking C shared library rosidl_generator_py/test_rclcpp/test_rclcpp_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 88%] Built target test_rclcpp__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target gtest_local_parameters__rmw_fastrtps_dynamic_cpp[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/gtest_local_parameters__rmw_fastrtps_dynamic_cpp.dir/test/test_local_parameters.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable gtest_local_parameters__rmw_fastrtps_dynamic_cpp[0m
+[ 89%] Built target gtest_local_parameters__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_local_parameters__rmw_fastrtps_cpp[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/gtest_local_parameters__rmw_fastrtps_cpp.dir/test/test_local_parameters.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable gtest_local_parameters__rmw_fastrtps_cpp[0m
+[ 91%] Built target gtest_local_parameters__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_multithreaded__rmw_fastrtps_cpp[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/gtest_multithreaded__rmw_fastrtps_cpp.dir/test/test_multithreaded.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable gtest_multithreaded__rmw_fastrtps_cpp[0m
+[ 93%] Built target gtest_multithreaded__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_subscription__rmw_fastrtps_dynamic_cpp[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/gtest_subscription__rmw_fastrtps_dynamic_cpp.dir/test/test_subscription.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable gtest_subscription__rmw_fastrtps_dynamic_cpp[0m
+[ 94%] Built target gtest_subscription__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_executor__rmw_fastrtps_dynamic_cpp[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/gtest_executor__rmw_fastrtps_dynamic_cpp.dir/test/test_executor.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable gtest_executor__rmw_fastrtps_dynamic_cpp[0m
+[ 95%] Built target gtest_executor__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target gtest_intra_process__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target gtest_multiple_service_calls__rmw_fastrtps_cpp[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/gtest_intra_process__rmw_fastrtps_dynamic_cpp.dir/test/test_intra_process.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/gtest_multiple_service_calls__rmw_fastrtps_cpp.dir/test/test_multiple_service_calls.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable gtest_multiple_service_calls__rmw_fastrtps_cpp[0m
+[ 97%] Built target gtest_multiple_service_calls__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target gtest_spin__rmw_fastrtps_cpp[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/gtest_spin__rmw_fastrtps_cpp.dir/test/test_spin.cpp.o[0m
+[ 98%] [32m[1mLinking CXX executable gtest_intra_process__rmw_fastrtps_dynamic_cpp[0m
+[ 98%] Built target gtest_intra_process__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target test_client_scope_consistency_server_cpp[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/test_client_scope_consistency_server_cpp.dir/test/test_client_scope_consistency_server.cpp.o[0m
+[ 99%] [32m[1mLinking CXX executable test_client_scope_consistency_server_cpp[0m
+[ 99%] Built target test_client_scope_consistency_server_cpp
+[100%] [32m[1mLinking CXX executable gtest_spin__rmw_fastrtps_cpp[0m
+[100%] Built target gtest_spin__rmw_fastrtps_cpp
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/ament_index/resource_index/package_run_dependencies/test_rclcpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/ament_index/resource_index/parent_prefix_path/test_rclcpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/ament_index/resource_index/packages/test_rclcpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/cmake/test_rclcppConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/cmake/test_rclcppConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_rclcpp/share/test_rclcpp/package.xml
