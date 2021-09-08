@@ -1,6 +1,0 @@
--- Found ament_cmake_core: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
--- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
--- Using PYTHON_EXECUTABLE: /usr/bin/python3
--- Configuring done
--- Generating done
--- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cmake_export_interfaces

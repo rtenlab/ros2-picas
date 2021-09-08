@@ -1,0 +1,25 @@
+<package format="2">
+  <name>rqt_topic</name>
+  <version>1.1.0</version>
+  <description>rqt_topic provides a GUI plugin for displaying debug information about ROS topics including publishers, subscribers, publishing rate, and ROS Messages.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <maintainer email="scholz@sim.tu-darmstadt.de">Dorian Scholz</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/rqt_topic</url>
+  <url type="repository">https://github.com/ros-visualization/rqt_topic</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rqt_topic/issues</url>
+
+  <author>Dorian Scholz</author>
+
+  <exec_depend version_gte="0.2.19">python_qt_binding</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>rqt_py_common</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

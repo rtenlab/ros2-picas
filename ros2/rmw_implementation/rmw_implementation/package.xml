@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>rmw_implementation</name>
+  <version>0.8.2</version>
+  <description>The decision which ROS middleware implementation should be used for C++.</description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <build_depend>rcutils</build_depend>
+  <build_depend>rmw</build_depend>
+  <!--
+  Bloom does not support group_depend so entries below duplicate the group rmw_implementation_packages.
+  This ensures that binary packages have support for all of these rmw impl. enabled.
+  -->
+  <build_depend>rmw_connext_cpp</build_depend>
+  <build_depend>rmw_cyclonedds_cpp</build_depend>
+  <build_depend>rmw_fastrtps_cpp</build_depend>
+  <build_depend>rmw_opensplice_cpp</build_depend>
+  <!-- end of group dependencies added for bloom -->
+
+  <depend>libpoco-dev</depend>
+  <depend>poco_vendor</depend>
+  <depend>rmw_implementation_cmake</depend>
+
+  <exec_depend>ament_index_python</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <group_depend>rmw_implementation_packages</group_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

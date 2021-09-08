@@ -1,0 +1,25 @@
+<package format="2">
+  <name>python_orocos_kdl</name>
+  <version>3.2.1</version>
+  <description>
+    This package contains the python bindings PyKDL for the Kinematics and Dynamics
+    Library (KDL), distributed by the Orocos Project. 
+  </description>
+  <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
+  <license>LGPL</license>
+  <url>http://wiki.ros.org/python_orocos_kdl</url>
+  <author>Ruben Smits</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <build_depend>orocos_kdl</build_depend>
+  <build_depend>python-sip</build_depend>
+
+  <exec_depend>orocos_kdl</exec_depend>
+  <exec_depend>python-sip</exec_depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+
+</package>
