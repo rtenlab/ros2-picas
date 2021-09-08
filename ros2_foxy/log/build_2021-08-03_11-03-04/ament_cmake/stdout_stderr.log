@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_index/resource_index/package_run_dependencies/ament_cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_index/resource_index/parent_prefix_path/ament_cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_index/resource_index/packages/ament_cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake/ament_cmakeConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/package.xml

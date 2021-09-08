@@ -1,0 +1,64 @@
+-- Setting build type to 'Release' as none was specified.
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring Fast CDR
+-- Version: 1.0.13
+-- To change the version modify the file configure.ac
+-- Performing Test SUPPORTS_CXX14
+-- Performing Test SUPPORTS_CXX14 - Success
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/fastcdr
+[35m[1mScanning dependencies of target fastcdr[0m
+[ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[100%] Built target fastcdr
+-- Install configuration: "Release"
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/share/fastcdr/LICENSE
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/Cdr.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/fastcdr_dll.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/FastBuffer.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/exceptions
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/Exception.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/FastCdr.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/include/fastcdr/config.h
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1.0.13
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/lib/libfastcdr.so
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets-release.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake

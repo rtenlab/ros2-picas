@@ -1,0 +1,6 @@
+Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor
+Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/googletest/googletest -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor
+Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor': /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor -- -j12 -l12
+Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor -- -j12 -l12
+Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor': /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor
+Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor' returned '0': /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gtest_vendor

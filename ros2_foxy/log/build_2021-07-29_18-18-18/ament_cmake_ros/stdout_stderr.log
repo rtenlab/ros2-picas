@@ -1,0 +1,36 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ament_cmake_ros
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_index/resource_index/package_run_dependencies/ament_cmake_ros
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_index/resource_index/parent_prefix_path/ament_cmake_ros
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_index/resource_index/packages/ament_cmake_ros
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_cmake_rosConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gmock.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/build_shared_libs.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/run_test_isolated.py
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_add_ros_isolated_gtest.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake/ament_add_ros_isolated_pytest.cmake

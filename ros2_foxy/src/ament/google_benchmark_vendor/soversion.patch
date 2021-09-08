@@ -1,0 +1,13 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index db0a6bfb..26ccf1a5 100644
+--- a/CMakeLists.txt	2020-07-15 17:35:35.557813957 -0700
++++ b/CMakeLists.txt	2020-07-15 17:36:19.040227189 -0700
+@@ -79,7 +79,7 @@
+ 
+ # Read the git tags to determine the project version
+ include(GetGitVersion)
+-get_git_version(GIT_VERSION)
++#get_git_version(GIT_VERSION)
+ 
+ # Tell the user what versions we are using
+ string(REGEX MATCH "[0-9]+\\.[0-9]+\\.[0-9]+" VERSION ${GIT_VERSION})

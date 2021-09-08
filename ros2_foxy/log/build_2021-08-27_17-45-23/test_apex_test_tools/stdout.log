@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_apex_test_tools
+[35m[1mScanning dependencies of target gtest[0m
+[ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 33%] Built target gtest
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 66%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 66%] Built target gtest_main
+[35m[1mScanning dependencies of target memory_gtest[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/memory_gtest.dir/test/src/test_memory.cpp.o[0m
+[100%] [32m[1mLinking CXX executable memory_gtest[0m
+[100%] Built target memory_gtest
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/ament_index/resource_index/package_run_dependencies/test_apex_test_tools
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/ament_index/resource_index/parent_prefix_path/test_apex_test_tools
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/ament_index/resource_index/packages/test_apex_test_tools
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/cmake/test_apex_test_toolsConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/cmake/test_apex_test_toolsConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_apex_test_tools/share/test_apex_test_tools/package.xml

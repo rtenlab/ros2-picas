@@ -1,0 +1,575 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (-) JobUnselected: {'identifier': 'action_msgs'}
+[0.000673] (-) JobUnselected: {'identifier': 'action_tutorials_cpp'}
+[0.000729] (-) JobUnselected: {'identifier': 'action_tutorials_interfaces'}
+[0.000754] (-) JobUnselected: {'identifier': 'action_tutorials_py'}
+[0.000776] (-) JobUnselected: {'identifier': 'actionlib_msgs'}
+[0.000798] (-) JobUnselected: {'identifier': 'ament_clang_format'}
+[0.000819] (-) JobUnselected: {'identifier': 'ament_clang_tidy'}
+[0.000839] (-) JobUnselected: {'identifier': 'ament_cmake'}
+[0.000859] (-) JobUnselected: {'identifier': 'ament_cmake_auto'}
+[0.000879] (-) JobUnselected: {'identifier': 'ament_cmake_clang_format'}
+[0.000899] (-) JobUnselected: {'identifier': 'ament_cmake_clang_tidy'}
+[0.000919] (-) JobUnselected: {'identifier': 'ament_cmake_copyright'}
+[0.000939] (-) JobUnselected: {'identifier': 'ament_cmake_core'}
+[0.000959] (-) JobUnselected: {'identifier': 'ament_cmake_cppcheck'}
+[0.000979] (-) JobUnselected: {'identifier': 'ament_cmake_cpplint'}
+[0.000999] (-) JobUnselected: {'identifier': 'ament_cmake_export_definitions'}
+[0.001019] (-) JobUnselected: {'identifier': 'ament_cmake_export_dependencies'}
+[0.001039] (-) JobUnselected: {'identifier': 'ament_cmake_export_include_directories'}
+[0.001060] (-) JobUnselected: {'identifier': 'ament_cmake_export_interfaces'}
+[0.001085] (-) JobUnselected: {'identifier': 'ament_cmake_export_libraries'}
+[0.001106] (-) JobUnselected: {'identifier': 'ament_cmake_export_link_flags'}
+[0.001139] (-) JobUnselected: {'identifier': 'ament_cmake_export_targets'}
+[0.001691] (-) JobUnselected: {'identifier': 'ament_cmake_flake8'}
+[0.001718] (-) JobUnselected: {'identifier': 'ament_cmake_gmock'}
+[0.001739] (-) JobUnselected: {'identifier': 'ament_cmake_google_benchmark'}
+[0.001760] (-) JobUnselected: {'identifier': 'ament_cmake_gtest'}
+[0.001780] (-) JobUnselected: {'identifier': 'ament_cmake_include_directories'}
+[0.001800] (-) JobUnselected: {'identifier': 'ament_cmake_libraries'}
+[0.001821] (-) JobUnselected: {'identifier': 'ament_cmake_lint_cmake'}
+[0.001841] (-) JobUnselected: {'identifier': 'ament_cmake_mypy'}
+[0.001861] (-) JobUnselected: {'identifier': 'ament_cmake_nose'}
+[0.001881] (-) JobUnselected: {'identifier': 'ament_cmake_pclint'}
+[0.001901] (-) JobUnselected: {'identifier': 'ament_cmake_pep257'}
+[0.001921] (-) JobUnselected: {'identifier': 'ament_cmake_pycodestyle'}
+[0.001941] (-) JobUnselected: {'identifier': 'ament_cmake_pyflakes'}
+[0.001961] (-) JobUnselected: {'identifier': 'ament_cmake_pytest'}
+[0.002002] (-) JobUnselected: {'identifier': 'ament_cmake_python'}
+[0.002040] (-) JobUnselected: {'identifier': 'ament_cmake_ros'}
+[0.002090] (-) JobUnselected: {'identifier': 'ament_cmake_target_dependencies'}
+[0.002175] (-) JobUnselected: {'identifier': 'ament_cmake_test'}
+[0.002200] (-) JobUnselected: {'identifier': 'ament_cmake_uncrustify'}
+[0.002221] (-) JobUnselected: {'identifier': 'ament_cmake_version'}
+[0.002242] (-) JobUnselected: {'identifier': 'ament_cmake_xmllint'}
+[0.002262] (-) JobUnselected: {'identifier': 'ament_copyright'}
+[0.002281] (-) JobUnselected: {'identifier': 'ament_cppcheck'}
+[0.002301] (-) JobUnselected: {'identifier': 'ament_cpplint'}
+[0.002321] (-) JobUnselected: {'identifier': 'ament_flake8'}
+[0.002341] (-) JobUnselected: {'identifier': 'ament_index_cpp'}
+[0.002360] (-) JobUnselected: {'identifier': 'ament_index_python'}
+[0.002380] (-) JobUnselected: {'identifier': 'ament_lint'}
+[0.002400] (-) JobUnselected: {'identifier': 'ament_lint_auto'}
+[0.002445] (-) JobUnselected: {'identifier': 'ament_lint_cmake'}
+[0.002466] (-) JobUnselected: {'identifier': 'ament_lint_common'}
+[0.002491] (-) JobUnselected: {'identifier': 'ament_mypy'}
+[0.002526] (-) JobUnselected: {'identifier': 'ament_package'}
+[0.002561] (-) JobUnselected: {'identifier': 'ament_pclint'}
+[0.002582] (-) JobUnselected: {'identifier': 'ament_pep257'}
+[0.002602] (-) JobUnselected: {'identifier': 'ament_pycodestyle'}
+[0.002622] (-) JobUnselected: {'identifier': 'ament_pyflakes'}
+[0.002642] (-) JobUnselected: {'identifier': 'ament_uncrustify'}
+[0.002673] (-) JobUnselected: {'identifier': 'ament_xmllint'}
+[0.002689] (-) JobUnselected: {'identifier': 'apex_test_tools'}
+[0.002705] (-) JobUnselected: {'identifier': 'automotive_autonomy_msgs'}
+[0.002720] (-) JobUnselected: {'identifier': 'automotive_navigation_msgs'}
+[0.002736] (-) JobUnselected: {'identifier': 'automotive_platform_msgs'}
+[0.002751] (-) JobUnselected: {'identifier': 'builtin_interfaces'}
+[0.002767] (-) JobUnselected: {'identifier': 'can_msgs'}
+[0.002783] (-) JobUnselected: {'identifier': 'class_loader'}
+[0.002799] (-) JobUnselected: {'identifier': 'common_interfaces'}
+[0.002814] (-) JobUnselected: {'identifier': 'composition'}
+[0.002829] (-) JobUnselected: {'identifier': 'composition_interfaces'}
+[0.002845] (-) JobUnselected: {'identifier': 'connext_cmake_module'}
+[0.002860] (-) JobUnselected: {'identifier': 'console_bridge_vendor'}
+[0.002882] (-) JobUnselected: {'identifier': 'cyclonedds'}
+[0.002911] (-) JobUnselected: {'identifier': 'demo_nodes_cpp'}
+[0.002982] (-) JobUnselected: {'identifier': 'demo_nodes_cpp_native'}
+[0.003043] (-) JobUnselected: {'identifier': 'demo_nodes_py'}
+[0.003073] (-) JobUnselected: {'identifier': 'diagnostic_msgs'}
+[0.003102] (-) JobUnselected: {'identifier': 'domain_coordinator'}
+[0.003139] (-) JobUnselected: {'identifier': 'dummy_map_server'}
+[0.003157] (-) JobUnselected: {'identifier': 'dummy_robot_bringup'}
+[0.003173] (-) JobUnselected: {'identifier': 'dummy_sensors'}
+[0.003189] (-) JobUnselected: {'identifier': 'eigen3_cmake_module'}
+[0.003205] (-) JobUnselected: {'identifier': 'example_interfaces'}
+[0.003221] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.003237] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.003253] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.003269] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.003284] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.003300] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.003317] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.003332] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.003348] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.003364] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003379] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003394] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003420] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003459] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003492] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003525] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.003591] (-) JobUnselected: {'identifier': 'examples_tf2_py'}
+[0.003627] (-) JobUnselected: {'identifier': 'fastcdr'}
+[0.003645] (-) JobUnselected: {'identifier': 'fastrtps'}
+[0.003661] (-) JobUnselected: {'identifier': 'fastrtps_cmake_module'}
+[0.003677] (-) JobUnselected: {'identifier': 'foonathan_memory_vendor'}
+[0.003692] (-) JobUnselected: {'identifier': 'geometry2'}
+[0.003708] (-) JobUnselected: {'identifier': 'geometry_msgs'}
+[0.003723] (-) JobUnselected: {'identifier': 'gmock_vendor'}
+[0.003739] (-) JobUnselected: {'identifier': 'google_benchmark_vendor'}
+[0.003754] (-) JobUnselected: {'identifier': 'gtest_vendor'}
+[0.003770] (-) JobUnselected: {'identifier': 'image_tools'}
+[0.003785] (-) JobUnselected: {'identifier': 'interactive_markers'}
+[0.003800] (-) JobUnselected: {'identifier': 'intra_process_demo'}
+[0.003815] (-) JobUnselected: {'identifier': 'kdl_parser'}
+[0.003831] (-) JobUnselected: {'identifier': 'lanelet2'}
+[0.003846] (-) JobUnselected: {'identifier': 'lanelet2_core'}
+[0.003862] (-) JobUnselected: {'identifier': 'lanelet2_examples'}
+[0.003877] (-) JobUnselected: {'identifier': 'lanelet2_io'}
+[0.003892] (-) JobUnselected: {'identifier': 'lanelet2_maps'}
+[0.003914] (-) JobUnselected: {'identifier': 'lanelet2_matching'}
+[0.003938] (-) JobUnselected: {'identifier': 'lanelet2_projection'}
+[0.003981] (-) JobUnselected: {'identifier': 'lanelet2_python'}
+[0.003999] (-) JobUnselected: {'identifier': 'lanelet2_routing'}
+[0.004015] (-) JobUnselected: {'identifier': 'lanelet2_traffic_rules'}
+[0.004031] (-) JobUnselected: {'identifier': 'lanelet2_validation'}
+[0.004047] (-) JobUnselected: {'identifier': 'laser_geometry'}
+[0.004062] (-) JobUnselected: {'identifier': 'launch'}
+[0.004078] (-) JobUnselected: {'identifier': 'launch_ros'}
+[0.004094] (-) JobUnselected: {'identifier': 'launch_testing'}
+[0.004109] (-) JobUnselected: {'identifier': 'launch_testing_ament_cmake'}
+[0.004125] (-) JobUnselected: {'identifier': 'launch_testing_ros'}
+[0.004140] (-) JobUnselected: {'identifier': 'launch_xml'}
+[0.004156] (-) JobUnselected: {'identifier': 'launch_yaml'}
+[0.004171] (-) JobUnselected: {'identifier': 'lgsvl_msgs'}
+[0.004186] (-) JobUnselected: {'identifier': 'libcurl_vendor'}
+[0.004202] (-) JobUnselected: {'identifier': 'libstatistics_collector'}
+[0.004217] (-) JobUnselected: {'identifier': 'libyaml_vendor'}
+[0.004232] (-) JobUnselected: {'identifier': 'lifecycle'}
+[0.004248] (-) JobUnselected: {'identifier': 'lifecycle_msgs'}
+[0.004263] (-) JobUnselected: {'identifier': 'logging_demo'}
+[0.004278] (-) JobUnselected: {'identifier': 'map_msgs'}
+[0.004294] (-) JobUnselected: {'identifier': 'message_filters'}
+[0.004311] (-) JobUnselected: {'identifier': 'mimick_vendor'}
+[0.004334] (-) JobUnselected: {'identifier': 'move_base_msgs'}
+[0.004364] (-) JobUnselected: {'identifier': 'mrt_cmake_modules'}
+[0.004439] (-) JobUnselected: {'identifier': 'nav_msgs'}
+[0.004475] (-) JobUnselected: {'identifier': 'orocos_kdl'}
+[0.004523] (-) JobUnselected: {'identifier': 'osrf_pycommon'}
+[0.004544] (-) JobUnselected: {'identifier': 'osrf_testing_tools_cpp'}
+[0.004572] (-) JobUnselected: {'identifier': 'pcl_conversions'}
+[0.004613] (-) JobUnselected: {'identifier': 'pcl_msgs'}
+[0.004678] (-) JobUnselected: {'identifier': 'pcl_ros'}
+[0.004713] (-) JobUnselected: {'identifier': 'pendulum_control'}
+[0.004733] (-) JobUnselected: {'identifier': 'pendulum_msgs'}
+[0.004768] (-) JobUnselected: {'identifier': 'perception_pcl'}
+[0.004789] (-) JobUnselected: {'identifier': 'performance_test_fixture'}
+[0.004800] (-) JobUnselected: {'identifier': 'pluginlib'}
+[0.004811] (-) JobUnselected: {'identifier': 'python_cmake_module'}
+[0.004822] (-) JobUnselected: {'identifier': 'python_qt_binding'}
+[0.004833] (-) JobUnselected: {'identifier': 'qt_dotgraph'}
+[0.004844] (-) JobUnselected: {'identifier': 'qt_gui'}
+[0.004854] (-) JobUnselected: {'identifier': 'qt_gui_app'}
+[0.004865] (-) JobUnselected: {'identifier': 'qt_gui_core'}
+[0.004876] (-) JobUnselected: {'identifier': 'qt_gui_cpp'}
+[0.004886] (-) JobUnselected: {'identifier': 'qt_gui_py_common'}
+[0.004897] (-) JobUnselected: {'identifier': 'quality_of_service_demo_cpp'}
+[0.004907] (-) JobUnselected: {'identifier': 'quality_of_service_demo_py'}
+[0.004918] (-) JobUnselected: {'identifier': 'rcl'}
+[0.004929] (-) JobUnselected: {'identifier': 'rcl_action'}
+[0.004940] (-) JobUnselected: {'identifier': 'rcl_interfaces'}
+[0.004950] (-) JobUnselected: {'identifier': 'rcl_lifecycle'}
+[0.004961] (-) JobUnselected: {'identifier': 'rcl_logging_log4cxx'}
+[0.004972] (-) JobUnselected: {'identifier': 'rcl_logging_noop'}
+[0.004982] (-) JobUnselected: {'identifier': 'rcl_logging_spdlog'}
+[0.004993] (-) JobUnselected: {'identifier': 'rcl_yaml_param_parser'}
+[0.005004] (-) JobUnselected: {'identifier': 'rclcpp_action'}
+[0.005015] (-) JobUnselected: {'identifier': 'rclcpp_components'}
+[0.005025] (-) JobUnselected: {'identifier': 'rclcpp_lifecycle'}
+[0.005036] (-) JobUnselected: {'identifier': 'rclpy'}
+[0.005046] (-) JobUnselected: {'identifier': 'rcpputils'}
+[0.005057] (-) JobUnselected: {'identifier': 'rcutils'}
+[0.005068] (-) JobUnselected: {'identifier': 'resource_retriever'}
+[0.005078] (-) JobUnselected: {'identifier': 'rmw'}
+[0.005088] (-) JobUnselected: {'identifier': 'rmw_connext_cpp'}
+[0.005104] (-) JobUnselected: {'identifier': 'rmw_connext_shared_cpp'}
+[0.005114] (-) JobUnselected: {'identifier': 'rmw_cyclonedds_cpp'}
+[0.005125] (-) JobUnselected: {'identifier': 'rmw_dds_common'}
+[0.005141] (-) JobUnselected: {'identifier': 'rmw_fastrtps_cpp'}
+[0.005155] (-) JobUnselected: {'identifier': 'rmw_fastrtps_dynamic_cpp'}
+[0.005170] (-) JobUnselected: {'identifier': 'rmw_fastrtps_shared_cpp'}
+[0.005184] (-) JobUnselected: {'identifier': 'rmw_implementation'}
+[0.005198] (-) JobUnselected: {'identifier': 'rmw_implementation_cmake'}
+[0.005211] (-) JobUnselected: {'identifier': 'robot_state_publisher'}
+[0.005224] (-) JobUnselected: {'identifier': 'ros1_bridge'}
+[0.005238] (-) JobUnselected: {'identifier': 'ros2action'}
+[0.005251] (-) JobUnselected: {'identifier': 'ros2bag'}
+[0.005264] (-) JobUnselected: {'identifier': 'ros2cli'}
+[0.005277] (-) JobUnselected: {'identifier': 'ros2cli_common_extensions'}
+[0.005291] (-) JobUnselected: {'identifier': 'ros2component'}
+[0.005303] (-) JobUnselected: {'identifier': 'ros2doctor'}
+[0.005316] (-) JobUnselected: {'identifier': 'ros2interface'}
+[0.005340] (-) JobUnselected: {'identifier': 'ros2launch'}
+[0.005609] (-) JobUnselected: {'identifier': 'ros2lifecycle'}
+[0.005683] (-) JobUnselected: {'identifier': 'ros2lifecycle_test_fixtures'}
+[0.005700] (-) JobUnselected: {'identifier': 'ros2multicast'}
+[0.005718] (-) JobUnselected: {'identifier': 'ros2node'}
+[0.005732] (-) JobUnselected: {'identifier': 'ros2param'}
+[0.005745] (-) JobUnselected: {'identifier': 'ros2pkg'}
+[0.005759] (-) JobUnselected: {'identifier': 'ros2run'}
+[0.005773] (-) JobUnselected: {'identifier': 'ros2service'}
+[0.005786] (-) JobUnselected: {'identifier': 'ros2test'}
+[0.005803] (-) JobUnselected: {'identifier': 'ros2topic'}
+[0.005818] (-) JobUnselected: {'identifier': 'ros2trace'}
+[0.005832] (-) JobUnselected: {'identifier': 'ros_environment'}
+[0.005845] (-) JobUnselected: {'identifier': 'ros_testing'}
+[0.005858] (-) JobUnselected: {'identifier': 'rosbag2'}
+[0.005871] (-) JobUnselected: {'identifier': 'rosbag2_compression'}
+[0.005885] (-) JobUnselected: {'identifier': 'rosbag2_converter_default_plugins'}
+[0.005898] (-) JobUnselected: {'identifier': 'rosbag2_cpp'}
+[0.005911] (-) JobUnselected: {'identifier': 'rosbag2_storage'}
+[0.005924] (-) JobUnselected: {'identifier': 'rosbag2_storage_default_plugins'}
+[0.005937] (-) JobUnselected: {'identifier': 'rosbag2_test_common'}
+[0.005950] (-) JobUnselected: {'identifier': 'rosbag2_tests'}
+[0.005963] (-) JobUnselected: {'identifier': 'rosbag2_transport'}
+[0.005976] (-) JobUnselected: {'identifier': 'rosgraph_msgs'}
+[0.005990] (-) JobUnselected: {'identifier': 'rosidl_adapter'}
+[0.006003] (-) JobUnselected: {'identifier': 'rosidl_cmake'}
+[0.006016] (-) JobUnselected: {'identifier': 'rosidl_default_generators'}
+[0.006029] (-) JobUnselected: {'identifier': 'rosidl_default_runtime'}
+[0.006042] (-) JobUnselected: {'identifier': 'rosidl_generator_c'}
+[0.006055] (-) JobUnselected: {'identifier': 'rosidl_generator_cpp'}
+[0.006068] (-) JobUnselected: {'identifier': 'rosidl_generator_dds_idl'}
+[0.006081] (-) JobUnselected: {'identifier': 'rosidl_generator_py'}
+[0.006094] (-) JobUnselected: {'identifier': 'rosidl_parser'}
+[0.006107] (-) JobUnselected: {'identifier': 'rosidl_runtime_c'}
+[0.006120] (-) JobUnselected: {'identifier': 'rosidl_runtime_cpp'}
+[0.006133] (-) JobUnselected: {'identifier': 'rosidl_runtime_py'}
+[0.006146] (-) JobUnselected: {'identifier': 'rosidl_typesupport_c'}
+[0.006159] (-) JobUnselected: {'identifier': 'rosidl_typesupport_connext_c'}
+[0.006172] (-) JobUnselected: {'identifier': 'rosidl_typesupport_connext_cpp'}
+[0.006185] (-) JobUnselected: {'identifier': 'rosidl_typesupport_cpp'}
+[0.006198] (-) JobUnselected: {'identifier': 'rosidl_typesupport_fastrtps_c'}
+[0.006211] (-) JobUnselected: {'identifier': 'rosidl_typesupport_fastrtps_cpp'}
+[0.006225] (-) JobUnselected: {'identifier': 'rosidl_typesupport_interface'}
+[0.006237] (-) JobUnselected: {'identifier': 'rosidl_typesupport_introspection_c'}
+[0.006251] (-) JobUnselected: {'identifier': 'rosidl_typesupport_introspection_cpp'}
+[0.006280] (-) JobUnselected: {'identifier': 'rpyutils'}
+[0.006304] (-) JobUnselected: {'identifier': 'rqt'}
+[0.006315] (-) JobUnselected: {'identifier': 'rqt_action'}
+[0.006326] (-) JobUnselected: {'identifier': 'rqt_console'}
+[0.006336] (-) JobUnselected: {'identifier': 'rqt_graph'}
+[0.006347] (-) JobUnselected: {'identifier': 'rqt_gui'}
+[0.006357] (-) JobUnselected: {'identifier': 'rqt_gui_cpp'}
+[0.006367] (-) JobUnselected: {'identifier': 'rqt_gui_py'}
+[0.006378] (-) JobUnselected: {'identifier': 'rqt_msg'}
+[0.006388] (-) JobUnselected: {'identifier': 'rqt_plot'}
+[0.006399] (-) JobUnselected: {'identifier': 'rqt_publisher'}
+[0.006421] (-) JobUnselected: {'identifier': 'rqt_py_common'}
+[0.006433] (-) JobUnselected: {'identifier': 'rqt_py_console'}
+[0.006443] (-) JobUnselected: {'identifier': 'rqt_reconfigure'}
+[0.006454] (-) JobUnselected: {'identifier': 'rqt_service_caller'}
+[0.006464] (-) JobUnselected: {'identifier': 'rqt_shell'}
+[0.006477] (-) JobUnselected: {'identifier': 'rqt_srv'}
+[0.006488] (-) JobUnselected: {'identifier': 'rqt_top'}
+[0.006498] (-) JobUnselected: {'identifier': 'rqt_topic'}
+[0.006509] (-) JobUnselected: {'identifier': 'rttest'}
+[0.006519] (-) JobUnselected: {'identifier': 'rviz2'}
+[0.006529] (-) JobUnselected: {'identifier': 'rviz_assimp_vendor'}
+[0.006540] (-) JobUnselected: {'identifier': 'rviz_common'}
+[0.006551] (-) JobUnselected: {'identifier': 'rviz_default_plugins'}
+[0.006561] (-) JobUnselected: {'identifier': 'rviz_ogre_vendor'}
+[0.006571] (-) JobUnselected: {'identifier': 'rviz_rendering'}
+[0.006582] (-) JobUnselected: {'identifier': 'rviz_rendering_tests'}
+[0.006592] (-) JobUnselected: {'identifier': 'rviz_visual_testing_framework'}
+[0.006602] (-) JobUnselected: {'identifier': 'sensor_msgs'}
+[0.006613] (-) JobUnselected: {'identifier': 'sensor_msgs_py'}
+[0.006623] (-) JobUnselected: {'identifier': 'serial_driver'}
+[0.006633] (-) JobUnselected: {'identifier': 'shape_msgs'}
+[0.006644] (-) JobUnselected: {'identifier': 'shared_queues_vendor'}
+[0.006654] (-) JobUnselected: {'identifier': 'spdlog_vendor'}
+[0.006665] (-) JobUnselected: {'identifier': 'sqlite3_vendor'}
+[0.006675] (-) JobUnselected: {'identifier': 'sros2'}
+[0.006685] (-) JobUnselected: {'identifier': 'sros2_cmake'}
+[0.006696] (-) JobUnselected: {'identifier': 'statistics_msgs'}
+[0.006706] (-) JobUnselected: {'identifier': 'std_msgs'}
+[0.006716] (-) JobUnselected: {'identifier': 'std_srvs'}
+[0.006726] (-) JobUnselected: {'identifier': 'stereo_msgs'}
+[0.006737] (-) JobUnselected: {'identifier': 'tango_icons_vendor'}
+[0.006751] (-) JobUnselected: {'identifier': 'test_apex_test_tools'}
+[0.006765] (-) JobUnselected: {'identifier': 'test_cli'}
+[0.006778] (-) JobUnselected: {'identifier': 'test_cli_remapping'}
+[0.006791] (-) JobUnselected: {'identifier': 'test_communication'}
+[0.006804] (-) JobUnselected: {'identifier': 'test_interface_files'}
+[0.006817] (-) JobUnselected: {'identifier': 'test_launch_ros'}
+[0.006831] (-) JobUnselected: {'identifier': 'test_launch_testing'}
+[0.006844] (-) JobUnselected: {'identifier': 'test_msgs'}
+[0.006857] (-) JobUnselected: {'identifier': 'test_osrf_testing_tools_cpp'}
+[0.006870] (-) JobUnselected: {'identifier': 'test_quality_of_service'}
+[0.006883] (-) JobUnselected: {'identifier': 'test_rclcpp'}
+[0.006896] (-) JobUnselected: {'identifier': 'test_rmw_implementation'}
+[0.006908] (-) JobUnselected: {'identifier': 'test_security'}
+[0.006921] (-) JobUnselected: {'identifier': 'test_tf2'}
+[0.006935] (-) JobUnselected: {'identifier': 'tf2'}
+[0.006948] (-) JobUnselected: {'identifier': 'tf2_bullet'}
+[0.006961] (-) JobUnselected: {'identifier': 'tf2_eigen'}
+[0.006975] (-) JobUnselected: {'identifier': 'tf2_eigen_kdl'}
+[0.006988] (-) JobUnselected: {'identifier': 'tf2_geometry_msgs'}
+[0.007016] (-) JobUnselected: {'identifier': 'tf2_kdl'}
+[0.007031] (-) JobUnselected: {'identifier': 'tf2_msgs'}
+[0.007044] (-) JobUnselected: {'identifier': 'tf2_py'}
+[0.007057] (-) JobUnselected: {'identifier': 'tf2_ros'}
+[0.007070] (-) JobUnselected: {'identifier': 'tf2_sensor_msgs'}
+[0.007249] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.007265] (-) JobUnselected: {'identifier': 'tinyxml2_vendor'}
+[0.007278] (-) JobUnselected: {'identifier': 'tinyxml_vendor'}
+[0.007292] (-) JobUnselected: {'identifier': 'tlsf'}
+[0.007305] (-) JobUnselected: {'identifier': 'tlsf_cpp'}
+[0.007319] (-) JobUnselected: {'identifier': 'topic_monitor'}
+[0.007332] (-) JobUnselected: {'identifier': 'tracetools'}
+[0.007345] (-) JobUnselected: {'identifier': 'tracetools_launch'}
+[0.007358] (-) JobUnselected: {'identifier': 'tracetools_read'}
+[0.007371] (-) JobUnselected: {'identifier': 'tracetools_test'}
+[0.007384] (-) JobUnselected: {'identifier': 'tracetools_trace'}
+[0.007397] (-) JobUnselected: {'identifier': 'trajectory_msgs'}
+[0.007418] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.007432] (-) JobUnselected: {'identifier': 'udp_driver'}
+[0.007445] (-) JobUnselected: {'identifier': 'udp_msgs'}
+[0.007458] (-) JobUnselected: {'identifier': 'uncrustify_vendor'}
+[0.007472] (-) JobUnselected: {'identifier': 'unique_identifier_msgs'}
+[0.007487] (-) JobUnselected: {'identifier': 'urdf'}
+[0.007500] (-) JobUnselected: {'identifier': 'urdfdom'}
+[0.007513] (-) JobUnselected: {'identifier': 'urdfdom_headers'}
+[0.007526] (-) JobUnselected: {'identifier': 'visualization_msgs'}
+[0.007539] (-) JobUnselected: {'identifier': 'yaml_cpp_vendor'}
+[0.007552] (-) JobUnselected: {'identifier': 'zstd_vendor'}
+[0.007568] (rclcpp) JobQueued: {'identifier': 'rclcpp', 'dependencies': OrderedDict([('ament_cppcheck', '/home/saitama1/ros2_foxy/install/ament_cppcheck'), ('ament_lint', '/home/saitama1/ros2_foxy/install/ament_lint'), ('ament_package', '/home/saitama1/ros2_foxy/install/ament_package'), ('cyclonedds', '/home/saitama1/ros2_foxy/install/cyclonedds'), ('fastcdr', '/home/saitama1/ros2_foxy/install/fastcdr'), ('google_benchmark_vendor', '/home/saitama1/ros2_foxy/install/google_benchmark_vendor'), ('gtest_vendor', '/home/saitama1/ros2_foxy/install/gtest_vendor'), ('osrf_testing_tools_cpp', '/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp'), ('ament_cmake_core', '/home/saitama1/ros2_foxy/install/ament_cmake_core'), ('ament_flake8', '/home/saitama1/ros2_foxy/install/ament_flake8'), ('gmock_vendor', '/home/saitama1/ros2_foxy/install/gmock_vendor'), ('ament_cmake_export_definitions', '/home/saitama1/ros2_foxy/install/ament_cmake_export_definitions'), ('ament_cmake_export_include_directories', '/home/saitama1/ros2_foxy/install/ament_cmake_export_include_directories'), ('ament_cmake_export_libraries', '/home/saitama1/ros2_foxy/install/ament_cmake_export_libraries'), ('ament_cmake_export_link_flags', '/home/saitama1/ros2_foxy/install/ament_cmake_export_link_flags'), ('ament_cmake_include_directories', '/home/saitama1/ros2_foxy/install/ament_cmake_include_directories'), ('ament_cmake_libraries', '/home/saitama1/ros2_foxy/install/ament_cmake_libraries'), ('ament_cmake_python', '/home/saitama1/ros2_foxy/install/ament_cmake_python'), ('ament_cmake_version', '/home/saitama1/ros2_foxy/install/ament_cmake_version'), ('ament_pep257', '/home/saitama1/ros2_foxy/install/ament_pep257'), ('ament_cmake_export_dependencies', '/home/saitama1/ros2_foxy/install/ament_cmake_export_dependencies'), ('ament_cmake_export_interfaces', '/home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces'), ('ament_cmake_export_targets', '/home/saitama1/ros2_foxy/install/ament_cmake_export_targets'), ('ament_cmake_target_dependencies', '/home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies'), ('ament_cmake_test', '/home/saitama1/ros2_foxy/install/ament_cmake_test'), ('ament_copyright', '/home/saitama1/ros2_foxy/install/ament_copyright'), ('ament_cmake', '/home/saitama1/ros2_foxy/install/ament_cmake'), ('ament_cmake_google_benchmark', '/home/saitama1/ros2_foxy/install/ament_cmake_google_benchmark'), ('ament_cmake_gtest', '/home/saitama1/ros2_foxy/install/ament_cmake_gtest'), ('ament_cmake_pytest', '/home/saitama1/ros2_foxy/install/ament_cmake_pytest'), ('ament_cpplint', '/home/saitama1/ros2_foxy/install/ament_cpplint'), ('ament_index_python', '/home/saitama1/ros2_foxy/install/ament_index_python'), ('ament_lint_auto', '/home/saitama1/ros2_foxy/install/ament_lint_auto'), ('ament_lint_cmake', '/home/saitama1/ros2_foxy/install/ament_lint_cmake'), ('ament_xmllint', '/home/saitama1/ros2_foxy/install/ament_xmllint'), ('domain_coordinator', '/home/saitama1/ros2_foxy/install/domain_coordinator'), ('ament_cmake_gmock', '/home/saitama1/ros2_foxy/install/ament_cmake_gmock'), ('ament_cmake_lint_cmake', '/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake'), ('rpyutils', '/home/saitama1/ros2_foxy/install/rpyutils'), ('uncrustify_vendor', '/home/saitama1/ros2_foxy/install/uncrustify_vendor'), ('ament_cmake_copyright', '/home/saitama1/ros2_foxy/install/ament_cmake_copyright'), ('ament_uncrustify', '/home/saitama1/ros2_foxy/install/ament_uncrustify'), ('ament_cmake_cppcheck', '/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck'), ('ament_cmake_cpplint', '/home/saitama1/ros2_foxy/install/ament_cmake_cpplint'), ('ament_cmake_flake8', '/home/saitama1/ros2_foxy/install/ament_cmake_flake8'), ('ament_cmake_pep257', '/home/saitama1/ros2_foxy/install/ament_cmake_pep257'), ('ament_cmake_uncrustify', '/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify'), ('ament_cmake_xmllint', '/home/saitama1/ros2_foxy/install/ament_cmake_xmllint'), ('ament_lint_common', '/home/saitama1/ros2_foxy/install/ament_lint_common'), ('foonathan_memory_vendor', '/home/saitama1/ros2_foxy/install/foonathan_memory_vendor'), ('ament_cmake_ros', '/home/saitama1/ros2_foxy/install/ament_cmake_ros'), ('connext_cmake_module', '/home/saitama1/ros2_foxy/install/connext_cmake_module'), ('fastrtps', '/home/saitama1/ros2_foxy/install/fastrtps'), ('fastrtps_cmake_module', '/home/saitama1/ros2_foxy/install/fastrtps_cmake_module'), ('mimick_vendor', '/home/saitama1/ros2_foxy/install/mimick_vendor'), ('performance_test_fixture', '/home/saitama1/ros2_foxy/install/performance_test_fixture'), ('python_cmake_module', '/home/saitama1/ros2_foxy/install/python_cmake_module'), ('rmw_implementation_cmake', '/home/saitama1/ros2_foxy/install/rmw_implementation_cmake'), ('rosidl_adapter', '/home/saitama1/ros2_foxy/install/rosidl_adapter'), ('rosidl_typesupport_interface', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_interface'), ('spdlog_vendor', '/home/saitama1/ros2_foxy/install/spdlog_vendor'), ('rosidl_parser', '/home/saitama1/ros2_foxy/install/rosidl_parser'), ('rosidl_runtime_cpp', '/home/saitama1/ros2_foxy/install/rosidl_runtime_cpp'), ('tracetools', '/home/saitama1/ros2_foxy/install/tracetools'), ('rcutils', '/home/saitama1/ros2_foxy/install/rcutils'), ('rosidl_cmake', '/home/saitama1/ros2_foxy/install/rosidl_cmake'), ('rcl_logging_log4cxx', '/home/saitama1/ros2_foxy/install/rcl_logging_log4cxx'), ('rcl_logging_noop', '/home/saitama1/ros2_foxy/install/rcl_logging_noop'), ('rcpputils', '/home/saitama1/ros2_foxy/install/rcpputils'), ('rosidl_generator_dds_idl', '/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl'), ('rosidl_runtime_c', '/home/saitama1/ros2_foxy/install/rosidl_runtime_c'), ('libyaml_vendor', '/home/saitama1/ros2_foxy/install/libyaml_vendor'), ('rcl_logging_spdlog', '/home/saitama1/ros2_foxy/install/rcl_logging_spdlog'), ('rmw', '/home/saitama1/ros2_foxy/install/rmw'), ('rosidl_generator_c', '/home/saitama1/ros2_foxy/install/rosidl_generator_c'), ('rosidl_typesupport_introspection_c', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c'), ('rcl_yaml_param_parser', '/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser'), ('rmw_connext_shared_cpp', '/home/saitama1/ros2_foxy/install/rmw_connext_shared_cpp'), ('rosidl_generator_cpp', '/home/saitama1/ros2_foxy/install/rosidl_generator_cpp'), ('rosidl_typesupport_connext_cpp', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp'), ('rosidl_typesupport_fastrtps_cpp', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp'), ('rosidl_typesupport_introspection_cpp', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp'), ('rosidl_typesupport_connext_c', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_c'), ('rosidl_typesupport_fastrtps_c', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c'), ('rmw_connext_cpp', '/home/saitama1/ros2_foxy/install/rmw_connext_cpp'), ('rosidl_typesupport_c', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_c'), ('rosidl_generator_py', '/home/saitama1/ros2_foxy/install/rosidl_generator_py'), ('rosidl_typesupport_cpp', '/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp'), ('rosidl_default_generators', '/home/saitama1/ros2_foxy/install/rosidl_default_generators'), ('rosidl_default_runtime', '/home/saitama1/ros2_foxy/install/rosidl_default_runtime'), ('builtin_interfaces', '/home/saitama1/ros2_foxy/install/builtin_interfaces'), ('rmw_dds_common', '/home/saitama1/ros2_foxy/install/rmw_dds_common'), ('unique_identifier_msgs', '/home/saitama1/ros2_foxy/install/unique_identifier_msgs'), ('action_msgs', '/home/saitama1/ros2_foxy/install/action_msgs'), ('rcl_interfaces', '/home/saitama1/ros2_foxy/install/rcl_interfaces'), ('rmw_cyclonedds_cpp', '/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp'), ('rmw_fastrtps_shared_cpp', '/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp'), ('rosgraph_msgs', '/home/saitama1/ros2_foxy/install/rosgraph_msgs'), ('statistics_msgs', '/home/saitama1/ros2_foxy/install/statistics_msgs'), ('std_msgs', '/home/saitama1/ros2_foxy/install/std_msgs'), ('test_msgs', '/home/saitama1/ros2_foxy/install/test_msgs'), ('rmw_fastrtps_cpp', '/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp'), ('rmw_fastrtps_dynamic_cpp', '/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp'), ('rmw_implementation', '/home/saitama1/ros2_foxy/install/rmw_implementation'), ('rcl', '/home/saitama1/ros2_foxy/install/rcl'), ('libstatistics_collector', '/home/saitama1/ros2_foxy/install/libstatistics_collector')])}
+[0.007707] (rclcpp) JobStarted: {'identifier': 'rclcpp'}
+[0.099314] (-) TimerEvent: {}
+[0.199610] (-) TimerEvent: {}
+[0.299810] (-) TimerEvent: {}
+[0.400007] (-) TimerEvent: {}
+[0.458678] (rclcpp) JobProgress: {'identifier': 'rclcpp', 'progress': 'cmake'}
+[0.466215] (rclcpp) Command: {'cmd': ['/usr/bin/cmake', '/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/saitama1/ros2_foxy/install/rclcpp'], 'cwd': '/home/saitama1/ros2_foxy/build/rclcpp', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector/lib:/home/saitama1/ros2_foxy/install/rcl/lib:/home/saitama1/ros2_foxy/install/rmw_implementation/lib:/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp/lib:/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/lib:/home/saitama1/ros2_foxy/install/test_msgs/lib:/home/saitama1/ros2_foxy/install/std_msgs/lib:/home/saitama1/ros2_foxy/install/statistics_msgs/lib:/home/saitama1/ros2_foxy/install/rosgraph_msgs/lib:/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp/lib:/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp/lib:/home/saitama1/ros2_foxy/install/rcl_interfaces/lib:/home/saitama1/ros2_foxy/install/action_msgs/lib:/home/saitama1/ros2_foxy/install/unique_identifier_msgs/lib:/home/saitama1/ros2_foxy/install/rmw_dds_common/lib:/home/saitama1/ros2_foxy/install/builtin_interfaces/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp/lib:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/saitama1/ros2_foxy/install/rmw/lib:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog/lib:/home/saitama1/ros2_foxy/install/libyaml_vendor/lib:/home/saitama1/ros2_foxy/install/rosidl_runtime_c/lib:/home/saitama1/ros2_foxy/install/rcpputils/lib:/home/saitama1/ros2_foxy/install/rcl_logging_noop/lib:/home/saitama1/ros2_foxy/install/rcl_logging_log4cxx/lib:/home/saitama1/ros2_foxy/install/rcutils/lib:/home/saitama1/ros2_foxy/install/tracetools/lib:/home/saitama1/ros2_foxy/install/performance_test_fixture/lib:/home/saitama1/ros2_foxy/install/mimick_vendor/lib:/home/saitama1/ros2_foxy/install/fastrtps/lib:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp/lib:/home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib:/home/saitama1/ros2_foxy/install/fastcdr/lib:/home/saitama1/ros2_foxy/install/cyclonedds/lib'), ('HOME', '/root'), ('OLDPWD', '/home/saitama1'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/home/saitama1/ros2_foxy/install/foonathan_memory_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/foonathan_memory_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/gmock_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/gmock_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/saitama1/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/gtest_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('PATH', '/home/saitama1/ros2_foxy/install/fastrtps/bin:/home/saitama1/ros2_foxy/install/ament_uncrustify/bin:/home/saitama1/ros2_foxy/install/ament_xmllint/bin:/home/saitama1/ros2_foxy/install/ament_lint_cmake/bin:/home/saitama1/ros2_foxy/install/ament_index_python/bin:/home/saitama1/ros2_foxy/install/ament_cpplint/bin:/home/saitama1/ros2_foxy/install/ament_copyright/bin:/home/saitama1/ros2_foxy/install/ament_pep257/bin:/home/saitama1/ros2_foxy/install/ament_flake8/bin:/home/saitama1/ros2_foxy/install/cyclonedds/bin:/home/saitama1/ros2_foxy/install/ament_cppcheck/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector:/home/saitama1/ros2_foxy/install/rcl:/home/saitama1/ros2_foxy/install/rmw_implementation:/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp:/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp:/home/saitama1/ros2_foxy/install/test_msgs:/home/saitama1/ros2_foxy/install/std_msgs:/home/saitama1/ros2_foxy/install/statistics_msgs:/home/saitama1/ros2_foxy/install/rosgraph_msgs:/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp:/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp:/home/saitama1/ros2_foxy/install/rcl_interfaces:/home/saitama1/ros2_foxy/install/action_msgs:/home/saitama1/ros2_foxy/install/unique_identifier_msgs:/home/saitama1/ros2_foxy/install/rmw_dds_common:/home/saitama1/ros2_foxy/install/builtin_interfaces:/home/saitama1/ros2_foxy/install/rosidl_default_runtime:/home/saitama1/ros2_foxy/install/rosidl_default_generators:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_py:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c:/home/saitama1/ros2_foxy/install/rmw_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_cpp:/home/saitama1/ros2_foxy/install/rmw_connext_shared_cpp:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c:/home/saitama1/ros2_foxy/install/rosidl_generator_c:/home/saitama1/ros2_foxy/install/rmw:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog:/home/saitama1/ros2_foxy/install/libyaml_vendor:/home/saitama1/ros2_foxy/install/rosidl_runtime_c:/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl:/home/saitama1/ros2_foxy/install/rcpputils:/home/saitama1/ros2_foxy/install/rcl_logging_noop:/home/saitama1/ros2_foxy/install/rcl_logging_log4cxx:/home/saitama1/ros2_foxy/install/rosidl_cmake:/home/saitama1/ros2_foxy/install/rcutils:/home/saitama1/ros2_foxy/install/tracetools:/home/saitama1/ros2_foxy/install/rosidl_runtime_cpp:/home/saitama1/ros2_foxy/install/rosidl_parser:/home/saitama1/ros2_foxy/install/spdlog_vendor:/home/saitama1/ros2_foxy/install/rosidl_typesupport_interface:/home/saitama1/ros2_foxy/install/rosidl_adapter:/home/saitama1/ros2_foxy/install/rmw_implementation_cmake:/home/saitama1/ros2_foxy/install/python_cmake_module:/home/saitama1/ros2_foxy/install/performance_test_fixture:/home/saitama1/ros2_foxy/install/mimick_vendor:/home/saitama1/ros2_foxy/install/fastrtps_cmake_module:/home/saitama1/ros2_foxy/install/connext_cmake_module:/home/saitama1/ros2_foxy/install/ament_cmake_ros:/home/saitama1/ros2_foxy/install/ament_lint_common:/home/saitama1/ros2_foxy/install/ament_cmake_xmllint:/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify:/home/saitama1/ros2_foxy/install/ament_cmake_pep257:/home/saitama1/ros2_foxy/install/ament_cmake_flake8:/home/saitama1/ros2_foxy/install/ament_cmake_cpplint:/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck:/home/saitama1/ros2_foxy/install/ament_uncrustify:/home/saitama1/ros2_foxy/install/ament_cmake_copyright:/home/saitama1/ros2_foxy/install/uncrustify_vendor:/home/saitama1/ros2_foxy/install/rpyutils:/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake:/home/saitama1/ros2_foxy/install/ament_cmake_gmock:/home/saitama1/ros2_foxy/install/domain_coordinator:/home/saitama1/ros2_foxy/install/ament_xmllint:/home/saitama1/ros2_foxy/install/ament_lint_cmake:/home/saitama1/ros2_foxy/install/ament_lint_auto:/home/saitama1/ros2_foxy/install/ament_index_python:/home/saitama1/ros2_foxy/install/ament_cpplint:/home/saitama1/ros2_foxy/install/ament_cmake_pytest:/home/saitama1/ros2_foxy/install/ament_cmake_gtest:/home/saitama1/ros2_foxy/install/ament_cmake_google_benchmark:/home/saitama1/ros2_foxy/install/ament_cmake:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_cmake_test:/home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_cmake_version:/home/saitama1/ros2_foxy/install/ament_cmake_python:/home/saitama1/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/ament_cppcheck'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'saitama1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/saitama1/ros2_foxy/build/rclcpp'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/test_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/std_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosgraph_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rcl_interfaces/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/action_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rmw_dds_common/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/builtin_interfaces/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_py/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_cmake/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rpyutils/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/domain_coordinator/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_xmllint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cmake_google_benchmark/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector:/home/saitama1/ros2_foxy/install/rcl:/home/saitama1/ros2_foxy/install/rmw_implementation:/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp:/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp:/home/saitama1/ros2_foxy/install/test_msgs:/home/saitama1/ros2_foxy/install/std_msgs:/home/saitama1/ros2_foxy/install/statistics_msgs:/home/saitama1/ros2_foxy/install/rosgraph_msgs:/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp:/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp:/home/saitama1/ros2_foxy/install/rcl_interfaces:/home/saitama1/ros2_foxy/install/action_msgs:/home/saitama1/ros2_foxy/install/unique_identifier_msgs:/home/saitama1/ros2_foxy/install/rmw_dds_common:/home/saitama1/ros2_foxy/install/builtin_interfaces:/home/saitama1/ros2_foxy/install/rosidl_default_runtime:/home/saitama1/ros2_foxy/install/rosidl_default_generators:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_py:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c:/home/saitama1/ros2_foxy/install/rmw_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_cpp:/home/saitama1/ros2_foxy/install/rmw_connext_shared_cpp:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c:/home/saitama1/ros2_foxy/install/rosidl_generator_c:/home/saitama1/ros2_foxy/install/rmw:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog:/home/saitama1/ros2_foxy/install/libyaml_vendor:/home/saitama1/ros2_foxy/install/rosidl_runtime_c:/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl:/home/saitama1/ros2_foxy/install/rcpputils:/home/saitama1/ros2_foxy/install/rcl_logging_noop:/home/saitama1/ros2_foxy/install/rcl_logging_log4cxx:/home/saitama1/ros2_foxy/install/rosidl_cmake:/home/saitama1/ros2_foxy/install/rcutils:/home/saitama1/ros2_foxy/install/tracetools:/home/saitama1/ros2_foxy/install/rosidl_runtime_cpp:/home/saitama1/ros2_foxy/install/rosidl_parser:/home/saitama1/ros2_foxy/install/spdlog_vendor:/home/saitama1/ros2_foxy/install/rosidl_typesupport_interface:/home/saitama1/ros2_foxy/install/rosidl_adapter:/home/saitama1/ros2_foxy/install/rmw_implementation_cmake:/home/saitama1/ros2_foxy/install/python_cmake_module:/home/saitama1/ros2_foxy/install/performance_test_fixture:/home/saitama1/ros2_foxy/install/mimick_vendor:/home/saitama1/ros2_foxy/install/fastrtps_cmake_module:/home/saitama1/ros2_foxy/install/fastrtps:/home/saitama1/ros2_foxy/install/connext_cmake_module:/home/saitama1/ros2_foxy/install/ament_cmake_ros:/home/saitama1/ros2_foxy/install/foonathan_memory_vendor:/home/saitama1/ros2_foxy/install/ament_lint_common:/home/saitama1/ros2_foxy/install/ament_cmake_xmllint:/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify:/home/saitama1/ros2_foxy/install/ament_cmake_pep257:/home/saitama1/ros2_foxy/install/ament_cmake_flake8:/home/saitama1/ros2_foxy/install/ament_cmake_cpplint:/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck:/home/saitama1/ros2_foxy/install/ament_cmake_copyright:/home/saitama1/ros2_foxy/install/uncrustify_vendor:/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake:/home/saitama1/ros2_foxy/install/ament_cmake_gmock:/home/saitama1/ros2_foxy/install/ament_lint_auto:/home/saitama1/ros2_foxy/install/ament_cmake_pytest:/home/saitama1/ros2_foxy/install/ament_cmake_gtest:/home/saitama1/ros2_foxy/install/ament_cmake_google_benchmark:/home/saitama1/ros2_foxy/install/ament_cmake:/home/saitama1/ros2_foxy/install/ament_cmake_test:/home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_version:/home/saitama1/ros2_foxy/install/ament_cmake_python:/home/saitama1/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/ros2_foxy/install/gmock_vendor:/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp:/home/saitama1/ros2_foxy/install/gtest_vendor:/home/saitama1/ros2_foxy/install/google_benchmark_vendor:/home/saitama1/ros2_foxy/install/fastcdr:/home/saitama1/ros2_foxy/install/cyclonedds')]), 'shell': False}
+[0.500122] (-) TimerEvent: {}
+[0.600396] (-) TimerEvent: {}
+[0.663941] (rclcpp) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)\n'}
+[0.700478] (-) TimerEvent: {}
+[0.703765] (rclcpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.703981] (rclcpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800590] (-) TimerEvent: {}
+[0.857239] (rclcpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.892551] (rclcpp) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/home/saitama1/ros2_foxy/install/builtin_interfaces/share/builtin_interfaces/cmake)\n'}
+[0.900674] (-) TimerEvent: {}
+[0.936273] (rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.943399] (rclcpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)\n'}
+[1.000760] (-) TimerEvent: {}
+[1.101014] (-) TimerEvent: {}
+[1.122095] (rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp\n'}
+[1.157689] (rclcpp) StdoutLine: {'line': b'-- Found libstatistics_collector: 1.0.1 (/home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake)\n'}
+[1.201086] (-) TimerEvent: {}
+[1.216975] (rclcpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)\n'}
+[1.225043] (rclcpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.301186] (-) TimerEvent: {}
+[1.336077] (rclcpp) StdoutLine: {'line': b'-- Found rosgraph_msgs: 1.0.0 (/home/saitama1/ros2_foxy/install/rosgraph_msgs/share/rosgraph_msgs/cmake)\n'}
+[1.385447] (rclcpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)\n'}
+[1.401266] (-) TimerEvent: {}
+[1.501458] (-) TimerEvent: {}
+[1.601659] (-) TimerEvent: {}
+[1.664398] (rclcpp) StdoutLine: {'line': b"-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.\n"}
+[1.701584] (rclcpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.701701] (-) TimerEvent: {}
+[1.801915] (-) TimerEvent: {}
+[1.902200] (-) TimerEvent: {}
+[1.919959] (rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.949799] (rclcpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp\n'}
+[1.983631] (rclcpp) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[1.984669] (rclcpp) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)\n'}
+[2.002288] (-) TimerEvent: {}
+[2.013837] (rclcpp) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.014047] (rclcpp) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.014147] (rclcpp) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.068177] (rclcpp) StdoutLine: {'line': b"-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.102373] (-) TimerEvent: {}
+[2.119611] (rclcpp) StdoutLine: {'line': b"-- Found gmock sources under '/home/saitama1/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[2.202455] (-) TimerEvent: {}
+[2.302662] (-) TimerEvent: {}
+[2.347132] (rclcpp) StdoutLine: {'line': b"-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[2.364913] (rclcpp) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.374804] (rclcpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.374918] (rclcpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include>\n'}
+[2.375015] (rclcpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.383247] (rclcpp) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.383353] (rclcpp) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.386882] (rclcpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.396815] (rclcpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.396953] (rclcpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.398295] (rclcpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.402755] (-) TimerEvent: {}
+[2.409745] (rclcpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.503126] (-) TimerEvent: {}
+[2.603498] (-) TimerEvent: {}
+[2.703885] (-) TimerEvent: {}
+[2.804384] (-) TimerEvent: {}
+[2.904838] (-) TimerEvent: {}
+[3.005038] (-) TimerEvent: {}
+[3.092831] (rclcpp) StdoutLine: {'line': b'-- Generating done\n'}
+[3.105312] (-) TimerEvent: {}
+[3.121239] (rclcpp) StdoutLine: {'line': b'-- Build files have been written to: /home/saitama1/ros2_foxy/build/rclcpp\n'}
+[3.139725] (rclcpp) CommandEnded: {'returncode': 0}
+[3.140572] (rclcpp) JobProgress: {'identifier': 'rclcpp', 'progress': 'build'}
+[3.141546] (rclcpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/saitama1/ros2_foxy/build/rclcpp', '--', '-j12', '-l12'], 'cwd': '/home/saitama1/ros2_foxy/build/rclcpp', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector/lib:/home/saitama1/ros2_foxy/install/rcl/lib:/home/saitama1/ros2_foxy/install/rmw_implementation/lib:/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp/lib:/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/lib:/home/saitama1/ros2_foxy/install/test_msgs/lib:/home/saitama1/ros2_foxy/install/std_msgs/lib:/home/saitama1/ros2_foxy/install/statistics_msgs/lib:/home/saitama1/ros2_foxy/install/rosgraph_msgs/lib:/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp/lib:/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp/lib:/home/saitama1/ros2_foxy/install/rcl_interfaces/lib:/home/saitama1/ros2_foxy/install/action_msgs/lib:/home/saitama1/ros2_foxy/install/unique_identifier_msgs/lib:/home/saitama1/ros2_foxy/install/rmw_dds_common/lib:/home/saitama1/ros2_foxy/install/builtin_interfaces/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp/lib:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/saitama1/ros2_foxy/install/rmw/lib:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog/lib:/home/saitama1/ros2_foxy/install/libyaml_vendor/lib:/home/saitama1/ros2_foxy/install/rosidl_runtime_c/lib:/home/saitama1/ros2_foxy/install/rcpputils/lib:/home/saitama1/ros2_foxy/install/rcl_logging_noop/lib:/home/saitama1/ros2_foxy/install/rcl_logging_log4cxx/lib:/home/saitama1/ros2_foxy/install/rcutils/lib:/home/saitama1/ros2_foxy/install/tracetools/lib:/home/saitama1/ros2_foxy/install/performance_test_fixture/lib:/home/saitama1/ros2_foxy/install/mimick_vendor/lib:/home/saitama1/ros2_foxy/install/fastrtps/lib:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp/lib:/home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib:/home/saitama1/ros2_foxy/install/fastcdr/lib:/home/saitama1/ros2_foxy/install/cyclonedds/lib'), ('HOME', '/root'), ('OLDPWD', '/home/saitama1'), ('COLORTERM', 'truecolor'), ('SUDO_UID', '1000'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/home/saitama1/ros2_foxy/install/foonathan_memory_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/foonathan_memory_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/gmock_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/gmock_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp/lib/pkgconfig:/home/saitama1/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/gtest_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/google_benchmark_vendor/lib/pkgconfig:/home/saitama1/ros2_foxy/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/ros2_foxy/install/cyclonedds/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('PATH', '/home/saitama1/ros2_foxy/install/fastrtps/bin:/home/saitama1/ros2_foxy/install/ament_uncrustify/bin:/home/saitama1/ros2_foxy/install/ament_xmllint/bin:/home/saitama1/ros2_foxy/install/ament_lint_cmake/bin:/home/saitama1/ros2_foxy/install/ament_index_python/bin:/home/saitama1/ros2_foxy/install/ament_cpplint/bin:/home/saitama1/ros2_foxy/install/ament_copyright/bin:/home/saitama1/ros2_foxy/install/ament_pep257/bin:/home/saitama1/ros2_foxy/install/ament_flake8/bin:/home/saitama1/ros2_foxy/install/cyclonedds/bin:/home/saitama1/ros2_foxy/install/ament_cppcheck/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector:/home/saitama1/ros2_foxy/install/rcl:/home/saitama1/ros2_foxy/install/rmw_implementation:/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp:/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp:/home/saitama1/ros2_foxy/install/test_msgs:/home/saitama1/ros2_foxy/install/std_msgs:/home/saitama1/ros2_foxy/install/statistics_msgs:/home/saitama1/ros2_foxy/install/rosgraph_msgs:/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp:/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp:/home/saitama1/ros2_foxy/install/rcl_interfaces:/home/saitama1/ros2_foxy/install/action_msgs:/home/saitama1/ros2_foxy/install/unique_identifier_msgs:/home/saitama1/ros2_foxy/install/rmw_dds_common:/home/saitama1/ros2_foxy/install/builtin_interfaces:/home/saitama1/ros2_foxy/install/rosidl_default_runtime:/home/saitama1/ros2_foxy/install/rosidl_default_generators:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_py:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c:/home/saitama1/ros2_foxy/install/rmw_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_cpp:/home/saitama1/ros2_foxy/install/rmw_connext_shared_cpp:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c:/home/saitama1/ros2_foxy/install/rosidl_generator_c:/home/saitama1/ros2_foxy/install/rmw:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog:/home/saitama1/ros2_foxy/install/libyaml_vendor:/home/saitama1/ros2_foxy/install/rosidl_runtime_c:/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl:/home/saitama1/ros2_foxy/install/rcpputils:/home/saitama1/ros2_foxy/install/rcl_logging_noop:/home/saitama1/ros2_foxy/install/rcl_logging_log4cxx:/home/saitama1/ros2_foxy/install/rosidl_cmake:/home/saitama1/ros2_foxy/install/rcutils:/home/saitama1/ros2_foxy/install/tracetools:/home/saitama1/ros2_foxy/install/rosidl_runtime_cpp:/home/saitama1/ros2_foxy/install/rosidl_parser:/home/saitama1/ros2_foxy/install/spdlog_vendor:/home/saitama1/ros2_foxy/install/rosidl_typesupport_interface:/home/saitama1/ros2_foxy/install/rosidl_adapter:/home/saitama1/ros2_foxy/install/rmw_implementation_cmake:/home/saitama1/ros2_foxy/install/python_cmake_module:/home/saitama1/ros2_foxy/install/performance_test_fixture:/home/saitama1/ros2_foxy/install/mimick_vendor:/home/saitama1/ros2_foxy/install/fastrtps_cmake_module:/home/saitama1/ros2_foxy/install/connext_cmake_module:/home/saitama1/ros2_foxy/install/ament_cmake_ros:/home/saitama1/ros2_foxy/install/ament_lint_common:/home/saitama1/ros2_foxy/install/ament_cmake_xmllint:/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify:/home/saitama1/ros2_foxy/install/ament_cmake_pep257:/home/saitama1/ros2_foxy/install/ament_cmake_flake8:/home/saitama1/ros2_foxy/install/ament_cmake_cpplint:/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck:/home/saitama1/ros2_foxy/install/ament_uncrustify:/home/saitama1/ros2_foxy/install/ament_cmake_copyright:/home/saitama1/ros2_foxy/install/uncrustify_vendor:/home/saitama1/ros2_foxy/install/rpyutils:/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake:/home/saitama1/ros2_foxy/install/ament_cmake_gmock:/home/saitama1/ros2_foxy/install/domain_coordinator:/home/saitama1/ros2_foxy/install/ament_xmllint:/home/saitama1/ros2_foxy/install/ament_lint_cmake:/home/saitama1/ros2_foxy/install/ament_lint_auto:/home/saitama1/ros2_foxy/install/ament_index_python:/home/saitama1/ros2_foxy/install/ament_cpplint:/home/saitama1/ros2_foxy/install/ament_cmake_pytest:/home/saitama1/ros2_foxy/install/ament_cmake_gtest:/home/saitama1/ros2_foxy/install/ament_cmake_google_benchmark:/home/saitama1/ros2_foxy/install/ament_cmake:/home/saitama1/ros2_foxy/install/ament_copyright:/home/saitama1/ros2_foxy/install/ament_cmake_test:/home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_cmake_version:/home/saitama1/ros2_foxy/install/ament_cmake_python:/home/saitama1/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package:/home/saitama1/ros2_foxy/install/ament_lint:/home/saitama1/ros2_foxy/install/ament_cppcheck'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'saitama1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/saitama1/ros2_foxy/build/rclcpp'), ('LC_ALL', 'en_US.UTF-8'), ('PYTHONPATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/test_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/std_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/statistics_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosgraph_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rcl_interfaces/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/action_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/unique_identifier_msgs/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rmw_dds_common/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/builtin_interfaces/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_py/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_cpp/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_c/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_cmake/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_parser/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rosidl_adapter/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/rpyutils/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/domain_coordinator/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_xmllint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint_cmake/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cmake_google_benchmark/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/saitama1/ros2_foxy/install/libstatistics_collector:/home/saitama1/ros2_foxy/install/rcl:/home/saitama1/ros2_foxy/install/rmw_implementation:/home/saitama1/ros2_foxy/install/rmw_fastrtps_dynamic_cpp:/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp:/home/saitama1/ros2_foxy/install/test_msgs:/home/saitama1/ros2_foxy/install/std_msgs:/home/saitama1/ros2_foxy/install/statistics_msgs:/home/saitama1/ros2_foxy/install/rosgraph_msgs:/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp:/home/saitama1/ros2_foxy/install/rmw_cyclonedds_cpp:/home/saitama1/ros2_foxy/install/rcl_interfaces:/home/saitama1/ros2_foxy/install/action_msgs:/home/saitama1/ros2_foxy/install/unique_identifier_msgs:/home/saitama1/ros2_foxy/install/rmw_dds_common:/home/saitama1/ros2_foxy/install/builtin_interfaces:/home/saitama1/ros2_foxy/install/rosidl_default_runtime:/home/saitama1/ros2_foxy/install/rosidl_default_generators:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_py:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c:/home/saitama1/ros2_foxy/install/rmw_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_c:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp:/home/saitama1/ros2_foxy/install/rosidl_typesupport_connext_cpp:/home/saitama1/ros2_foxy/install/rosidl_generator_cpp:/home/saitama1/ros2_foxy/install/rmw_connext_shared_cpp:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c:/home/saitama1/ros2_foxy/install/rosidl_generator_c:/home/saitama1/ros2_foxy/install/rmw:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog:/home/saitama1/ros2_foxy/install/libyaml_vendor:/home/saitama1/ros2_foxy/install/rosidl_runtime_c:/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl:/home/saitama1/ros2_foxy/install/rcpputils:/home/saitama1/ros2_foxy/install/rcl_logging_noop:/home/saitama1/ros2_foxy/install/rcl_logging_log4cxx:/home/saitama1/ros2_foxy/install/rosidl_cmake:/home/saitama1/ros2_foxy/install/rcutils:/home/saitama1/ros2_foxy/install/tracetools:/home/saitama1/ros2_foxy/install/rosidl_runtime_cpp:/home/saitama1/ros2_foxy/install/rosidl_parser:/home/saitama1/ros2_foxy/install/spdlog_vendor:/home/saitama1/ros2_foxy/install/rosidl_typesupport_interface:/home/saitama1/ros2_foxy/install/rosidl_adapter:/home/saitama1/ros2_foxy/install/rmw_implementation_cmake:/home/saitama1/ros2_foxy/install/python_cmake_module:/home/saitama1/ros2_foxy/install/performance_test_fixture:/home/saitama1/ros2_foxy/install/mimick_vendor:/home/saitama1/ros2_foxy/install/fastrtps_cmake_module:/home/saitama1/ros2_foxy/install/fastrtps:/home/saitama1/ros2_foxy/install/connext_cmake_module:/home/saitama1/ros2_foxy/install/ament_cmake_ros:/home/saitama1/ros2_foxy/install/foonathan_memory_vendor:/home/saitama1/ros2_foxy/install/ament_lint_common:/home/saitama1/ros2_foxy/install/ament_cmake_xmllint:/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify:/home/saitama1/ros2_foxy/install/ament_cmake_pep257:/home/saitama1/ros2_foxy/install/ament_cmake_flake8:/home/saitama1/ros2_foxy/install/ament_cmake_cpplint:/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck:/home/saitama1/ros2_foxy/install/ament_cmake_copyright:/home/saitama1/ros2_foxy/install/uncrustify_vendor:/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake:/home/saitama1/ros2_foxy/install/ament_cmake_gmock:/home/saitama1/ros2_foxy/install/ament_lint_auto:/home/saitama1/ros2_foxy/install/ament_cmake_pytest:/home/saitama1/ros2_foxy/install/ament_cmake_gtest:/home/saitama1/ros2_foxy/install/ament_cmake_google_benchmark:/home/saitama1/ros2_foxy/install/ament_cmake:/home/saitama1/ros2_foxy/install/ament_cmake_test:/home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/ros2_foxy/install/ament_cmake_version:/home/saitama1/ros2_foxy/install/ament_cmake_python:/home/saitama1/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/ros2_foxy/install/gmock_vendor:/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp:/home/saitama1/ros2_foxy/install/gtest_vendor:/home/saitama1/ros2_foxy/install/google_benchmark_vendor:/home/saitama1/ros2_foxy/install/fastcdr:/home/saitama1/ros2_foxy/install/cyclonedds')]), 'shell': False}
+[3.205461] (-) TimerEvent: {}
+[3.223560] (rclcpp) StdoutLine: {'line': b'[  2%] Built target rclcpp_test_msgs__rosidl_generator_c\n'}
+[3.226888] (rclcpp) StdoutLine: {'line': b'[  3%] Built target gtest\n'}
+[3.228144] (rclcpp) StdoutLine: {'line': b'[  4%] Built target gmock\n'}
+[3.228977] (rclcpp) StdoutLine: {'line': b'[  4%] Built target gtest_main\n'}
+[3.229348] (rclcpp) StdoutLine: {'line': b'[  4%] Built target rclcpp_test_msgs__cpp\n'}
+[3.229551] (rclcpp) StdoutLine: {'line': b'[  5%] Built target gmock_main\n'}
+[3.254141] (rclcpp) StdoutLine: {'line': b'[  6%] Built target rclcpp_test_msgs__rosidl_typesupport_c\n'}
+[3.255792] (rclcpp) StdoutLine: {'line': b'[  7%] Built target rclcpp_test_msgs__rosidl_typesupport_introspection_c\n'}
+[3.259452] (rclcpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rclcpp\x1b[0m\n'}
+[3.264745] (rclcpp) StdoutLine: {'line': b'[  9%] Built target rclcpp_test_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.265052] (rclcpp) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object test/rclcpp/CMakeFiles/test_function_traits.dir/test_function_traits.cpp.o\x1b[0m\n'}
+[3.266201] (rclcpp) StdoutLine: {'line': b'[ 11%] Built target rclcpp_test_msgs__rosidl_typesupport_cpp\n'}
+[3.269126] (rclcpp) StdoutLine: {'line': b'[ 12%] Built target rclcpp_test_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.305555] (-) TimerEvent: {}
+[3.306242] (rclcpp) StdoutLine: {'line': b'[ 14%] Built target rclcpp_test_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.333712] (rclcpp) StdoutLine: {'line': b'[ 14%] Built target rclcpp_test_msgs\n'}
+[3.363772] (rclcpp) StdoutLine: {'line': b'[ 14%] Built target rclcpp_test_msgs__py\n'}
+[3.405664] (rclcpp) StdoutLine: {'line': b'[ 15%] Built target rclcpp_test_msgs__python\n'}
+[3.405861] (-) TimerEvent: {}
+[3.447152] (rclcpp) StdoutLine: {'line': b'[ 17%] Built target rclcpp__rosidl_typesupport_introspection_c__pyext\n'}
+[3.447387] (rclcpp) StdoutLine: {'line': b'[ 17%] Built target rclcpp__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.447476] (rclcpp) StdoutLine: {'line': b'[ 17%] Built target rclcpp__rosidl_typesupport_c__pyext\n'}
+[3.469378] (rclcpp) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/callback_group.cpp.o\x1b[0m\n'}
+[3.470021] (rclcpp) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/client.cpp.o\x1b[0m\n'}
+[3.471940] (rclcpp) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/contexts/default_context.cpp.o\x1b[0m\n'}
+[3.472092] (rclcpp) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_publisher_payload.cpp.o\x1b[0m\n'}
+[3.472149] (rclcpp) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/any_executable.cpp.o\x1b[0m\n'}
+[3.472201] (rclcpp) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/mutex_two_priorities.cpp.o\x1b[0m\n'}
+[3.472316] (rclcpp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/clock.cpp.o\x1b[0m\n'}
+[3.472488] (rclcpp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/utilities.cpp.o\x1b[0m\n'}
+[3.474070] (rclcpp) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/context.cpp.o\x1b[0m\n'}
+[3.476144] (rclcpp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_subscription_payload.cpp.o\x1b[0m\n'}
+[3.476709] (rclcpp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_payload.cpp.o\x1b[0m\n'}
+[3.505961] (-) TimerEvent: {}
+[3.606212] (-) TimerEvent: {}
+[3.706475] (-) TimerEvent: {}
+[3.806769] (-) TimerEvent: {}
+[3.907073] (-) TimerEvent: {}
+[3.993782] (rclcpp) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/duration.cpp.o\x1b[0m\n'}
+[4.001177] (rclcpp) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/exceptions/exceptions.cpp.o\x1b[0m\n'}
+[4.001426] (rclcpp) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/event.cpp.o\x1b[0m\n'}
+[4.007174] (-) TimerEvent: {}
+[4.089792] (rclcpp) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executable_list.cpp.o\x1b[0m\n'}
+[4.107296] (-) TimerEvent: {}
+[4.201557] (rclcpp) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executor.cpp.o\x1b[0m\n'}
+[4.207420] (-) TimerEvent: {}
+[4.318130] (-) TimerEvent: {}
+[4.329619] (rclcpp) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors.cpp.o\x1b[0m\n'}
+[4.351539] (rclcpp) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/expand_topic_or_service_name.cpp.o\x1b[0m\n'}
+[4.418245] (-) TimerEvent: {}
+[4.423710] (rclcpp) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/multi_threaded_executor.cpp.o\x1b[0m\n'}
+[4.518367] (-) TimerEvent: {}
+[4.531168] (rclcpp) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/single_threaded_executor.cpp.o\x1b[0m\n'}
+[4.618498] (-) TimerEvent: {}
+[4.649840] (rclcpp) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/static_executor_entities_collector.cpp.o\x1b[0m\n'}
+[4.718607] (-) TimerEvent: {}
+[4.818940] (-) TimerEvent: {}
+[4.896061] (rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/static_single_threaded_executor.cpp.o\x1b[0m\n'}
+[4.919055] (-) TimerEvent: {}
+[5.004989] (rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX executable test_function_traits\x1b[0m\n'}
+[5.005272] (rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/future_return_code.cpp.o\x1b[0m\n'}
+[5.019160] (-) TimerEvent: {}
+[5.031396] (rclcpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/graph_listener.cpp.o\x1b[0m\n'}
+[5.119282] (-) TimerEvent: {}
+[5.134727] (rclcpp) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/guard_condition.cpp.o\x1b[0m\n'}
+[5.219390] (-) TimerEvent: {}
+[5.262049] (rclcpp) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/init_options.cpp.o\x1b[0m\n'}
+[5.319502] (-) TimerEvent: {}
+[5.324224] (rclcpp) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/intra_process_manager.cpp.o\x1b[0m\n'}
+[5.383134] (rclcpp) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/logger.cpp.o\x1b[0m\n'}
+[5.419622] (-) TimerEvent: {}
+[5.424271] (rclcpp) StdoutLine: {'line': b'[ 27%] Built target test_function_traits\n'}
+[5.442070] (rclcpp) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/logging_mutex.cpp.o\x1b[0m\n'}
+[5.519748] (-) TimerEvent: {}
+[5.533754] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Executor::get_next_executable(rclcpp::AnyExecutable&, std::chrono::nanoseconds)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.534014] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:711:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[5.534085] (rclcpp) StderrLine: {'line': b'  711 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K\n'}
+[5.534150] (rclcpp) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.534210] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:676:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.534287] (rclcpp) StderrLine: {'line': b'  676 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[5.534365] (rclcpp) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[5.619862] (-) TimerEvent: {}
+[5.720206] (-) TimerEvent: {}
+[5.759147] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint sched_setattr(pid_t, const sched_attr*, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.759524] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:63:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 may change value [\x1b[01;35m\x1b[K-Wconversion\x1b[m\x1b[K]\n'}
+[5.759627] (rclcpp) StderrLine: {'line': b'   63 |   return \x1b[01;35m\x1b[Ksyscall(__NR_sched_setattr, pid, attr, flags)\x1b[m\x1b[K;\n'}
+[5.759713] (rclcpp) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.759797] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint sched_getattr(pid_t, sched_attr*, unsigned int, unsigned int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.759880] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:68:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 may change value [\x1b[01;35m\x1b[K-Wconversion\x1b[m\x1b[K]\n'}
+[5.759964] (rclcpp) StderrLine: {'line': b'   68 |   return \x1b[01;35m\x1b[Ksyscall(__NR_sched_getattr, pid, attr, size, flags)\x1b[m\x1b[K;\n'}
+[5.760062] (rclcpp) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.764010] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::executors::SingleThreadedExecutor::spin_cpu(int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.764371] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:120:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AnyExecutable = struct rclcpp::AnyExecutable\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use rclcpp::AnyExecutable instead [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.764486] (rclcpp) StderrLine: {'line': b'  120 |     rclcpp::executor::AnyExecutable \x1b[01;35m\x1b[Kany_executable\x1b[m\x1b[K;\n'}
+[5.764573] (rclcpp) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.764656] (rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.764736] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.764814] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.764891] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.764971] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.765051] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:15\x1b[m\x1b[K:\n'}
+[5.765130] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/any_executable.hpp:55:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.765212] (rclcpp) StderrLine: {'line': b'   55 | using \x1b[01;36m\x1b[KAnyExecutable\x1b[m\x1b[K [[deprecated("use rclcpp::AnyExecutable instead")]] = AnyExecutable;\n'}
+[5.765293] (rclcpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.767115] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::executors::SingleThreadedExecutor::spin_rt()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.767426] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:159:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AnyExecutable = struct rclcpp::AnyExecutable\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use rclcpp::AnyExecutable instead [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.767540] (rclcpp) StderrLine: {'line': b'  159 |     rclcpp::executor::AnyExecutable \x1b[01;35m\x1b[Kany_executable\x1b[m\x1b[K;\n'}
+[5.767625] (rclcpp) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.767707] (rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.767788] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.767882] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.767965] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.768048] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.768135] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:15\x1b[m\x1b[K:\n'}
+[5.768219] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/any_executable.hpp:55:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.768303] (rclcpp) StderrLine: {'line': b'   55 | using \x1b[01;36m\x1b[KAnyExecutable\x1b[m\x1b[K [[deprecated("use rclcpp::AnyExecutable instead")]] = AnyExecutable;\n'}
+[5.768385] (rclcpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.769149] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid rclcpp::executors::SingleThreadedExecutor::spin_deadline(int, int, int)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.769307] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:180:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-variable\x1b[m\x1b[K]\n'}
+[5.769397] (rclcpp) StderrLine: {'line': b'  180 |     int \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = 0, ret;\n'}
+[5.769496] (rclcpp) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.770235] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:207:37:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing AnyExecutable = struct rclcpp::AnyExecutable\x1b[m\x1b[K\xe2\x80\x99 is deprecated: use rclcpp::AnyExecutable instead [\x1b[01;35m\x1b[K-Wdeprecated-declarations\x1b[m\x1b[K]\n'}
+[5.770531] (rclcpp) StderrLine: {'line': b'  207 |     rclcpp::executor::AnyExecutable \x1b[01;35m\x1b[Kany_executable\x1b[m\x1b[K;\n'}
+[5.770622] (rclcpp) StderrLine: {'line': b'      |                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.770701] (rclcpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategy.hpp:24\x1b[m\x1b[K,\n'}
+[5.770792] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.770875] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.770951] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor.hpp:33\x1b[m\x1b[K,\n'}
+[5.771030] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.771110] (rclcpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:15\x1b[m\x1b[K:\n'}
+[5.771190] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/any_executable.hpp:55:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[5.771281] (rclcpp) StderrLine: {'line': b'   55 | using \x1b[01;36m\x1b[KAnyExecutable\x1b[m\x1b[K [[deprecated("use rclcpp::AnyExecutable instead")]] = AnyExecutable;\n'}
+[5.771364] (rclcpp) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.820316] (-) TimerEvent: {}
+[5.823878] (rclcpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:711:1:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcontrol reaches end of non-void function [\x1b[01;35m\x1b[K-Wreturn-type\x1b[m\x1b[K]\n'}
+[5.824111] (rclcpp) StderrLine: {'line': b'  711 | \x1b[01;35m\x1b[K}\x1b[m\x1b[K\n'}
+[5.824194] (rclcpp) StderrLine: {'line': b'      | \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[5.850582] (rclcpp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/rclcpp.dir/build.make:363: CMakeFiles/rclcpp.dir/src/rclcpp/executor.cpp.o] Error 1\n'}
+[5.850788] (rclcpp) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[5.858353] (rclcpp) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/memory_strategies.cpp.o\x1b[0m\n'}
+[5.920462] (-) TimerEvent: {}
+[6.020820] (-) TimerEvent: {}
+[6.121228] (-) TimerEvent: {}
+[6.221568] (-) TimerEvent: {}
+[6.321892] (-) TimerEvent: {}
+[6.422204] (-) TimerEvent: {}
+[6.522513] (-) TimerEvent: {}
+[6.622807] (-) TimerEvent: {}
+[6.723102] (-) TimerEvent: {}
+[6.823441] (-) TimerEvent: {}
+[6.923757] (-) TimerEvent: {}
+[7.024085] (-) TimerEvent: {}
+[7.124416] (-) TimerEvent: {}
+[7.224740] (-) TimerEvent: {}
+[7.325060] (-) TimerEvent: {}
+[7.420803] (rclcpp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:413: CMakeFiles/rclcpp.dir/all] Error 2\n'}
+[7.421067] (rclcpp) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[7.423591] (rclcpp) CommandEnded: {'returncode': 2}
+[7.425686] (-) TimerEvent: {}
+[7.526115] (-) TimerEvent: {}
+[7.606439] (rclcpp) JobEnded: {'identifier': 'rclcpp', 'rc': 2}
+[7.616913] (-) EventReactorShutdown: {}

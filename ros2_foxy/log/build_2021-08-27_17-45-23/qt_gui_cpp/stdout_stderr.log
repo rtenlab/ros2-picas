@@ -1,0 +1,162 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found pluginlib: 2.5.3 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/pluginlib/share/pluginlib/cmake)
+-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/libtinyxml2.so  
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.8") 
+-- Found python_qt_binding: 1.0.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/python_qt_binding/share/python_qt_binding/cmake)
+-- Shiboken2Config: Using default python: .cpython-38-x86_64-linux-gnu
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3") 
+-- SHIBOKEN_PYTHON_INCLUDE_DIRS computed to value: '/usr/include/python3.8'
+-- SHIBOKEN_PYTHON_LIBRARIES computed to value: ''
+-- libshiboken built for RelWithDebInfo
+-- Found Shiboken2 version 5.14.0
+-- Using SHIBOKEN_INCLUDE_DIR: /usr/include/shiboken2;/usr/include/python3.8
+-- Using SHIBOKEN_LIBRARY: /usr/lib/x86_64-linux-gnu/libshiboken2.cpython-38-x86_64-linux-gnu.so.5.14.0
+-- Using SHIBOKEN_BINARY: Shiboken2::shiboken2
+-- Found PySide2 version 5.14.0
+-- Using PYSIDE_INCLUDE_DIR: /usr/lib/../include/PySide2
+-- Using PYSIDE_LIBRARY: /usr/lib/x86_64-linux-gnu/libpyside2.cpython-38-x86_64-linux-gnu.so.5.14.0
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.8") 
+-- Shiboken binding generator available.
+-- Found python_qt_binding: 1.0.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/python_qt_binding/share/python_qt_binding/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.8") 
+-- SIP binding generator available at: /usr/bin/sip
+-- Python binding generators: shiboken;sip
+-- Found ament_cmake_pytest: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/qt_gui_cpp
+[  3%] [34m[1mGenerating __/__/include/qt_gui_cpp/moc_plugin_context.cpp[0m
+[  6%] [34m[1mGenerating __/__/include/qt_gui_cpp/moc_plugin_bridge.cpp[0m
+[  9%] [34m[1mGenerating __/__/include/qt_gui_cpp/moc_plugin.cpp[0m
+[35m[1mScanning dependencies of target qt_gui_cpp[0m
+[ 12%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/composite_plugin_provider.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/__/__/include/qt_gui_cpp/moc_plugin_context.cpp.o[0m
+[ 18%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/__/__/include/qt_gui_cpp/moc_plugin_bridge.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/__/__/include/qt_gui_cpp/moc_plugin.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/settings.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/recursive_plugin_provider.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/plugin_provider.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/plugin_descriptor.cpp.o[0m
+[ 36%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/plugin_context.cpp.o[0m
+[ 39%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/plugin_bridge.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/qt_gui_cpp/CMakeFiles/qt_gui_cpp.dir/generic_proxy.cpp.o[0m
+[ 45%] [32m[1mLinking CXX static library libqt_gui_cpp.a[0m
+[ 45%] Built target qt_gui_cpp
+[ 48%] [34m[1mRunning Shiboken generator for libqt_gui_cpp Python bindings...[0m
+qt.shiboken: (typesystem) Unable to locate Clang's built-in include directory (neither by checking the environment variables LLVM_INSTALL_DIR, CLANG_INSTALL_DIR  nor running llvm-config). This may lead to parse errors.
+(typesystem) clang_parseTranslationUnit2(0x0, cmd[25]=-fPIC -Wno-constant-logical-operand -std=c++14 -I/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros-visualization/qt_gui_core/qt_gui_cpp/include -I/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/pluginlib/include -I/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/class_loader/include -I/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rcpputils/include -I/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rcutils/include -I/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/console_bridge_vendor/include -I/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_cpp/include -I/usr/include -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/PySide2 -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include /tmp/global_LxSScV.hpp)
+(typesystem) [3312ms] Generating class model (1130)...                            [[1;33mWARNING[0m]
+qt.shiboken: (typesystem) Enum 'RCUTILS_LOG_SEVERITY' does not have a type entry
+(typesystem) [3324ms] Generating enum model (5)...                                [[1;33mWARNING[0m]
+(typesystem) [3324ms] Generating namespace model (97)...                          [[0;32mOK[0m]
+qt.shiboken: (typesystem) While traversing QOpenGLShaderProgram: setAttributeArray(int,const float*,int,int): Cannot use parameter 2 as an array: <array> modification already applied.
+(typesystem) [3326ms] Resolving typedefs (2663)...                                [[1;33mWARNING[0m]
+qt.shiboken: (typesystem) class 'QAccessibleWidget' inherits from unknown base class 'QAccessibleActionInterface'
+qt.shiboken: (typesystem) class not found for setup inheritance 'QAccessibleActionInterface'
+(typesystem) [4067ms] Fixing class inheritance...                                 [[1;33mWARNING[0m]
+(typesystem) [4070ms] Detecting inconsistencies in class model...                 [[0;32mOK[0m]
+(typesystem)     [6s] Detecting inconsistencies in typesystem (7408)...           [[0;32mOK[0m]
+(typesystem)     [6s] Checking inconsistencies in function modifications...       [[0;32mOK[0m]
+(typesystem)     [6s] Writing log files...                                        [[0;32mOK[0m]
+(typesystem)     [6s] Running Source generator...                                 [[0;32mOK[0m]
+(typesystem)     [6s] Running Header generator...                                 [[0;32mOK[0m]
+Done, (typesystem) 6s, 5 warnings (1073 known issues)
+[35m[1mScanning dependencies of target qt_gui_cpp_shiboken[0m
+[ 51%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/libqt_gui_cpp_shiboken_module_wrapper.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_rospluginlibpluginprovider_forplugins_wrapper.cpp.o[0m
+[ 57%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_rospluginlibpluginprovider_forpluginproviders_wrapper.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_settings_wrapper.cpp.o[0m
+[ 63%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_wrapper.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_recursivepluginprovider_wrapper.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_pluginprovider_wrapper.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_plugindescriptor_wrapper.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_plugincontext_wrapper.cpp.o[0m
+[ 78%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_pluginbridge_wrapper.cpp.o[0m
+[ 81%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_plugin_wrapper.cpp.o[0m
+[ 84%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_genericproxy_wrapper.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/qt_gui_cpp_shiboken/CMakeFiles/qt_gui_cpp_shiboken.dir/libqt_gui_cpp_shiboken/qt_gui_cpp_compositepluginprovider_wrapper.cpp.o[0m
+[ 90%] [32m[1mLinking CXX shared library libqt_gui_cpp_shiboken.so[0m
+[ 90%] Built target qt_gui_cpp_shiboken
+[35m[1mScanning dependencies of target libqt_gui_cpp_sip[0m
+[ 93%] [34m[1mRunning SIP generator for qt_gui_cpp_sip Python bindings...[0m
+[ 96%] [34m[1mCompiling generated code for qt_gui_cpp_sip Python bindings...[0m
+[100%] [34m[1mMeta target for qt_gui_cpp_sip Python bindings...[0m
+[100%] Built target libqt_gui_cpp_sip
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/pythonpath.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/pythonpath.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/plugin_context.cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/plugin_provider.cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/settings.cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/plugin_descriptor.cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/__init__.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/ros_pluginlib_plugin_provider.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/recursive_plugin_provider.cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/CMakeLists.txt
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/composite_plugin_provider.cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/cpp_plugin_provider.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/cpp_binding_helper.py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/generic_proxy.cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/plugin_bridge.cpp
+Listing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/__init__.py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/cpp_binding_helper.py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/cpp_plugin_provider.py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/ros_pluginlib_plugin_provider.py'...
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/plugin.xml
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/plugin_descriptor.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/plugin_provider.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/settings.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/plugin.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/plugin_context.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/generic_proxy.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/ros_pluginlib_plugin_provider_for_plugin_providers.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/ros_pluginlib_plugin_provider_for_plugins.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/ros_pluginlib_plugin_provider.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/plugin_bridge.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/composite_plugin_provider.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/include/qt_gui_cpp/recursive_plugin_provider.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/library_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/library_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/ament_index/resource_index/package_run_dependencies/qt_gui_cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/ament_index/resource_index/parent_prefix_path/qt_gui_cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/ament_index/resource_index/packages/qt_gui_cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/cmake/qt_gui_cpp-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/cmake/qt_gui_cppConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/cmake/qt_gui_cppConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/share/qt_gui_cpp/package.xml
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/libqt_gui_cpp.a
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so
+-- Set runtime path of "/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/libqt_gui_cpp_shiboken.so" to ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/qt_gui_cpp/lib/python3.8/site-packages/qt_gui_cpp/libqt_gui_cpp_sip.so

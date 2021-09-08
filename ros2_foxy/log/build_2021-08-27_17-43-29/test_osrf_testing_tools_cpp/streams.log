@@ -1,0 +1,55 @@
+[0.152s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_osrf_testing_tools_cpp': CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp LD_LIBRARY_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/lib PKG_CONFIG_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/lib/pkgconfig /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/osrf/osrf_testing_tools_cpp/test_osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_osrf_testing_tools_cpp
+[0.243s] -- The C compiler identification is GNU 9.3.0
+[0.308s] -- The CXX compiler identification is GNU 9.3.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.429s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.434s] -- Detecting C compiler ABI info
+[0.500s] -- Detecting C compiler ABI info - done
+[0.511s] -- Detecting C compile features
+[0.512s] -- Detecting C compile features - done
+[0.514s] -- Check for working CXX compiler: /usr/bin/c++
+[0.582s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.584s] -- Detecting CXX compiler ABI info
+[0.658s] -- Detecting CXX compiler ABI info - done
+[0.668s] -- Detecting CXX compile features
+[0.669s] -- Detecting CXX compile features - done
+[0.677s] -- googletest version '1.10.0.1' selected, of versions: '1.8.1;1.10.0.1'
+[0.677s] -- building googletest from '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/../../../share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'...
+[0.720s] -- Configuring done
+[0.721s] -- Generating done
+[0.722s] -- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_osrf_testing_tools_cpp/googletest-1.10.0.1-extracted
+[0.758s] Scanning dependencies of target googletest
+[0.768s] [ 11%] Creating directories for 'googletest'
+[0.833s] [ 22%] Performing download step (verify and extract) for 'googletest'
+[0.840s] -- verifying file...
+[0.840s]      file='/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/../../../share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'
+[0.841s] -- verifying file... done
+[0.849s] -- extracting...
+[0.849s]      src='/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'
+[0.849s]      dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_osrf_testing_tools_cpp/googletest-1.10.0.1-extracted/googletest-1.10.0.1-src'
+[0.849s] -- extracting... [tar xfz]
+[0.874s] -- extracting... [analysis]
+[0.874s] -- extracting... [rename]
+[0.874s] -- extracting... [clean up]
+[0.874s] -- extracting... done
+[0.890s] [ 33%] No patch step for 'googletest'
+[0.913s] [ 44%] No update step for 'googletest'
+[0.937s] [ 55%] No configure step for 'googletest'
+[0.965s] [ 66%] No build step for 'googletest'
+[0.987s] [ 77%] No install step for 'googletest'
+[1.007s] [ 88%] No test step for 'googletest'
+[1.028s] [100%] Completed 'googletest'
+[1.055s] [100%] Built target googletest
+[1.086s] -- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+[1.087s] -- Looking for pthread.h
+[1.148s] -- Looking for pthread.h - found
+[1.149s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.215s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.215s] -- Looking for pthread_create in pthreads
+[1.273s] -- Looking for pthread_create in pthreads - not found
+[1.275s] -- Looking for pthread_create in pthread
+[1.354s] -- Looking for pthread_create in pthread - found
+[1.356s] -- Found Threads: TRUE  
+[1.363s] -- Configuring done
+[1.386s] -- Generating done
+[1.389s] -- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_osrf_testing_tools_cpp

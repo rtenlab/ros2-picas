@@ -1,0 +1,36 @@
+[ 25%] Built target gtest
+[ 50%] Built target resource_retriever
+[ 75%] Built target gtest_main
+[100%] Built target resource_retriever_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/library_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/library_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/pythonpath.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/lib/python3.8/site-packages/resource_retriever/__init__.py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/test/test.txt
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/include/resource_retriever/retriever.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/include/resource_retriever/visibility_control.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/ament_index/resource_index/package_run_dependencies/resource_retriever
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/ament_index/resource_index/parent_prefix_path/resource_retriever
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/ament_index/resource_index/packages/resource_retriever
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake/resource_retrieverConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake/resource_retrieverConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/package.xml
+Listing '/home/saitama1/ros2_foxy/install/resource_retriever/lib/python3.8/site-packages/resource_retriever'...
+-- Up-to-date: /home/saitama1/ros2_foxy/install/resource_retriever/lib/libresource_retriever.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake/resource_retrieverExport.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake/resource_retrieverExport-noconfig.cmake

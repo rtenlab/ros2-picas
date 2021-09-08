@@ -1,0 +1,25 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ros_testing
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ament_index/resource_index/package_run_dependencies/ros_testing
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ament_index/resource_index/parent_prefix_path/ros_testing
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ament_index/resource_index/packages/ros_testing
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/cmake/ros_testing-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/cmake/ros_testingConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/cmake/ros_testingConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_testing/share/ros_testing/cmake/add_ros_test.cmake

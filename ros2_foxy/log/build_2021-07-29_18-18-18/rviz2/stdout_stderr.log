@@ -1,0 +1,104 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rviz_common: 8.2.2 (/home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake)
+-- Setting OGRE_DIR to: '/home/saitama1/ros2_foxy/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+--   media      : /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+-- OGRE_PLUGIN_DIR: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Setting yaml-cpp_DIR to: '/home/saitama1/ros2_foxy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found ament_cmake_cppcheck: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rviz2
+[35m[1mScanning dependencies of target send_lots_of_points_node[0m
+[35m[1mScanning dependencies of target rviz2[0m
+[ 25%] [32mBuilding CXX object test/tools/CMakeFiles/send_lots_of_points_node.dir/send_lots_of_points_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz2.dir/src/main.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable send_lots_of_points_node[0m
+[100%] [32m[1mLinking CXX executable rviz2[0m
+[100%] Built target send_lots_of_points_node
+[100%] Built target rviz2
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/bin/rviz2
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rviz2/bin/rviz2" to "/home/saitama1/ros2_foxy/install/rviz_common/lib:/home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/saitama1/ros2_foxy/install/rviz_rendering/lib:/home/saitama1/ros2_foxy/install/resource_retriever/lib:/home/saitama1/ros2_foxy/install/sensor_msgs/lib:/home/saitama1/ros2_foxy/install/orocos_kdl/lib:/home/saitama1/ros2_foxy/install/tf2_ros/lib:/home/saitama1/ros2_foxy/install/tf2/lib:/home/saitama1/ros2_foxy/install/rclcpp_action/lib:/home/saitama1/ros2_foxy/install/rcl_action/lib:/home/saitama1/ros2_foxy/install/tf2_msgs/lib:/home/saitama1/ros2_foxy/install/geometry_msgs/lib:/home/saitama1/ros2_foxy/install/action_msgs/lib:/home/saitama1/ros2_foxy/install/unique_identifier_msgs/lib:/home/saitama1/ros2_foxy/install/rclcpp_components/lib:/home/saitama1/ros2_foxy/install/ament_index_cpp/lib:/home/saitama1/ros2_foxy/install/class_loader/lib:/home/saitama1/ros2_foxy/install/composition_interfaces/lib:/home/saitama1/ros2_foxy/install/message_filters/lib:/home/saitama1/ros2_foxy/install/rclcpp/lib:/home/saitama1/ros2_foxy/install/libstatistics_collector/lib:/home/saitama1/ros2_foxy/install/std_msgs/lib:/home/saitama1/ros2_foxy/install/rcl/lib:/home/saitama1/ros2_foxy/install/rcl_interfaces/lib:/home/saitama1/ros2_foxy/install/rmw_implementation/lib:/home/saitama1/ros2_foxy/install/rmw/lib:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog/lib:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/saitama1/ros2_foxy/install/libyaml_vendor/lib:/home/saitama1/ros2_foxy/install/rosgraph_msgs/lib:/home/saitama1/ros2_foxy/install/statistics_msgs/lib:/home/saitama1/ros2_foxy/install/tracetools/lib:/home/saitama1/ros2_foxy/install/builtin_interfaces/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c/lib:/home/saitama1/ros2_foxy/install/rosidl_runtime_c/lib:/home/saitama1/ros2_foxy/install/rcpputils/lib:/home/saitama1/ros2_foxy/install/rcutils/lib:/home/saitama1/ros2_foxy/install/urdf/lib:/home/saitama1/ros2_foxy/install/urdfdom/lib:/home/saitama1/ros2_foxy/install/console_bridge_vendor/lib:/home/saitama1/ros2_foxy/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib"
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/lib/rviz2/rviz2
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rviz2/lib/rviz2/rviz2" to "/home/saitama1/ros2_foxy/install/rviz_common/lib:/home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib:/home/saitama1/ros2_foxy/install/rviz_rendering/lib:/home/saitama1/ros2_foxy/install/resource_retriever/lib:/home/saitama1/ros2_foxy/install/sensor_msgs/lib:/home/saitama1/ros2_foxy/install/orocos_kdl/lib:/home/saitama1/ros2_foxy/install/tf2_ros/lib:/home/saitama1/ros2_foxy/install/tf2/lib:/home/saitama1/ros2_foxy/install/rclcpp_action/lib:/home/saitama1/ros2_foxy/install/rcl_action/lib:/home/saitama1/ros2_foxy/install/tf2_msgs/lib:/home/saitama1/ros2_foxy/install/geometry_msgs/lib:/home/saitama1/ros2_foxy/install/action_msgs/lib:/home/saitama1/ros2_foxy/install/unique_identifier_msgs/lib:/home/saitama1/ros2_foxy/install/rclcpp_components/lib:/home/saitama1/ros2_foxy/install/ament_index_cpp/lib:/home/saitama1/ros2_foxy/install/class_loader/lib:/home/saitama1/ros2_foxy/install/composition_interfaces/lib:/home/saitama1/ros2_foxy/install/message_filters/lib:/home/saitama1/ros2_foxy/install/rclcpp/lib:/home/saitama1/ros2_foxy/install/libstatistics_collector/lib:/home/saitama1/ros2_foxy/install/std_msgs/lib:/home/saitama1/ros2_foxy/install/rcl/lib:/home/saitama1/ros2_foxy/install/rcl_interfaces/lib:/home/saitama1/ros2_foxy/install/rmw_implementation/lib:/home/saitama1/ros2_foxy/install/rmw/lib:/home/saitama1/ros2_foxy/install/rcl_logging_spdlog/lib:/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser/lib:/home/saitama1/ros2_foxy/install/libyaml_vendor/lib:/home/saitama1/ros2_foxy/install/rosgraph_msgs/lib:/home/saitama1/ros2_foxy/install/statistics_msgs/lib:/home/saitama1/ros2_foxy/install/tracetools/lib:/home/saitama1/ros2_foxy/install/builtin_interfaces/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_introspection_c/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_cpp/lib:/home/saitama1/ros2_foxy/install/rosidl_typesupport_c/lib:/home/saitama1/ros2_foxy/install/rosidl_runtime_c/lib:/home/saitama1/ros2_foxy/install/rcpputils/lib:/home/saitama1/ros2_foxy/install/rcutils/lib:/home/saitama1/ros2_foxy/install/urdf/lib:/home/saitama1/ros2_foxy/install/urdfdom/lib:/home/saitama1/ros2_foxy/install/console_bridge_vendor/lib:/home/saitama1/ros2_foxy/install/yaml_cpp_vendor/opt/yaml_cpp_vendor/lib"
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/ament_index/resource_index/package_run_dependencies/rviz2
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/ament_index/resource_index/parent_prefix_path/rviz2
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/ament_index/resource_index/packages/rviz2
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/cmake/rviz2Config.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/cmake/rviz2Config-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz2/share/rviz2/package.xml

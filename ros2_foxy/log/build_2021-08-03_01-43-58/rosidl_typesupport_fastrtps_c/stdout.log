@@ -1,0 +1,81 @@
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found fastrtps_cmake_module: 1.0.3 (/home/saitama1/ros2_foxy/install/fastrtps_cmake_module/share/fastrtps_cmake_module/cmake)
+-- Found rosidl_runtime_c: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake)
+-- Found rosidl_typesupport_fastrtps_cpp: 1.0.3 (/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_cpp/share/rosidl_typesupport_fastrtps_cpp/cmake)
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found performance_test_fixture: 0.0.7 (/home/saitama1/ros2_foxy/install/performance_test_fixture/share/performance_test_fixture/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/ros2_foxy/install/performance_test_fixture/include;$<BUILD_INTERFACE:/home/saitama1/ros2_foxy/src/ros2/rosidl_typesupport_fastrtps/rosidl_typesupport_fastrtps_c/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rosidl_typesupport_fastrtps_c
+[  7%] [32m[1mLinking CXX shared library librosidl_typesupport_fastrtps_c.so[0m
+[ 23%] Built target gtest_main
+[ 38%] Built target gtest
+[ 53%] Built target rosidl_typesupport_fastrtps_c
+[ 61%] [32m[1mLinking CXX executable test_wstring_conversion[0m
+[ 69%] [32m[1mLinking CXX executable test_wstring_conversion_mem[0m
+[ 76%] [32m[1mLinking CXX executable benchmark_string_conversions[0m
+[ 84%] Built target benchmark_string_conversions
+[ 92%] Built target test_wstring_conversion_mem
+[100%] Built target test_wstring_conversion
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/ament_index/resource_index/rosidl_typesupport_c/rosidl_typesupport_fastrtps_c
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/ament_index/resource_index/package_run_dependencies/rosidl_typesupport_fastrtps_c
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/ament_index/resource_index/parent_prefix_path/rosidl_typesupport_fastrtps_c
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/ament_index/resource_index/packages/rosidl_typesupport_fastrtps_c
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/msg__rosidl_typesupport_fastrtps_c.h.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/msg__type_support_c.cpp.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/rosidl_typesupport_fastrtps_c__visibility_control.h.in
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/include/rosidl_typesupport_fastrtps_c/identifier.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/include/rosidl_typesupport_fastrtps_c/visibility_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/include/rosidl_typesupport_fastrtps_c/wstring_conversion.hpp
+Listing '/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/python3.8/site-packages/rosidl_typesupport_fastrtps_c'...
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/librosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rosidl_typesupport_fastrtps_c/lib/librosidl_typesupport_fastrtps_c.so" to ""

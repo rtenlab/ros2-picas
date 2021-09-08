@@ -1,0 +1,20 @@
+[0.970s] Invoking command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_lint': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/ros2_foxy/install/ament_lint --record /home/saitama1/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed
+[1.152s] running egg_info
+[1.152s] writing ../../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.153s] writing dependency_links to ../../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.153s] writing entry points to ../../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.153s] writing requirements to ../../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.153s] writing top-level names to ../../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.181s] reading manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.181s] writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.181s] running build
+[1.181s] running build_py
+[1.181s] running install
+[1.182s] running install_lib
+[1.182s] running install_data
+[1.182s] running install_egg_info
+[1.182s] removing '/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.6-py3.8.egg-info' (and everything under it)
+[1.183s] Copying ../../../../build/ament_lint/ament_lint.egg-info to /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.6-py3.8.egg-info
+[1.183s] running install_scripts
+[1.203s] writing list of installed files to '/home/saitama1/ros2_foxy/build/ament_lint/install.log'
+[1.254s] Invoked command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/ros2_foxy/install/ament_lint --record /home/saitama1/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed

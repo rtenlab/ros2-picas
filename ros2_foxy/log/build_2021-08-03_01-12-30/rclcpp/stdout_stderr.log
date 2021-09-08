@@ -1,0 +1,154 @@
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.0 (/home/saitama1/ros2_foxy/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found libstatistics_collector: 1.0.1 (/home/saitama1/ros2_foxy/install/libstatistics_collector/share/libstatistics_collector/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rosgraph_msgs: 1.0.0 (/home/saitama1/ros2_foxy/install/rosgraph_msgs/share/rosgraph_msgs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/home/saitama1/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rclcpp
+[  2%] Built target rclcpp_test_msgs__rosidl_generator_c
+[  3%] Built target gtest
+[  4%] Built target gmock
+[  4%] Built target gtest_main
+[  4%] Built target rclcpp_test_msgs__cpp
+[  5%] Built target gmock_main
+[  6%] Built target rclcpp_test_msgs__rosidl_typesupport_c
+[  7%] Built target rclcpp_test_msgs__rosidl_typesupport_introspection_c
+[35m[1mScanning dependencies of target rclcpp[0m
+[  9%] Built target rclcpp_test_msgs__rosidl_typesupport_introspection_cpp
+[ 10%] [32mBuilding CXX object test/rclcpp/CMakeFiles/test_function_traits.dir/test_function_traits.cpp.o[0m
+[ 11%] Built target rclcpp_test_msgs__rosidl_typesupport_cpp
+[ 12%] Built target rclcpp_test_msgs__rosidl_typesupport_fastrtps_cpp
+[ 14%] Built target rclcpp_test_msgs__rosidl_typesupport_fastrtps_c
+[ 14%] Built target rclcpp_test_msgs
+[ 14%] Built target rclcpp_test_msgs__py
+[ 15%] Built target rclcpp_test_msgs__python
+[ 17%] Built target rclcpp__rosidl_typesupport_introspection_c__pyext
+[ 17%] Built target rclcpp__rosidl_typesupport_fastrtps_c__pyext
+[ 17%] Built target rclcpp__rosidl_typesupport_c__pyext
+[ 17%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/callback_group.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/client.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/contexts/default_context.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_publisher_payload.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/any_executable.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/mutex_two_priorities.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/clock.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/utilities.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/context.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_subscription_payload.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/detail/rmw_implementation_specific_payload.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/duration.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/exceptions/exceptions.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/event.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executable_list.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executor.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/expand_topic_or_service_name.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/multi_threaded_executor.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/single_threaded_executor.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/static_executor_entities_collector.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/executors/static_single_threaded_executor.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable test_function_traits[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/future_return_code.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/graph_listener.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/guard_condition.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/init_options.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/intra_process_manager.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/logger.cpp.o[0m
+[ 27%] Built target test_function_traits
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/logging_mutex.cpp.o[0m
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:[m[K In member function ‘[01m[Kbool rclcpp::Executor::get_next_executable(rclcpp::AnyExecutable&, std::chrono::nanoseconds)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:711:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  711 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:676:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  676 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:[m[K In function ‘[01m[Kint sched_setattr(pid_t, const sched_attr*, unsigned int)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:63:17:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong int[m[K’ to ‘[01m[Kint[m[K’ may change value [[01;35m[K-Wconversion[m[K]
+   63 |   return [01;35m[Ksyscall(__NR_sched_setattr, pid, attr, flags)[m[K;
+      |          [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:[m[K In function ‘[01m[Kint sched_getattr(pid_t, sched_attr*, unsigned int, unsigned int)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:68:17:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong int[m[K’ to ‘[01m[Kint[m[K’ may change value [[01;35m[K-Wconversion[m[K]
+   68 |   return [01;35m[Ksyscall(__NR_sched_getattr, pid, attr, size, flags)[m[K;
+      |          [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:[m[K In member function ‘[01m[Kvoid rclcpp::executors::SingleThreadedExecutor::spin_cpu(int)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:120:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing AnyExecutable = struct rclcpp::AnyExecutable[m[K’ is deprecated: use rclcpp::AnyExecutable instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  120 |     rclcpp::executor::AnyExecutable [01;35m[Kany_executable[m[K;
+      |                                     [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:15[m[K:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/any_executable.hpp:55:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   55 | using [01;36m[KAnyExecutable[m[K [[deprecated("use rclcpp::AnyExecutable instead")]] = AnyExecutable;
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:[m[K In member function ‘[01m[Kvoid rclcpp::executors::SingleThreadedExecutor::spin_rt()[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:159:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing AnyExecutable = struct rclcpp::AnyExecutable[m[K’ is deprecated: use rclcpp::AnyExecutable instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  159 |     rclcpp::executor::AnyExecutable [01;35m[Kany_executable[m[K;
+      |                                     [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:15[m[K:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/any_executable.hpp:55:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   55 | using [01;36m[KAnyExecutable[m[K [[deprecated("use rclcpp::AnyExecutable instead")]] = AnyExecutable;
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:[m[K In member function ‘[01m[Kvoid rclcpp::executors::SingleThreadedExecutor::spin_deadline(int, int, int)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:180:9:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K-Wunused-variable[m[K]
+  180 |     int [01;35m[Kx[m[K = 0, ret;
+      |         [01;35m[K^[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:207:37:[m[K [01;35m[Kwarning: [m[K‘[01m[Kusing AnyExecutable = struct rclcpp::AnyExecutable[m[K’ is deprecated: use rclcpp::AnyExecutable instead [[01;35m[K-Wdeprecated-declarations[m[K]
+  207 |     rclcpp::executor::AnyExecutable [01;35m[Kany_executable[m[K;
+      |                                     [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/executors/single_threaded_executor.hpp:25[m[K,
+                 from [01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executors/single_threaded_executor.cpp:15[m[K:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/include/rclcpp/any_executable.hpp:55:7:[m[K [01;36m[Knote: [m[Kdeclared here
+   55 | using [01;36m[KAnyExecutable[m[K [[deprecated("use rclcpp::AnyExecutable instead")]] = AnyExecutable;
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/rclcpp/rclcpp/src/rclcpp/executor.cpp:711:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  711 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/rclcpp.dir/build.make:363: CMakeFiles/rclcpp.dir/src/rclcpp/executor.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+[ 27%] [32mBuilding CXX object CMakeFiles/rclcpp.dir/src/rclcpp/memory_strategies.cpp.o[0m
+make[1]: *** [CMakeFiles/Makefile2:413: CMakeFiles/rclcpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

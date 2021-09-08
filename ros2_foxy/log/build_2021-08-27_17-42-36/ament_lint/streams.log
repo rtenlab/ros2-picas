@@ -1,0 +1,30 @@
+[0.970s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_lint': PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed
+[1.268s] running egg_info
+[1.269s] creating ../../../../build/ament_lint/ament_lint.egg-info
+[1.269s] writing ../../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.269s] writing dependency_links to ../../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.269s] writing entry points to ../../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.269s] writing requirements to ../../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.269s] writing top-level names to ../../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.308s] writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.460s] reading manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.461s] writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.462s] running build
+[1.462s] running build_py
+[1.462s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build
+[1.462s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib
+[1.462s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint
+[1.462s] copying ament_lint/pytest_marker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint
+[1.469s] copying ament_lint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint
+[1.469s] running install
+[1.477s] running install_lib
+[1.484s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.485s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.485s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.486s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+[1.486s] running install_data
+[1.488s] running install_egg_info
+[1.498s] Copying ../../../../build/ament_lint/ament_lint.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.6-py3.8.egg-info
+[1.499s] running install_scripts
+[1.564s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/install.log'
+[1.616s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed

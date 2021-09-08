@@ -1,0 +1,120 @@
+running egg_info
+creating ../../../../build/sros2/sros2.egg-info
+writing ../../../../build/sros2/sros2.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/sros2/sros2.egg-info/dependency_links.txt
+writing entry points to ../../../../build/sros2/sros2.egg-info/entry_points.txt
+writing requirements to ../../../../build/sros2/sros2.egg-info/requires.txt
+writing top-level names to ../../../../build/sros2/sros2.egg-info/top_level.txt
+writing manifest file '../../../../build/sros2/sros2.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/sros2/sros2.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/sros2/sros2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/ros2_foxy/build/sros2/build
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2
+copying sros2/__init__.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy
+copying sros2/policy/__init__.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/command
+copying sros2/command/security.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/command
+copying sros2/command/__init__.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/command
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+copying sros2/api/_utilities.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+copying sros2/api/_permission.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+copying sros2/api/_keystore.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+copying sros2/api/_policy.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+copying sros2/api/__init__.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+copying sros2/api/_artifact_generation.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+copying sros2/api/_key.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+copying sros2/verb/generate_artifacts.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+copying sros2/verb/generate_policy.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+copying sros2/verb/list_keys.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+copying sros2/verb/create_keystore.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+copying sros2/verb/__init__.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+copying sros2/verb/create_key.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+copying sros2/verb/create_permission.py -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/defaults
+copying sros2/policy/defaults/policy.xml -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/defaults
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/defaults/dds
+copying sros2/policy/defaults/dds/governance.xml -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/defaults/dds
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas
+copying sros2/policy/schemas/policy.xsd -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas/dds
+copying sros2/policy/schemas/dds/permissions.xsd -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas/dds
+copying sros2/policy/schemas/dds/governance.xsd -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas/dds
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/templates
+copying sros2/policy/templates/policy.xsl -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/templates
+creating /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/templates/dds
+copying sros2/policy/templates/dds/permissions.xsl -> /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/templates/dds
+running install
+running install_lib
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/__init__.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/schemas
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/schemas/dds
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas/dds/permissions.xsd -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/schemas/dds
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas/dds/governance.xsd -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/schemas/dds
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/schemas/policy.xsd -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/schemas
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/templates
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/templates/dds
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/templates/dds/permissions.xsl -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/templates/dds
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/templates/policy.xsl -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/templates
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/defaults
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/defaults/policy.xml -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/defaults
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/defaults/dds
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/policy/defaults/dds/governance.xml -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/defaults/dds
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/__init__.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/command
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/command/security.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/command
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/command/__init__.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/command
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api/_utilities.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api/_permission.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api/_keystore.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api/_policy.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api/__init__.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api/_artifact_generation.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/api/_key.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api
+creating /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb/generate_artifacts.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb/generate_policy.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb/list_keys.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb/create_keystore.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb/__init__.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb/create_key.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+copying /home/saitama1/ros2_foxy/build/sros2/build/lib/sros2/verb/create_permission.py -> /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/policy/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/command/security.py to security.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api/_utilities.py to _utilities.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api/_permission.py to _permission.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api/_keystore.py to _keystore.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api/_policy.py to _policy.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api/_artifact_generation.py to _artifact_generation.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/api/_key.py to _key.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb/generate_artifacts.py to generate_artifacts.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb/generate_policy.py to generate_policy.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb/list_keys.py to list_keys.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb/create_keystore.py to create_keystore.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb/create_key.py to create_key.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2/verb/create_permission.py to create_permission.cpython-38.pyc
+running install_data
+copying package.xml -> /home/saitama1/ros2_foxy/install/sros2/share/sros2
+creating /home/saitama1/ros2_foxy/install/sros2/share/ament_index
+creating /home/saitama1/ros2_foxy/install/sros2/share/ament_index/resource_index
+creating /home/saitama1/ros2_foxy/install/sros2/share/ament_index/resource_index/packages
+copying resource/sros2 -> /home/saitama1/ros2_foxy/install/sros2/share/ament_index/resource_index/packages
+creating /home/saitama1/ros2_foxy/install/sros2/share/sros2/xml_cache
+copying xml_cache/README.md -> /home/saitama1/ros2_foxy/install/sros2/share/sros2/xml_cache
+copying xml_cache/xhtml-cache.xml -> /home/saitama1/ros2_foxy/install/sros2/share/sros2/xml_cache
+copying xml_cache/xml.xsd -> /home/saitama1/ros2_foxy/install/sros2/share/sros2/xml_cache
+running install_egg_info
+Copying ../../../../build/sros2/sros2.egg-info to /home/saitama1/ros2_foxy/install/sros2/lib/python3.8/site-packages/sros2-0.9.4-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/ros2_foxy/build/sros2/install.log'

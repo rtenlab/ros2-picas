@@ -1,0 +1,114 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found trace_picas: 0.0.0 (/home/saitama1/ros2_foxy/install/trace_picas/share/trace_picas/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/picas_example
+CMake Deprecation Warning at /home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:103 (message):
+  Package trace_picas is exporting the variable trace_picas_INTERFACES which
+  is deprecated, it should export
+
+              trace_picas_TARGETS instead
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (ament_target_dependencies)
+
+
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In function ‘[01m[Kvoid dummy_load(int)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:25:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kload_ms[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   25 | void dummy_load([01;35m[Kint load_ms[m[K) {
+      |                 [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In constructor ‘[01m[KStartNode::StartNode(std::string, std::string, std::shared_ptr<trace::Trace>, int, int, bool)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:58:39:[m[K [01;35m[Kwarning: [m[K‘[01m[KStartNode::trace_callbacks_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   58 |         std::shared_ptr<trace::Trace> [01;35m[Ktrace_callbacks_[m[K;
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:55:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint StartNode::exe_time_[m[K’ [[01;35m[K-Wreorder[m[K]
+   55 |         int [01;35m[Kexe_time_[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:37:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   37 |         [01;35m[KStartNode[m[K(const std::string node_name, const std::string pub_topic, std::shared_ptr<trace::Trace> trace_ptr, int exe_time, int period, bool end_flag)
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In member function ‘[01m[Kvoid StartNode::timer_callback()[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:79:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstamp[m[K’
+   79 |             message.[01;31m[Kstamp[m[K.sec = ctime.tv_sec;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:80:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstamp[m[K’
+   80 |             message.[01;31m[Kstamp[m[K.usec = ctime.tv_usec;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:86:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstamp[m[K’
+   86 |                 latency_time.tv_sec = (ftime.tv_sec - message.[01;31m[Kstamp[m[K.sec);
+      |                                                               [01;31m[K^~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:87:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstamp[m[K’
+   87 |                 latency_time.tv_usec = (ftime.tv_usec - message.[01;31m[Kstamp[m[K.usec);
+      |                                                                 [01;31m[K^~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In constructor ‘[01m[KIntermediateNode::IntermediateNode(std::string, std::string, std::string, std::shared_ptr<trace::Trace>, int, bool)[m[K’:
+[35m[1mScanning dependencies of target example[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/example.dir/src/example.cpp.o[0m
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:111:39:[m[K [01;35m[Kwarning: [m[K‘[01m[KIntermediateNode::trace_callbacks_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  111 |         std::shared_ptr<trace::Trace> [01;35m[Ktrace_callbacks_[m[K;
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:108:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IntermediateNode::exe_time_[m[K’ [[01;35m[K-Wreorder[m[K]
+  108 |         int [01;35m[Kexe_time_[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:97:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   97 |         [01;35m[KIntermediateNode[m[K(const std::string node_name, const std::string sub_topic, const std::string pub_topic, std::shared_ptr<trace::Trace> trace_ptr, int exe_time, bool end_flag)
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In member function ‘[01m[Kvoid IntermediateNode::callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:129:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kstamp[m[K’
+  129 |             message.[01;31m[Kstamp[m[K = msg->stamp;
+      |                     [01;31m[K^~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:129:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstamp[m[K’
+  129 |             message.stamp = msg->[01;31m[Kstamp[m[K;
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:133:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstamp[m[K’
+  133 |                 latency_time.tv_sec = (ftime.tv_sec - msg->[01;31m[Kstamp[m[K.sec);
+      |                                                            [01;31m[K^~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:134:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::String_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::String_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstamp[m[K’
+  134 |                 latency_time.tv_usec = (ftime.tv_usec - msg->[01;31m[Kstamp[m[K.usec);
+      |                                                              [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/example.dir/build.make:63: CMakeFiles/example.dir/src/example.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/example.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

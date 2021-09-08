@@ -1,0 +1,55 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/mimick_vendor
+[100%] Built target mimick-4c742d61d4f47a58492c1afbd825fad1c9e05a09
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/ament_index/resource_index/package_run_dependencies/mimick_vendor
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/ament_index/resource_index/parent_prefix_path/mimick_vendor
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/ament_index/resource_index/packages/mimick_vendor
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/cmake/mimick_vendorConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/cmake/mimick_vendorConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/mimick_vendor/share/mimick_vendor/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/verify.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/matcher.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/alloc.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/preprocess.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/when.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/unmocked.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/mock.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/mimick.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/string.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/assert.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/va.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/include/mimick/literal.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/lib
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/lib/libmimick.a
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/lib/cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/lib/cmake/mimick
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/lib/cmake/mimick/mimick-targets-noconfig.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/lib/cmake/mimick/mimick-targets.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/mimick_vendor/lib/cmake/mimick/mimickConfig.cmake

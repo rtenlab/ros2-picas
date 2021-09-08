@@ -1,0 +1,133 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rviz_common: 8.2.2 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_common/share/rviz_common/cmake)
+-- Setting OGRE_DIR to: '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+--   media      : /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+-- OGRE_PLUGIN_DIR: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Setting yaml-cpp_DIR to: '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found ament_cmake_cppcheck: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rviz_visual_testing_framework
+[35m[1mScanning dependencies of target rviz_visual_testing_framework[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/page_objects/base_page_object.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/page_objects/page_object_with_window.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/test_helpers.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/image_tester.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/rviz_scene_test.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/display_handler.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/executor.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/transform_message_creator.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/visual_test_fixture.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rviz_visual_testing_framework.dir/src/internal/visual_test.cpp.o[0m
+[100%] [32m[1mLinking CXX static library librviz_visual_testing_framework.a[0m
+[100%] Built target rviz_visual_testing_framework
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/lib/librviz_visual_testing_framework.a
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/visual_test_publisher.hpp
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/internal
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/internal/rviz_scene_test.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/internal/transform_message_creator.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/internal/display_handler.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/internal/visual_test.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/internal/image_tester.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/internal/executor.hpp
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/page_objects
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/page_objects/page_object_with_window.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/page_objects/base_page_object.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/visual_test_fixture.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/test_helpers.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/include/rviz_visual_testing_framework/transform_publisher.hpp
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/config
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/config/visual_tests_default_config.rviz
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/config/visual_tests_test_image_config.rviz
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/ament_index/resource_index/package_run_dependencies/rviz_visual_testing_framework
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/ament_index/resource_index/parent_prefix_path/rviz_visual_testing_framework
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/ament_index/resource_index/packages/rviz_visual_testing_framework
+-- Old export file "/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkExport.cmake" will be replaced.  Removing files [/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkExport-noconfig.cmake].
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkExport.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkExport-noconfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake/rviz_visual_testing_frameworkConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/package.xml

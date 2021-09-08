@@ -1,0 +1,95 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Could NOT find libbfd (missing: LIBBFD_LIBRARY LIBBFD_INCLUDE_DIR) 
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR) 
+-- Found Backward: /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/src/memory_tools/vendor/bombela/backward-cpp  
+-- googletest version '1.10.0.1' selected, of versions: '1.8.1;1.10.0.1'
+-- building googletest from '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz'...
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/osrf_testing_tools_cpp/googletest-1.10.0.1-extracted
+[100%] Built target googletest
+-- Found PythonInterp: /usr/bin/python3.8 (found version "3.8.10") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/osrf_testing_tools_cpp
+[  8%] Built target test_runner
+[ 16%] Built target gtest
+[ 60%] Built target memory_tools
+[ 68%] Built target gtest_main
+[ 76%] Built target memory_tools_interpose
+[ 84%] Built target assert_env_vars
+[ 92%] Built target test_parse_environment_variable
+[100%] Built target test_memory_tools
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cppConfigVersion.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.8.1.tar.gz
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/googletest-external-project-add.cmake.in
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.7.0.tar.gz
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/vendor/google/googletest/release-1.10.0.1.tar.gz
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_get_googletest_versions.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_extract_and_build_googletest.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_require_googletest.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/osrf_testing_tools_cpp_add_test.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/variant_helper.hpp
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/initialize.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/verbosity.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/is_working.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/stack_trace.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/register_hooks.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/memory_tools_service.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/testing_helpers.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/monitoring.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/visibility_control.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/memory_tools/gtest_quickstart.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/demangle.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/scope_exit.hpp
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/LICENSE.md
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/variant.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/vendor/mpark/variant/README.md
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/include/osrf_testing_tools_cpp/macros.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/package.xml
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/lib/libmemory_tools.so
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_toolsExport-noconfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so
+-- Set runtime path of "/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/lib/libmemory_tools_interpose.so" to ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/memory_tools_interposeExport-noconfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/lib/osrf_testing_tools_cpp/test_runner
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_testing_tools_cpp/share/osrf_testing_tools_cpp/cmake/test_runnerExport-noconfig.cmake

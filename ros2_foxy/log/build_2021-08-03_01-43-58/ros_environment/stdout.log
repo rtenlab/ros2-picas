@@ -1,0 +1,32 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ros_environment
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_distro.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_distro.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_localhost_only.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_localhost_only.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_python_version.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_python_version.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_version.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_version.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/0.ros_distro_check.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ament_index/resource_index/package_run_dependencies/ros_environment
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ament_index/resource_index/parent_prefix_path/ros_environment
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ament_index/resource_index/packages/ros_environment
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/cmake/ros_environmentConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/cmake/ros_environmentConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/package.xml

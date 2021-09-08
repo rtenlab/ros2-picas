@@ -1,0 +1,129 @@
+-- Found mrt_cmake_modules: 1.0.8 (/home/saitama1/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake)
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found OpenMP_C: -fopenmp  
+-- Found OpenMP_CXX: -fopenmp  
+-- Found OpenMP: TRUE   
+called: /home/saitama1/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/../scripts/generate_cmake_dependency_file.py /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/package.xml /home/saitama1/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/../yaml/cmake.yaml /home/saitama1/ros2_foxy/build/lanelet2_core/CMakeFiles/auto_dep_vars.cmake
+-- Adding library "lanelet2_core" with source src/Attribute.cpp;src/BasicRegulatoryElements.cpp;src/Lanelet.cpp;src/LaneletMap.cpp;src/LaneletSequence.cpp;src/LineStringGeometry.cpp;src/PolygonTriangulationGeometry.cpp;src/RegulatoryElement.cpp;src/RegulatoryElementGeometry.cpp, includes include/lanelet2_core/Attribute.h;include/lanelet2_core/Exceptions.h;include/lanelet2_core/Forward.h;include/lanelet2_core/LaneletMap.h;include/lanelet2_core/geometry/Area.h;include/lanelet2_core/geometry/BoundingBox.h;include/lanelet2_core/geometry/GeometryHelper.h;include/lanelet2_core/geometry/Lanelet.h;include/lanelet2_core/geometry/LaneletMap.h;include/lanelet2_core/geometry/LineString.h;include/lanelet2_core/geometry/Point.h;include/lanelet2_core/geometry/Polygon.h;include/lanelet2_core/geometry/RegulatoryElement.h;include/lanelet2_core/geometry/impl/Area.h;include/lanelet2_core/geometry/impl/Lanelet.h;include/lanelet2_core/geometry/impl/LaneletMap.h;include/lanelet2_core/geometry/impl/LineString.h;include/lanelet2_core/geometry/impl/Polygon.h;include/lanelet2_core/primitives/Area.h;include/lanelet2_core/primitives/BasicRegulatoryElements.h;include/lanelet2_core/primitives/BoundingBox.h;include/lanelet2_core/primitives/CompoundLineString.h;include/lanelet2_core/primitives/CompoundPolygon.h;include/lanelet2_core/primitives/GPSPoint.h;include/lanelet2_core/primitives/Lanelet.h;include/lanelet2_core/primitives/LaneletOrArea.h;include/lanelet2_core/primitives/LaneletSequence.h;include/lanelet2_core/primitives/LineString.h;include/lanelet2_core/primitives/LineStringOrPolygon.h;include/lanelet2_core/primitives/Point.h;include/lanelet2_core/primitives/Polygon.h;include/lanelet2_core/primitives/Primitive.h;include/lanelet2_core/primitives/RegulatoryElement.h;include/lanelet2_core/primitives/Traits.h;include/lanelet2_core/utility/CompoundIterator.h;include/lanelet2_core/utility/HybridMap.h;include/lanelet2_core/utility/Optional.h;include/lanelet2_core/utility/ReverseAndForwardIterator.h;include/lanelet2_core/utility/TransformIterator.h;include/lanelet2_core/utility/Units.h;include/lanelet2_core/utility/Utilities.h
+-- Marking libraries "lanelet2_core" of package "lanelet2_core" for installation
+-- Marking HEADER FILES in "include/lanelet2_core" folder of package "lanelet2_core" for installation
+-- Marking SHARED CONTENT FOLDER "res" of package "lanelet2_core" for installation
+-- Generating cmake exports for lanelet2_core to /home/saitama1/ros2_foxy/build/lanelet2_core/devel/share
+-- Adding gtest unittest "lanelet2_core-gtest-test_area" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_area' from test/test_area.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_attribute" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_attribute' from test/test_attribute.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_lanelet" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_lanelet' from test/test_lanelet.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_lanelet_map" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_lanelet_map' from test/test_lanelet_map.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_lanelet_map_geometry" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_lanelet_map_geometry' from test/test_lanelet_map_geometry.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_lanelet_or_area" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_lanelet_or_area' from test/test_lanelet_or_area.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_lanelet_sequence" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_lanelet_sequence' from test/test_lanelet_sequence.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_linestring" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_linestring' from test/test_linestring.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_point" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_point' from test/test_point.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_polygon" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_polygon' from test/test_polygon.cpp
+-- Adding gtest unittest "lanelet2_core-gtest-test_regulatory_element" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Creating gtest 'lanelet2_core-gtest-test_regulatory_element' from test/test_regulatory_element.cpp
+-- Adding nosetests in folder /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_core/test
+-- Using Python nosetests: /usr/bin/nosetests3
+-- Adding nosetest nosetests-lanelet2_core-test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/lanelet2_core
+[  5%] Built target gtest
+[ 11%] Built target gtest_main
+[ 38%] Built target lanelet2_core
+[ 44%] Built target lanelet2_core-gtest-test_lanelet_sequence
+[ 50%] Built target lanelet2_core-gtest-test_lanelet
+[ 55%] Built target lanelet2_core-gtest-test_attribute
+[ 61%] Built target lanelet2_core-gtest-test_regulatory_element
+[ 66%] Built target lanelet2_core-gtest-test_point
+[ 72%] Built target lanelet2_core-gtest-test_polygon
+[ 77%] Built target lanelet2_core-gtest-test_area
+[ 83%] Built target lanelet2_core-gtest-test_linestring
+[ 88%] Built target lanelet2_core-gtest-test_lanelet_map
+[ 94%] Built target lanelet2_core-gtest-test_lanelet_map_geometry
+[100%] Built target lanelet2_core-gtest-test_lanelet_or_area
+[100%] Built target tests_lanelet2_core
+[100%] Built target tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/res/lanelet_gdb.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/res/qtcreator_debugging_helpers.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfigVersion.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/cmake/auto_dep_vars.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreAutoDepsConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/ament_index/resource_index/package_run_dependencies/lanelet2_core
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/ament_index/resource_index/parent_prefix_path/lanelet2_core
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_core/share/ament_index/resource_index/packages/lanelet2_core
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/lib/liblanelet2_core.so.1.1.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/lib/liblanelet2_core.so.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/lib/liblanelet2_core.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/Exceptions.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/Attribute.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/LaneletMap.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/Forward.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility/TransformIterator.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility/Optional.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility/Utilities.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility/CompoundIterator.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility/Units.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility/ReverseAndForwardIterator.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/utility/HybridMap.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/Lanelet.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/CompoundLineString.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/RegulatoryElement.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/BasicRegulatoryElements.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/Area.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/LaneletSequence.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/CompoundPolygon.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/Primitive.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/LineString.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/LineStringOrPolygon.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/LaneletOrArea.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/Point.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/BoundingBox.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/GPSPoint.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/Traits.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/primitives/Polygon.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/Lanelet.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/GeometryHelper.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/impl
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/impl/Lanelet.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/impl/Area.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/impl/LineString.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/impl/LaneletMap.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/impl/Polygon.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/RegulatoryElement.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/Area.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/LineString.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/LaneletMap.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/Point.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/BoundingBox.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/include/lanelet2_core/geometry/Polygon.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreTargets.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/lanelet2_core/share/lanelet2_core/cmake/lanelet2_coreTargets-noconfig.cmake

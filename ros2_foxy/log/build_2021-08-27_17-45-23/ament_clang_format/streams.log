@@ -1,0 +1,36 @@
+[0.783s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_clang_format': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_clang_format build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/install.log --single-version-externally-managed
+[1.084s] running egg_info
+[1.084s] creating ../../../../build/ament_clang_format/ament_clang_format.egg-info
+[1.084s] writing ../../../../build/ament_clang_format/ament_clang_format.egg-info/PKG-INFO
+[1.084s] writing dependency_links to ../../../../build/ament_clang_format/ament_clang_format.egg-info/dependency_links.txt
+[1.084s] writing entry points to ../../../../build/ament_clang_format/ament_clang_format.egg-info/entry_points.txt
+[1.085s] writing requirements to ../../../../build/ament_clang_format/ament_clang_format.egg-info/requires.txt
+[1.085s] writing top-level names to ../../../../build/ament_clang_format/ament_clang_format.egg-info/top_level.txt
+[1.085s] writing manifest file '../../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[1.085s] reading manifest file '../../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[1.085s] writing manifest file '../../../../build/ament_clang_format/ament_clang_format.egg-info/SOURCES.txt'
+[1.085s] running build
+[1.086s] running build_py
+[1.086s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build
+[1.090s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib
+[1.090s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format
+[1.090s] copying ament_clang_format/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format
+[1.090s] copying ament_clang_format/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format
+[1.090s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[1.090s] copying ament_clang_format/configuration/.clang-format -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format/configuration
+[1.091s] running install
+[1.091s] running install_lib
+[1.092s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[1.092s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format
+[1.093s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/configuration
+[1.095s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build/lib/ament_clang_format/configuration/.clang-format -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/configuration
+[1.095s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/__init__.py to __init__.cpython-38.pyc
+[1.095s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format/main.py to main.cpython-38.pyc
+[1.095s] running install_data
+[1.095s] running install_egg_info
+[1.096s] Copying ../../../../build/ament_clang_format/ament_clang_format.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament_clang_format-0.9.6-py3.8.egg-info
+[1.096s] running install_scripts
+[1.096s] Installing ament_clang_format script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/bin
+[1.096s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/install.log'
+[1.346s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_clang_format' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_clang_format build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_clang_format --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_clang_format/install.log --single-version-externally-managed

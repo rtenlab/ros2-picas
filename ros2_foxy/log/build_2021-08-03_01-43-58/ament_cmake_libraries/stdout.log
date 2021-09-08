@@ -1,0 +1,27 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ament_cmake_libraries
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_index/resource_index/package_run_dependencies/ament_cmake_libraries
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_index/resource_index/parent_prefix_path/ament_cmake_libraries
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_index/resource_index/packages/ament_cmake_libraries
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_deduplicate.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_pack_build_configuration.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_libraries/share/ament_cmake_libraries/cmake/ament_libraries_unpack_build_configuration.cmake

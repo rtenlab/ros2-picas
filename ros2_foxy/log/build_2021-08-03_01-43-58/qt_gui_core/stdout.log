@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/qt_gui_core
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/ament_index/resource_index/package_run_dependencies/qt_gui_core
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/ament_index/resource_index/parent_prefix_path/qt_gui_core
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/ament_index/resource_index/packages/qt_gui_core
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/cmake/qt_gui_coreConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/cmake/qt_gui_coreConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_core/share/qt_gui_core/package.xml

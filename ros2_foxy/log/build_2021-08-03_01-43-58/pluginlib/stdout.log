@@ -1,0 +1,54 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.1.0 (/home/saitama1/ros2_foxy/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found class_loader: 2.0.2 (/home/saitama1/ros2_foxy/install/class_loader/share/class_loader/cmake)
+-- Found tinyxml2_vendor: 0.7.4 (/home/saitama1/ros2_foxy/install/tinyxml2_vendor/share/tinyxml2_vendor/cmake)
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/pluginlib
+[ 20%] Built target test_plugins
+[ 40%] Built target gtest_main
+[ 60%] Built target gtest
+[ 80%] Built target pluginlib_utest
+[100%] Built target pluginlib_unique_ptr_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/pluginlib_package_hook.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_desc.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_desc.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_list_macros.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_list_macros.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_loader.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_loader.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_loader_base.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_loader_base.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_loader_imp.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/class_loader_imp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/exceptions.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/impl/filesystem_helper.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/impl/split.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/include/pluginlib/pluginlib_exceptions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/ament_index/resource_index/package_run_dependencies/pluginlib
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/ament_index/resource_index/parent_prefix_path/pluginlib
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/ament_index/resource_index/packages/pluginlib
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/pluginlib-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/pluginlibConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/pluginlibConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake/pluginlibExport.cmake

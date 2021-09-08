@@ -1,0 +1,17 @@
+[2.872s] Invoking command in '/home/saitama1/ros2_foxy/build/ament_cppcheck': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_cppcheck --editable --build-directory /home/saitama1/ros2_foxy/build/ament_cppcheck/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_cppcheck
+[3.530s] running develop
+[3.693s] running egg_info
+[3.693s] writing ament_cppcheck.egg-info/PKG-INFO
+[3.693s] writing dependency_links to ament_cppcheck.egg-info/dependency_links.txt
+[3.693s] writing entry points to ament_cppcheck.egg-info/entry_points.txt
+[3.693s] writing requirements to ament_cppcheck.egg-info/requires.txt
+[3.693s] writing top-level names to ament_cppcheck.egg-info/top_level.txt
+[3.724s] reading manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[3.725s] writing manifest file 'ament_cppcheck.egg-info/SOURCES.txt'
+[3.764s] running build_ext
+[3.765s] Creating /home/saitama1/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages/ament-cppcheck.egg-link (link to .)
+[3.765s] Installing ament_cppcheck script to /home/saitama1/ros2_foxy/install/ament_cppcheck/bin
+[3.765s] 
+[3.766s] Installed /home/saitama1/ros2_foxy/build/ament_cppcheck
+[3.766s] running install_data
+[3.788s] Invoked command in '/home/saitama1/ros2_foxy/build/ament_cppcheck' returned '0': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_cppcheck/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_cppcheck --editable --build-directory /home/saitama1/ros2_foxy/build/ament_cppcheck/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_cppcheck

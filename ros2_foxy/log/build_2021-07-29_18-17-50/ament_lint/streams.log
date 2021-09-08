@@ -1,0 +1,36 @@
+[0.895s] Invoking command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_lint': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/ros2_foxy/install/ament_lint --record /home/saitama1/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed
+[1.083s] running egg_info
+[1.083s] creating ../../../../build/ament_lint/ament_lint.egg-info
+[1.084s] writing ../../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.084s] writing dependency_links to ../../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.084s] writing entry points to ../../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.084s] writing requirements to ../../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.084s] writing top-level names to ../../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.086s] writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.117s] reading manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.118s] writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.118s] running build
+[1.118s] running build_py
+[1.118s] creating /home/saitama1/ros2_foxy/build/ament_lint/build
+[1.118s] creating /home/saitama1/ros2_foxy/build/ament_lint/build/lib
+[1.119s] creating /home/saitama1/ros2_foxy/build/ament_lint/build/lib/ament_lint
+[1.119s] copying ament_lint/pytest_marker.py -> /home/saitama1/ros2_foxy/build/ament_lint/build/lib/ament_lint
+[1.119s] copying ament_lint/__init__.py -> /home/saitama1/ros2_foxy/build/ament_lint/build/lib/ament_lint
+[1.119s] running install
+[1.119s] running install_lib
+[1.120s] creating /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.120s] copying /home/saitama1/ros2_foxy/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.121s] copying /home/saitama1/ros2_foxy/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint
+[1.121s] byte-compiling /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+[1.122s] byte-compiling /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+[1.122s] running install_data
+[1.123s] copying package.xml -> /home/saitama1/ros2_foxy/install/ament_lint/share/ament_lint
+[1.123s] creating /home/saitama1/ros2_foxy/install/ament_lint/share/ament_index
+[1.123s] creating /home/saitama1/ros2_foxy/install/ament_lint/share/ament_index/resource_index
+[1.123s] creating /home/saitama1/ros2_foxy/install/ament_lint/share/ament_index/resource_index/packages
+[1.123s] copying resource/ament_lint -> /home/saitama1/ros2_foxy/install/ament_lint/share/ament_index/resource_index/packages
+[1.123s] running install_egg_info
+[1.125s] Copying ../../../../build/ament_lint/ament_lint.egg-info to /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.6-py3.8.egg-info
+[1.125s] running install_scripts
+[1.139s] writing list of installed files to '/home/saitama1/ros2_foxy/build/ament_lint/install.log'
+[1.206s] Invoked command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/ros2_foxy/install/ament_lint --record /home/saitama1/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed

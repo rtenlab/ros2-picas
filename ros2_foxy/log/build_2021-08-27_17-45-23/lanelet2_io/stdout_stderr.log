@@ -1,0 +1,124 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found mrt_cmake_modules: 1.0.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake)
+-- Found ament_cmake_core: 0.9.8 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+called: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/../scripts/generate_cmake_dependency_file.py /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_io/package.xml /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/../yaml/cmake.yaml /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/lanelet2_io/CMakeFiles/auto_dep_vars.cmake
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: wserialization thread random serialization log_setup prg_exec_monitor wave system chrono filesystem locale timer date_time regex graph program_options unit_test_framework log atomic iostreams 
+-- Found pugixml: /usr/lib/x86_64-linux-gnu/libpugixml.so  
+-- Adding library "lanelet2_io" with source src/BinHandler.cpp;src/Factory.cpp;src/Io.cpp;src/OsmFile.cpp;src/OsmHandlerLoad.cpp;src/OsmHandlerWrite.cpp, includes include/lanelet2_io/Configuration.h;include/lanelet2_io/Exceptions.h;include/lanelet2_io/Io.h;include/lanelet2_io/Projection.h;include/lanelet2_io/io_handlers/BinHandler.h;include/lanelet2_io/io_handlers/Factory.h;include/lanelet2_io/io_handlers/IoHandler.h;include/lanelet2_io/io_handlers/OsmFile.h;include/lanelet2_io/io_handlers/OsmHandler.h;include/lanelet2_io/io_handlers/Parser.h;include/lanelet2_io/io_handlers/Serialize.h;include/lanelet2_io/io_handlers/Writer.h
+-- Marking libraries "lanelet2_io" of package "lanelet2_io" for installation
+-- Marking HEADER FILES in "include/lanelet2_io" folder of package "lanelet2_io" for installation
+-- Generating cmake exports for lanelet2_io to /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/lanelet2_io/devel/share
+-- Adding gtest unittest "lanelet2_io-gtest-TestBinHandler" with working dir /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_io/test
+-- Creating gtest 'lanelet2_io-gtest-TestBinHandler' from test/TestBinHandler.cpp
+-- Adding gtest unittest "lanelet2_io-gtest-TestLanelet2Io" with working dir /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_io/test
+-- Creating gtest 'lanelet2_io-gtest-TestLanelet2Io' from test/TestLanelet2Io.cpp
+-- Adding gtest unittest "lanelet2_io-gtest-TestOsmFile" with working dir /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_io/test
+-- Creating gtest 'lanelet2_io-gtest-TestOsmFile' from test/TestOsmFile.cpp
+-- Adding gtest unittest "lanelet2_io-gtest-TestOsmHandler" with working dir /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_io/test
+-- Creating gtest 'lanelet2_io-gtest-TestOsmHandler' from test/TestOsmHandler.cpp
+-- Adding gtest unittest "lanelet2_io-gtest-TestSimpleUsage" with working dir /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_io/test
+-- Creating gtest 'lanelet2_io-gtest-TestSimpleUsage' from test/TestSimpleUsage.cpp
+-- Adding nosetests in folder /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_io/test
+-- Using Python nosetests: /usr/bin/nosetests3
+-- Adding nosetest nosetests-lanelet2_io-test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/lanelet2_io
+[35m[1mScanning dependencies of target lanelet2_io[0m
+[  4%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/BinHandler.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/OsmHandlerWrite.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/OsmHandlerLoad.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/OsmFile.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/Io.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/lanelet2_io.dir/src/Factory.cpp.o[0m
+[ 33%] [32m[1mLinking CXX shared library liblanelet2_io.so[0m
+[ 33%] Built target lanelet2_io
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 42%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 42%] Built target gtest_main
+[35m[1mScanning dependencies of target gtest[0m
+[ 47%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 52%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 52%] Built target gtest
+[35m[1mScanning dependencies of target lanelet2_io-gtest-TestBinHandler[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/lanelet2_io-gtest-TestBinHandler.dir/test/TestBinHandler.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable lanelet2_io-gtest-TestBinHandler[0m
+[ 61%] Built target lanelet2_io-gtest-TestBinHandler
+[35m[1mScanning dependencies of target lanelet2_io-gtest-TestSimpleUsage[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lanelet2_io-gtest-TestSimpleUsage.dir/test/TestSimpleUsage.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable lanelet2_io-gtest-TestSimpleUsage[0m
+[ 71%] Built target lanelet2_io-gtest-TestSimpleUsage
+[35m[1mScanning dependencies of target lanelet2_io-gtest-TestOsmHandler[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/lanelet2_io-gtest-TestOsmHandler.dir/test/TestOsmHandler.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable lanelet2_io-gtest-TestOsmHandler[0m
+[ 80%] Built target lanelet2_io-gtest-TestOsmHandler
+[35m[1mScanning dependencies of target lanelet2_io-gtest-TestLanelet2Io[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/lanelet2_io-gtest-TestLanelet2Io.dir/test/TestLanelet2Io.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable lanelet2_io-gtest-TestLanelet2Io[0m
+[ 90%] Built target lanelet2_io-gtest-TestLanelet2Io
+[35m[1mScanning dependencies of target lanelet2_io-gtest-TestOsmFile[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/lanelet2_io-gtest-TestOsmFile.dir/test/TestOsmFile.cpp.o[0m
+[100%] [32m[1mLinking CXX executable lanelet2_io-gtest-TestOsmFile[0m
+[100%] Built target lanelet2_io-gtest-TestOsmFile
+[35m[1mScanning dependencies of target tests_lanelet2_io[0m
+[100%] Built target tests_lanelet2_io
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/lib/liblanelet2_io.so.1.1.1
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/lib/liblanelet2_io.so.1
+-- Set runtime path of "/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/lib/liblanelet2_io.so.1.1.1" to ""
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/lib/liblanelet2_io.so
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Exceptions.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Io.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Projection.h
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/internal
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Factory.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/IoHandler.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/BinHandler.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Serialize.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Parser.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/OsmHandler.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Writer.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/OsmFile.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Configuration.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioTargets.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioTargets-noconfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioConfigVersion.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/auto_dep_vars.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioAutoDepsConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/package.xml
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/ament_index/resource_index/package_run_dependencies/lanelet2_io
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/ament_index/resource_index/parent_prefix_path/lanelet2_io
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/lanelet2_io/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/lanelet2_io/share/ament_index/resource_index/packages/lanelet2_io

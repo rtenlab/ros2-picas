@@ -1,0 +1,61 @@
+running egg_info
+creating ../../../../build/ros2service/ros2service.egg-info
+writing ../../../../build/ros2service/ros2service.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2service/ros2service.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2service/ros2service.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2service/ros2service.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2service/ros2service.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2service/ros2service.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2service/ros2service.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2service/ros2service.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/ros2_foxy/build/ros2service/build
+creating /home/saitama1/ros2_foxy/build/ros2service/build/lib
+creating /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service
+copying ros2service/__init__.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service
+creating /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/command
+copying ros2service/command/service.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/command
+copying ros2service/command/__init__.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/command
+creating /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/api
+copying ros2service/api/__init__.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/api
+creating /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb
+copying ros2service/verb/find.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb
+copying ros2service/verb/call.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb
+copying ros2service/verb/__init__.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb
+copying ros2service/verb/type.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb
+copying ros2service/verb/list.py -> /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb
+running install
+running install_lib
+creating /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/__init__.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service
+creating /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/command
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/command/service.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/command
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/command/__init__.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/command
+creating /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/api
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/api/__init__.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/api
+creating /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb/find.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb/call.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb/__init__.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb/type.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb
+copying /home/saitama1/ros2_foxy/build/ros2service/build/lib/ros2service/verb/list.py -> /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/command/service.py to service.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb/find.py to find.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb/call.py to call.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb/type.py to type.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service/verb/list.py to list.cpython-38.pyc
+running install_data
+copying package.xml -> /home/saitama1/ros2_foxy/install/ros2service/share/ros2service
+creating /home/saitama1/ros2_foxy/install/ros2service/share/ament_index
+creating /home/saitama1/ros2_foxy/install/ros2service/share/ament_index/resource_index
+creating /home/saitama1/ros2_foxy/install/ros2service/share/ament_index/resource_index/packages
+copying resource/ros2service -> /home/saitama1/ros2_foxy/install/ros2service/share/ament_index/resource_index/packages
+running install_egg_info
+Copying ../../../../build/ros2service/ros2service.egg-info to /home/saitama1/ros2_foxy/install/ros2service/lib/python3.8/site-packages/ros2service-0.9.9-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/ros2_foxy/build/ros2service/install.log'

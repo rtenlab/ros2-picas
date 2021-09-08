@@ -1,0 +1,6 @@
+CMake Deprecation Warning at /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_export_interfaces.cmake:37 (message):
+  ament_export_interfaces() is deprecated, use ament_export_targets() instead
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (ament_export_interfaces)
+
+

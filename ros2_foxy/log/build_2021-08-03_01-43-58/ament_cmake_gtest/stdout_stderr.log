@@ -1,0 +1,28 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ament_cmake_gtest
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_index/resource_index/package_run_dependencies/ament_cmake_gtest
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_index/resource_index/parent_prefix_path/ament_cmake_gtest
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_index/resource_index/packages/ament_cmake_gtest
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_cmake_gtest-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_cmake_gtestConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_cmake_gtestConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_add_gtest_test.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake/ament_find_gtest.cmake

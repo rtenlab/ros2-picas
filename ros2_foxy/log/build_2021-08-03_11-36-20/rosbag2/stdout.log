@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rosbag2
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/ament_index/resource_index/package_run_dependencies/rosbag2
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/ament_index/resource_index/parent_prefix_path/rosbag2
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/ament_index/resource_index/packages/rosbag2
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/cmake/rosbag2Config.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/cmake/rosbag2Config-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2/share/rosbag2/package.xml

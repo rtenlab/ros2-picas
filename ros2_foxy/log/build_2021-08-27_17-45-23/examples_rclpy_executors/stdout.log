@@ -1,0 +1,50 @@
+running egg_info
+creating ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+writing ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+writing requirements to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+writing top-level names to ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+writing manifest file '../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+copying examples_rclpy_executors/listener.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+copying examples_rclpy_executors/talker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+copying examples_rclpy_executors/custom_executor.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+copying examples_rclpy_executors/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+copying examples_rclpy_executors/callback_group.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+copying examples_rclpy_executors/custom_callback_group.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+copying examples_rclpy_executors/composed.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/listener.py to listener.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/talker.py to talker.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors/composed.py to composed.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+running install_scripts
+Installing callback_group script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing composed script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing custom_callback_group script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing custom_executor script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing listener script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/examples_rclpy_executors
+Installing talker script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/examples_rclpy_executors/lib/examples_rclpy_executors
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/examples_rclpy_executors/install.log'

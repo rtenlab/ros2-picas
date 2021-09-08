@@ -1,0 +1,140 @@
+running egg_info
+creating ../../../../build/launch_testing/launch_testing.egg-info
+writing ../../../../build/launch_testing/launch_testing.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/launch_testing/launch_testing.egg-info/dependency_links.txt
+writing entry points to ../../../../build/launch_testing/launch_testing.egg-info/entry_points.txt
+writing requirements to ../../../../build/launch_testing/launch_testing.egg-info/requires.txt
+writing top-level names to ../../../../build/launch_testing/launch_testing.egg-info/top_level.txt
+writing manifest file '../../../../build/launch_testing/launch_testing.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/launch_testing/launch_testing.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/launch_testing/launch_testing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/junitxml.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/test_result.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/test_runner.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/decorator.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/launch_test.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/print_arguments.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/ready_aggregator.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/loader.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/markers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/proc_info_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/io_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/parametrize.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+copying launch_testing/parse_arguments.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/util
+copying launch_testing/util/proc_lookup.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/util
+copying launch_testing/util/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/util
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+copying launch_testing/asserts/assert_output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+copying launch_testing/asserts/assert_exit_codes.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+copying launch_testing/asserts/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+copying launch_testing/asserts/assert_sequential_output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+copying launch_testing/pytest/hooks.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+copying launch_testing/pytest/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+copying launch_testing/pytest/hookspecs.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers
+copying launch_testing/event_handlers/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers
+copying launch_testing/event_handlers/stdout_ready_listener.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+copying launch_testing/tools/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+copying launch_testing/tools/output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+copying launch_testing/tools/process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+copying launch_testing/tools/text.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+copying launch_testing/actions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+copying launch_testing/actions/gtest.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+copying launch_testing/actions/ready.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+copying launch_testing/actions/pytest.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+copying launch_testing/actions/test.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy
+copying launch_testing/legacy/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy
+copying launch_testing/legacy/output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy
+running install
+running install_lib
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/junitxml.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/test_result.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/util/proc_lookup.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/util/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/test_runner.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/decorator.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/assert_output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/assert_exit_codes.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/asserts/assert_sequential_output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest/hooks.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/pytest/hookspecs.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/launch_test.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/print_arguments.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/ready_aggregator.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/loader.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/event_handlers/stdout_ready_listener.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/tools/text.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/markers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/proc_info_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/io_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/gtest.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/ready.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/pytest.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/actions/test.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/parametrize.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/legacy/output.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/build/lib/launch_testing/parse_arguments.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/junitxml.py to junitxml.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/test_result.py to test_result.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util/proc_lookup.py to proc_lookup.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/util/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/test_runner.py to test_runner.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/decorator.py to decorator.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/assert_output.py to assert_output.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/assert_exit_codes.py to assert_exit_codes.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/asserts/assert_sequential_output.py to assert_sequential_output.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest/hooks.py to hooks.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/pytest/hookspecs.py to hookspecs.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/launch_test.py to launch_test.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/print_arguments.py to print_arguments.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/ready_aggregator.py to ready_aggregator.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/loader.py to loader.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/event_handlers/stdout_ready_listener.py to stdout_ready_listener.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/output.py to output.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/process.py to process.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/tools/text.py to text.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/markers.py to markers.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/proc_info_handler.py to proc_info_handler.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/io_handler.py to io_handler.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/gtest.py to gtest.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/ready.py to ready.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/pytest.py to pytest.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/actions/test.py to test.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/parametrize.py to parametrize.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/legacy/output.py to output.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing/parse_arguments.py to parse_arguments.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/launch_testing/launch_testing.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/lib/python3.8/site-packages/launch_testing-0.10.5-py3.8.egg-info
+running install_scripts
+Installing launch_test script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_testing/bin
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_testing/install.log'

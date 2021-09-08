@@ -1,0 +1,99 @@
+# Run linters automatically on pull requests.
+#
+# ros-tooling/actino-ros-lint is relying on the latest APT binary packages.
+# As of 2020-05-01, Eloquent is the latest release for which APT binary
+# packages are available, which is why the Docker image is based on Eloquent.
+name: Lint rosbag2
+on:
+  pull_request:
+
+jobs:
+  ament_copyright:
+    name: ament_copyright
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-bionic-ros-eloquent-ros-base-latest
+    steps:
+    # TODO(setup-ros-docker#7): calling chown is necessary for now
+    - run: sudo chown -R rosbuild:rosbuild "$HOME" .
+    - uses: actions/checkout@v2
+    - uses: ros-tooling/action-ros-lint@0.0.6
+      with:
+        linter: copyright
+        package-name: |
+            ros2bag
+            rosbag2_compression
+            rosbag2_converter_default_plugins
+            rosbag2_cpp
+            rosbag2_test_common
+            rosbag2_tests
+            rosbag2_transport
+            shared_queues_vendor
+
+  ament_xmllint:
+    name: ament_xmllint
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-bionic-ros-eloquent-ros-base-latest
+    steps:
+    # TODO(setup-ros-docker#7): calling chown is necessary for now
+    - run: sudo chown -R rosbuild:rosbuild "$HOME" .
+    - uses: actions/checkout@v2
+    - uses: ros-tooling/action-ros-lint@0.0.6
+      with:
+        linter: xmllint
+        package-name: |
+            ros2bag
+            rosbag2
+            rosbag2_compression
+            rosbag2_converter_default_plugins
+            rosbag2_cpp
+            rosbag2_test_common
+            rosbag2_tests
+            rosbag2_transport
+            shared_queues_vendor
+            sqlite3_vendor
+
+  ament_lint_cpp: # Linters applicable to C++ packages
+    name: ament_${{ matrix.linter }}
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-bionic-ros-eloquent-ros-base-latest
+    strategy:
+      fail-fast: false
+      matrix:
+          linter: [cppcheck, cpplint, uncrustify]
+    steps:
+    # TODO(setup-ros-docker#7): calling chown is necessary for now
+    - run: sudo chown -R rosbuild:rosbuild "$HOME" .
+    - uses: actions/checkout@v2
+    - uses: ros-tooling/action-ros-lint@0.0.6
+      with:
+        linter: ${{ matrix.linter }}
+        package-name: |
+            rosbag2_compression
+            rosbag2_converter_default_plugins
+            rosbag2_cpp
+            rosbag2_test_common
+            rosbag2_tests
+            rosbag2_transport
+            shared_queues_vendor
+
+  ament_lint_python: # Linters applicable to Python packages
+    name: ament_${{ matrix.linter }}
+    runs-on: ubuntu-latest
+    container:
+      image: rostooling/setup-ros-docker:ubuntu-bionic-ros-eloquent-ros-base-latest
+    strategy:
+      fail-fast: false
+      matrix:
+          linter: [pep257] # TODO re-enable flake8 when it is fixed
+    steps:
+    # TODO(setup-ros-docker#7): calling chown is necessary for now
+    - run: sudo chown -R rosbuild:rosbuild "$HOME" .
+    - uses: actions/checkout@v2
+    - uses: ros-tooling/action-ros-lint@0.0.6
+      with:
+        linter: ${{ matrix.linter }}
+        package-name: |
+            ros2bag

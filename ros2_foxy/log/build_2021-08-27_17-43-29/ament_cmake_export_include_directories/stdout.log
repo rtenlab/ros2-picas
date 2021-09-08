@@ -1,0 +1,27 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cmake_export_include_directories
+-- Install configuration: ""
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_include_directories
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_include_directories
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/environment/path.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.bash
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.sh
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/package.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_index/resource_index/packages/ament_cmake_export_include_directories
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directoriesConfig.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directoriesConfig-version.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/package.xml
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_export_include_directories.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories_package_hook.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories/share/ament_cmake_export_include_directories/cmake/ament_cmake_export_include_directories-extras.cmake.in

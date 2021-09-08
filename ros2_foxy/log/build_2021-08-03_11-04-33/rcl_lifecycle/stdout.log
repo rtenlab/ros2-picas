@@ -1,0 +1,7 @@
+[ 11%] Built target gtest
+[ 23%] Built target gtest_main
+[ 52%] Built target rcl_lifecycle
+[ 64%] Built target test_transition_map
+[ 76%] Built target test_multiple_instances
+[ 88%] Built target test_default_state_machine
+[100%] Built target test_rcl_lifecycle
