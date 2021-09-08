@@ -1,4 +1,0 @@
-CMake Warning at CMakeLists.txt:32 (message):
-  Could not find RTI Connext - skipping 'rmw_connext_cpp'
-
-

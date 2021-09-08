@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+import sys
+
+from rqt_gui.main import Main
+from rqt_msg.messages import Messages
+
+plugin = 'rqt_msg.messages.Messages'
+main = Main(filename=plugin)
+sys.exit(main.main(standalone=plugin))

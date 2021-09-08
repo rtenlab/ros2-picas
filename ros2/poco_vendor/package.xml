@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format3.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>poco_vendor</name>
+  <version>1.2.0</version>
+  <description>CMake shim over the poco library.</description>
+  <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
+  <license>Apache License 2.0</license> <!-- The contents of this vendor package are Apache 2.0 -->
+  <license>Boost Software License 1.0</license> <!-- poco is licensed under the Boost Software License 1.0 (https://pocoproject.org/license.html) -->
+  <buildtool_depend>cmake</buildtool_depend>
+
+  <buildtool_export_depend>cmake</buildtool_export_depend>
+
+  <depend>libpoco-dev</depend>
+  <depend>pcre</depend>
+  <depend>zlib</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
+

@@ -1,4 +1,0 @@
-Invoking command in '/home/saitama1/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/fastcdr -- -j12 -l12
-Invoked command in '/home/saitama1/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/fastcdr -- -j12 -l12
-Invoking command in '/home/saitama1/ros2_foxy/build/fastcdr': /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/fastcdr
-Invoked command in '/home/saitama1/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/fastcdr

@@ -1,0 +1,93 @@
+// Copyright 2016 Proyectos y Sistemas de Mantenimiento SL (eProsima).
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+/**
+ * @file TimedEvent.cpp
+ *
+ */
+
+#include <fastrtps/rtps/resources/TimedEvent.h>
+#include <fastrtps/rtps/resources/ResourceEvent.h>
+#include "TimedEventImpl.h"
+
+
+
+namespace eprosima {
+namespace fastrtps{
+namespace rtps {
+
+TimedEvent::TimedEvent(
+        ResourceEvent& service,
+        std::function<bool(EventCode)> callback,
+        double milliseconds)
+    : service_(service)
+    , impl_(nullptr)
+{
+    impl_ = new TimedEventImpl(service_.get_io_service(), callback, std::chrono::microseconds((int64_t)(milliseconds*1000)));
+}
+
+TimedEvent::~TimedEvent()
+{
+    service_.unregister_timer(impl_);
+    delete(impl_);
+}
+
+void TimedEvent::cancel_timer()
+{
+    if(impl_->go_cancel())
+    {
+        service_.notify(impl_);
+    }
+}
+
+
+void TimedEvent::restart_timer()
+{
+    if(impl_->go_ready())
+    {
+        service_.notify(impl_);
+    }
+}
+
+void TimedEvent::restart_timer(const std::chrono::steady_clock::time_point& timeout)
+{
+    if(impl_->go_ready())
+    {
+        service_.notify(impl_, timeout);
+    }
+}
+
+bool TimedEvent::update_interval(const Duration_t& inter)
+{
+    return impl_->update_interval(inter);
+}
+
+bool TimedEvent::update_interval_millisec(double time_millisec)
+{
+    return impl_->update_interval_millisec(time_millisec);
+}
+
+double TimedEvent::getIntervalMilliSec()
+{
+    return impl_->getIntervalMsec();
+}
+
+double TimedEvent::getRemainingTimeMilliSec()
+{
+    return impl_->getRemainingTimeMilliSec();
+}
+
+}
+} /* namespace rtps */
+} /* namespace eprosima */
