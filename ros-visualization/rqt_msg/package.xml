@@ -1,0 +1,35 @@
+<package format="2">
+  <name>rqt_msg</name>
+  <version>1.0.2</version>
+  <description>A Python GUI plugin for introspecting available ROS message types.
+  Note that the msgs available through this plugin is the ones that are stored
+  on your machine, not on the ROS core your rqt instance connects to.
+  </description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <maintainer email="ablasdel@gmail.com">Aaron Blasdel</maintainer>
+  <maintainer email="mikeblautman@gmail.com">Michael Lautman</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/rqt_msg</url>
+  <url type="repository">https://github.com/ros-visualization/rqt_msg</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rqt_msg/issues</url>
+
+  <author>Aaron Blasdel</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>python3-catkin-pkg-modules</exec_depend>
+  <exec_depend version_gte="0.2.19">python_qt_binding</exec_depend>
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>rqt_py_common</exec_depend>
+  <exec_depend>rqt_console</exec_depend>
+
+  <export>
+    <architecture_independent/>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

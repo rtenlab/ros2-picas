@@ -1,0 +1,32 @@
+<package format="2">
+  <name>rqt_graph</name>
+  <version>1.0.4</version>
+  <description>rqt_graph provides a GUI plugin for visualizing the ROS
+      computation graph.<br />
+      Its components are made generic so that other packages
+      where you want to achieve graph representation can depend upon this pkg
+      (use <a href = "http://www.ros.org/wiki/rqt_dep">rqt_dep</a> to find out
+      the pkgs that depend. rqt_dep itself depends on rqt_graph too).
+  </description>
+  <maintainer email="dthomas@osrfoundation.org">Dirk Thomas</maintainer>
+  <maintainer email="ablasdel@gmail.com">Aaron Blasdel</maintainer>
+
+  <license>BSD</license>
+
+  <url type="website">http://wiki.ros.org/rqt_graph</url>
+  <url type="repository">https://github.com/ros-visualization/rqt_graph</url>
+  <url type="bugtracker">https://github.com/ros-visualization/rqt_graph/issues</url>
+
+  <author>Dirk Thomas</author>
+
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python_qt_binding</exec_depend>
+  <exec_depend>qt_dotgraph</exec_depend>
+  <exec_depend>rqt_gui</exec_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>

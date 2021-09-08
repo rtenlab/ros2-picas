@@ -1,0 +1,24 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index c43485d..ee60bd9 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -35,13 +35,13 @@ if(UNIX)
+ 
+ elseif(WIN32)
+     set(FOONATHAN_MEMORY_INC_INSTALL_DIR "include/foonathan_memory")
+-    set(FOONATHAN_MEMORY_RUNTIME_INSTALL_DIR   "bin")
+-    set(FOONATHAN_MEMORY_LIBRARY_INSTALL_DIR   "bin")
+-    set(FOONATHAN_MEMORY_ARCHIVE_INSTALL_DIR   "lib")
+-    set(FOONATHAN_MEMORY_FRAMEWORK_INSTALL_DIR "bin")
++    set(FOONATHAN_MEMORY_RUNTIME_INSTALL_DIR   "bin/INSTALLER_PLATFORM")
++    set(FOONATHAN_MEMORY_LIBRARY_INSTALL_DIR   "bin/INSTALLER_PLATFORM")
++    set(FOONATHAN_MEMORY_ARCHIVE_INSTALL_DIR   "lib/INSTALLER_PLATFORM")
++    set(FOONATHAN_MEMORY_FRAMEWORK_INSTALL_DIR "bin/INSTALLER_PLATFORM")
+ 
+-    set(FOONATHAN_MEMORY_CMAKE_CONFIG_INSTALL_DIR "share/foonathan_memory/cmake")
+-    set(FOONATHAN_MEMORY_ADDITIONAL_FILES_INSTALL_DIR "share/foonathan_memory")
++    set(FOONATHAN_MEMORY_CMAKE_CONFIG_INSTALL_DIR "share/foonathan_memory-INSTALLER_PLATFORM/cmake")
++    set(FOONATHAN_MEMORY_ADDITIONAL_FILES_INSTALL_DIR "share/foonathan_memory-INSTALLER_PLATFORM")
+     set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+ else()
+     message(FATAL_ERROR "Could not set install folders for this platform!")

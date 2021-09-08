@@ -1,0 +1,66 @@
+--- a/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_dataSupport.cxx
++++ b/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_dataSupport.cxx
+@@ -115,3 +115,62 @@ Defines:   TTypeSupport, TData, TDataReader, TDataWriter
+ #undef TPlugin_new
+ #undef TPlugin_delete
+
++DDS_ReturnCode_t
++ConnextStaticSerializedDataSupport_register_external_type(
++  DDSDomainParticipant * participant,
++  const char * type_name,
++  struct DDS_TypeCode * type_code)
++{
++  DDSTypeSupport * dds_data_type = NULL;
++  struct PRESTypePlugin * presTypePlugin = NULL;
++  DDS_ReturnCode_t retcode = DDS_RETCODE_ERROR;
++  DDS_Boolean delete_data_type = DDS_BOOLEAN_FALSE;
++  RTIBool already_registered = RTI_FALSE;
++
++  if (type_code == NULL) {
++    goto finError;
++  }
++
++  if (participant == NULL) {
++    goto finError;
++  }
++
++  /* TODO pass the type_code */
++  presTypePlugin = ConnextStaticSerializedDataPlugin_new_external(type_code);
++  if (presTypePlugin == NULL) {
++    goto finError;
++  }
++
++  dds_data_type = new ConnextStaticSerializedDataTypeSupport(true);
++  if (dds_data_type == NULL) {
++    fprintf(stderr, "Error while registering external type\n");
++    goto finError;
++  }
++  delete_data_type = RTI_TRUE;
++
++  presTypePlugin->_userBuffer = (PRESWord *)dds_data_type;
++  already_registered = participant->is_type_registered(type_name);
++
++  retcode = participant->register_type(type_name, presTypePlugin, NULL, !already_registered);
++  if (retcode != DDS_RETCODE_OK) {
++    fprintf(stderr, "error while registering external type\n");
++    goto finError;
++  }
++
++  if (!already_registered) {
++    delete_data_type = DDS_BOOLEAN_FALSE;
++  }
++
++  retcode = DDS_RETCODE_OK;
++
++finError:
++  if (presTypePlugin != NULL) {
++    ConnextStaticSerializedDataPlugin_delete(presTypePlugin);
++  }
++  if (delete_data_type) {
++    delete (ConnextStaticSerializedDataTypeSupport *)dds_data_type;
++    dds_data_type = NULL;
++  }
++
++  return retcode;
++}
+

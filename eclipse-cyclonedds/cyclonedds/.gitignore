@@ -1,0 +1,7 @@
+gen
+gen.*
+.cproject
+.project
+.settings/
+.vs/
+build/

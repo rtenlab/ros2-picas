@@ -1,0 +1,24 @@
+<package format="2">
+  <name>orocos_kdl</name>
+  <version>3.2.1</version>
+  <description>
+    This package contains a recent version of the Kinematics and Dynamics
+    Library (KDL), distributed by the Orocos Project. 
+  </description>
+  <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
+  <license>LGPL</license>
+  <url>http://wiki.ros.org/orocos_kdl</url>
+  <author>Ruben Smits</author>
+
+  <buildtool_depend>cmake</buildtool_depend>
+  <build_depend>eigen</build_depend>
+
+  <exec_depend>eigen</exec_depend>
+  <exec_depend>pkg-config</exec_depend>
+
+  <test_depend>cppunit</test_depend>
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+
+</package>

@@ -1,0 +1,45 @@
+--- a/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_dataPlugin.cxx
++++ b/rmw_connext_cpp/resources/patch_generated/connext_static_serialized_dataPlugin.cxx
+@@ -11,7 +11,7 @@ or consult the RTI Connext manual.
+ #include <string.h>
+ 
+ #ifndef ndds_cpp_h
+-#include "ndds/ndds_cpp.h"
++#include "rmw_connext_shared_cpp/ndds_include.hpp"
+ #endif
+ 
+ #ifndef osapi_type_h
+@@ -655,7 +929,9 @@ Key Management functions:
+ PRESTypePluginKeyKind 
+ ConnextStaticSerializedDataPlugin_get_key_kind(void)
+ {
+-    return PRES_TYPEPLUGIN_USER_KEY;
++    // TODO(karsten1987): Whenever we introduce keys for our data types
++    // this might have to change.
++    return PRES_TYPEPLUGIN_NO_KEY;
+ }
+ 
+ RTIBool ConnextStaticSerializedDataPlugin_deserialize_key(
+@@ -895,6 +1368,11 @@ ConnextStaticSerializedDataPlugin_serialized_sample_to_keyhash(
+ * ------------------------------------------------------------------------ */
+ struct PRESTypePlugin *ConnextStaticSerializedDataPlugin_new(void) 
+ { 
++  return NULL;
++}
++
++struct PRESTypePlugin *ConnextStaticSerializedDataPlugin_new_external(struct DDS_TypeCode * external_type_code)
++{
+     struct PRESTypePlugin *plugin = NULL;
+     const struct PRESTypePluginVersion PLUGIN_VERSION = 
+     PRES_TYPE_PLUGIN_VERSION_2_0;
+@@ -990,9 +1468,7 @@ struct PRESTypePlugin *ConnextStaticSerializedDataPlugin_new(void)
+     (PRESTypePluginKeyToInstanceFunction)
+     ConnextStaticSerializedDataPlugin_key_to_instance;
+     plugin->serializedKeyToKeyHashFnc = NULL; /* Not supported yet */
+-    #ifdef NDDS_STANDALONE_TYPE
+-    plugin->typeCode = NULL; 
+-    #else
+-    plugin->typeCode =  (struct RTICdrTypeCode *)ConnextStaticSerializedData_get_typecode();
+-    #endif
++    plugin->typeCode =  (struct RTICdrTypeCode *)external_type_code;
+     plugin->languageKind = PRES_TYPEPLUGIN_CPP_LANG;
