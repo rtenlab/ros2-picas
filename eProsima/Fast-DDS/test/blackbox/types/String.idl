@@ -1,4 +1,0 @@
-struct String
-{
-    string<10000> message;
-};
