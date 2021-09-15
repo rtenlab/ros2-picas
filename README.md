@@ -1,9 +1,8 @@
-<h2 align="center">ROS2-PiCAS</h2>
+<h2 align="center">PiCAS for ROS2 Galactic</h2>
 
 ## 1. Implementation of Priority-Driven Chain-Aware scheduling
 ### Setup
-- ROS2-PiCAS is built on [ros2-eloquent](https://docs.ros.org/en/eloquent/Installation/Linux-Development-Setup.html) version.
-- This repository includes the entire source code of ros2-eloquent with our priority-based scheduling.
+- This repository includes the entire source code of ros2-galactic with our priority-based scheduling.
 - Before building source codes, required development tools and dependencies should be met (please see this [link](https://docs.ros.org/en/eloquent/Installation/Linux-Development-Setup.html#add-the-ros-2-apt-repository)).
 - Build source codes
   ```
