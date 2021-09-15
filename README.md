@@ -51,12 +51,6 @@
   ros2 run picas_example example
 ```
 
-## 2. Analysis framework
-### Case study example
-- `ros2-picas-example > picas-analysis > picas_casestudy.m`
-### Schedulability test
-- `ros2-picas-example > picas-analysis > picas_schedulability_test.m`
-
 **NOTE**: Please reference our ROS2-PiCAS paper that was published in RTAS 2021.
 ```
 @inproceedings{choi2021picas,
