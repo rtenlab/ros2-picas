@@ -1,0 +1,120 @@
+running egg_info
+creating ../../../../build/ros2cli/ros2cli.egg-info
+writing ../../../../build/ros2cli/ros2cli.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2cli/ros2cli.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2cli/ros2cli.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2cli/ros2cli.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2cli/ros2cli.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2cli/ros2cli.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2cli/ros2cli.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2cli/ros2cli.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/ros2_foxy/build/ros2cli/build
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli
+copying ros2cli/plugin_system.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli
+copying ros2cli/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli
+copying ros2cli/entry_points.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli
+copying ros2cli/cli.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/daemon
+copying ros2cli/daemon/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/daemon
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node
+copying ros2cli/node/direct.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node
+copying ros2cli/node/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node
+copying ros2cli/node/daemon.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node
+copying ros2cli/node/strategy.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command
+copying ros2cli/command/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command
+copying ros2cli/command/extension_points.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command
+copying ros2cli/command/daemon.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command
+copying ros2cli/command/extensions.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc
+copying ros2cli/xmlrpc/client.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc
+copying ros2cli/xmlrpc/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc
+copying ros2cli/xmlrpc/local_server.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb
+copying ros2cli/verb/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/marshal
+copying ros2cli/xmlrpc/marshal/rclpy.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/marshal
+copying ros2cli/xmlrpc/marshal/generic.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/marshal
+copying ros2cli/xmlrpc/marshal/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/marshal
+creating /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon
+copying ros2cli/verb/daemon/status.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon
+copying ros2cli/verb/daemon/__init__.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon
+copying ros2cli/verb/daemon/start.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon
+copying ros2cli/verb/daemon/stop.py -> /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon
+running install
+running install_lib
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/daemon
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/daemon/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/daemon
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node/direct.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node/daemon.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/node/strategy.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/plugin_system.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command/extension_points.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command/daemon.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/command/extensions.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/entry_points.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/client.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/local_server.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/marshal
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/marshal/rclpy.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/marshal
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/marshal/generic.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/marshal
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/xmlrpc/marshal/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/marshal
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb
+creating /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon/status.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon/start.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/daemon/stop.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/verb/__init__.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb
+copying /home/saitama1/ros2_foxy/build/ros2cli/build/lib/ros2cli/cli.py -> /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/daemon/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node/direct.py to direct.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node/daemon.py to daemon.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/node/strategy.py to strategy.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/plugin_system.py to plugin_system.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command/extension_points.py to extension_points.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command/daemon.py to daemon.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/command/extensions.py to extensions.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/entry_points.py to entry_points.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/client.py to client.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/local_server.py to local_server.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/marshal/rclpy.py to rclpy.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/marshal/generic.py to generic.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/xmlrpc/marshal/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon/status.py to status.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon/start.py to start.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/daemon/stop.py to stop.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli/cli.py to cli.cpython-38.pyc
+running install_data
+creating /home/saitama1/ros2_foxy/install/ros2cli/share/ament_index
+creating /home/saitama1/ros2_foxy/install/ros2cli/share/ament_index/resource_index
+creating /home/saitama1/ros2_foxy/install/ros2cli/share/ament_index/resource_index/packages
+copying resource/ros2cli -> /home/saitama1/ros2_foxy/install/ros2cli/share/ament_index/resource_index/packages
+copying package.xml -> /home/saitama1/ros2_foxy/install/ros2cli/share/ros2cli
+copying resource/package.dsv -> /home/saitama1/ros2_foxy/install/ros2cli/share/ros2cli
+creating /home/saitama1/ros2_foxy/install/ros2cli/share/ros2cli/environment
+copying completion/ros2-argcomplete.bash -> /home/saitama1/ros2_foxy/install/ros2cli/share/ros2cli/environment
+copying completion/ros2-argcomplete.zsh -> /home/saitama1/ros2_foxy/install/ros2cli/share/ros2cli/environment
+running install_egg_info
+Copying ../../../../build/ros2cli/ros2cli.egg-info to /home/saitama1/ros2_foxy/install/ros2cli/lib/python3.8/site-packages/ros2cli-0.9.9-py3.8.egg-info
+running install_scripts
+Installing _ros2_daemon script to /home/saitama1/ros2_foxy/install/ros2cli/bin
+Installing ros2 script to /home/saitama1/ros2_foxy/install/ros2cli/bin
+writing list of installed files to '/home/saitama1/ros2_foxy/build/ros2cli/install.log'

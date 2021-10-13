@@ -1,0 +1,86 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros2/ros2-picas-example/trace_picas/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/trace_picas
+CMake Deprecation Warning at /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_export_interfaces.cmake:37 (message):
+  ament_export_interfaces() is deprecated, use ament_export_targets() instead
+Call Stack (most recent call first):
+  CMakeLists.txt:29 (ament_export_interfaces)
+
+
+[35m[1mScanning dependencies of target trace_picas[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/trace_picas.dir/src/trace_function.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libtrace_picas.a[0m
+[100%] Built target trace_picas
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/environment/library_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/environment/library_path.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/include/trace_picas/
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/include/trace_picas//trace.hpp
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/lib/libtrace_picas.a
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/ament_index/resource_index/package_run_dependencies/trace_picas
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/ament_index/resource_index/parent_prefix_path/trace_picas
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/ament_index/resource_index/packages/trace_picas
+-- Old export file "/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/export_traceExport.cmake" will be replaced.  Removing files [/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/export_traceExport-noconfig.cmake].
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/export_traceExport.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/export_traceExport-noconfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/trace_picasConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/cmake/trace_picasConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/trace_picas/share/trace_picas/package.xml

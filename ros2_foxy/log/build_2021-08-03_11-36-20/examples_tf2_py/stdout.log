@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing examples_tf2_py.egg-info/PKG-INFO
+writing dependency_links to examples_tf2_py.egg-info/dependency_links.txt
+writing entry points to examples_tf2_py.egg-info/entry_points.txt
+writing requirements to examples_tf2_py.egg-info/requires.txt
+writing top-level names to examples_tf2_py.egg-info/top_level.txt
+reading manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+writing manifest file 'examples_tf2_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/python3.8/site-packages/site.py
+Creating /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/python3.8/site-packages/examples-tf2-py.egg-link (link to .)
+Installing async_waits_for_transform script to /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/examples_tf2_py
+Installing blocking_waits_for_transform script to /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/examples_tf2_py
+Installing dynamic_broadcaster script to /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/examples_tf2_py
+Installing frame_dumper script to /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/examples_tf2_py
+Installing static_broadcaster script to /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/examples_tf2_py
+Installing waits_for_transform script to /home/saitama1/ros2_foxy/install/examples_tf2_py/lib/examples_tf2_py
+
+Installed /home/saitama1/ros2_foxy/build/examples_tf2_py
+running install_data

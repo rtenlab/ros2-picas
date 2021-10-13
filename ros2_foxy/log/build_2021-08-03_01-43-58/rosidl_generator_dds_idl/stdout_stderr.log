@@ -1,0 +1,40 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rosidl_generator_dds_idl
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/lib/python3.8/site-packages/rosidl_generator_dds_idl/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_dds_idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_dds_idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/ament_index/resource_index/packages/rosidl_generator_dds_idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/cmake/rosidl_generator_dds_idl-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/cmake/rosidl_generator_dds_idlConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/cmake/rosidl_generator_dds_idlConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/lib/rosidl_generator_dds_idl/rosidl_generator_dds_idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/cmake/rosidl_generate_dds_interfaces.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/resource/action.idl.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/resource/idl.idl.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/resource/msg.idl.em
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/share/rosidl_generator_dds_idl/resource/srv.idl.em
+Listing '/home/saitama1/ros2_foxy/install/rosidl_generator_dds_idl/lib/python3.8/site-packages/rosidl_generator_dds_idl'...

@@ -1,0 +1,27 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/ament_cmake_export_interfaces
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_index/resource_index/package_run_dependencies/ament_cmake_export_interfaces
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_index/resource_index/parent_prefix_path/ament_cmake_export_interfaces
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_index/resource_index/packages/ament_cmake_export_interfaces
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfacesConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfacesConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_export_interfaces.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces_package_hook.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/ament_cmake_export_interfaces/share/ament_cmake_export_interfaces/cmake/ament_cmake_export_interfaces-extras.cmake.in

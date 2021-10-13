@@ -1,0 +1,17 @@
+[0.263s] Invoking command in '/home/saitama1/ros2_foxy/build/ament_copyright': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_lint PATH=/home/saitama1/ros2_foxy/install/ament_pep257/bin:/home/saitama1/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_pep257:/home/saitama1/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_flake8:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_lint:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_copyright --editable --build-directory /home/saitama1/ros2_foxy/build/ament_copyright/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_copyright
+[0.457s] running develop
+[0.542s] running egg_info
+[0.542s] writing ament_copyright.egg-info/PKG-INFO
+[0.543s] writing dependency_links to ament_copyright.egg-info/dependency_links.txt
+[0.543s] writing entry points to ament_copyright.egg-info/entry_points.txt
+[0.543s] writing requirements to ament_copyright.egg-info/requires.txt
+[0.543s] writing top-level names to ament_copyright.egg-info/top_level.txt
+[0.579s] reading manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[0.580s] writing manifest file 'ament_copyright.egg-info/SOURCES.txt'
+[0.608s] running build_ext
+[0.608s] Creating /home/saitama1/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages/ament-copyright.egg-link (link to .)
+[0.609s] Installing ament_copyright script to /home/saitama1/ros2_foxy/install/ament_copyright/bin
+[0.609s] 
+[0.609s] Installed /home/saitama1/ros2_foxy/build/ament_copyright
+[0.609s] running install_data
+[0.701s] Invoked command in '/home/saitama1/ros2_foxy/build/ament_copyright' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_pep257:/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_lint PATH=/home/saitama1/ros2_foxy/install/ament_pep257/bin:/home/saitama1/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_pep257:/home/saitama1/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_flake8:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_lint:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_copyright --editable --build-directory /home/saitama1/ros2_foxy/build/ament_copyright/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_copyright

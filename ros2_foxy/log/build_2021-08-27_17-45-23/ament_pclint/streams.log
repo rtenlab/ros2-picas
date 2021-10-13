@@ -1,0 +1,74 @@
+[0.792s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_pclint': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_pclint build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/install.log --single-version-externally-managed
+[1.023s] running egg_info
+[1.023s] creating ../../../../build/ament_pclint/ament_pclint.egg-info
+[1.023s] writing ../../../../build/ament_pclint/ament_pclint.egg-info/PKG-INFO
+[1.024s] writing dependency_links to ../../../../build/ament_pclint/ament_pclint.egg-info/dependency_links.txt
+[1.024s] writing entry points to ../../../../build/ament_pclint/ament_pclint.egg-info/entry_points.txt
+[1.024s] writing requirements to ../../../../build/ament_pclint/ament_pclint.egg-info/requires.txt
+[1.024s] writing top-level names to ../../../../build/ament_pclint/ament_pclint.egg-info/top_level.txt
+[1.026s] writing manifest file '../../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.066s] reading manifest file '../../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.067s] writing manifest file '../../../../build/ament_pclint/ament_pclint.egg-info/SOURCES.txt'
+[1.068s] running build
+[1.068s] running build_py
+[1.068s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build
+[1.068s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib
+[1.068s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint
+[1.068s] copying ament_pclint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint
+[1.068s] copying ament_pclint/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint
+[1.069s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.069s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.069s] copying ament_pclint/config/gcc/co-g++.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.070s] copying ament_pclint/config/gcc/co-g++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.070s] copying ament_pclint/config/gcc/co-gcc.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.072s] copying ament_pclint/config/gcc/co-gcc.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.072s] copying ament_pclint/config/gcc/co-osx-g++.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.074s] copying ament_pclint/config/gcc/co-osx-g++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.074s] copying ament_pclint/config/gcc/co-osx-gcc.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.075s] copying ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc
+[1.076s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.076s] copying ament_pclint/config/msvc/co-cl.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.077s] copying ament_pclint/config/msvc/co-cl++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.078s] copying ament_pclint/config/msvc/co-cl.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/msvc
+[1.078s] copying ament_pclint/config/au-misra3.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.082s] copying ament_pclint/config/au-misra3-amd1.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.084s] copying ament_pclint/config/au-misra-cpp.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.087s] copying ament_pclint/config/c99.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.089s] copying ament_pclint/config/c++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.089s] copying ament_pclint/config/deprecate.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.090s] copying ament_pclint/config/env-xml.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config
+[1.090s] running install
+[1.091s] running install_lib
+[1.092s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[1.092s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.093s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-g++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-g++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.093s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-gcc.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.094s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/gcc/co-osx-gcc.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/gcc
+[1.094s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.094s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.094s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.094s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/msvc/co-cl.h -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config/msvc
+[1.094s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/c++.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.094s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/au-misra3.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.094s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/au-misra3-amd1.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.095s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/au-misra-cpp.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.095s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/deprecate.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.095s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/c99.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.095s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/config/env-xml.lnt -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/config
+[1.095s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[1.095s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build/lib/ament_pclint/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint
+[1.096s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/__init__.py to __init__.cpython-38.pyc
+[1.096s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint/main.py to main.cpython-38.pyc
+[1.098s] running install_data
+[1.098s] running install_egg_info
+[1.099s] Copying ../../../../build/ament_pclint/ament_pclint.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages/ament_pclint-0.9.6-py3.8.egg-info
+[1.100s] running install_scripts
+[1.116s] Installing ament_pclint script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/bin
+[1.116s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/install.log'
+[1.448s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_pclint' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint:${AMENT_PREFIX_PATH} PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_pclint build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pclint --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_pclint/install.log --single-version-externally-managed

@@ -1,0 +1,138 @@
+-- Found ament_cmake_python: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake)
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Found gmock sources under '/home/saitama1/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saitama1/ros2_foxy/src/ros2/rcutils/include>;/home/saitama1/ros2_foxy/src/ros2/rcutils/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rcutils
+[  1%] Built target gtest
+[  3%] Built target gmock_main
+[ 28%] Built target rcutils
+[ 31%] Built target gmock
+[ 33%] Built target gtest_main
+[ 34%] Built target dummy_shared_library
+[ 35%] Built target test_atomics_executable
+[ 37%] Built target test_logging_macros
+[ 40%] Built target test_logging_long_messages
+[ 40%] Built target test_logging_macros_c
+[ 41%] Built target test_strerror
+[ 45%] Built target test_repl_str
+[ 45%] Built target test_string_array
+[ 47%] Built target test_logging
+[ 49%] Built target test_get_env
+[ 51%] Built target test_isalnum_no_locale
+[ 53%] Built target test_env
+[ 55%] Built target test_string_map
+[ 57%] Built target test_filesystem
+[ 58%] Built target test_shared_library
+[ 60%] Built target test_snprintf
+[ 62%] Built target test_find
+[ 64%] Built target test_logging_console_output_handler
+[ 65%] Built target test_logging_bad_env
+[ 67%] Built target test_uint8_array
+[ 71%] Built target test_logging_enable_for
+[ 71%] Built target test_macros
+[ 73%] Built target test_logging_bad_env2
+[ 75%] Built target test_logging_bad_env3
+[ 76%] Built target test_logging_custom_env
+[ 80%] Built target test_hash_map
+[ 82%] Built target test_process
+[ 82%] Built target test_char_array
+[ 83%] Built target test_error_handling
+[ 85%] Built target test_split
+[ 87%] Built target test_array_list
+[ 89%] Built target test_strdup
+[ 95%] Built target test_allocator
+[ 95%] Built target test_logging_custom_env2
+[ 92%] Built target test_format_string
+[ 96%] Built target test_cmdline_parser
+[ 98%] Built target test_time
+[100%] Built target test_error_handling_helpers
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages/rcutils/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages/rcutils/logging.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/ament_index/resource_index/package_run_dependencies/rcutils
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/ament_index/resource_index/parent_prefix_path/rcutils
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/ament_index/resource_index/packages/rcutils
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_link_flags-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/allocator.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/cmdline_parser.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/env.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/error_handling.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/filesystem.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/find.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/format_string.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/get_env.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/isalnum_no_locale.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/logging.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/macros.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/process.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/qsort.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/repl_str.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/shared_library.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/snprintf.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/split.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/stdatomic_helper.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/stdatomic_helper/gcc/stdatomic.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/stdatomic_helper/win32/stdatomic.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/strdup.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/strerror.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/testing/fault_injection.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/time.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/array_list.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/char_array.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/hash_map.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/rcutils_ret.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/string_array.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/string_map.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/uint8_array.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/visibility_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/visibility_control_macros.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/logging_macros.h
+Listing '/home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages/rcutils'...
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rcutils/lib/librcutils.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsExport-noconfig.cmake

@@ -1,0 +1,203 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rcutils: 1.1.3 (/home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake)
+-- Found rosidl_runtime_c: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_runtime_c/share/rosidl_runtime_c/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gmock sources under '/home/saitama1/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rmw
+[35m[1mScanning dependencies of target rmw[0m
+[  1%] [32mBuilding C object CMakeFiles/rmw.dir/src/allocators.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/rmw.dir/src/security_options.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/rmw.dir/src/subscription_options.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/rmw.dir/src/topic_endpoint_info_array.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/rmw.dir/src/topic_endpoint_info.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/rmw.dir/src/types.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/rmw.dir/src/validate_full_topic_name.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/rmw.dir/src/validate_namespace.c.o[0m
+[ 15%] [32mBuilding C object CMakeFiles/rmw.dir/src/validate_node_name.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/rmw.dir/src/sanity_checks.c.o[0m
+[ 18%] [32mBuilding C object CMakeFiles/rmw.dir/src/publisher_options.c.o[0m
+[ 20%] [32mBuilding C object CMakeFiles/rmw.dir/src/names_and_types.c.o[0m
+[ 22%] [32mBuilding C object CMakeFiles/rmw.dir/src/message_sequence.c.o[0m
+[ 23%] [32mBuilding C object CMakeFiles/rmw.dir/src/init_options.c.o[0m
+[ 25%] [32mBuilding C object CMakeFiles/rmw.dir/src/init.c.o[0m
+[ 27%] [32mBuilding C object CMakeFiles/rmw.dir/src/event.c.o[0m
+[ 28%] [32mBuilding C object CMakeFiles/rmw.dir/src/convert_rcutils_ret_to_rmw_ret.c.o[0m
+[ 30%] [32m[1mLinking C shared library librmw.so[0m
+[ 30%] Built target rmw
+[35m[1mScanning dependencies of target gmock_main[0m
+[ 32%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 33%] Built target gmock_main
+[35m[1mScanning dependencies of target gmock[0m
+[ 35%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 37%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 38%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 38%] Built target gmock
+[35m[1mScanning dependencies of target test_topic_endpoint_info[0m
+[ 40%] [32mBuilding CXX object test/CMakeFiles/test_topic_endpoint_info.dir/test_topic_endpoint_info.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_topic_endpoint_info[0m
+[ 42%] Built target test_topic_endpoint_info
+[35m[1mScanning dependencies of target test_subscription_options[0m
+[ 44%] [32mBuilding CXX object test/CMakeFiles/test_subscription_options.dir/test_subscription_options.cpp.o[0m
+[ 45%] [32m[1mLinking CXX executable test_subscription_options[0m
+[ 45%] Built target test_subscription_options
+[35m[1mScanning dependencies of target test_publisher_options[0m
+[ 47%] [32mBuilding CXX object test/CMakeFiles/test_publisher_options.dir/test_publisher_options.cpp.o[0m
+[ 49%] [32m[1mLinking CXX executable test_publisher_options[0m
+[ 49%] Built target test_publisher_options
+[35m[1mScanning dependencies of target test_sanity_checks[0m
+[ 50%] [32mBuilding CXX object test/CMakeFiles/test_sanity_checks.dir/test_sanity_checks.cpp.o[0m
+[ 52%] [32m[1mLinking CXX executable test_sanity_checks[0m
+[ 52%] Built target test_sanity_checks
+[35m[1mScanning dependencies of target test_validate_namespace[0m
+[ 54%] [32mBuilding CXX object test/CMakeFiles/test_validate_namespace.dir/test_validate_namespace.cpp.o[0m
+[ 55%] [32m[1mLinking CXX executable test_validate_namespace[0m
+[ 55%] Built target test_validate_namespace
+[35m[1mScanning dependencies of target test_event[0m
+[ 57%] [32mBuilding CXX object test/CMakeFiles/test_event.dir/test_event.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable test_event[0m
+[ 59%] Built target test_event
+[35m[1mScanning dependencies of target test_serialized_message[0m
+[ 61%] [32mBuilding CXX object test/CMakeFiles/test_serialized_message.dir/test_serialized_message.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_serialized_message[0m
+[ 62%] Built target test_serialized_message
+[35m[1mScanning dependencies of target test_types[0m
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test_types.dir/test_types.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_types[0m
+[ 66%] Built target test_types
+[35m[1mScanning dependencies of target test_security_options[0m
+[ 67%] [32mBuilding CXX object test/CMakeFiles/test_security_options.dir/test_security_options.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_security_options[0m
+[ 69%] Built target test_security_options
+[35m[1mScanning dependencies of target test_message_sequence[0m
+[ 71%] [32mBuilding CXX object test/CMakeFiles/test_message_sequence.dir/test_message_sequence.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable test_message_sequence[0m
+[ 72%] Built target test_message_sequence
+[35m[1mScanning dependencies of target test_init_options[0m
+[ 74%] [32mBuilding CXX object test/CMakeFiles/test_init_options.dir/test_init_options.cpp.o[0m
+[ 76%] [32m[1mLinking CXX executable test_init_options[0m
+[ 76%] Built target test_init_options
+[35m[1mScanning dependencies of target test_names_and_types[0m
+[ 77%] [32mBuilding CXX object test/CMakeFiles/test_names_and_types.dir/test_names_and_types.cpp.o[0m
+[ 79%] [32m[1mLinking CXX executable test_names_and_types[0m
+[ 79%] Built target test_names_and_types
+[35m[1mScanning dependencies of target test_topic_endpoint_info_array[0m
+[ 81%] [32mBuilding CXX object test/CMakeFiles/test_topic_endpoint_info_array.dir/test_topic_endpoint_info_array.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable test_topic_endpoint_info_array[0m
+[ 83%] Built target test_topic_endpoint_info_array
+[35m[1mScanning dependencies of target test_convert_rcutils_ret_to_rmw_ret[0m
+[ 84%] [32mBuilding CXX object test/CMakeFiles/test_convert_rcutils_ret_to_rmw_ret.dir/test_convert_rcutils_ret_to_rmw_ret.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_convert_rcutils_ret_to_rmw_ret[0m
+[ 86%] Built target test_convert_rcutils_ret_to_rmw_ret
+[35m[1mScanning dependencies of target test_init[0m
+[ 88%] [32mBuilding CXX object test/CMakeFiles/test_init.dir/test_init.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable test_init[0m
+[ 89%] Built target test_init
+[35m[1mScanning dependencies of target test_validate_full_topic_name[0m
+[ 91%] [32mBuilding CXX object test/CMakeFiles/test_validate_full_topic_name.dir/test_validate_full_topic_name.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable test_validate_full_topic_name[0m
+[ 93%] Built target test_validate_full_topic_name
+[35m[1mScanning dependencies of target test_allocators[0m
+[ 94%] [32mBuilding CXX object test/CMakeFiles/test_allocators.dir/test_allocators.cpp.o[0m
+[ 96%] [32m[1mLinking CXX executable test_allocators[0m
+[ 96%] Built target test_allocators
+[35m[1mScanning dependencies of target test_validate_node_name[0m
+[ 98%] [32mBuilding CXX object test/CMakeFiles/test_validate_node_name.dir/test_validate_node_name.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_validate_node_name[0m
+[100%] Built target test_validate_node_name
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/environment/library_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/environment/library_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/ament_index/resource_index/package_run_dependencies/rmw
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/ament_index/resource_index/parent_prefix_path/rmw
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/ament_index/resource_index/packages/rmw
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/rmwExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/rmwExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/rmw-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/rmwConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/rmwConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/get_rmw_typesupport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/register_rmw_implementation.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/share/rmw/cmake/configure_rmw_library.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/get_topic_names_and_types.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/types.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/get_node_info_and_types.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/macros.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/localhost.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/get_topic_endpoint_info.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/topic_endpoint_info.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/get_service_names_and_types.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/publisher_options.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/validate_namespace.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/impl
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/impl/cpp
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/impl/cpp/demangle.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/impl/cpp/key_value.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/impl/cpp/macros.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/impl/config.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/security_options.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/init_options.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/domain_id.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/incompatible_qos_events_statuses.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/names_and_types.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/ret_types.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/error_handling.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/subscription_options.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/event.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/allocators.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/init.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/validate_full_topic_name.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/qos_profiles.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/convert_rcutils_ret_to_rmw_ret.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/visibility_control.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/rmw.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/serialized_message.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/sanity_checks.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/topic_endpoint_info_array.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/message_sequence.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/include/rmw/validate_node_name.h
+-- Installing: /home/saitama1/ros2_foxy/install/rmw/lib/librmw.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rmw/lib/librmw.so" to ""

@@ -1,0 +1,20 @@
+[0.857s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/osrf/osrf_pycommon': PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/osrf_pycommon/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/osrf_pycommon/install.log --single-version-externally-managed
+[1.041s] running egg_info
+[1.041s] writing ../../../build/osrf_pycommon/osrf_pycommon.egg-info/PKG-INFO
+[1.041s] writing dependency_links to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/dependency_links.txt
+[1.042s] writing requirements to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/requires.txt
+[1.042s] writing top-level names to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/top_level.txt
+[1.074s] reading manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[1.075s] reading manifest template 'MANIFEST.in'
+[1.076s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[1.076s] running build
+[1.076s] running build_py
+[1.077s] running install
+[1.078s] running install_lib
+[1.080s] running install_data
+[1.080s] running install_egg_info
+[1.081s] removing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon-0.1.10-py3.8.egg-info' (and everything under it)
+[1.082s] Copying ../../../build/osrf_pycommon/osrf_pycommon.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon-0.1.10-py3.8.egg-info
+[1.082s] running install_scripts
+[1.101s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/osrf_pycommon/install.log'
+[1.176s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/osrf/osrf_pycommon' returned '0': PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/osrf_pycommon/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/osrf_pycommon/install.log --single-version-externally-managed

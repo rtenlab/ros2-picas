@@ -1,0 +1,783 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Enabling tests requiring a display
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rviz_common: 8.2.2 (/home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake)
+-- Setting OGRE_DIR to: '/home/saitama1/ros2_foxy/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+--   media      : /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+-- OGRE_PLUGIN_DIR: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Setting yaml-cpp_DIR to: '/home/saitama1/ros2_foxy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found interactive_markers: 2.1.3 (/home/saitama1/ros2_foxy/install/interactive_markers/share/interactive_markers/cmake)
+-- Found laser_geometry: 2.2.0 (/home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake)
+-- Found map_msgs: 2.0.2 (/home/saitama1/ros2_foxy/install/map_msgs/share/map_msgs/cmake)
+-- Found ament_cmake_cppcheck: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found rviz_visual_testing_framework: 8.2.2 (/home/saitama1/ros2_foxy/install/rviz_visual_testing_framework/share/rviz_visual_testing_framework/cmake)
+-- Found gmock sources under '/home/saitama1/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rviz_default_plugins
+[35m[1mScanning dependencies of target gtest[0m
+[35m[1mScanning dependencies of target gmock[0m
+[35m[1mScanning dependencies of target gtest_main[0m
+[35m[1mScanning dependencies of target gmock_main[0m
+[  0%] [34m[1mGenerating include/rviz_default_plugins/displays/grid/moc_grid_display.cpp[0m
+[  0%] [34m[1mGenerating include/rviz_default_plugins/displays/fluid_pressure/moc_fluid_pressure_display.cpp[0m
+[  1%] [34m[1mGenerating include/rviz_default_plugins/view_controllers/xy_orbit/moc_xy_orbit_view_controller.cpp[0m
+[  1%] [34m[1mGenerating include/rviz_default_plugins/displays/camera/moc_camera_display.cpp[0m
+[  2%] [34m[1mGenerating include/rviz_default_plugins/displays/axes/moc_axes_display.cpp[0m
+[  3%] [34m[1mGenerating include/rviz_default_plugins/displays/grid_cells/moc_grid_cells_display.cpp[0m
+[  3%] [34m[1mGenerating include/rviz_default_plugins/displays/image/moc_image_display.cpp[0m
+[  3%] [34m[1mGenerating include/rviz_default_plugins/displays/illuminance/moc_illuminance_display.cpp[0m
+[  4%] [34m[1mGenerating include/rviz_default_plugins/displays/laser_scan/moc_laser_scan_display.cpp[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[  5%] [34m[1mGenerating include/rviz_default_plugins/displays/map/moc_map_display.cpp[0m
+[  5%] [34m[1mGenerating include/rviz_default_plugins/displays/odometry/moc_odometry_display.cpp[0m
+[  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[  5%] [34m[1mGenerating include/rviz_default_plugins/displays/marker/moc_marker_common.cpp[0m
+[  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  6%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker.cpp[0m
+[  7%] [34m[1mGenerating include/rviz_default_plugins/transformation/moc_transformer_guard.cpp[0m
+[  8%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_integer_action.cpp[0m
+[  8%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_display.cpp[0m
+[  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor/src/gtest-all.cc.o[0m
+[  8%] [34m[1mGenerating include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_namespace_property.cpp[0m
+[  8%] [34m[1mGenerating include/rviz_default_plugins/displays/path/moc_path_display.cpp[0m
+[  9%] [34m[1mGenerating include/rviz_default_plugins/displays/point/moc_point_stamped_display.cpp[0m
+[  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[  9%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/transformers/moc_axis_color_pc_transformer.cpp[0m
+[  9%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_transformer.cpp[0m
+[  9%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_common.cpp[0m
+[ 10%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/transformers/moc_flat_color_pc_transformer.cpp[0m
+[ 10%] [34m[1mGenerating include/rviz_default_plugins/displays/pointcloud/transformers/moc_intensity_pc_transformer.cpp[0m
+[ 11%] [34m[1mGenerating include/rviz_default_plugins/displays/pose/moc_pose_display.cpp[0m
+[ 11%] [34m[1mGenerating include/rviz_default_plugins/displays/polygon/moc_polygon_display.cpp[0m
+[ 11%] [34m[1mGenerating include/rviz_default_plugins/displays/pose_covariance/moc_pose_with_covariance_display.cpp[0m
+[ 11%] [34m[1mGenerating include/rviz_default_plugins/displays/pose_array/moc_pose_array_display.cpp[0m
+[ 11%] [34m[1mGenerating include/rviz_default_plugins/displays/range/moc_range_display.cpp[0m
+[ 12%] [34m[1mGenerating include/rviz_default_plugins/displays/relative_humidity/moc_relative_humidity_display.cpp[0m
+[ 12%] [34m[1mGenerating include/rviz_default_plugins/displays/robot_model/moc_robot_model_display.cpp[0m
+[ 12%] [34m[1mGenerating include/rviz_default_plugins/displays/temperature/moc_temperature_display.cpp[0m
+[ 12%] [34m[1mGenerating include/rviz_default_plugins/displays/tf/moc_tf_display.cpp[0m
+[ 13%] [34m[1mGenerating include/rviz_default_plugins/displays/tf/moc_frame_info.cpp[0m
+[ 13%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot.cpp[0m
+[ 13%] [34m[1mGenerating include/rviz_default_plugins/displays/wrench/moc_wrench_display.cpp[0m
+[ 14%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot_joint.cpp[0m
+[ 14%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot_element_base_class.cpp[0m
+[ 15%] [34m[1mGenerating include/rviz_default_plugins/tools/measure/moc_measure_tool.cpp[0m
+[ 15%] [34m[1mGenerating include/rviz_default_plugins/tools/goal_pose/moc_goal_tool.cpp[0m
+[ 15%] [34m[1mGenerating include/rviz_default_plugins/tools/pose_estimate/moc_initial_pose_tool.cpp[0m
+[ 15%] [34m[1mGenerating include/rviz_default_plugins/robot/moc_robot_link.cpp[0m
+[ 16%] [34m[1mGenerating include/rviz_default_plugins/tools/point/moc_point_tool.cpp[0m
+[ 16%] [34m[1mGenerating include/rviz_default_plugins/tools/interaction/moc_interaction_tool.cpp[0m
+[ 16%] [34m[1mGenerating include/rviz_default_plugins/view_controllers/orbit/moc_orbit_view_controller.cpp[0m
+[ 16%] [34m[1mGenerating include/rviz_default_plugins/view_controllers/ortho/moc_fixed_orientation_ortho_view_controller.cpp[0m
+[35m[1mScanning dependencies of target rviz_default_plugins[0m
+[ 16%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 16%] Built target gtest_main
+[ 16%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 16%] Built target gmock_main
+[ 16%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/axes/moc_axes_display.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/fluid_pressure/moc_fluid_pressure_display.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/camera/moc_camera_display.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/grid_cells/moc_grid_cells_display.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/grid/moc_grid_display.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/illuminance/moc_illuminance_display.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/image/moc_image_display.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/map/moc_map_display.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/laser_scan/moc_laser_scan_display.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/marker/moc_marker_common.cpp.o[0m
+[ 18%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 18%] Built target gtest
+[ 19%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/odometry/moc_odometry_display.cpp.o[0m
+[ 19%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 19%] Built target gmock
+[35m[1mScanning dependencies of target display_test_fixture[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/display_test_fixture.dir/test/rviz_default_plugins/displays/display_test_fixture.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/transformation/moc_transformer_guard.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_integer_action.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_display.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/interactive_markers/moc_interactive_marker_namespace_property.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/path/moc_path_display.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/point/moc_point_stamped_display.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_common.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/moc_point_cloud_transformer.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/transformers/moc_axis_color_pc_transformer.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/transformers/moc_flat_color_pc_transformer.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pointcloud/transformers/moc_intensity_pc_transformer.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/display_test_fixture.dir/test/rviz_default_plugins/ogre_testing_environment.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/polygon/moc_polygon_display.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pose/moc_pose_display.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pose_array/moc_pose_array_display.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/pose_covariance/moc_pose_with_covariance_display.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/display_test_fixture.dir/test/rviz_default_plugins/scene_graph_introspection.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/range/moc_range_display.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/relative_humidity/moc_relative_humidity_display.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/robot_model/moc_robot_model_display.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/temperature/moc_temperature_display.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/tf/moc_frame_info.cpp.o[0m
+[ 26%] [32m[1mLinking CXX static library libdisplay_test_fixture.a[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/tf/moc_tf_display.cpp.o[0m
+[ 26%] Built target display_test_fixture
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/displays/wrench/moc_wrench_display.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot_joint.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot_link.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/robot/moc_robot_element_base_class.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/measure/moc_measure_tool.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/goal_pose/moc_goal_tool.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/interaction/moc_interaction_tool.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/pose_estimate/moc_initial_pose_tool.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/fluid_pressure/fluid_pressure_display.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/grid_cells/grid_cells_display.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/illuminance/illuminance_display.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/grid/grid_display.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/image/image_display.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/image/ros_image_texture.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/camera/camera_display.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/axes/axes_display.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/integer_action.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/view_controllers/xy_orbit/moc_xy_orbit_view_controller.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/view_controllers/ortho/moc_fixed_orientation_ortho_view_controller.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker_control.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/view_controllers/orbit/moc_orbit_view_controller.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/include/rviz_default_plugins/tools/point/moc_point_tool.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker_display.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/interactive_markers/interactive_marker_namespace_property.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/laser_scan/laser_scan_display.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/map/map_display.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/map/palette_builder.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/map/swatch.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/arrow_marker.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/line_list_marker.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/line_marker_base.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/line_strip_marker.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/triangle_list_marker.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/points_marker.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/shape_marker.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/mesh_resource_marker.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/text_view_facing_marker.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/axis_color_pc_transformer.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/path/path_display.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/point/point_stamped_display.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/flat_color_pc_transformer.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/intensity_pc_transformer.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/odometry/odometry_display.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/marker_common.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker_array/marker_array_display.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/marker_display.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/marker_factory.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/rgb8_pc_transformer.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/marker_selection_handler.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/rgbf32_pc_transformer.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/marker/markers/marker_base.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/transformers/xyz_pc_transformer.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose/pose_display.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose/pose_display_selection_handler.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud2_display.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/polygon/polygon_display.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_array/pose_array_display.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_transformer_factory.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_display.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_selection_handler.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_to_point_cloud2.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pointcloud/point_cloud_common.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_array/flat_arrows_array.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_covariance/pose_with_covariance_display.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/relative_humidity/relative_humidity_display.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/robot_model/robot_model_display.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/temperature/temperature_display.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/tf/frame_info.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/tf/frame_selection_handler.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/pose_covariance/pose_with_cov_selection_handler.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/range/range_display.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/interaction/interaction_tool.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/measure/measure_tool.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/move/move_tool.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/focus/focus_tool.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot_link.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot_element_base_class.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/tf_link_updater.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot_joint.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/wrench/wrench_display.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/robot/robot.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/displays/tf/tf_display.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/goal_pose/goal_tool.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/pose/pose_tool.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/pose_estimate/initial_pose_tool.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/point/point_tool.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/tools/select/selection_tool.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/transformation/tf_frame_transformer.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/transformation/tf_wrapper.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/follower/third_person_follower_view_controller.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/fps/fps_view_controller.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/orbit/orbit_view_controller.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/ortho/fixed_orientation_ortho_view_controller.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rviz_default_plugins.dir/src/rviz_default_plugins/view_controllers/xy_orbit/xy_orbit_view_controller.cpp.o[0m
+[ 54%] [32m[1mLinking CXX shared library librviz_default_plugins.so[0m
+[ 54%] Built target rviz_default_plugins
+[35m[1mScanning dependencies of target ros_image_texture_test[0m
+[35m[1mScanning dependencies of target path_display_test[0m
+[35m[1mScanning dependencies of target point_cloud2_display_test[0m
+[35m[1mScanning dependencies of target selection_tool_test[0m
+[35m[1mScanning dependencies of target point_display_test[0m
+[35m[1mScanning dependencies of target measure_tool_test[0m
+[35m[1mScanning dependencies of target ortho_view_controller_test[0m
+[35m[1mScanning dependencies of target range_display_test[0m
+[35m[1mScanning dependencies of target point_cloud_transformers_test[0m
+[35m[1mScanning dependencies of target palette_builder_test[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/palette_builder_test.dir/test/rviz_default_plugins/displays/map/palette_builder_test.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ros_image_texture_test.dir/test/rviz_default_plugins/displays/image/ros_image_texture_test.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/selection_tool_test.dir/test/rviz_default_plugins/tools/select/selection_tool_test.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/ortho_view_controller_test.dir/test/rviz_default_plugins/view_controllers/ortho/ortho_view_controller_test.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/measure_tool_test.dir/test/rviz_default_plugins/tools/measure/measure_tool_test.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/range_display_test.dir/test/rviz_default_plugins/displays/range/range_display_test.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/path_display_test.dir/test/rviz_default_plugins/displays/path/path_display_test.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/point_cloud2_display_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/point_display_test.dir/test/rviz_default_plugins/displays/point/point_stamped_display_test.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/axis_color_pc_transformer_test.cpp.o[0m
+[35m[1mScanning dependencies of target transformer_guard_test[0m
+[35m[1mScanning dependencies of target temperature_display_visual_test[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/point_cloud2_display_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud2_display_test.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/transformer_guard_test.dir/test/rviz_default_plugins/transformation/transformer_guard_test.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/temperature_display_visual_test.dir/test/rviz_default_plugins/displays/temperature/temperature_display_visual_test.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable palette_builder_test[0m
+[ 59%] [32m[1mLinking CXX executable ros_image_texture_test[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/flat_color_pc_transformer_test.cpp.o[0m
+[ 59%] Built target palette_builder_test
+[35m[1mScanning dependencies of target point_cloud_scalar_display_test[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/point_cloud_scalar_display_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_scalar_display_test.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable range_display_test[0m
+[ 60%] [32m[1mLinking CXX executable measure_tool_test[0m
+[ 61%] [32m[1mLinking CXX executable ortho_view_controller_test[0m
+[ 61%] [32m[1mLinking CXX executable path_display_test[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/intensity_pc_transformer_test.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable selection_tool_test[0m
+[ 61%] [32m[1mLinking CXX executable point_display_test[0m
+[ 61%] Built target ros_image_texture_test
+[35m[1mScanning dependencies of target marker_display_visual_test[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/marker_display_visual_test.dir/test/rviz_default_plugins/displays/marker/marker_display_visual_test.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/temperature_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable transformer_guard_test[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/rgb8_pc_transformer_test.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable point_cloud2_display_test[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/temperature_display_visual_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable temperature_display_visual_test[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/rgbf32_pc_transformer_test.cpp.o[0m
+[ 64%] Built target range_display_test
+[35m[1mScanning dependencies of target orbit_view_controller_test[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/orbit_view_controller_test.dir/test/rviz_default_plugins/view_controllers/orbit/orbit_view_controller_test.cpp.o[0m
+[ 64%] Built target path_display_test
+[ 64%] [32m[1mLinking CXX executable point_cloud_scalar_display_test[0m
+[ 64%] Built target selection_tool_test
+[ 64%] Built target point_display_test
+[ 64%] [32mBuilding CXX object CMakeFiles/point_cloud_transformers_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_transformers/xyz_pc_transformer_test.cpp.o[0m
+[ 64%] Built target point_cloud2_display_test
+[ 64%] Built target ortho_view_controller_test
+[ 64%] Built target measure_tool_test
+[ 64%] Built target temperature_display_visual_test
+[ 65%] [32mBuilding CXX object CMakeFiles/marker_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_display_page_object.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable point_cloud_transformers_test[0m
+[ 65%] Built target transformer_guard_test
+[35m[1mScanning dependencies of target frame_transformer_tf_test[0m
+[35m[1mScanning dependencies of target interactive_marker_namespace_property_test[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/interactive_marker_namespace_property_test.dir/test/rviz_default_plugins/displays/interactive_markers/interactive_marker_namespace_property_test.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/frame_transformer_tf_test.dir/test/rviz_default_plugins/transformation/frame_transformer_tf_test.cpp.o[0m
+[35m[1mScanning dependencies of target point_display_visual_test[0m
+[35m[1mScanning dependencies of target illuminance_display_visual_test[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/point_display_visual_test.dir/test/rviz_default_plugins/displays/point/point_stamped_display_visual_test.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/illuminance_display_visual_test.dir/test/rviz_default_plugins/displays/illuminance/illuminance_display_visual_test.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable marker_display_visual_test[0m
+[ 66%] [32m[1mLinking CXX executable orbit_view_controller_test[0m
+[35m[1mScanning dependencies of target marker_common_test[0m
+[35m[1mScanning dependencies of target xy_orbit_view_controller_test[0m
+[35m[1mScanning dependencies of target point_cloud_common_test[0m
+[35m[1mScanning dependencies of target odometry_ogre_helper_test[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/xy_orbit_view_controller_test.dir/test/rviz_default_plugins/view_controllers/xy_orbit/xy_orbit_view_controller_test.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/marker_common_test.dir/test/rviz_default_plugins/displays/marker/marker_common_test.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/odometry_ogre_helper_test.dir/test/rviz_default_plugins/displays/odometry/quaternion_helper_test.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/point_cloud_common_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/point_cloud_common_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_common_test.cpp.o[0m
+[ 68%] [32m[1mLinking CXX executable interactive_marker_namespace_property_test[0m
+[ 68%] Built target point_cloud_scalar_display_test
+[ 69%] [32m[1mLinking CXX executable odometry_ogre_helper_test[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/marker_common_test.dir/test/rviz_default_plugins/displays/marker/marker_messages.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable frame_transformer_tf_test[0m
+[ 70%] Built target odometry_ogre_helper_test
+[35m[1mScanning dependencies of target camera_display_visual_test[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/camera_display_visual_test.dir/test/rviz_default_plugins/displays/camera/camera_display_visual_test.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/camera_display_visual_test.dir/test/rviz_default_plugins/page_objects/camera_display_page_object.cpp.o[0m
+[ 71%] Built target marker_display_visual_test
+[35m[1mScanning dependencies of target image_display_test[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/image_display_test.dir/test/rviz_default_plugins/displays/image/image_display_test.cpp.o[0m
+[ 71%] Built target point_cloud_transformers_test
+[35m[1mScanning dependencies of target marker_array_display_visual_test[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/marker_array_display_visual_test.dir/test/rviz_default_plugins/displays/marker_array/marker_array_display_visual_test.cpp.o[0m
+[ 71%] Built target interactive_marker_namespace_property_test
+[ 71%] Built target frame_transformer_tf_test
+[ 72%] [32m[1mLinking CXX executable xy_orbit_view_controller_test[0m
+[ 72%] [32m[1mLinking CXX executable marker_common_test[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/point_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_display_page_object.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/illuminance_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 73%] [32m[1mLinking CXX executable point_cloud_common_test[0m
+[ 73%] Built target orbit_view_controller_test
+[ 74%] [32m[1mLinking CXX executable point_display_visual_test[0m
+[ 74%] [32m[1mLinking CXX executable image_display_test[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/camera_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/illuminance_display_visual_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable illuminance_display_visual_test[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/marker_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_array_display_page_object.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable camera_display_visual_test[0m
+[ 77%] Built target marker_common_test
+[ 77%] Built target point_display_visual_test
+[ 77%] Built target xy_orbit_view_controller_test
+[ 77%] Built target illuminance_display_visual_test
+[ 77%] [32mBuilding CXX object CMakeFiles/marker_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_display_page_object.cpp.o[0m
+[ 77%] Built target camera_display_visual_test
+[ 77%] Built target point_cloud_common_test
+[ 77%] [32m[1mLinking CXX executable marker_array_display_visual_test[0m
+[ 77%] Built target image_display_test
+[ 77%] Built target marker_array_display_visual_test
+[35m[1mScanning dependencies of target pose_tool_test[0m
+[35m[1mScanning dependencies of target grid_display_visual_test[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/pose_tool_test.dir/test/rviz_default_plugins/tools/pose/pose_tool_test.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/grid_display_visual_test.dir/test/rviz_default_plugins/displays/grid/grid_display_visual_test.cpp.o[0m
+[35m[1mScanning dependencies of target fluid_pressure_display_visual_test[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/fluid_pressure_display_visual_test.dir/test/rviz_default_plugins/displays/fluid_pressure/fluid_pressure_display_visual_test.cpp.o[0m
+[35m[1mScanning dependencies of target axes_display_visual_test[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/axes_display_visual_test.dir/test/rviz_default_plugins/displays/axes/axes_display_visual_test.cpp.o[0m
+[35m[1mScanning dependencies of target odometry_display_test[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/odometry_display_test.dir/test/rviz_default_plugins/displays/odometry/odometry_display_test.cpp.o[0m
+[35m[1mScanning dependencies of target pose_array_display_test[0m
+[35m[1mScanning dependencies of target frame_info_test[0m
+[35m[1mScanning dependencies of target map_display_test[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/pose_array_display_test.dir/test/rviz_default_plugins/displays/pose_array/pose_array_display_test.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/map_display_test.dir/test/rviz_default_plugins/displays/map/map_display_test.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/frame_info_test.dir/test/rviz_default_plugins/displays/tf/frame_info_test.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable pose_tool_test[0m
+[35m[1mScanning dependencies of target fps_view_controller_test[0m
+[35m[1mScanning dependencies of target tf_display_visual_test[0m
+[35m[1mScanning dependencies of target marker_test[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/fps_view_controller_test.dir/test/rviz_default_plugins/view_controllers/fps/fps_view_controller_test.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/tf_display_visual_test.dir/test/rviz_default_plugins/displays/tf/tf_display_visual_test.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/grid_display_visual_test.dir/test/rviz_default_plugins/page_objects/grid_display_page_object.cpp.o[0m
+[35m[1mScanning dependencies of target wrench_display_visual_test[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/arrow_marker_test.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/wrench_display_visual_test.dir/test/rviz_default_plugins/displays/wrench/wrench_stamped_display_visual_test.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable grid_display_visual_test[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/fluid_pressure_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable odometry_display_test[0m
+[ 82%] Built target grid_display_visual_test
+[ 82%] [32m[1mLinking CXX executable frame_info_test[0m
+[ 82%] [32m[1mLinking CXX executable fps_view_controller_test[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/axes_display_visual_test.dir/test/rviz_default_plugins/page_objects/axes_display_page_object.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable pose_array_display_test[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/line_marker_test.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable map_display_test[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/fluid_pressure_display_visual_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 84%] Built target pose_tool_test
+[ 84%] [32m[1mLinking CXX executable fluid_pressure_display_visual_test[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/tf_display_visual_test.dir/test/rviz_default_plugins/page_objects/tf_display_page_object.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/wrench_display_visual_test.dir/test/rviz_default_plugins/page_objects/wrench_display_page_object.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable axes_display_visual_test[0m
+[ 85%] [32m[1mLinking CXX executable tf_display_visual_test[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/points_marker_test.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable wrench_display_visual_test[0m
+[ 85%] Built target odometry_display_test
+[ 85%] Built target fluid_pressure_display_visual_test
+[ 85%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/shape_marker_test.cpp.o[0m
+[35m[1mScanning dependencies of target grid_cells_display_visual_test[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/grid_cells_display_visual_test.dir/test/rviz_default_plugins/displays/grid_cells/grid_cells_display_visual_test.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/mesh_resource_marker_test.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/text_view_facing_marker_test.cpp.o[0m
+[ 86%] Built target axes_display_visual_test
+[35m[1mScanning dependencies of target image_display_visual_test[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/image_display_visual_test.dir/test/rviz_default_plugins/displays/image/image_display_visual_test.cpp.o[0m
+[ 86%] Built target frame_info_test
+[35m[1mScanning dependencies of target laser_scan_display_visual_test[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/laser_scan_display_visual_test.dir/test/rviz_default_plugins/displays/laser_scan/laser_scan_display_visual_test.cpp.o[0m
+[ 86%] Built target pose_array_display_test
+[35m[1mScanning dependencies of target map_display_visual_test[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/map_display_visual_test.dir/test/rviz_default_plugins/displays/map/map_display_visual_test.cpp.o[0m
+[ 86%] Built target tf_display_visual_test
+[ 86%] Built target map_display_test
+[ 86%] Built target wrench_display_visual_test
+[ 86%] Built target fps_view_controller_test
+[ 86%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/triangle_list_marker_test.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/grid_cells_display_visual_test.dir/test/rviz_default_plugins/page_objects/grid_cells_display_page_object.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/image_display_visual_test.dir/test/rviz_default_plugins/page_objects/image_display_page_object.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/laser_scan_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/map_display_visual_test.dir/test/rviz_default_plugins/page_objects/marker_display_page_object.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable grid_cells_display_visual_test[0m
+[35m[1mScanning dependencies of target odometry_display_visual_test[0m
+[35m[1mScanning dependencies of target grid_cells_display_test[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/grid_cells_display_test.dir/test/rviz_default_plugins/displays/grid_cells/grid_cells_display_test.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/odometry_display_visual_test.dir/test/rviz_default_plugins/displays/odometry/odometry_display_visual_test.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/markers/markers_test_fixture.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/marker_test.dir/test/rviz_default_plugins/displays/marker/marker_messages.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/odometry_display_visual_test.dir/test/rviz_default_plugins/page_objects/odometry_display_page_object.cpp.o[0m
+[ 89%] [32m[1mLinking CXX executable laser_scan_display_visual_test[0m
+[ 89%] [32m[1mLinking CXX executable image_display_visual_test[0m
+[35m[1mScanning dependencies of target path_display_visual_test[0m
+[35m[1mScanning dependencies of target point_cloud_display_visual_test[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/path_display_visual_test.dir/test/rviz_default_plugins/displays/path/path_display_visual_test.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/point_cloud_display_visual_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud_display_visual_test.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/path_display_visual_test.dir/test/rviz_default_plugins/page_objects/path_display_page_object.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/map_display_visual_test.dir/test/rviz_default_plugins/page_objects/map_display_page_object.cpp.o[0m
+[35m[1mScanning dependencies of target point_cloud2_display_visual_test[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/point_cloud2_display_visual_test.dir/test/rviz_default_plugins/displays/pointcloud/point_cloud2_display_visual_test.cpp.o[0m
+[ 90%] Built target grid_cells_display_visual_test
+[35m[1mScanning dependencies of target robot_test[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/robot_test.dir/test/rviz_default_plugins/robot/robot_test.cpp.o[0m
+[35m[1mScanning dependencies of target relative_humidity_display_visual_test[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/relative_humidity_display_visual_test.dir/test/rviz_default_plugins/displays/relative_humidity/relative_humidity_display_visual_test.cpp.o[0m
+[ 90%] Built target image_display_visual_test
+[ 90%] Built target laser_scan_display_visual_test
+[ 90%] [32m[1mLinking CXX executable map_display_visual_test[0m
+[ 91%] [32m[1mLinking CXX executable grid_cells_display_test[0m
+[ 91%] [32m[1mLinking CXX executable marker_test[0m
+[ 91%] Built target map_display_visual_test
+[ 91%] [32m[1mLinking CXX executable odometry_display_visual_test[0m
+[ 92%] [32m[1mLinking CXX executable path_display_visual_test[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/point_cloud_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/point_cloud2_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 92%] Built target odometry_display_visual_test
+[ 92%] [32mBuilding CXX object CMakeFiles/relative_humidity_display_visual_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 92%] Built target grid_cells_display_test
+[ 93%] [32mBuilding CXX object CMakeFiles/relative_humidity_display_visual_test.dir/test/rviz_default_plugins/page_objects/point_cloud_common_page_object.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable point_cloud_display_visual_test[0m
+[ 93%] Built target path_display_visual_test
+[ 93%] Built target marker_test
+[ 93%] [32mBuilding CXX object CMakeFiles/point_cloud2_display_visual_test.dir/test/rviz_default_plugins/pointcloud_messages.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable robot_test[0m
+[ 95%] [32m[1mLinking CXX executable point_cloud2_display_visual_test[0m
+[ 95%] Built target point_cloud_display_visual_test
+[ 95%] [32m[1mLinking CXX executable relative_humidity_display_visual_test[0m
+[ 95%] Built target point_cloud2_display_visual_test
+[ 95%] Built target relative_humidity_display_visual_test
+[ 95%] Built target robot_test
+[35m[1mScanning dependencies of target range_display_visual_test[0m
+[35m[1mScanning dependencies of target robot_model_display_visual_test[0m
+[35m[1mScanning dependencies of target pose_with_covariance_display_visual_test[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/robot_model_display_visual_test.dir/test/rviz_default_plugins/page_objects/robot_model_display_page_object.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/robot_model_display_visual_test.dir/test/rviz_default_plugins/displays/robot_model/robot_model_display_visual_test.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/pose_with_covariance_display_visual_test.dir/test/rviz_default_plugins/displays/pose_covariance/pose_with_covariance_display_visual_test.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/pose_with_covariance_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_with_covariance_display_page_object.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/range_display_visual_test.dir/test/rviz_default_plugins/displays/range/range_display_visual_test.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/range_display_visual_test.dir/test/rviz_default_plugins/page_objects/range_display_page_object.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable robot_model_display_visual_test[0m
+[ 97%] [32m[1mLinking CXX executable range_display_visual_test[0m
+[ 98%] [32m[1mLinking CXX executable pose_with_covariance_display_visual_test[0m
+[ 98%] Built target robot_model_display_visual_test
+[35m[1mScanning dependencies of target pose_display_visual_test[0m
+[35m[1mScanning dependencies of target pose_array_display_visual_test[0m
+[ 99%] [32mBuilding CXX object CMakeFiles/pose_display_visual_test.dir/test/rviz_default_plugins/displays/pose/pose_display_visual_test.cpp.o[0m
+[ 99%] [32mBuilding CXX object CMakeFiles/pose_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_display_page_object.cpp.o[0m
+[ 99%] [32mBuilding CXX object CMakeFiles/pose_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_array_display_page_object.cpp.o[0m
+[100%] [32mBuilding CXX object CMakeFiles/pose_array_display_visual_test.dir/test/rviz_default_plugins/page_objects/pose_display_page_object.cpp.o[0m
+[100%] [32mBuilding CXX object CMakeFiles/pose_array_display_visual_test.dir/test/rviz_default_plugins/displays/pose_array/pose_array_display_visual_test.cpp.o[0m
+[100%] Built target pose_with_covariance_display_visual_test
+[100%] Built target range_display_visual_test
+[100%] [32m[1mLinking CXX executable pose_display_visual_test[0m
+[100%] [32m[1mLinking CXX executable pose_array_display_visual_test[0m
+[100%] Built target pose_display_visual_test
+[100%] Built target pose_array_display_visual_test
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/plugins_description.xml
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/environment/library_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/environment/library_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/lib/librviz_default_plugins.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rviz_default_plugins/lib/librviz_default_plugins.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/laser_scan
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/laser_scan/laser_scan_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/relative_humidity
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/relative_humidity/relative_humidity_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker_array
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker_array/marker_array_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose_covariance
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose_covariance/pose_with_covariance_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/grid_cells
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/grid_cells/grid_cells_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_common.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_selection_handler.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_helpers.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/transformers
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/transformers/intensity_pc_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/transformers/rgbf32_pc_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/transformers/xyz_pc_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/transformers/axis_color_pc_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/transformers/rgb8_pc_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/transformers/flat_color_pc_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud2_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_to_point_cloud2.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_scalar_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pointcloud/point_cloud_transformer_factory.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/tf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/tf/tf_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/tf/frame_info.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/tf/frame_selection_handler.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/fluid_pressure
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/fluid_pressure/fluid_pressure_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose/pose_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose/pose_display_selection_handler.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose_array
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose_array/flat_arrows_array.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/pose_array/pose_array_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/marker_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/line_strip_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/text_view_facing_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/points_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/triangle_list_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/marker_selection_handler.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/marker_factory.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/marker_base.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/arrow_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/shape_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/line_list_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/line_marker_base.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/markers/mesh_resource_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/marker/marker_common.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/odometry
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/odometry/odometry_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/grid
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/grid/grid_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/illuminance
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/illuminance/illuminance_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/wrench
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/wrench/wrench_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/axes
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/axes/axes_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/temperature
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/temperature/temperature_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/path
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/path/path_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/image
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/image/ros_image_texture_iface.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/image/image_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/image/ros_image_texture.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/camera
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/camera/camera_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/interactive_markers
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/interactive_markers/integer_action.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/interactive_markers/interactive_marker_namespace_property.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/interactive_markers/interactive_marker_control.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/interactive_markers/interactive_marker.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/interactive_markers/interactive_marker_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/robot_model
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/robot_model/robot_model_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/polygon
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/polygon/polygon_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/map
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/map/swatch.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/map/palette_builder.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/map/map_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/range
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/range/range_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/point
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/displays/point/point_stamped_display.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/robot
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/robot/tf_link_updater.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/robot/link_updater.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/robot/robot_link.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/robot/robot.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/robot/robot_joint.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/robot/robot_element_base_class.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/transformation
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/transformation/transformer_guard.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/transformation/tf_wrapper.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/transformation/tf_frame_transformer.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/measure
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/measure/measure_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/pose
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/pose/pose_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/interaction
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/interaction/interaction_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/select
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/select/selection_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/focus
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/focus/focus_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/goal_pose
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/goal_pose/goal_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/pose_estimate
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/pose_estimate/initial_pose_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/move
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/move/move_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/point
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/tools/point/point_tool.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/visibility_control.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/xy_orbit
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/xy_orbit/xy_orbit_view_controller.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/ortho
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/ortho/fixed_orientation_ortho_view_controller.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/follower
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/follower/third_person_follower_view_controller.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/orbit
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/orbit/orbit_view_controller.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/fps
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/include/rviz_default_plugins/view_controllers/fps/fps_view_controller.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/visibility.svg
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Temperature.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/FocusCamera.svg
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/SetGoal.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/MarkerArray.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotLinkNoGeom.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/TF.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PublishPoint.svg
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Effort.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Polygon.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Measure.svg
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Arrow.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Map.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Range.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/TF.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Axes.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Polygon.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/MarkerArray.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/PoseArray.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/Poly.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/GridCells.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/RobotModel.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/src/InteractiveMarker.xcf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Map.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/GridCells.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotLink.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PoseArray.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Range.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Odometry.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/MoveCamera.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/SetInitialPose.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotModel.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/FluidPressure.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Interact.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/InteractiveMarkers.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/WrenchStamped.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Marker.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointStamped.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/DepthCloud.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Image.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RobotJoint.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Time.svg
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/LaserScan.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointCloud2.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Select.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Camera.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PointCloud.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/RelativeHumidity.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Pose.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Illuminance.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Grid.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Path.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/Axes.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/icons/classes/PoseWithCovariance.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/base_color.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/pr2-base_large.dae
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/test.urdf
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/pr2-base.dae
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/test_meshes/base_normals.png
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/ament_index/resource_index/package_run_dependencies/rviz_default_plugins
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/ament_index/resource_index/parent_prefix_path/rviz_default_plugins
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/ament_index/resource_index/packages/rviz_default_plugins
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/rviz_default_plugins
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/cmake/rviz_default_pluginsConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_default_plugins/share/rviz_default_plugins/package.xml

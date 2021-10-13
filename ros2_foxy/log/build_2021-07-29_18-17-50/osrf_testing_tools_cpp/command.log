@@ -1,0 +1,3 @@
+Invoking command in '/home/saitama1/ros2_foxy/build/osrf_testing_tools_cpp': /usr/bin/cmake /home/saitama1/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp
+Invoked command in '/home/saitama1/ros2_foxy/build/osrf_testing_tools_cpp' returned '0': /usr/bin/cmake /home/saitama1/ros2_foxy/src/osrf/osrf_testing_tools_cpp/osrf_testing_tools_cpp -DCMAKE_INSTALL_PREFIX=/home/saitama1/ros2_foxy/install/osrf_testing_tools_cpp
+Invoking command in '/home/saitama1/ros2_foxy/build/osrf_testing_tools_cpp': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/osrf_testing_tools_cpp -- -j12 -l12

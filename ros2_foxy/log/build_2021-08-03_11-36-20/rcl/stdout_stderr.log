@@ -1,0 +1,381 @@
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcl_interfaces: 1.0.0 (/home/saitama1/ros2_foxy/install/rcl_interfaces/share/rcl_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rcl_yaml_param_parser: 1.1.11 (/home/saitama1/ros2_foxy/install/rcl_yaml_param_parser/share/rcl_yaml_param_parser/cmake)
+-- Found rmw_implementation: 1.0.2 (/home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found tracetools: 1.0.5 (/home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake)
+-- Found rcl_logging_spdlog: 1.1.0 (/home/saitama1/ros2_foxy/install/rcl_logging_spdlog/share/rcl_logging_spdlog/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Creating tests for 'rmw_cyclonedds_cpp'
+-- Enabling only source timestamp test for rmw_cyclonedds_cpp
+-- Creating tests for 'rmw_fastrtps_cpp'
+-- Enabling message timestamp test for rmw_fastrtps_cpp
+-- Creating tests for 'rmw_fastrtps_dynamic_cpp'
+-- Enabling message timestamp test for rmw_fastrtps_dynamic_cpp
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/saitama1/ros2_foxy/src/ros2/rcl/rcl/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rcl
+[35m[1mScanning dependencies of target rcl[0m
+[  1%] Built target gtest
+[  2%] Built target gtest_main
+[  3%] [32mBuilding C object CMakeFiles/rcl.dir/src/rcl/logging_rosout.c.o[0m
+[  3%] [32m[1mLinking C shared library librcl.so[0m
+[ 15%] Built target rcl
+[35m[1mScanning dependencies of target test_logging[0m
+[ 16%] [32m[1mLinking CXX executable test_validate_topic_name[0m
+[ 16%] [32m[1mLinking CXX executable test_domain_id[0m
+[ 17%] [32m[1mLinking CXX executable test_localhost[0m
+[ 17%] [32mBuilding CXX object test/CMakeFiles/test_logging.dir/rcl/test_logging.cpp.o[0m
+[ 17%] Built target test_validate_topic_name
+[35m[1mScanning dependencies of target test_service__rmw_fastrtps_dynamic_cpp[0m
+[ 18%] Built target test_domain_id
+[ 18%] Built target test_localhost
+[35m[1mScanning dependencies of target test_publisher__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_remap_integration__rmw_fastrtps_dynamic_cpp[0m
+[ 18%] [32mBuilding CXX object test/CMakeFiles/test_service__rmw_fastrtps_dynamic_cpp.dir/rcl/test_service.cpp.o[0m
+[ 18%] [32mBuilding CXX object test/CMakeFiles/test_remap_integration__rmw_fastrtps_dynamic_cpp.dir/rcl/test_remap_integration.cpp.o[0m
+[ 19%] [32mBuilding CXX object test/CMakeFiles/test_publisher__rmw_fastrtps_dynamic_cpp.dir/rcl/test_publisher.cpp.o[0m
+[35m[1mScanning dependencies of target test_subscription__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_events__rmw_fastrtps_dynamic_cpp[0m
+[ 20%] [32m[1mLinking CXX executable test_remap__rmw_fastrtps_dynamic_cpp[0m
+[ 20%] [32m[1mLinking CXX executable test_remap_integration__rmw_fastrtps_dynamic_cpp[0m
+[ 20%] [32mBuilding CXX object test/CMakeFiles/test_events__rmw_fastrtps_dynamic_cpp.dir/rcl/test_events.cpp.o[0m
+[ 21%] [32mBuilding CXX object test/CMakeFiles/test_subscription__rmw_fastrtps_dynamic_cpp.dir/rcl/test_subscription.cpp.o[0m
+[ 22%] [32m[1mLinking CXX executable test_logging[0m
+[ 22%] Built target test_remap_integration__rmw_fastrtps_dynamic_cpp
+[ 22%] Built target test_remap__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target service_fixture__rmw_fastrtps_dynamic_cpp[0m
+[ 23%] [32m[1mLinking CXX executable test_security[0m
+[35m[1mScanning dependencies of target client_fixture__rmw_fastrtps_dynamic_cpp[0m
+[ 23%] [32m[1mLinking CXX executable test_rmw_impl_id_check_func__rmw_fastrtps_dynamic_cpp[0m
+[ 24%] [32m[1mLinking CXX executable test_wait__rmw_fastrtps_dynamic_cpp[0m
+[ 24%] Built target test_logging
+[ 25%] [32mBuilding CXX object test/CMakeFiles/service_fixture__rmw_fastrtps_dynamic_cpp.dir/rcl/service_fixture.cpp.o[0m
+[ 26%] [32mBuilding CXX object test/CMakeFiles/client_fixture__rmw_fastrtps_dynamic_cpp.dir/rcl/client_fixture.cpp.o[0m
+[35m[1mScanning dependencies of target test_count_matched__rmw_fastrtps_dynamic_cpp[0m
+[ 27%] [32mBuilding CXX object test/CMakeFiles/test_count_matched__rmw_fastrtps_dynamic_cpp.dir/rcl/test_count_matched.cpp.o[0m
+[ 27%] Built target test_security
+[35m[1mScanning dependencies of target test_info_by_topic__rmw_fastrtps_dynamic_cpp[0m
+[ 27%] [32m[1mLinking CXX executable client_fixture__rmw_fastrtps_dynamic_cpp[0m
+[ 28%] Built target test_rmw_impl_id_check_func__rmw_fastrtps_dynamic_cpp
+[ 28%] [32mBuilding CXX object test/CMakeFiles/test_info_by_topic__rmw_fastrtps_dynamic_cpp.dir/rcl/test_info_by_topic.cpp.o[0m
+[35m[1mScanning dependencies of target test_graph__rmw_fastrtps_dynamic_cpp[0m
+[ 29%] [32m[1mLinking CXX executable test_service__rmw_fastrtps_dynamic_cpp[0m
+[ 29%] [32mBuilding CXX object test/CMakeFiles/test_graph__rmw_fastrtps_dynamic_cpp.dir/rcl/test_graph.cpp.o[0m
+[ 29%] [32m[1mLinking CXX executable service_fixture__rmw_fastrtps_dynamic_cpp[0m
+[ 29%] Built target test_wait__rmw_fastrtps_dynamic_cpp
+[ 29%] Built target client_fixture__rmw_fastrtps_dynamic_cpp
+[ 29%] [32m[1mLinking CXX executable test_guard_condition__rmw_fastrtps_dynamic_cpp[0m
+[ 29%] [32m[1mLinking CXX executable test_lexer__rmw_fastrtps_dynamic_cpp[0m
+[ 29%] [32m[1mLinking CXX executable test_arguments__rmw_fastrtps_dynamic_cpp[0m
+[ 29%] Built target service_fixture__rmw_fastrtps_dynamic_cpp
+[ 29%] [32m[1mLinking CXX executable test_get_node_names__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_client__rmw_fastrtps_cpp[0m
+[ 29%] Built target test_service__rmw_fastrtps_dynamic_cpp
+[ 29%] [32m[1mLinking CXX executable test_publisher__rmw_fastrtps_dynamic_cpp[0m
+[ 29%] [32mBuilding CXX object test/CMakeFiles/test_client__rmw_fastrtps_cpp.dir/rcl/test_client.cpp.o[0m
+[ 30%] [32m[1mLinking CXX executable test_expand_topic_name[0m
+[ 31%] Built target test_lexer__rmw_fastrtps_dynamic_cpp
+[ 31%] [32m[1mLinking CXX executable test_count_matched__rmw_fastrtps_dynamic_cpp[0m
+[35m[1mScanning dependencies of target test_namespace__rmw_cyclonedds_cpp[0m
+[ 32%] Built target test_arguments__rmw_fastrtps_dynamic_cpp
+[ 33%] Built target test_guard_condition__rmw_fastrtps_dynamic_cpp
+[ 34%] [32m[1mLinking CXX executable test_events__rmw_fastrtps_dynamic_cpp[0m
+[ 35%] [32mBuilding CXX object test/CMakeFiles/test_namespace__rmw_cyclonedds_cpp.dir/test_namespace.cpp.o[0m
+[35m[1mScanning dependencies of target test_events__rmw_cyclonedds_cpp[0m
+[ 36%] Built target test_get_node_names__rmw_fastrtps_dynamic_cpp
+[ 37%] [32m[1mLinking CXX executable test_time__rmw_fastrtps_cpp[0m
+[ 37%] Built target test_publisher__rmw_fastrtps_dynamic_cpp
+[ 38%] [32mBuilding CXX object test/CMakeFiles/test_events__rmw_cyclonedds_cpp.dir/rcl/test_events.cpp.o[0m
+[35m[1mScanning dependencies of target test_count_matched__rmw_fastrtps_cpp[0m
+[35m[1mScanning dependencies of target test_subscription__rmw_fastrtps_cpp[0m
+[ 39%] [32m[1mLinking CXX executable test_info_by_topic__rmw_fastrtps_dynamic_cpp[0m
+[ 39%] [32mBuilding CXX object test/CMakeFiles/test_count_matched__rmw_fastrtps_cpp.dir/rcl/test_count_matched.cpp.o[0m
+[ 39%] Built target test_expand_topic_name
+[ 40%] [32mBuilding CXX object test/CMakeFiles/test_subscription__rmw_fastrtps_cpp.dir/rcl/test_subscription.cpp.o[0m
+[ 41%] [32m[1mLinking CXX executable test_guard_condition__rmw_cyclonedds_cpp[0m
+[ 41%] Built target test_count_matched__rmw_fastrtps_dynamic_cpp
+[ 41%] Built target test_events__rmw_fastrtps_dynamic_cpp
+[ 41%] Built target test_time__rmw_fastrtps_cpp
+[ 41%] Built target test_info_by_topic__rmw_fastrtps_dynamic_cpp
+[ 42%] [32m[1mLinking CXX executable test_subscription__rmw_fastrtps_dynamic_cpp[0m
+[ 42%] Built target test_guard_condition__rmw_cyclonedds_cpp
+[ 43%] [32m[1mLinking CXX executable test_client__rmw_fastrtps_cpp[0m
+[ 43%] Built target test_subscription__rmw_fastrtps_dynamic_cpp
+[ 43%] [32m[1mLinking CXX executable test_namespace__rmw_cyclonedds_cpp[0m
+[ 43%] Built target test_client__rmw_fastrtps_cpp
+[ 43%] [32m[1mLinking CXX executable test_count_matched__rmw_fastrtps_cpp[0m
+[ 43%] Built target test_namespace__rmw_cyclonedds_cpp
+[ 44%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_dynamic_cpp[0m
+[ 44%] Built target test_count_matched__rmw_fastrtps_cpp
+[ 44%] Built target test_graph__rmw_fastrtps_dynamic_cpp
+[ 44%] [32m[1mLinking CXX executable test_events__rmw_cyclonedds_cpp[0m
+[ 44%] Built target test_events__rmw_cyclonedds_cpp
+[ 44%] [32m[1mLinking CXX executable test_subscription__rmw_fastrtps_cpp[0m
+[ 44%] Built target test_subscription__rmw_fastrtps_cpp
+[ 45%] [32m[1mLinking CXX executable test_time__rmw_cyclonedds_cpp[0m
+[ 45%] Built target test_time__rmw_cyclonedds_cpp
+[ 45%] [32m[1mLinking CXX executable test_rmw_impl_id_check_func__rmw_cyclonedds_cpp[0m
+[ 46%] Built target test_rmw_impl_id_check_func__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_publisher__rmw_cyclonedds_cpp[0m
+[ 46%] [32mBuilding CXX object test/CMakeFiles/test_publisher__rmw_cyclonedds_cpp.dir/rcl/test_publisher.cpp.o[0m
+[ 46%] [32m[1mLinking CXX executable test_publisher__rmw_cyclonedds_cpp[0m
+[ 46%] Built target test_publisher__rmw_cyclonedds_cpp
+[ 46%] [32m[1mLinking CXX executable test_rmw_impl_id_check_func__rmw_fastrtps_cpp[0m
+[ 47%] Built target test_rmw_impl_id_check_func__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_publisher__rmw_fastrtps_cpp[0m
+[ 48%] [32mBuilding CXX object test/CMakeFiles/test_publisher__rmw_fastrtps_cpp.dir/rcl/test_publisher.cpp.o[0m
+[ 48%] [32m[1mLinking CXX executable test_publisher__rmw_fastrtps_cpp[0m
+[ 48%] Built target test_publisher__rmw_fastrtps_cpp
+[ 49%] [32m[1mLinking CXX executable test_init__rmw_cyclonedds_cpp[0m
+[ 49%] Built target test_init__rmw_cyclonedds_cpp
+[ 49%] [32m[1mLinking CXX executable test_get_node_names__rmw_fastrtps_cpp[0m
+[ 50%] Built target test_get_node_names__rmw_fastrtps_cpp
+[ 50%] [32m[1mLinking CXX executable test_lexer_lookahead__rmw_cyclonedds_cpp[0m
+[ 51%] Built target test_lexer_lookahead__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target service_fixture__rmw_fastrtps_cpp[0m
+[ 51%] [32mBuilding CXX object test/CMakeFiles/service_fixture__rmw_fastrtps_cpp.dir/rcl/service_fixture.cpp.o[0m
+[ 51%] [32m[1mLinking CXX executable service_fixture__rmw_fastrtps_cpp[0m
+[ 52%] Built target service_fixture__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_get_actual_qos__rmw_fastrtps_dynamic_cpp[0m
+[ 53%] [32mBuilding CXX object test/CMakeFiles/test_get_actual_qos__rmw_fastrtps_dynamic_cpp.dir/rcl/test_get_actual_qos.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable test_get_actual_qos__rmw_fastrtps_dynamic_cpp[0m
+[ 53%] Built target test_get_actual_qos__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target test_subscription__rmw_cyclonedds_cpp[0m
+[ 53%] [32mBuilding CXX object test/CMakeFiles/test_subscription__rmw_cyclonedds_cpp.dir/rcl/test_subscription.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable test_subscription__rmw_cyclonedds_cpp[0m
+[ 54%] Built target test_subscription__rmw_cyclonedds_cpp
+[ 54%] [32m[1mLinking CXX executable test_get_node_names__rmw_cyclonedds_cpp[0m
+[ 55%] Built target test_get_node_names__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_remap_integration__rmw_cyclonedds_cpp[0m
+[ 55%] [32mBuilding CXX object test/CMakeFiles/test_remap_integration__rmw_cyclonedds_cpp.dir/rcl/test_remap_integration.cpp.o[0m
+[ 56%] [32m[1mLinking CXX executable test_remap_integration__rmw_cyclonedds_cpp[0m
+[ 56%] Built target test_remap_integration__rmw_cyclonedds_cpp
+[ 57%] [32m[1mLinking CXX executable test_init__rmw_fastrtps_dynamic_cpp[0m
+[ 57%] Built target test_init__rmw_fastrtps_dynamic_cpp
+[ 58%] [32m[1mLinking CXX executable test_context__rmw_cyclonedds_cpp[0m
+[ 58%] Built target test_context__rmw_cyclonedds_cpp
+[ 58%] [32m[1mLinking CXX executable test_lexer__rmw_cyclonedds_cpp[0m
+[ 58%] Built target test_lexer__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_info_by_topic__rmw_cyclonedds_cpp[0m
+[ 59%] [32mBuilding CXX object test/CMakeFiles/test_info_by_topic__rmw_cyclonedds_cpp.dir/rcl/test_info_by_topic.cpp.o[0m
+[ 59%] [32m[1mLinking CXX executable test_info_by_topic__rmw_cyclonedds_cpp[0m
+[ 59%] Built target test_info_by_topic__rmw_cyclonedds_cpp
+[ 59%] [32m[1mLinking CXX executable test_validate_enclave_name[0m
+[ 60%] Built target test_validate_enclave_name
+[ 60%] [32m[1mLinking CXX executable test_lexer_lookahead__rmw_fastrtps_cpp[0m
+[ 61%] Built target test_lexer_lookahead__rmw_fastrtps_cpp
+[ 61%] [32m[1mLinking CXX executable test_time__rmw_fastrtps_dynamic_cpp[0m
+[ 61%] Built target test_time__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target test_logging_rosout__rmw_cyclonedds_cpp[0m
+[ 61%] [32mBuilding CXX object test/CMakeFiles/test_logging_rosout__rmw_cyclonedds_cpp.dir/rcl/test_logging_rosout.cpp.o[0m
+[ 61%] [32m[1mLinking CXX executable test_logging_rosout__rmw_cyclonedds_cpp[0m
+[ 61%] Built target test_logging_rosout__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_get_actual_qos__rmw_cyclonedds_cpp[0m
+[ 61%] [32mBuilding CXX object test/CMakeFiles/test_get_actual_qos__rmw_cyclonedds_cpp.dir/rcl/test_get_actual_qos.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable test_get_actual_qos__rmw_cyclonedds_cpp[0m
+[ 62%] Built target test_get_actual_qos__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_namespace__rmw_fastrtps_dynamic_cpp[0m
+[ 62%] [32mBuilding CXX object test/CMakeFiles/test_namespace__rmw_fastrtps_dynamic_cpp.dir/test_namespace.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable test_namespace__rmw_fastrtps_dynamic_cpp[0m
+[ 63%] Built target test_namespace__rmw_fastrtps_dynamic_cpp
+[ 63%] [32m[1mLinking CXX executable test_timer__rmw_fastrtps_cpp[0m
+[ 64%] Built target test_timer__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_graph__rmw_cyclonedds_cpp[0m
+[ 64%] [32mBuilding CXX object test/CMakeFiles/test_graph__rmw_cyclonedds_cpp.dir/rcl/test_graph.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable test_graph__rmw_cyclonedds_cpp[0m
+[ 65%] Built target test_graph__rmw_cyclonedds_cpp
+[ 66%] [32m[1mLinking CXX executable test_context__rmw_fastrtps_cpp[0m
+[ 66%] Built target test_context__rmw_fastrtps_cpp
+[ 66%] [32m[1mLinking CXX executable test_lexer__rmw_fastrtps_cpp[0m
+[ 67%] Built target test_lexer__rmw_fastrtps_cpp
+[ 68%] [32m[1mLinking CXX executable test_node__rmw_fastrtps_cpp[0m
+[ 68%] Built target test_node__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_info_by_topic__rmw_fastrtps_cpp[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test_info_by_topic__rmw_fastrtps_cpp.dir/rcl/test_info_by_topic.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_info_by_topic__rmw_fastrtps_cpp[0m
+[ 69%] Built target test_info_by_topic__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_get_actual_qos__rmw_fastrtps_cpp[0m
+[ 69%] [32mBuilding CXX object test/CMakeFiles/test_get_actual_qos__rmw_fastrtps_cpp.dir/rcl/test_get_actual_qos.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable test_get_actual_qos__rmw_fastrtps_cpp[0m
+[ 69%] Built target test_get_actual_qos__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_logging_rosout__rmw_fastrtps_cpp[0m
+[ 70%] [32mBuilding CXX object test/CMakeFiles/test_logging_rosout__rmw_fastrtps_cpp.dir/rcl/test_logging_rosout.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable test_logging_rosout__rmw_fastrtps_cpp[0m
+[ 70%] Built target test_logging_rosout__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_namespace__rmw_fastrtps_cpp[0m
+[ 71%] [32mBuilding CXX object test/CMakeFiles/test_namespace__rmw_fastrtps_cpp.dir/test_namespace.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable test_namespace__rmw_fastrtps_cpp[0m
+[ 71%] Built target test_namespace__rmw_fastrtps_cpp
+[ 72%] [32m[1mLinking CXX executable test_init__rmw_fastrtps_cpp[0m
+[ 72%] Built target test_init__rmw_fastrtps_cpp
+[ 73%] [32m[1mLinking CXX executable test_node__rmw_fastrtps_dynamic_cpp[0m
+[ 73%] Built target test_node__rmw_fastrtps_dynamic_cpp
+[ 73%] [32m[1mLinking CXX executable test_arguments__rmw_cyclonedds_cpp[0m
+[ 74%] Built target test_arguments__rmw_cyclonedds_cpp
+[ 74%] [32m[1mLinking CXX executable test_arguments__rmw_fastrtps_cpp[0m
+[ 75%] Built target test_arguments__rmw_fastrtps_cpp
+[ 75%] [32m[1mLinking CXX executable test_remap__rmw_fastrtps_cpp[0m
+[ 76%] Built target test_remap__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_remap_integration__rmw_fastrtps_cpp[0m
+[ 76%] [32mBuilding CXX object test/CMakeFiles/test_remap_integration__rmw_fastrtps_cpp.dir/rcl/test_remap_integration.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable test_remap_integration__rmw_fastrtps_cpp[0m
+[ 77%] Built target test_remap_integration__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_count_matched__rmw_cyclonedds_cpp[0m
+[ 77%] [32mBuilding CXX object test/CMakeFiles/test_count_matched__rmw_cyclonedds_cpp.dir/rcl/test_count_matched.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable test_count_matched__rmw_cyclonedds_cpp[0m
+[ 78%] Built target test_count_matched__rmw_cyclonedds_cpp
+[ 78%] [32m[1mLinking CXX executable test_guard_condition__rmw_fastrtps_cpp[0m
+[ 78%] Built target test_guard_condition__rmw_fastrtps_cpp
+[ 79%] [32m[1mLinking CXX executable test_wait__rmw_cyclonedds_cpp[0m
+[ 79%] Built target test_wait__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_events__rmw_fastrtps_cpp[0m
+[ 80%] [32mBuilding CXX object test/CMakeFiles/test_events__rmw_fastrtps_cpp.dir/rcl/test_events.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_events__rmw_fastrtps_cpp[0m
+[ 80%] Built target test_events__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_logging_rosout__rmw_fastrtps_dynamic_cpp[0m
+[ 81%] [32mBuilding CXX object test/CMakeFiles/test_logging_rosout__rmw_fastrtps_dynamic_cpp.dir/rcl/test_logging_rosout.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable test_logging_rosout__rmw_fastrtps_dynamic_cpp[0m
+[ 81%] Built target test_logging_rosout__rmw_fastrtps_dynamic_cpp
+[ 81%] [32m[1mLinking CXX executable test_timer__rmw_fastrtps_dynamic_cpp[0m
+[ 82%] Built target test_timer__rmw_fastrtps_dynamic_cpp
+[ 83%] [32m[1mLinking CXX executable test_wait__rmw_fastrtps_cpp[0m
+[ 83%] Built target test_wait__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target client_fixture__rmw_fastrtps_cpp[0m
+[ 83%] [32mBuilding CXX object test/CMakeFiles/client_fixture__rmw_fastrtps_cpp.dir/rcl/client_fixture.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable client_fixture__rmw_fastrtps_cpp[0m
+[ 84%] Built target client_fixture__rmw_fastrtps_cpp
+[ 84%] [32m[1mLinking CXX executable test_timer__rmw_cyclonedds_cpp[0m
+[ 85%] Built target test_timer__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_client__rmw_fastrtps_dynamic_cpp[0m
+[ 85%] [32mBuilding CXX object test/CMakeFiles/test_client__rmw_fastrtps_dynamic_cpp.dir/rcl/test_client.cpp.o[0m
+[ 86%] [32m[1mLinking CXX executable test_client__rmw_fastrtps_dynamic_cpp[0m
+[ 86%] Built target test_client__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target test_service__rmw_fastrtps_cpp[0m
+[ 87%] [32mBuilding CXX object test/CMakeFiles/test_service__rmw_fastrtps_cpp.dir/rcl/test_service.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable test_service__rmw_fastrtps_cpp[0m
+[ 88%] Built target test_service__rmw_fastrtps_cpp
+[ 89%] [32m[1mLinking CXX executable test_context__rmw_fastrtps_dynamic_cpp[0m
+[ 89%] Built target test_context__rmw_fastrtps_dynamic_cpp
+[35m[1mScanning dependencies of target test_client__rmw_cyclonedds_cpp[0m
+[ 89%] [32mBuilding CXX object test/CMakeFiles/test_client__rmw_cyclonedds_cpp.dir/rcl/test_client.cpp.o[0m
+[ 90%] [32m[1mLinking CXX executable test_client__rmw_cyclonedds_cpp[0m
+[ 90%] Built target test_client__rmw_cyclonedds_cpp
+[ 90%] [32m[1mLinking CXX executable test_common[0m
+[ 91%] Built target test_common
+[ 91%] [32m[1mLinking CXX executable test_rmw_impl_id_check_exe[0m
+[ 92%] Built target test_rmw_impl_id_check_exe
+[35m[1mScanning dependencies of target test_service__rmw_cyclonedds_cpp[0m
+[ 92%] [32mBuilding CXX object test/CMakeFiles/test_service__rmw_cyclonedds_cpp.dir/rcl/test_service.cpp.o[0m
+[ 92%] [32m[1mLinking CXX executable test_service__rmw_cyclonedds_cpp[0m
+[ 93%] Built target test_service__rmw_cyclonedds_cpp
+[ 94%] [32m[1mLinking CXX executable test_node__rmw_cyclonedds_cpp[0m
+[ 94%] Built target test_node__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target test_graph__rmw_fastrtps_cpp[0m
+[ 94%] [32mBuilding CXX object test/CMakeFiles/test_graph__rmw_fastrtps_cpp.dir/rcl/test_graph.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_graph__rmw_fastrtps_cpp[0m
+[ 95%] Built target test_graph__rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target service_fixture__rmw_cyclonedds_cpp[0m
+[ 96%] [32mBuilding CXX object test/CMakeFiles/service_fixture__rmw_cyclonedds_cpp.dir/rcl/service_fixture.cpp.o[0m
+[ 97%] [32m[1mLinking CXX executable service_fixture__rmw_cyclonedds_cpp[0m
+[ 97%] Built target service_fixture__rmw_cyclonedds_cpp
+[ 98%] [32m[1mLinking CXX executable test_lexer_lookahead__rmw_fastrtps_dynamic_cpp[0m
+[ 98%] Built target test_lexer_lookahead__rmw_fastrtps_dynamic_cpp
+[ 98%] [32m[1mLinking CXX executable test_remap__rmw_cyclonedds_cpp[0m
+[ 99%] Built target test_remap__rmw_cyclonedds_cpp
+[35m[1mScanning dependencies of target client_fixture__rmw_cyclonedds_cpp[0m
+[ 99%] [32mBuilding CXX object test/CMakeFiles/client_fixture__rmw_cyclonedds_cpp.dir/rcl/client_fixture.cpp.o[0m
+[100%] [32m[1mLinking CXX executable client_fixture__rmw_cyclonedds_cpp[0m
+[100%] Built target client_fixture__rmw_cyclonedds_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/environment/library_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/environment/library_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/build/rcl/test/resources/test_arguments/test_parameters.1.yaml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/build/rcl/test/resources/test_arguments/test_parameters.2.yaml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/build/rcl/test/resources/test_security_directory/enclaves/dummy_enclave/.gitkeep
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/build/rcl/test/resources/test_security_directory/enclaves/group1/dummy_enclave/.gitkeep
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/ament_index/resource_index/package_run_dependencies/rcl
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/ament_index/resource_index/parent_prefix_path/rcl
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcl/share/rcl/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/ament_index/resource_index/packages/rcl
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/rcl-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/rclConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/rclConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/get_default_rcl_logging_implementation.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/rcl_set_symbol_visibility_hidden.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/allocator.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/arguments.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/client.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/context.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/domain_id.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/error_handling.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/event.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/expand_topic_name.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/graph.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/guard_condition.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/init.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/init_options.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/lexer.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/lexer_lookahead.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/localhost.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/logging.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/logging_external_interface.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/logging_rosout.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/macros.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/node.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/node_options.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/publisher.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/rcl.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/remap.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/rmw_implementation_identifier_check.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/security.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/service.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/subscription.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/time.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/timer.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/types.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/validate_enclave_name.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/validate_topic_name.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/visibility_control.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcl/include/rcl/wait.h
+-- Installing: /home/saitama1/ros2_foxy/install/rcl/lib/librcl.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rcl/lib/librcl.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/rclExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rcl/share/rcl/cmake/rclExport-noconfig.cmake

@@ -1,0 +1,81 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Checking for module 'lttng-ust'
+--   No package 'lttng-ust' found
+-- Found rclcpp: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_srvs: 2.0.4 (/home/saitama1/ros2_foxy/install/std_srvs/share/std_srvs/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'mypy' to statically type check Python code.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/tracetools_test
+[35m[1mScanning dependencies of target test_publisher[0m
+[  7%] [32mBuilding CXX object CMakeFiles/test_publisher.dir/src/test_publisher.cpp.o[0m
+[ 14%] [32m[1mLinking CXX executable test_publisher[0m
+[ 14%] Built target test_publisher
+[35m[1mScanning dependencies of target test_pong[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/test_pong.dir/src/test_pong.cpp.o[0m
+[ 28%] [32m[1mLinking CXX executable test_pong[0m
+[ 28%] Built target test_pong
+[35m[1mScanning dependencies of target test_intra[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/test_intra.dir/src/test_intra.cpp.o[0m
+[ 42%] [32m[1mLinking CXX executable test_intra[0m
+[ 42%] Built target test_intra
+[35m[1mScanning dependencies of target test_service_pong[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/test_service_pong.dir/src/test_service_pong.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable test_service_pong[0m
+[ 57%] Built target test_service_pong
+[35m[1mScanning dependencies of target test_service_ping[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/test_service_ping.dir/src/test_service_ping.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable test_service_ping[0m
+[ 71%] Built target test_service_ping
+[35m[1mScanning dependencies of target test_timer[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/test_timer.dir/src/test_timer.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable test_timer[0m
+[ 85%] Built target test_timer
+[35m[1mScanning dependencies of target test_ping[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/test_ping.dir/src/test_ping.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_ping[0m
+[100%] Built target test_ping
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/lib/tracetools_test/test_intra
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/lib/tracetools_test/test_ping
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/lib/tracetools_test/test_pong
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/lib/tracetools_test/test_publisher
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/lib/tracetools_test/test_service_ping
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/lib/tracetools_test/test_service_pong
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/lib/tracetools_test/test_timer
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/ament_index/resource_index/package_run_dependencies/tracetools_test
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/ament_index/resource_index/parent_prefix_path/tracetools_test
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/ament_index/resource_index/packages/tracetools_test
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/cmake/tracetools_testConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/cmake/tracetools_testConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools_test/share/tracetools_test/package.xml

@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../build/rqt_py_console/rqt_py_console.egg-info
+writing ../../../build/rqt_py_console/rqt_py_console.egg-info/PKG-INFO
+writing dependency_links to ../../../build/rqt_py_console/rqt_py_console.egg-info/dependency_links.txt
+writing entry points to ../../../build/rqt_py_console/rqt_py_console.egg-info/entry_points.txt
+writing requirements to ../../../build/rqt_py_console/rqt_py_console.egg-info/requires.txt
+writing top-level names to ../../../build/rqt_py_console/rqt_py_console.egg-info/top_level.txt
+writing manifest file '../../../build/rqt_py_console/rqt_py_console.egg-info/SOURCES.txt'
+reading manifest file '../../../build/rqt_py_console/rqt_py_console.egg-info/SOURCES.txt'
+writing manifest file '../../../build/rqt_py_console/rqt_py_console.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console
+copying src/rqt_py_console/py_console.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console
+copying src/rqt_py_console/spyder_console_widget.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console
+copying src/rqt_py_console/py_console_widget.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console
+copying src/rqt_py_console/py_console_text_edit.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console
+copying src/rqt_py_console/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console
+copying src/rqt_py_console/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console/py_console.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console/spyder_console_widget.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console/py_console_widget.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console/py_console_text_edit.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/build/lib/rqt_py_console/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console/py_console.py to py_console.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console/spyder_console_widget.py to spyder_console_widget.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console/py_console_widget.py to py_console_widget.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console/py_console_text_edit.py to py_console_text_edit.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console/main.py to main.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/rqt_py_console/rqt_py_console.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/python3.8/site-packages/rqt_py_console-1.0.1-py3.8.egg-info
+running install_scripts
+Installing rqt_py_console script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_py_console/lib/rqt_py_console
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_py_console/install.log'

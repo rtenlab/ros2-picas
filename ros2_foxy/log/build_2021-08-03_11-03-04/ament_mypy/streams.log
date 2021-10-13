@@ -1,0 +1,17 @@
+[0.531s] Invoking command in '/home/saitama1/ros2_foxy/build/ament_mypy': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_lint PATH=/home/saitama1/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_flake8:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_lint:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_mypy --editable --build-directory /home/saitama1/ros2_foxy/build/ament_mypy/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_mypy
+[0.716s] running develop
+[0.813s] running egg_info
+[0.813s] writing ament_mypy.egg-info/PKG-INFO
+[0.813s] writing dependency_links to ament_mypy.egg-info/dependency_links.txt
+[0.813s] writing entry points to ament_mypy.egg-info/entry_points.txt
+[0.814s] writing requirements to ament_mypy.egg-info/requires.txt
+[0.814s] writing top-level names to ament_mypy.egg-info/top_level.txt
+[0.845s] reading manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[0.846s] writing manifest file 'ament_mypy.egg-info/SOURCES.txt'
+[0.879s] running build_ext
+[0.879s] Creating /home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages/ament-mypy.egg-link (link to .)
+[0.879s] Installing ament_mypy script to /home/saitama1/ros2_foxy/install/ament_mypy/bin
+[0.880s] 
+[0.880s] Installed /home/saitama1/ros2_foxy/build/ament_mypy
+[0.880s] running install_data
+[0.974s] Invoked command in '/home/saitama1/ros2_foxy/build/ament_mypy' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_flake8:/home/saitama1/ros2_foxy/install/ament_lint PATH=/home/saitama1/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_mypy/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_flake8:/home/saitama1/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_lint:/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_mypy --editable --build-directory /home/saitama1/ros2_foxy/build/ament_mypy/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_mypy

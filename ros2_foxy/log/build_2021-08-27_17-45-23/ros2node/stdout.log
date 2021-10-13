@@ -1,0 +1,50 @@
+running egg_info
+creating ../../../../build/ros2node/ros2node.egg-info
+writing ../../../../build/ros2node/ros2node.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2node/ros2node.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2node/ros2node.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2node/ros2node.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2node/ros2node.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2node/ros2node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node
+copying ros2node/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/command
+copying ros2node/command/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/command
+copying ros2node/command/node.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/command
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/api
+copying ros2node/api/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/api
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/verb
+copying ros2node/verb/info.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/verb
+copying ros2node/verb/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/verb
+copying ros2node/verb/list.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/verb
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/command
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/command/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/command
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/command/node.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/command
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/api
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/api/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/api
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/verb/info.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/verb/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/build/lib/ros2node/verb/list.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/verb
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/command/node.py to node.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/verb/info.py to info.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node/verb/list.py to list.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/ros2node/ros2node.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2node/lib/python3.8/site-packages/ros2node-0.9.9-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2node/install.log'

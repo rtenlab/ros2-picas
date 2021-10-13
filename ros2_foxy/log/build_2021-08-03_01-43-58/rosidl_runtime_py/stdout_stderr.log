@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing rosidl_runtime_py.egg-info/PKG-INFO
+writing dependency_links to rosidl_runtime_py.egg-info/dependency_links.txt
+writing top-level names to rosidl_runtime_py.egg-info/top_level.txt
+reading manifest file 'rosidl_runtime_py.egg-info/SOURCES.txt'
+writing manifest file 'rosidl_runtime_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/rosidl_runtime_py/lib/python3.8/site-packages/site.py
+Creating /home/saitama1/ros2_foxy/install/rosidl_runtime_py/lib/python3.8/site-packages/rosidl-runtime-py.egg-link (link to .)
+
+Installed /home/saitama1/ros2_foxy/build/rosidl_runtime_py
+running install_data

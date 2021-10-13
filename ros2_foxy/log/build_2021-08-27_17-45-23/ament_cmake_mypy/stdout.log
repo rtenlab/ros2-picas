@@ -1,0 +1,29 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_cmake_test: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test/share/ament_cmake_test/cmake)
+-- Found ament_cmake_copyright: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_copyright/share/ament_cmake_copyright/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cmake_mypy
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_index/resource_index/package_run_dependencies/ament_cmake_mypy
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_index/resource_index/parent_prefix_path/ament_cmake_mypy
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_index/resource_index/packages/ament_cmake_mypy
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/cmake/ament_cmake_mypy-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/cmake/ament_cmake_mypyConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/cmake/ament_cmake_mypyConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/package.xml
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/cmake/ament_mypy.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_mypy/share/ament_cmake_mypy/cmake/ament_cmake_mypy_lint_hook.cmake

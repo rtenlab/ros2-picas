@@ -1,0 +1,41 @@
+[1.150s] Invoking command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_uncrustify': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/uncrustify_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/uncrustify_vendor:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_uncrustify build --build-base /home/saitama1/ros2_foxy/build/ament_uncrustify/build install --prefix /home/saitama1/ros2_foxy/install/ament_uncrustify --record /home/saitama1/ros2_foxy/build/ament_uncrustify/install.log --single-version-externally-managed
+[1.514s] running egg_info
+[1.516s] creating ../../../../build/ament_uncrustify/ament_uncrustify.egg-info
+[1.516s] writing ../../../../build/ament_uncrustify/ament_uncrustify.egg-info/PKG-INFO
+[1.516s] writing dependency_links to ../../../../build/ament_uncrustify/ament_uncrustify.egg-info/dependency_links.txt
+[1.516s] writing entry points to ../../../../build/ament_uncrustify/ament_uncrustify.egg-info/entry_points.txt
+[1.517s] writing requirements to ../../../../build/ament_uncrustify/ament_uncrustify.egg-info/requires.txt
+[1.517s] writing top-level names to ../../../../build/ament_uncrustify/ament_uncrustify.egg-info/top_level.txt
+[1.518s] writing manifest file '../../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.562s] reading manifest file '../../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.563s] writing manifest file '../../../../build/ament_uncrustify/ament_uncrustify.egg-info/SOURCES.txt'
+[1.668s] running build
+[1.668s] running build_py
+[1.668s] creating /home/saitama1/ros2_foxy/build/ament_uncrustify/build
+[1.668s] creating /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib
+[1.669s] creating /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify
+[1.669s] copying ament_uncrustify/__init__.py -> /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify
+[1.669s] copying ament_uncrustify/main.py -> /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify
+[1.670s] creating /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[1.671s] copying ament_uncrustify/configuration/ament_code_style.cfg -> /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify/configuration
+[1.671s] running install
+[1.671s] running install_lib
+[1.672s] creating /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[1.674s] copying /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify/__init__.py -> /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[1.674s] copying /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify/main.py -> /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify
+[1.674s] creating /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[1.674s] copying /home/saitama1/ros2_foxy/build/ament_uncrustify/build/lib/ament_uncrustify/configuration/ament_code_style.cfg -> /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/configuration
+[1.674s] byte-compiling /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/__init__.py to __init__.cpython-38.pyc
+[1.674s] byte-compiling /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify/main.py to main.cpython-38.pyc
+[1.677s] running install_data
+[1.677s] copying package.xml -> /home/saitama1/ros2_foxy/install/ament_uncrustify/share/ament_uncrustify
+[1.678s] creating /home/saitama1/ros2_foxy/install/ament_uncrustify/share/ament_index
+[1.678s] creating /home/saitama1/ros2_foxy/install/ament_uncrustify/share/ament_index/resource_index
+[1.679s] creating /home/saitama1/ros2_foxy/install/ament_uncrustify/share/ament_index/resource_index/packages
+[1.679s] copying resource/ament_uncrustify -> /home/saitama1/ros2_foxy/install/ament_uncrustify/share/ament_index/resource_index/packages
+[1.679s] running install_egg_info
+[1.680s] Copying ../../../../build/ament_uncrustify/ament_uncrustify.egg-info to /home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages/ament_uncrustify-0.9.6-py3.8.egg-info
+[1.682s] running install_scripts
+[1.727s] Installing ament_uncrustify script to /home/saitama1/ros2_foxy/install/ament_uncrustify/bin
+[1.728s] writing list of installed files to '/home/saitama1/ros2_foxy/build/ament_uncrustify/install.log'
+[1.804s] Invoked command in '/home/saitama1/ros2_foxy/src/ament/ament_lint/ament_uncrustify' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/uncrustify_vendor:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/uncrustify_vendor:${CMAKE_PREFIX_PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_uncrustify/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_uncrustify build --build-base /home/saitama1/ros2_foxy/build/ament_uncrustify/build install --prefix /home/saitama1/ros2_foxy/install/ament_uncrustify --record /home/saitama1/ros2_foxy/build/ament_uncrustify/install.log --single-version-externally-managed

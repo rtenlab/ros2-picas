@@ -1,0 +1,37 @@
+[ 20%] Built target gtest
+[ 60%] Built target lanelet2_traffic_rules
+[ 80%] Built target gtest_main
+[100%] Built target lanelet2_traffic_rules-gtest-lanelet2_traffic_rules
+[100%] Built target tests_lanelet2_traffic_rules
+[100%] Built target tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesConfigVersion.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/auto_dep_vars.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesAutoDepsConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/ament_index/resource_index/package_run_dependencies/lanelet2_traffic_rules
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/ament_index/resource_index/parent_prefix_path/lanelet2_traffic_rules
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/ament_index/resource_index/packages/lanelet2_traffic_rules
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/lib/liblanelet2_traffic_rules.so.1.1.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/lib/liblanelet2_traffic_rules.so.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/lib/liblanelet2_traffic_rules.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/Exceptions.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/TrafficRules.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/TrafficRulesFactory.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/internal
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/GenericTrafficRules.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/GermanTrafficRules.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesTargets.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesTargets-noconfig.cmake

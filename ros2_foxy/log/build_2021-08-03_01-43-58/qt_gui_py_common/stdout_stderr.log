@@ -1,0 +1,38 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/qt_gui_py_common
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/lib/python3.8/site-packages/qt_gui_py_common/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/lib/python3.8/site-packages/qt_gui_py_common/checkbox_group.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/lib/python3.8/site-packages/qt_gui_py_common/console_text_edit.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/lib/python3.8/site-packages/qt_gui_py_common/exclusive_options_group.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/lib/python3.8/site-packages/qt_gui_py_common/simple_settings_dialog.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/lib/python3.8/site-packages/qt_gui_py_common/worker_thread.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/resource/simple_settings_dialog.ui
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/ament_index/resource_index/package_run_dependencies/qt_gui_py_common
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/ament_index/resource_index/parent_prefix_path/qt_gui_py_common
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/ament_index/resource_index/packages/qt_gui_py_common
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/cmake/qt_gui_py_commonConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/cmake/qt_gui_py_commonConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui_py_common/share/qt_gui_py_common/package.xml
+Listing '/home/saitama1/ros2_foxy/install/qt_gui_py_common/lib/python3.8/site-packages/qt_gui_py_common'...

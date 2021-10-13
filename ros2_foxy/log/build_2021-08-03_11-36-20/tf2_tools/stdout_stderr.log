@@ -1,0 +1,24 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/tf2_tools
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/lib/tf2_tools/view_frames.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/ament_index/resource_index/package_run_dependencies/tf2_tools
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/ament_index/resource_index/parent_prefix_path/tf2_tools
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/ament_index/resource_index/packages/tf2_tools
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/cmake/tf2_toolsConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/cmake/tf2_toolsConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_tools/share/tf2_tools/package.xml

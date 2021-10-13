@@ -1,0 +1,22 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/geometry2
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/ament_index/resource_index/package_run_dependencies/geometry2
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/ament_index/resource_index/parent_prefix_path/geometry2
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/ament_index/resource_index/packages/geometry2
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/cmake/geometry2Config.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/cmake/geometry2Config-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/geometry2/share/geometry2/package.xml

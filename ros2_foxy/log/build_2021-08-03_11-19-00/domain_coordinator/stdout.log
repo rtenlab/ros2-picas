@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing domain_coordinator.egg-info/PKG-INFO
+writing dependency_links to domain_coordinator.egg-info/dependency_links.txt
+writing requirements to domain_coordinator.egg-info/requires.txt
+writing top-level names to domain_coordinator.egg-info/top_level.txt
+reading manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+writing manifest file 'domain_coordinator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/domain_coordinator/lib/python3.8/site-packages/domain-coordinator.egg-link (link to .)
+
+Installed /home/saitama1/ros2_foxy/build/domain_coordinator
+running install_data

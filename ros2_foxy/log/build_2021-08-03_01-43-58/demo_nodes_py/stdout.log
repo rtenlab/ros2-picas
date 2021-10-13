@@ -1,0 +1,23 @@
+running develop
+running egg_info
+writing demo_nodes_py.egg-info/PKG-INFO
+writing dependency_links to demo_nodes_py.egg-info/dependency_links.txt
+writing entry points to demo_nodes_py.egg-info/entry_points.txt
+writing requirements to demo_nodes_py.egg-info/requires.txt
+writing top-level names to demo_nodes_py.egg-info/top_level.txt
+reading manifest file 'demo_nodes_py.egg-info/SOURCES.txt'
+writing manifest file 'demo_nodes_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/python3.8/site-packages/site.py
+Creating /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/python3.8/site-packages/demo-nodes-py.egg-link (link to .)
+Installing add_two_ints_client script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+Installing add_two_ints_client_async script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+Installing add_two_ints_server script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+Installing listener script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+Installing listener_qos script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+Installing listener_serialized script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+Installing talker script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+Installing talker_qos script to /home/saitama1/ros2_foxy/install/demo_nodes_py/lib/demo_nodes_py
+
+Installed /home/saitama1/ros2_foxy/build/demo_nodes_py
+running install_data

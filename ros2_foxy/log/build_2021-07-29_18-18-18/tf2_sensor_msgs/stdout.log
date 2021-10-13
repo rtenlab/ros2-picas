@@ -1,0 +1,58 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_auto/share/ament_cmake_auto/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/tf2_sensor_msgs
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/include
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/include/tf2_sensor_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/include/tf2_sensor_msgs/tf2_sensor_msgs.h
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/ament_index/resource_index/package_run_dependencies/tf2_sensor_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/ament_index/resource_index/parent_prefix_path/tf2_sensor_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/ament_index/resource_index/packages/tf2_sensor_msgs
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/cmake/tf2_sensor_msgsConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/tf2_sensor_msgs/share/tf2_sensor_msgs/package.xml

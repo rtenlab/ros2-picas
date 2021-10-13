@@ -1,0 +1,311 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.0 (/home/saitama1/ros2_foxy/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found rosidl_default_generators: 1.0.1 (/home/saitama1/ros2_foxy/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+-- Found ament_cmake_cppcheck: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_cmake_flake8: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_flake8/share/ament_cmake_flake8/cmake)
+-- Found ament_cmake_pep257: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_pep257/share/ament_cmake_pep257/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/visualization_msgs
+[  1%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[ 12%] Built target visualization_msgs__rosidl_generator_c
+[ 12%] Built target visualization_msgs__cpp
+[ 13%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_c[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[ 24%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[ 24%] Built target visualization_msgs__rosidl_typesupport_c
+[35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_cpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[ 35%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[ 36%] Built target visualization_msgs__rosidl_typesupport_cpp
+[ 37%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 48%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[ 49%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 59%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[ 60%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 71%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[ 72%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 83%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[ 83%] Built target visualization_msgs
+[35m[1mScanning dependencies of target visualization_msgs__py[0m
+[ 84%] Built target visualization_msgs__py
+[ 85%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/libvisualization_msgs__python.so[0m
+[ 95%] Built target visualization_msgs__python
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] Built target visualization_msgs__rosidl_typesupport_c__pyext
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 98%] Built target visualization_msgs__rosidl_typesupport_introspection_c__pyext
+[35m[1mScanning dependencies of target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[ 99%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32m[1mLinking CXX shared library rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/image_marker.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_feedback.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_init.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_pose.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_update.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/marker.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/marker_array.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/menu_entry.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/get_interactive_markers.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/image_marker.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_control.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_feedback.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_init.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_pose.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/interactive_marker_update.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/marker.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/marker_array.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/menu_entry.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/get_interactive_markers.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/include/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_image_marker.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_control.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_init.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_pose.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_interactive_marker_update.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_marker.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_marker_array.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/msg/_menu_entry.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/srv/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/srv/_get_interactive_markers.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__python.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Request.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers_Response.msg
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/package.xml
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+Compiling '/home/saitama1/ros2_foxy/install/visualization_msgs/lib/python3.8/site-packages/visualization_msgs/__init__.py'...
+-- Up-to-date: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_generator_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake

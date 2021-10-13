@@ -1,0 +1,73 @@
+-- Found ament_cmake_ros: 0.9.2 (/home/saitama1/ros2_foxy/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rcpputils: 1.3.1 (/home/saitama1/ros2_foxy/install/rcpputils/share/rcpputils/cmake)
+-- Found rmw_dds_common: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_dds_common/share/rmw_dds_common/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_fastrtps_shared_cpp: 1.2.5 (/home/saitama1/ros2_foxy/install/rmw_fastrtps_shared_cpp/share/rmw_fastrtps_shared_cpp/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/ros2_foxy/src/ros2/rmw_fastrtps/rmw_fastrtps_cpp/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rmw_fastrtps_cpp
+[  4%] Built target gtest
+[  8%] Built target gtest_main
+[ 91%] Built target rmw_fastrtps_cpp
+[35m[1mScanning dependencies of target test_get_native_entities[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/test_get_native_entities.dir/test/test_get_native_entities.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable test_get_native_entities[0m
+[ 95%] Built target test_get_native_entities
+[100%] Built target test_logging
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/library_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/library_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/ament_index/resource_index/rmw_typesupport_c/rmw_fastrtps_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_fastrtps_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/ament_index/resource_index/rmw_typesupport/rmw_fastrtps_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/ament_index/resource_index/package_run_dependencies/rmw_fastrtps_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/ament_index/resource_index/parent_prefix_path/rmw_fastrtps_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/ament_index/resource_index/packages/rmw_fastrtps_cpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/rmw_fastrtps_cpp-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/rmw_fastrtps_cppConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake/rmw_fastrtps_cppConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/MessageTypeSupport.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/ServiceTypeSupport.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/TypeSupport.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/get_client.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/get_participant.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/get_publisher.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/get_service.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/get_subscriber.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/identifier.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/init_rmw_context_impl.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/publisher.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/serialization_format.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/subscription.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/include/rmw_fastrtps_cpp/visibility_control.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/lib/librmw_fastrtps_cpp.so

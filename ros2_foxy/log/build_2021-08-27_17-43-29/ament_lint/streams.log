@@ -1,0 +1,20 @@
+[0.849s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_lint': PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed
+[1.052s] running egg_info
+[1.052s] writing ../../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+[1.052s] writing dependency_links to ../../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+[1.052s] writing entry points to ../../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+[1.053s] writing requirements to ../../../../build/ament_lint/ament_lint.egg-info/requires.txt
+[1.053s] writing top-level names to ../../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+[1.084s] reading manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.085s] writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+[1.085s] running build
+[1.085s] running build_py
+[1.086s] running install
+[1.086s] running install_lib
+[1.087s] running install_data
+[1.087s] running install_egg_info
+[1.088s] removing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.6-py3.8.egg-info' (and everything under it)
+[1.089s] Copying ../../../../build/ament_lint/ament_lint.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.6-py3.8.egg-info
+[1.090s] running install_scripts
+[1.104s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/install.log'
+[1.135s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_lint' returned '0': PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_lint build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/install.log --single-version-externally-managed

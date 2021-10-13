@@ -1,0 +1,46 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/ros2_foxy/install/performance_test_fixture/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/console_bridge_vendor
+[ 80%] Built target console_bridge-1.0.1
+[100%] Built target benchmark_log
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/include/console_bridge/console.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/include/console_bridge_export.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/lib/console_bridge/cmake/console_bridge-config-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/lib/console_bridge/cmake/console_bridge-config.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/lib/console_bridge/cmake/console_bridge-targets-release.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/lib/console_bridge/cmake/console_bridge-targets.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/lib/libconsole_bridge.so
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/lib/libconsole_bridge.so.1.0
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/lib/pkgconfig/console_bridge.pc
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/ament_index/resource_index/package_run_dependencies/console_bridge_vendor
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/ament_index/resource_index/parent_prefix_path/console_bridge_vendor
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/ament_index/resource_index/packages/console_bridge_vendor
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/cmake/console_bridge_vendorConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/cmake/console_bridge_vendorConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/console_bridge_vendor/share/console_bridge_vendor/package.xml

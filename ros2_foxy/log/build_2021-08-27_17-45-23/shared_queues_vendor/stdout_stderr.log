@@ -1,0 +1,182 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor
+[35m[1mScanning dependencies of target ext-concurrentqueue[0m
+[35m[1mScanning dependencies of target ext-singleproducerconsumer[0m
+[  6%] [34m[1mCreating directories for 'ext-singleproducerconsumer'[0m
+[ 12%] [34m[1mCreating directories for 'ext-concurrentqueue'[0m
+[ 18%] [34m[1mPerforming download step (download, verify and extract) for 'ext-singleproducerconsumer'[0m
+-- Downloading...
+   dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+   timeout='60 seconds'
+-- Using src='https://github.com/cameron314/readerwriterqueue/archive/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'ext-concurrentqueue'[0m
+-- Downloading...
+   dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+   timeout='60 seconds'
+-- Using src='https://github.com/cameron314/concurrentqueue/archive/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+-- [download 100% complete]
+-- [download 100% complete]
+-- [download 1% complete]
+-- [download 2% complete]
+-- verifying file...
+       file='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+-- Downloading... done
+-- [download 3% complete]
+-- [download 4% complete]
+-- [download 5% complete]
+-- [download 6% complete]
+-- [download 7% complete]
+-- [download 8% complete]
+-- [download 9% complete]
+-- [download 10% complete]
+-- [download 11% complete]
+-- [download 12% complete]
+-- extracting...
+     src='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/download/ef7dfbf553288064347d51b8ac335f1ca489032a.zip'
+     dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/singleproducerconsumer/src/ext-singleproducerconsumer'
+-- extracting... [tar xfz]
+-- [download 13% complete]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+-- [download 15% complete]
+-- [download 17% complete]
+-- [download 18% complete]
+-- [download 20% complete]
+-- [download 23% complete]
+[ 31%] [34m[1mNo patch step for 'ext-singleproducerconsumer'[0m
+[ 37%] [34m[1mNo update step for 'ext-singleproducerconsumer'[0m
+-- [download 28% complete]
+-- [download 29% complete]
+-- [download 30% complete]
+-- [download 31% complete]
+-- [download 32% complete]
+-- [download 33% complete]
+-- [download 34% complete]
+-- [download 35% complete]
+-- [download 36% complete]
+-- [download 37% complete]
+-- [download 38% complete]
+-- [download 39% complete]
+-- [download 40% complete]
+-- [download 41% complete]
+-- [download 42% complete]
+-- [download 43% complete]
+[ 43%] [34m[1mNo configure step for 'ext-singleproducerconsumer'[0m
+-- [download 48% complete]
+-- [download 49% complete]
+-- [download 50% complete]
+-- [download 51% complete]
+-- [download 52% complete]
+-- [download 53% complete]
+-- [download 54% complete]
+-- [download 55% complete]
+-- [download 56% complete]
+-- [download 57% complete]
+-- [download 58% complete]
+-- [download 59% complete]
+-- [download 60% complete]
+-- [download 61% complete]
+-- [download 62% complete]
+-- [download 63% complete]
+-- [download 64% complete]
+-- [download 65% complete]
+-- [download 66% complete]
+-- [download 67% complete]
+-- [download 68% complete]
+-- [download 69% complete]
+[ 50%] [34m[1mNo build step for 'ext-singleproducerconsumer'[0m
+-- [download 70% complete]
+-- [download 71% complete]
+-- [download 72% complete]
+-- [download 73% complete]
+-- [download 74% complete]
+-- [download 75% complete]
+-- [download 76% complete]
+-- [download 77% complete]
+-- [download 78% complete]
+-- [download 79% complete]
+-- [download 80% complete]
+-- [download 81% complete]
+-- [download 82% complete]
+-- [download 83% complete]
+-- [download 84% complete]
+-- [download 85% complete]
+-- [download 86% complete]
+-- [download 87% complete]
+[ 56%] [34m[1mNo install step for 'ext-singleproducerconsumer'[0m
+-- [download 88% complete]
+-- [download 89% complete]
+-- [download 90% complete]
+-- [download 91% complete]
+-- [download 92% complete]
+-- [download 93% complete]
+-- [download 94% complete]
+-- [download 95% complete]
+-- [download 96% complete]
+-- [download 97% complete]
+-- [download 98% complete]
+-- [download 99% complete]
+-- [download 100% complete]
+-- verifying file...
+       file='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+-- Downloading... done
+[ 62%] [34m[1mCompleted 'ext-singleproducerconsumer'[0m
+-- extracting...
+     src='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/download/8f65a8734d77c3cc00d74c0532efca872931d3ce.zip'
+     dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/shared_queues_vendor/concurrentqueue/src/ext-concurrentqueue'
+-- extracting... [tar xfz]
+[ 62%] Built target ext-singleproducerconsumer
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 68%] [34m[1mNo patch step for 'ext-concurrentqueue'[0m
+[ 75%] [34m[1mNo update step for 'ext-concurrentqueue'[0m
+[ 81%] [34m[1mNo configure step for 'ext-concurrentqueue'[0m
+[ 87%] [34m[1mNo build step for 'ext-concurrentqueue'[0m
+[ 93%] [34m[1mNo install step for 'ext-concurrentqueue'[0m
+[100%] [34m[1mCompleted 'ext-concurrentqueue'[0m
+[100%] Built target ext-concurrentqueue
+-- Install configuration: ""
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/include/moodycamel/atomicops.h
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/include/moodycamel/readerwriterqueue.h
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/include/moodycamel/concurrentqueue.h
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/include/moodycamel/blockingconcurrentqueue.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/ament_index/resource_index/package_run_dependencies/shared_queues_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/ament_index/resource_index/parent_prefix_path/shared_queues_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/ament_index/resource_index/packages/shared_queues_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/cmake/export_shared_queues_vendorExport.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/cmake/shared_queues_vendorConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/cmake/shared_queues_vendorConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/shared_queues_vendor/share/shared_queues_vendor/package.xml

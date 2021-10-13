@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing ament_clang_format.egg-info/PKG-INFO
+writing dependency_links to ament_clang_format.egg-info/dependency_links.txt
+writing entry points to ament_clang_format.egg-info/entry_points.txt
+writing requirements to ament_clang_format.egg-info/requires.txt
+writing top-level names to ament_clang_format.egg-info/top_level.txt
+reading manifest file 'ament_clang_format.egg-info/SOURCES.txt'
+writing manifest file 'ament_clang_format.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/site.py
+Creating /home/saitama1/ros2_foxy/install/ament_clang_format/lib/python3.8/site-packages/ament-clang-format.egg-link (link to .)
+Installing ament_clang_format script to /home/saitama1/ros2_foxy/install/ament_clang_format/bin
+
+Installed /home/saitama1/ros2_foxy/build/ament_clang_format
+running install_data

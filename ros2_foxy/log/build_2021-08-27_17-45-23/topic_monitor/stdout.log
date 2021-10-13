@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../../build/topic_monitor/topic_monitor.egg-info
+writing ../../../../build/topic_monitor/topic_monitor.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/topic_monitor/topic_monitor.egg-info/dependency_links.txt
+writing entry points to ../../../../build/topic_monitor/topic_monitor.egg-info/entry_points.txt
+writing requirements to ../../../../build/topic_monitor/topic_monitor.egg-info/requires.txt
+writing top-level names to ../../../../build/topic_monitor/topic_monitor.egg-info/top_level.txt
+writing manifest file '../../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/topic_monitor/topic_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor
+copying topic_monitor/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/scripts
+copying topic_monitor/scripts/data_publisher.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/scripts
+copying topic_monitor/scripts/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/scripts
+copying topic_monitor/scripts/topic_monitor.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/scripts
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/scripts/data_publisher.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/scripts/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/build/lib/topic_monitor/scripts/topic_monitor.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts/data_publisher.py to data_publisher.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor/scripts/topic_monitor.py to topic_monitor.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/topic_monitor/topic_monitor.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/python3.8/site-packages/topic_monitor-0.9.3-py3.8.egg-info
+running install_scripts
+Installing data_publisher script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/topic_monitor
+Installing topic_monitor script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/topic_monitor/lib/topic_monitor
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/topic_monitor/install.log'

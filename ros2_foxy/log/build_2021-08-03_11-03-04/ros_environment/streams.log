@@ -1,0 +1,30 @@
+[0.092s] Invoking command in '/home/saitama1/ros2_foxy/build/ros_environment': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/saitama1/ros2_foxy/build/ament_package:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/ros_environment -- -j12 -l12
+[0.157s] Invoked command in '/home/saitama1/ros2_foxy/build/ros_environment' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/saitama1/ros2_foxy/build/ament_package:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/ros_environment -- -j12 -l12
+[0.236s] Invoking command in '/home/saitama1/ros2_foxy/build/ros_environment': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/saitama1/ros2_foxy/build/ament_package:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/ros_environment
+[0.254s] -- Install configuration: ""
+[0.255s] -- Execute custom install script
+[0.255s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_distro.dsv
+[0.255s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_distro.sh
+[0.256s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_localhost_only.dsv
+[0.256s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_localhost_only.sh
+[0.256s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_python_version.dsv
+[0.256s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_python_version.sh
+[0.257s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_version.dsv
+[0.257s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/1.ros_version.sh
+[0.257s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/0.ros_distro_check.sh
+[0.257s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ament_index/resource_index/package_run_dependencies/ros_environment
+[0.258s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ament_index/resource_index/parent_prefix_path/ros_environment
+[0.258s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/ament_prefix_path.sh
+[0.258s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/ament_prefix_path.dsv
+[0.258s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/path.sh
+[0.258s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/environment/path.dsv
+[0.258s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.bash
+[0.258s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.sh
+[0.259s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.zsh
+[0.259s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/local_setup.dsv
+[0.259s] -- Symlinking: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/package.dsv
+[0.271s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ament_index/resource_index/packages/ros_environment
+[0.271s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/cmake/ros_environmentConfig.cmake
+[0.272s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/cmake/ros_environmentConfig-version.cmake
+[0.272s] -- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ros_environment/share/ros_environment/package.xml
+[0.406s] Invoked command in '/home/saitama1/ros2_foxy/build/ros_environment' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core:/home/saitama1/ros2_foxy/install/ament_package CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_cmake_core PYTHONPATH=/home/saitama1/ros2_foxy/build/ament_package:/home/saitama1/ros2_foxy/install/ament_package/lib/python3.8/site-packages /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/ros_environment

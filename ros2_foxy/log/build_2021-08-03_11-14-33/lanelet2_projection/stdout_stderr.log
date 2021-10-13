@@ -1,0 +1,35 @@
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 60%] Built target lanelet2_projection
+[ 80%] Built target lanelet2_projection-gtest-test_Mercator
+[100%] Built target lanelet2_projection-gtest-test_UTM
+[100%] Built target tests_lanelet2_projection
+[100%] Built target tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/cmake/lanelet2_projectionConfigVersion.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/cmake/lanelet2_projectionConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/cmake/auto_dep_vars.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/cmake/lanelet2_projectionAutoDepsConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/ament_index/resource_index/package_run_dependencies/lanelet2_projection
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/ament_index/resource_index/parent_prefix_path/lanelet2_projection
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/ament_index/resource_index/packages/lanelet2_projection
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/lib/liblanelet2_projection.so.1.1.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/lib/liblanelet2_projection.so.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/lib/liblanelet2_projection.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/include/lanelet2_projection
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/include/lanelet2_projection/Mercator.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/include/lanelet2_projection/internal
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/include/lanelet2_projection/UTM.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/cmake/lanelet2_projectionTargets.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_projection/share/lanelet2_projection/cmake/lanelet2_projectionTargets-noconfig.cmake

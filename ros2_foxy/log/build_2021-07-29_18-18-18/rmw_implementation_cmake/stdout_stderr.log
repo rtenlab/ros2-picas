@@ -1,0 +1,32 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rmw_implementation_cmake
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/ament_index/resource_index/package_run_dependencies/rmw_implementation_cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/ament_index/resource_index/parent_prefix_path/rmw_implementation_cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/ament_index/resource_index/packages/rmw_implementation_cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/rmw_implementation_cmake-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/rmw_implementation_cmakeConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/rmw_implementation_cmakeConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/get_available_rmw_implementations.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/get_default_rmw_implementation.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake/call_for_each_rmw_implementation.cmake
