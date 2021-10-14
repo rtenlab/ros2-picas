@@ -1,0 +1,18 @@
+running develop
+running egg_info
+creating src/rqt_reconfigure.egg-info
+writing src/rqt_reconfigure.egg-info/PKG-INFO
+writing dependency_links to src/rqt_reconfigure.egg-info/dependency_links.txt
+writing entry points to src/rqt_reconfigure.egg-info/entry_points.txt
+writing requirements to src/rqt_reconfigure.egg-info/requires.txt
+writing top-level names to src/rqt_reconfigure.egg-info/top_level.txt
+writing manifest file 'src/rqt_reconfigure.egg-info/SOURCES.txt'
+reading manifest file 'src/rqt_reconfigure.egg-info/SOURCES.txt'
+writing manifest file 'src/rqt_reconfigure.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/rqt_reconfigure/lib/python3.8/site-packages/site.py
+Creating /home/saitama1/ros2_foxy/install/rqt_reconfigure/lib/python3.8/site-packages/rqt-reconfigure.egg-link (link to src)
+Installing rqt_reconfigure script to /home/saitama1/ros2_foxy/install/rqt_reconfigure/lib/rqt_reconfigure
+
+Installed /home/saitama1/ros2_foxy/build/rqt_reconfigure/src
+running install_data

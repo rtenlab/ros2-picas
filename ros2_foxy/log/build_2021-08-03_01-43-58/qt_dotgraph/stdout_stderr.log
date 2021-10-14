@@ -1,0 +1,48 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_pytest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+CMake Warning at /home/saitama1/ros2_foxy/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:77 (message):
+  The Python module 'pytest' was not found, pytests can not be run (e.g.  on
+  Ubuntu/Debian install the package 'python3-pytest')
+Call Stack (most recent call first):
+  CMakeLists.txt:19 (ament_add_pytest_test)
+
+
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/qt_dotgraph
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/colors.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/dot_shapes.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/dot_to_qt.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/edge_item.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/graph_item.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/node_item.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/pydotfactory.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph/pygraphvizfactory.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/ament_index/resource_index/package_run_dependencies/qt_dotgraph
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/ament_index/resource_index/parent_prefix_path/qt_dotgraph
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/ament_index/resource_index/packages/qt_dotgraph
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/cmake/qt_dotgraphConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/cmake/qt_dotgraphConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_dotgraph/share/qt_dotgraph/package.xml
+Listing '/home/saitama1/ros2_foxy/install/qt_dotgraph/lib/python3.8/site-packages/qt_dotgraph'...

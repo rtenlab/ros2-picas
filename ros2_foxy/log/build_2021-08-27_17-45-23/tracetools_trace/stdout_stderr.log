@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../../build/tracetools_trace/tracetools_trace.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/tracetools_trace/tracetools_trace.egg-info/dependency_links.txt
+writing entry points to ../../../../build/tracetools_trace/tracetools_trace.egg-info/entry_points.txt
+writing requirements to ../../../../build/tracetools_trace/tracetools_trace.egg-info/requires.txt
+writing top-level names to ../../../../build/tracetools_trace/tracetools_trace.egg-info/top_level.txt
+reading manifest file '../../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/tracetools_trace/tracetools_trace.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace-1.0.5-py3.8.egg-info' (and everything under it)
+Copying ../../../../build/tracetools_trace/tracetools_trace.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tracetools_trace/lib/python3.8/site-packages/tracetools_trace-1.0.5-py3.8.egg-info
+running install_scripts
+Installing trace script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tracetools_trace/lib/tracetools_trace
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/tracetools_trace/install.log'

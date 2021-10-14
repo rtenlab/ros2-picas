@@ -1,0 +1,403 @@
+-- Enabling tests requiring a display
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rviz_ogre_vendor: 8.2.2 (/home/saitama1/ros2_foxy/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake)
+-- Setting OGRE_DIR to: '/home/saitama1/ros2_foxy/install/rviz_ogre_vendor/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+-- Found OGRE
+--   static     : OFF
+--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+--   media      : /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/share/OGRE/Media
+-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+-- OGRE_LIBRARY_DIRS: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib
+-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI;Codec_EXR
+-- OGRE_PLUGIN_DIR: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/OGRE
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /home/saitama1/ros2_foxy/install/rviz_ogre_vendor/opt/rviz_ogre_vendor/lib/libOgreMain.so
+-- Could not find freeimage library
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+-- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+-- Found geometry_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found pluginlib: 2.5.3 (/home/saitama1/ros2_foxy/install/pluginlib/share/pluginlib/cmake)
+-- Found rclcpp: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found resource_retriever: 2.3.4 (/home/saitama1/ros2_foxy/install/resource_retriever/share/resource_retriever/cmake)
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found rviz_assimp_vendor: 8.2.2 (/home/saitama1/ros2_foxy/install/rviz_assimp_vendor/share/rviz_assimp_vendor/cmake)
+-- library: libassimp.so.5
+-- Found rviz_rendering: 8.2.2 (/home/saitama1/ros2_foxy/install/rviz_rendering/share/rviz_rendering/cmake)
+-- Found sensor_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found tinyxml_vendor: 0.8.2 (/home/saitama1/ros2_foxy/install/tinyxml_vendor/share/tinyxml_vendor/cmake)
+-- Found tf2: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake)
+-- Found tf2_geometry_msgs: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2_geometry_msgs/share/tf2_geometry_msgs/cmake)
+-- Found urdf: 2.4.0 (/home/saitama1/ros2_foxy/install/urdf/share/urdf/cmake)
+-- Found yaml_cpp_vendor: 7.0.2 (/home/saitama1/ros2_foxy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake)
+-- Setting yaml-cpp_DIR to: '/home/saitama1/ros2_foxy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found ament_cmake_cppcheck: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gmock: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gmock sources under '/home/saitama1/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rviz_common
+[  1%] Built target gtest
+[  1%] Built target gmock_main
+[  3%] Built target gmock
+[  4%] Built target gtest_main
+[35m[1mScanning dependencies of target rviz_common[0m
+[  5%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_add_display_dialog.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_displays_panel.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_failed_panel.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_frame_manager.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_frame_manager_iface.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_loading_dialog.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_new_object_dialog.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_panel.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_panel_dock_widget.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_bool_property.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_color_editor.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_color_property.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_covariance_property.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_combo_box.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_display_group_visibility_property.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_display_visibility_property.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_editable_combo_box.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_editable_enum_property.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_float_edit.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_float_property.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_int_property.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_display_context.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_line_edit_with_button.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_property.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_property_tree_delegate.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_property_tree_model.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_property_tree_with_help.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_qos_profile_property.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_ros_topic_property.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_status_list.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_status_property.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_display.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_vector_property.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_render_panel.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_visualization_manager.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_tf_frame_property.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_scaled_image_widget.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_string_property.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_visualizer_app.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_quaternion_property.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_screenshot_dialog.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_frame_position_tracking_view_controller.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_display_group.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_splitter_handle.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/interaction/moc_selection_manager.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/interaction/moc_selection_manager_iface.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_property_tree_widget.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/properties/moc_enum_property.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_splash_screen.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_widget_geometry_change_detector.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_ros_topic_display.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/env_config.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/add_display_dialog.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/bit_allocator.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/config.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/display_factory.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/display_group.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/display.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_visualization_frame.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/displays_panel.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_views_panel.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_view_controller.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_view_manager.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/failed_display.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_transformation_panel.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/transformation/moc_transformation_manager.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_tool_properties_panel.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_tool_manager.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/failed_panel.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/failed_tool.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/panel_dock_widget.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/new_object_dialog.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/panel_factory.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/panel.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/logging.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/bool_property.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/color_editor.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/loading_dialog.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/display_group_visibility_property.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/display_visibility_property.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/editable_combo_box.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/editable_enum_property.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/covariance_property.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/combo_box.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/color_property.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/enum_property.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/file_picker.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/load_resource.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/file_picker_property.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/help_panel.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/float_edit.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/float_property.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/grouped_checkbox_property.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/grouped_checkbox_property_group.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/frame_position_tracking_view_controller.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/int_property.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/frame_manager.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/line_edit_with_button.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/parse_color.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/property_tree_delegate.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/failed_view_controller.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/property_tree_model.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/property_tree_widget.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/string_property.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/tf_frame_property.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/vector_property.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/status_property.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/splitter_handle.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/status_list.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/render_panel.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/ros_integration/ros_client_abstraction.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/ros_integration/ros_node_abstraction.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/scaled_image_widget.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/qos_profile_property.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/screenshot_dialog.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/selection_panel.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/quaternion_property.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/interaction/handler_manager.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/interaction/selection_handler.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/interaction/selection_manager.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/interaction/selection_renderer.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/ros_topic_property.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/interaction/view_picker.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/splash_screen.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/transformation/identity_frame_transformer.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/view_controller.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/view_manager.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/transformation/transformation_manager.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/uniform_string_stream.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/transformation_panel.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/tool.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/views_panel.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/tool_properties_panel.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/viewport_mouse_event.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/property.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/tool_manager.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/properties/property_tree_with_help.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/include/rviz_common/moc_tool.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/visualization_frame.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/visualization_manager.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/visualizer_app.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/widget_geometry_change_detector.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/yaml_config_reader.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/moc_help_panel.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rviz_common.dir/src/rviz_common/yaml_config_writer.cpp.o[0m
+[ 61%] [32m[1mLinking CXX shared library librviz_common.so[0m
+[ 85%] Built target rviz_common
+[35m[1mScanning dependencies of target rviz_common_visualizer_app_test[0m
+[35m[1mScanning dependencies of target rviz_common_display_test[0m
+[35m[1mScanning dependencies of target qos_profile_property_test[0m
+[35m[1mScanning dependencies of target rviz_common_property_test[0m
+[35m[1mScanning dependencies of target frame_manager_test[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/rviz_common_config_test.dir/test/config_test.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/qos_profile_property_test.dir/test/properties/qos_profile_property_test.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rviz_common_property_test.dir/test/moc_mock_property_change_receiver.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/rviz_common_property_test.dir/test/moc_mock_display.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rviz_common_display_test.dir/test/moc_mock_display.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/rviz_common_visualizer_app_test.dir/test/visualizer_app_test.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/frame_manager_test.dir/test/frame_manager_test.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/frame_manager_test.dir/src/rviz_common/frame_manager.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rviz_common_property_test.dir/test/property_test.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rviz_common_display_test.dir/test/moc_mock_property_change_receiver.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable rviz_common_config_test[0m
+[ 88%] [32m[1mLinking CXX executable qos_profile_property_test[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/rviz_common_display_test.dir/test/display_test.cpp.o[0m
+[ 88%] Built target rviz_common_config_test
+[ 89%] [32mBuilding CXX object CMakeFiles/rviz_common_display_test.dir/test/mock_display.cpp.o[0m
+[35m[1mScanning dependencies of target selection_handler_test[0m
+[35m[1mScanning dependencies of target selection_manager_test[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/selection_manager_test.dir/test/interaction/selection_manager_test.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/selection_handler_test.dir/test/interaction/selection_handler_test.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rviz_common_property_test.dir/test/mock_display.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/selection_handler_test.dir/test/display_context_fixture.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/rviz_common_display_test.dir/test/mock_display_group.cpp.o[0m
+[ 90%] Built target qos_profile_property_test
+[ 91%] [32mBuilding CXX object CMakeFiles/selection_handler_test.dir/test/ogre_testing_environment.cpp.o[0m
+[35m[1mScanning dependencies of target rviz_common_ros_node_abstraction_test[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rviz_common_display_test.dir/test/mock_property_change_receiver.cpp.o[0m
+[35m[1mScanning dependencies of target identity_transformer_test[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/rviz_common_ros_node_abstraction_test.dir/test/ros_node_abstraction_test.cpp.o[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/identity_transformer_test.dir/test/transformation/identity_frame_transformer_test.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/rviz_common_property_test.dir/test/mock_property_change_receiver.cpp.o[0m
+[ 93%] [32m[1mLinking CXX executable rviz_common_visualizer_app_test[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/selection_manager_test.dir/test/display_context_fixture.cpp.o[0m
+[ 94%] [32m[1mLinking CXX executable rviz_common_display_test[0m
+[ 94%] [32m[1mLinking CXX executable rviz_common_property_test[0m
+[ 94%] Built target rviz_common_visualizer_app_test
+[ 94%] [32mBuilding CXX object CMakeFiles/frame_manager_test.dir/src/rviz_common/moc_frame_manager.cpp.o[0m
+[ 95%] [32m[1mLinking CXX executable rviz_common_ros_node_abstraction_test[0m
+[ 96%] [32m[1mLinking CXX executable identity_transformer_test[0m
+[ 97%] Built target rviz_common_display_test
+[ 97%] Built target rviz_common_ros_node_abstraction_test
+[ 98%] Built target rviz_common_property_test
+[ 98%] [32m[1mLinking CXX executable frame_manager_test[0m
+[ 98%] Built target identity_transformer_test
+[ 98%] [32mBuilding CXX object CMakeFiles/selection_manager_test.dir/test/ogre_testing_environment.cpp.o[0m
+[ 98%] Built target frame_manager_test
+[ 98%] [32mBuilding CXX object CMakeFiles/rviz_common_uniform_string_stream_test.dir/test/uniform_string_stream_test.cpp.o[0m
+[ 99%] [32m[1mLinking CXX executable rviz_common_uniform_string_stream_test[0m
+[ 99%] [32m[1mLinking CXX executable selection_handler_test[0m
+[ 99%] Built target rviz_common_uniform_string_stream_test
+[100%] [32m[1mLinking CXX executable selection_manager_test[0m
+[100%] Built target selection_handler_test
+[100%] Built target selection_manager_test
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/bit_allocator.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/config.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/display.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/display_context.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/display_group.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/factory/class_id_recording_factory.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/factory/factory.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/factory/pluginlib_factory.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/frame_manager_iface.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/frame_position_tracking_view_controller.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/forwards.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/handler_manager.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/handler_manager_iface.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/handler_manager_listener.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/selection_handler.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/selection_manager.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/selection_manager_iface.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/selection_renderer.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/view_picker.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interaction/view_picker_iface.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/interactive_object.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/load_resource.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/logging.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/message_filter_display.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/msg_conversions.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/panel.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/panel_dock_widget.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/bool_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/color_editor.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/color_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/combo_box.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/covariance_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/display_group_visibility_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/display_visibility_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/editable_combo_box.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/editable_enum_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/enum_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/file_picker_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/float_edit.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/float_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/grouped_checkbox_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/grouped_checkbox_property_group.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/int_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/line_edit_with_button.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/parse_color.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/property_tree_delegate.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/property_tree_model.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/property_tree_widget.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/property_tree_with_help.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/qos_profile_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/quaternion_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/ros_topic_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/splitter_handle.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/status_list.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/status_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/string_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/tf_frame_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/properties/vector_property.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/render_panel.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/ros_integration/ros_client_abstraction.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/ros_integration/ros_client_abstraction_iface.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/ros_integration/ros_node_abstraction.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/ros_integration/ros_node_abstraction_iface.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/ros_topic_display.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/tool.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/transformation/frame_transformer.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/transformation/tf2_helpers/tf2_conversion_helpers.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/transformation/transformation_manager.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/uniform_string_stream.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/validate_floats.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/view_controller.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/view_manager.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/viewport_mouse_event.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/visibility_control.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/visualization_manager.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/visualizer_app.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/window_manager_interface.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/include/rviz_common/yaml_config_reader.hpp
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/default.rviz
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/classes/Displays.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/classes/Group.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/classes/Help.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/classes/Selection.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/classes/Tool Properties.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/classes/Transformation.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/classes/Views.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/crosshair.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/cursor.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/default_class_icon.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/default_package_icon.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/error.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/failed_display.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/forbidden.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/left_dock.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/menu.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/minus.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/move1d.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/move2d.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/move_z.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/moverotate.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/ok.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/options.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/package.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/plus.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/right_dock.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/rotate.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/rotate_cam.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/warning.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/icons/zoom.svg
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/images/splash.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/images/splash_overlay.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/help/help.html
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/ament_index/resource_index/package_run_dependencies/rviz_common
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/ament_index/resource_index/parent_prefix_path/rviz_common
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/ament_index/resource_index/packages/rviz_common
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/rviz_common-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/rviz_commonConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/rviz_commonConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/package.xml
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_common/lib/librviz_common.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rviz_common/lib/librviz_common.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/rviz_commonExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rviz_common/share/rviz_common/cmake/rviz_commonExport-noconfig.cmake

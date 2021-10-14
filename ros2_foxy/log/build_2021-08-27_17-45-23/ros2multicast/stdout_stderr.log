@@ -1,0 +1,50 @@
+running egg_info
+creating ../../../../build/ros2multicast/ros2multicast.egg-info
+writing ../../../../build/ros2multicast/ros2multicast.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2multicast/ros2multicast.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2multicast/ros2multicast.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2multicast/ros2multicast.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2multicast/ros2multicast.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2multicast/ros2multicast.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2multicast/ros2multicast.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2multicast/ros2multicast.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast
+copying ros2multicast/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/command
+copying ros2multicast/command/multicast.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/command
+copying ros2multicast/command/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/command
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/api
+copying ros2multicast/api/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/api
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/verb
+copying ros2multicast/verb/receive.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/verb
+copying ros2multicast/verb/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/verb
+copying ros2multicast/verb/send.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/verb
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/command
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/command/multicast.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/command
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/command/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/command
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/api
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/api/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/api
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/verb/receive.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/verb/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/build/lib/ros2multicast/verb/send.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/verb
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/command/multicast.py to multicast.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/verb/receive.py to receive.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast/verb/send.py to send.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/ros2multicast/ros2multicast.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2multicast/lib/python3.8/site-packages/ros2multicast-0.9.9-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2multicast/install.log'

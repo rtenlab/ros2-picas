@@ -1,0 +1,16 @@
+[2.952s] Invoking command in '/home/saitama1/ros2_foxy/build/ament_lint': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_lint --editable --build-directory /home/saitama1/ros2_foxy/build/ament_lint/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_lint
+[3.638s] running develop
+[3.796s] running egg_info
+[3.797s] writing ament_lint.egg-info/PKG-INFO
+[3.797s] writing dependency_links to ament_lint.egg-info/dependency_links.txt
+[3.797s] writing entry points to ament_lint.egg-info/entry_points.txt
+[3.797s] writing requirements to ament_lint.egg-info/requires.txt
+[3.797s] writing top-level names to ament_lint.egg-info/top_level.txt
+[3.827s] reading manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.828s] writing manifest file 'ament_lint.egg-info/SOURCES.txt'
+[3.868s] running build_ext
+[3.868s] Creating /home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament-lint.egg-link (link to .)
+[3.868s] 
+[3.868s] Installed /home/saitama1/ros2_foxy/build/ament_lint
+[3.869s] running install_data
+[3.893s] Invoked command in '/home/saitama1/ros2_foxy/build/ament_lint' returned '0': PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_lint/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_lint --editable --build-directory /home/saitama1/ros2_foxy/build/ament_lint/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_lint

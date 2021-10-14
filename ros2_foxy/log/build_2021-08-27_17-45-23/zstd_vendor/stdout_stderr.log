@@ -1,0 +1,184 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor
+[35m[1mScanning dependencies of target zstd-1.4.4[0m
+[ 12%] [34m[1mCreating directories for 'zstd-1.4.4'[0m
+[ 25%] [34m[1mPerforming download step (download, verify and extract) for 'zstd-1.4.4'[0m
+-- Downloading...
+   dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+   timeout='60 seconds'
+-- Using src='https://github.com/facebook/zstd/archive/v1.4.4.zip'
+-- [download 100% complete]
+-- verifying file...
+       file='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+-- Downloading... done
+-- extracting...
+     src='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+     dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4'
+-- extracting... [tar xfz]
+-- extracting... [analysis]
+-- extracting... [rename]
+-- extracting... [clean up]
+-- extracting... done
+[ 37%] [34m[1mPerforming patch step for 'zstd-1.4.4'[0m
+[ 50%] [34m[1mNo update step for 'zstd-1.4.4'[0m
+patching file build/cmake/CMakeLists.txt
+patching file build/cmake/lib/CMakeLists.txt
+[ 62%] [34m[1mPerforming configure step for 'zstd-1.4.4'[0m
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- ZSTD VERSION: 1.4.4
+-- Setting build type to 'Release' as none was specified.
+-- Performing Test CXX_FLAG_STD_CPLUSPLUS11
+-- Performing Test CXX_FLAG_STD_CPLUSPLUS11 - Success
+-- Performing Test C_FLAG_STD_C99
+-- Performing Test C_FLAG_STD_C99 - Success
+-- Performing Test C_FLAG_WALL
+-- Performing Test C_FLAG_WALL - Success
+-- Performing Test CXX_FLAG_WALL
+-- Performing Test CXX_FLAG_WALL - Success
+-- Performing Test C_FLAG_WEXTRA
+-- Performing Test C_FLAG_WEXTRA - Success
+-- Performing Test CXX_FLAG_WEXTRA
+-- Performing Test CXX_FLAG_WEXTRA - Success
+-- Performing Test C_FLAG_WUNDEF
+-- Performing Test C_FLAG_WUNDEF - Success
+-- Performing Test CXX_FLAG_WUNDEF
+-- Performing Test CXX_FLAG_WUNDEF - Success
+-- Performing Test C_FLAG_WSHADOW
+-- Performing Test C_FLAG_WSHADOW - Success
+-- Performing Test CXX_FLAG_WSHADOW
+-- Performing Test CXX_FLAG_WSHADOW - Success
+-- Performing Test C_FLAG_WCAST_ALIGN
+-- Performing Test C_FLAG_WCAST_ALIGN - Success
+-- Performing Test CXX_FLAG_WCAST_ALIGN
+-- Performing Test CXX_FLAG_WCAST_ALIGN - Success
+-- Performing Test C_FLAG_WCAST_QUAL
+-- Performing Test C_FLAG_WCAST_QUAL - Success
+-- Performing Test CXX_FLAG_WCAST_QUAL
+-- Performing Test CXX_FLAG_WCAST_QUAL - Success
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES
+-- Performing Test C_FLAG_WSTRICT_PROTOTYPES - Success
+-- CMAKE_INSTALL_PREFIX: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install
+-- CMAKE_INSTALL_LIBDIR: lib
+-- ZSTD_LEGACY_SUPPORT not defined!
+-- ZSTD_MULTITHREAD_SUPPORT is enabled
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4-build
+[ 75%] [34m[1mPerforming build step for 'zstd-1.4.4'[0m
+[35m[1mScanning dependencies of target libzstd.pc[0m
+[  3%] [34m[1mCreating pkg-config file[0m
+[  3%] Built target libzstd.pc
+[35m[1mScanning dependencies of target libzstd_shared[0m
+[  6%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/debug.c.o[0m
+[  9%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress.c.o[0m
+[ 12%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress_literals.c.o[0m
+[ 15%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress_sequences.c.o[0m
+[ 18%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_double_fast.c.o[0m
+[ 21%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_fast.c.o[0m
+[ 24%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_lazy.c.o[0m
+[ 27%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_ldm.c.o[0m
+[ 30%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_opt.c.o[0m
+[ 33%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstdmt_compress.c.o[0m
+[ 36%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/huf_decompress.c.o[0m
+[ 39%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_ddict.c.o[0m
+[ 42%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_decompress.c.o[0m
+[ 45%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_decompress_block.c.o[0m
+[ 48%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/cover.c.o[0m
+[ 51%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/divsufsort.c.o[0m
+[ 54%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/fastcover.c.o[0m
+[ 57%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/zdict.c.o[0m
+[ 60%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_common.c.o[0m
+[ 63%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_compress.c.o[0m
+[ 66%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_decompress.c.o[0m
+[ 69%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/huf_compress.c.o[0m
+[ 72%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/hist.c.o[0m
+[ 75%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/fse_compress.c.o[0m
+[ 78%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/zstd_common.c.o[0m
+[ 81%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/xxhash.c.o[0m
+[ 84%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/threading.c.o[0m
+[ 87%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/pool.c.o[0m
+[ 90%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/fse_decompress.c.o[0m
+[ 93%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/error_private.c.o[0m
+[ 96%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/entropy_common.c.o[0m
+[100%] [32m[1mLinking C shared library libzstd.so[0m
+[100%] Built target libzstd_shared
+[ 87%] [34m[1mPerforming install step for 'zstd-1.4.4'[0m
+[  3%] [34m[1mCreating pkg-config file[0m
+[  3%] Built target libzstd.pc
+[100%] Built target libzstd_shared
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/pkgconfig/libzstd.pc
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/include/zstd.h
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so.1.4.4
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so.1
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so
+[100%] [34m[1mCompleted 'zstd-1.4.4'[0m
+[100%] Built target zstd-1.4.4
+-- Install configuration: ""
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/include
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/include/zstd.h
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/libzstd.so
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/libzstd.so.1.4.4
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/pkgconfig
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/pkgconfig/libzstd.pc
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/libzstd.so.1
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/Modules
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/Modules/Findzstd.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/package_run_dependencies/zstd_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/parent_prefix_path/zstd_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/packages/zstd_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendor-extras.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/package.xml

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model
+  href="http://download.ros.org/schema/package_format2.xsd"
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>uncrustify_vendor</name>
+  <version>1.4.0</version>
+  <description>
+    Wrapper around uncrustify, providing nothing but a dependency on uncrustify, on some systems.
+    On others, it provides an ExternalProject build of uncrustify.
+  </description>
+  <maintainer email="steven@openrobotics.org">Steven! Ragnarök</maintainer>
+  <license>Apache License 2.0</license>  <!-- the contents of this package are Apache 2.0 -->
+  <license>GNU General Public License v2.0</license>  <!-- uncrustify is GPLv2.0 -->
+
+  <url type="website">https://github.com/uncrustify/uncrustify</url>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>uncrustify</depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

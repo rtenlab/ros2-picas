@@ -1,0 +1,28 @@
+running egg_info
+creating ../../../../build/ament_lint/ament_lint.egg-info
+writing ../../../../build/ament_lint/ament_lint.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ament_lint/ament_lint.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ament_lint/ament_lint.egg-info/entry_points.txt
+writing requirements to ../../../../build/ament_lint/ament_lint.egg-info/requires.txt
+writing top-level names to ../../../../build/ament_lint/ament_lint.egg-info/top_level.txt
+writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ament_lint/ament_lint.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint
+copying ament_lint/pytest_marker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint
+copying ament_lint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint
+running install
+running install_lib
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint/pytest_marker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/build/lib/ament_lint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint/pytest_marker.py to pytest_marker.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint/__init__.py to __init__.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/ament_lint/ament_lint.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages/ament_lint-0.9.6-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_lint/install.log'

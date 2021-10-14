@@ -1,0 +1,39 @@
+[0.630s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor
+[0.826s] -- The CXX compiler identification is GNU 9.3.0
+[0.826s] -- Check for working CXX compiler: /usr/bin/c++
+[0.826s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.826s] -- Detecting CXX compiler ABI info
+[0.881s] -- Detecting CXX compiler ABI info - done
+[0.893s] -- Detecting CXX compile features
+[0.893s] -- Detecting CXX compile features - done
+[0.926s] -- Configuring done
+[0.929s] -- Generating done
+[0.930s] -- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor
+[0.937s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor' returned '0': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/google_benchmark_vendor -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor
+[0.938s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor': /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor -- -j12 -l12
+[1.163s] [35m[1mScanning dependencies of target benchmark-1.5.3[0m
+[1.163s] [100%] Built target benchmark-1.5.3
+[1.189s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor -- -j12 -l12
+[1.430s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor': /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor
+[1.470s] -- Install configuration: ""
+[1.470s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor
+[1.471s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/include
+[1.471s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/include/benchmark
+[1.471s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/include/benchmark/benchmark.h
+[1.473s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib
+[1.473s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark.so.1.5.3
+[1.474s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark.so
+[1.474s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark_main.so.1
+[1.474s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark_main.so.1.5.3
+[1.474s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/cmake
+[1.475s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark
+[1.475s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets-noconfig.cmake
+[1.475s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfigVersion.cmake
+[1.475s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkConfig.cmake
+[1.475s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/cmake/benchmark/benchmarkTargets.cmake
+[1.475s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark_main.so
+[1.475s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/libbenchmark.so.1
+[1.475s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/pkgconfig
+[1.475s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/lib/pkgconfig/benchmark.pc
+[1.475s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/google_benchmark_vendor/share/google_benchmark_vendor/package.xml
+[1.660s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/google_benchmark_vendor

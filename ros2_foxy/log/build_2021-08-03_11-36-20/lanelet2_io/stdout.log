@@ -1,0 +1,49 @@
+[  9%] Built target gtest
+[ 19%] Built target gtest_main
+[ 52%] Built target lanelet2_io
+[ 61%] Built target lanelet2_io-gtest-TestOsmHandler
+[ 71%] Built target lanelet2_io-gtest-TestLanelet2Io
+[ 80%] Built target lanelet2_io-gtest-TestSimpleUsage
+[ 90%] Built target lanelet2_io-gtest-TestOsmFile
+[100%] Built target lanelet2_io-gtest-TestBinHandler
+[100%] Built target tests_lanelet2_io
+[100%] Built target tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioConfigVersion.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/auto_dep_vars.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioAutoDepsConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/ament_index/resource_index/package_run_dependencies/lanelet2_io
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/ament_index/resource_index/parent_prefix_path/lanelet2_io
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_io/share/ament_index/resource_index/packages/lanelet2_io
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/lib/liblanelet2_io.so.1.1.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/lib/liblanelet2_io.so.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/lib/liblanelet2_io.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Exceptions.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Io.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Projection.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/internal
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Factory.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/IoHandler.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/BinHandler.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Serialize.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Parser.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/OsmHandler.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/Writer.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/io_handlers/OsmFile.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/include/lanelet2_io/Configuration.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioTargets.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_io/share/lanelet2_io/cmake/lanelet2_ioTargets-noconfig.cmake

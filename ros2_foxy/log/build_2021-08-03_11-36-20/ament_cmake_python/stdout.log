@@ -1,0 +1,20 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_index/resource_index/package_run_dependencies/ament_cmake_python
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_index/resource_index/parent_prefix_path/ament_cmake_python
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_index/resource_index/packages/ament_cmake_python
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_cmake_python-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_cmake_pythonConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_cmake_pythonConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_module.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/ament_cmake_python/share/ament_cmake_python/cmake/ament_python_install_package.cmake

@@ -1,0 +1,56 @@
+[  1%] Built target rosidl_generator_py_custom__cpp
+[ 16%] Built target rosidl_generator_py_custom__rosidl_generator_c
+[ 31%] Built target rosidl_generator_py_custom__rosidl_typesupport_introspection_c
+[ 47%] Built target rosidl_generator_py_custom__rosidl_typesupport_c
+[ 62%] Built target rosidl_generator_py_custom__rosidl_typesupport_fastrtps_cpp
+[ 78%] Built target rosidl_generator_py_custom__rosidl_typesupport_fastrtps_c
+[ 78%] Built target rosidl_generator_py_custom
+[ 79%] Built target rosidl_generator_py_custom__py
+[ 93%] Built target rosidl_generator_py_custom__python
+[ 95%] Built target rosidl_generator_py__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target rosidl_generator_py__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target rosidl_generator_py__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/ament_index/resource_index/rosidl_generator_packages/rosidl_generator_py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/environment/pythonpath.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/lib/python3.8/site-packages/rosidl_generator_py/__init__.py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/lib/python3.8/site-packages/rosidl_generator_py/import_type_support_impl.py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/ament_index/resource_index/package_run_dependencies/rosidl_generator_py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/ament_index/resource_index/parent_prefix_path/rosidl_generator_py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/ament_index/resource_index/packages/rosidl_generator_py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/register_py.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_py-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_pyConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_pyConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/lib/rosidl_generator_py/rosidl_generator_py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/custom_command.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/register_py.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/cmake/rosidl_generator_py_get_typesupports.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_action.py.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_action_pkg_typesupport_entry_point.c.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_idl.py.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_idl_pkg_typesupport_entry_point.c.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_idl_support.c.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_msg.py.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_msg_pkg_typesupport_entry_point.c.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_msg_support.c.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv.py.em
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rosidl_generator_py/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
+Listing '/home/saitama1/ros2_foxy/install/rosidl_generator_py/lib/python3.8/site-packages/rosidl_generator_py'...

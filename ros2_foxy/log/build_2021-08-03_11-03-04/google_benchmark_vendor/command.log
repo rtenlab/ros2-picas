@@ -1,0 +1,4 @@
+Invoking command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/google_benchmark_vendor -- -j12 -l12
+Invoked command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --build /home/saitama1/ros2_foxy/build/google_benchmark_vendor -- -j12 -l12
+Invoking command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor': /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/google_benchmark_vendor
+Invoked command in '/home/saitama1/ros2_foxy/build/google_benchmark_vendor' returned '0': /usr/bin/cmake --install /home/saitama1/ros2_foxy/build/google_benchmark_vendor

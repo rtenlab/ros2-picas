@@ -1,0 +1,50 @@
+[0.044s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor': CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor PKG_CONFIG_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/googletest/googlemock -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor
+[0.070s] -- Configuring done
+[0.071s] -- Generating done
+[0.071s] -- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor
+[0.077s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor PKG_CONFIG_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/googletest/googlemock -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor
+[0.077s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor': CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor PKG_CONFIG_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor -- -j12 -l12
+[0.162s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor PKG_CONFIG_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor -- -j12 -l12
+[0.203s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor': CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor PKG_CONFIG_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor
+[0.212s] -- Install configuration: ""
+[0.212s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/share/gmock_vendor/cmake/gmock_vendorConfig.cmake
+[0.214s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/share/gmock_vendor/package.xml
+[0.214s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/CMakeLists.txt
+[0.215s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock
+[0.218s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-more-matchers.h
+[0.219s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-matchers.h
+[0.222s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-actions.h
+[0.227s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-actions.h.pump
+[0.228s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-spec-builders.h
+[0.230s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h
+[0.233s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-function-mocker.h
+[0.237s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-actions.h
+[0.237s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-cardinalities.h
+[0.237s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-nice-strict.h
+[0.241s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock.h
+[0.245s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal
+[0.245s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-pp.h
+[0.246s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom
+[0.247s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h
+[0.247s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-generated-actions.h.pump
+[0.249s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-port.h
+[0.249s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/README.md
+[0.250s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/custom/gmock-matchers.h
+[0.251s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-port.h
+[0.252s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h
+[0.253s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-generated-internal-utils.h.pump
+[0.254s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/internal/gmock-generated-internal-utils.h
+[0.254s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-more-actions.h
+[0.255s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-nice-strict.h.pump
+[0.256s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-function-mockers.h.pump
+[0.257s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-generated-matchers.h.pump
+[0.259s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/include/gmock/gmock-matchers.h
+[0.268s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src
+[0.275s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src/gmock-all.cc
+[0.275s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src/gmock_main.cc
+[0.276s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src/gmock-matchers.cc
+[0.276s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src/gmock.cc
+[0.279s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src/gmock-spec-builders.cc
+[0.284s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src/gmock-cardinalities.cc
+[0.295s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gmock_vendor/src/gmock_vendor/src/gmock-internal-utils.cc
+[0.334s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor' returned '0': CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor PKG_CONFIG_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/x86_64-linux-gnu/pkgconfig:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/gtest_vendor/lib/pkgconfig /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/gmock_vendor

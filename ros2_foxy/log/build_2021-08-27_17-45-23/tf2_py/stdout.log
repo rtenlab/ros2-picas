@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found geometry_msgs: 2.0.4 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found tf2: 0.13.10 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2/share/tf2/cmake)
+-- Found python_cmake_module: 0.8.1 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros2/geometry2/tf2_py/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/tf2_py
+[35m[1mScanning dependencies of target tf2_py[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/tf2_py.dir/src/tf2_py.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library test_tf2_py/_tf2_py.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target tf2_py
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/environment/pythonpath.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/environment/pythonpath.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/lib/python3.8/site-packages/tf2_py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/lib/python3.8/site-packages/tf2_py/__init__.py
+Listing '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/lib/python3.8/site-packages/tf2_py'...
+Compiling '/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/lib/python3.8/site-packages/tf2_py/__init__.py'...
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/lib/python3.8/site-packages/tf2_py/_tf2_py.cpython-38-x86_64-linux-gnu.so
+-- Set runtime path of "/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/lib/python3.8/site-packages/tf2_py/_tf2_py.cpython-38-x86_64-linux-gnu.so" to ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/ament_index/resource_index/package_run_dependencies/tf2_py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/ament_index/resource_index/parent_prefix_path/tf2_py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/ament_index/resource_index/packages/tf2_py
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/cmake/tf2_pyConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/tf2_py/share/tf2_py/package.xml

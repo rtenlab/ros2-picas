@@ -1,0 +1,41 @@
+[0.485s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_flake8': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8 --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/install.log --single-version-externally-managed
+[0.655s] running egg_info
+[0.655s] creating ../../../../build/ament_flake8/ament_flake8.egg-info
+[0.655s] writing ../../../../build/ament_flake8/ament_flake8.egg-info/PKG-INFO
+[0.655s] writing dependency_links to ../../../../build/ament_flake8/ament_flake8.egg-info/dependency_links.txt
+[0.655s] writing entry points to ../../../../build/ament_flake8/ament_flake8.egg-info/entry_points.txt
+[0.656s] writing requirements to ../../../../build/ament_flake8/ament_flake8.egg-info/requires.txt
+[0.656s] writing top-level names to ../../../../build/ament_flake8/ament_flake8.egg-info/top_level.txt
+[0.657s] writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.688s] reading manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.689s] writing manifest file '../../../../build/ament_flake8/ament_flake8.egg-info/SOURCES.txt'
+[0.689s] running build
+[0.689s] running build_py
+[0.689s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build
+[0.689s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib
+[0.689s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.689s] copying ament_flake8/pytest_marker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.691s] copying ament_flake8/legacy.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.692s] copying ament_flake8/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.692s] copying ament_flake8/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8
+[0.693s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.693s] copying ament_flake8/configuration/ament_flake8.ini -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/configuration
+[0.694s] running install
+[0.695s] running install_lib
+[0.696s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/pytest_marker.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.696s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/legacy.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.696s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.697s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8
+[0.698s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.698s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build/lib/ament_flake8/configuration/ament_flake8.ini -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/configuration
+[0.699s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/pytest_marker.py to pytest_marker.cpython-38.pyc
+[0.699s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/legacy.py to legacy.cpython-38.pyc
+[0.699s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/__init__.py to __init__.cpython-38.pyc
+[0.699s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8/main.py to main.cpython-38.pyc
+[0.701s] running install_data
+[0.702s] running install_egg_info
+[0.703s] Copying ../../../../build/ament_flake8/ament_flake8.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages/ament_flake8-0.9.6-py3.8.egg-info
+[0.708s] running install_scripts
+[0.719s] Installing ament_flake8 script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin
+[0.719s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/install.log'
+[0.745s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_lint/ament_flake8' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_flake8 build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8 --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_flake8/install.log --single-version-externally-managed

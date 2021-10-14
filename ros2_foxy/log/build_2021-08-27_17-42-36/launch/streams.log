@@ -1,0 +1,352 @@
+[1.372s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros2/launch/launch': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/launch build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/install.log --single-version-externally-managed
+[1.597s] running egg_info
+[1.600s] creating ../../../../build/launch/launch.egg-info
+[1.600s] writing ../../../../build/launch/launch.egg-info/PKG-INFO
+[1.600s] writing dependency_links to ../../../../build/launch/launch.egg-info/dependency_links.txt
+[1.602s] writing requirements to ../../../../build/launch/launch.egg-info/requires.txt
+[1.602s] writing top-level names to ../../../../build/launch/launch.egg-info/top_level.txt
+[1.602s] writing manifest file '../../../../build/launch/launch.egg-info/SOURCES.txt'
+[1.657s] reading manifest file '../../../../build/launch/launch.egg-info/SOURCES.txt'
+[1.658s] writing manifest file '../../../../build/launch/launch.egg-info/SOURCES.txt'
+[1.658s] running build
+[1.658s] running build_py
+[1.658s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build
+[1.658s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib
+[1.658s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.658s] copying launch/event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.661s] copying launch/action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.661s] copying launch/launch_description_entity.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.662s] copying launch/launch_service.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.665s] copying launch/launch_context.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.665s] copying launch/launch_introspector.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.669s] copying launch/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.693s] copying launch/substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.699s] copying launch/launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.703s] copying launch/invalid_launch_file_error.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.703s] copying launch/launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.705s] copying launch/some_actions_type.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.705s] copying launch/condition.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.706s] copying launch/event_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.709s] copying launch/some_substitutions_type.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch
+[1.712s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.712s] copying launch/conditions/if_condition.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.713s] copying launch/conditions/launch_configuration_not_equals.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.713s] copying launch/conditions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.714s] copying launch/conditions/invalid_condition_expression_error.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.714s] copying launch/conditions/launch_configuration_equals.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.715s] copying launch/conditions/evaluate_condition_expression_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.715s] copying launch/conditions/unless_condition.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions
+[1.716s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events
+[1.716s] copying launch/events/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events
+[1.717s] copying launch/events/shutdown.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events
+[1.717s] copying launch/events/matchers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events
+[1.717s] copying launch/events/include_launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events
+[1.718s] copying launch/events/timer_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events
+[1.719s] copying launch/events/execution_complete.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events
+[1.720s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.720s] copying launch/utilities/class_tools_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.721s] copying launch/utilities/perform_substitutions_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.721s] copying launch/utilities/visit_all_entities_and_collect_futures_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.722s] copying launch/utilities/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.722s] copying launch/utilities/normalize_to_list_of_substitutions_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.722s] copying launch/utilities/ensure_argument_type_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.723s] copying launch/utilities/signal_management.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.724s] copying launch/utilities/create_future_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities
+[1.724s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.725s] copying launch/event_handlers/on_process_start.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.725s] copying launch/event_handlers/on_shutdown.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.726s] copying launch/event_handlers/on_include_launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.726s] copying launch/event_handlers/on_process_io.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.727s] copying launch/event_handlers/on_process_exit.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.727s] copying launch/event_handlers/event_named.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.728s] copying launch/event_handlers/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.729s] copying launch/event_handlers/on_execution_complete.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers
+[1.729s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.730s] copying launch/launch_description_sources/any_launch_file_utilities.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.730s] copying launch/launch_description_sources/frontend_launch_file_utilities.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.731s] copying launch/launch_description_sources/python_launch_file_utilities.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.731s] copying launch/launch_description_sources/frontend_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.732s] copying launch/launch_description_sources/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.732s] copying launch/launch_description_sources/python_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.733s] copying launch/launch_description_sources/any_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources
+[1.733s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/logging
+[1.733s] copying launch/logging/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/logging
+[1.734s] copying launch/logging/handlers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/logging
+[1.735s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.735s] copying launch/substitutions/find_executable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.736s] copying launch/substitutions/anon_name.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.736s] copying launch/substitutions/python_expression.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.737s] copying launch/substitutions/substitution_failure.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.738s] copying launch/substitutions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.738s] copying launch/substitutions/command.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.739s] copying launch/substitutions/this_launch_file.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.740s] copying launch/substitutions/path_join_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.740s] copying launch/substitutions/this_launch_file_dir.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.741s] copying launch/substitutions/local_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.742s] copying launch/substitutions/launch_configuration.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.742s] copying launch/substitutions/text_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.743s] copying launch/substitutions/environment_variable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions
+[1.744s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.744s] copying launch/actions/execute_process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.746s] copying launch/actions/opaque_function.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.747s] copying launch/actions/emit_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.748s] copying launch/actions/opaque_coroutine.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.748s] copying launch/actions/group_action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.749s] copying launch/actions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.749s] copying launch/actions/unregister_event_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.750s] copying launch/actions/declare_launch_argument.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.751s] copying launch/actions/shutdown_action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.751s] copying launch/actions/include_launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.752s] copying launch/actions/push_launch_configurations.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.752s] copying launch/actions/log_info.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.753s] copying launch/actions/set_environment_variable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.753s] copying launch/actions/unset_launch_configuration.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.754s] copying launch/actions/pop_launch_configurations.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.754s] copying launch/actions/unset_environment_variable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.755s] copying launch/actions/set_launch_configuration.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.755s] copying launch/actions/timer_action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.756s] copying launch/actions/register_event_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions
+[1.756s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend
+[1.756s] copying launch/frontend/parse_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend
+[1.757s] copying launch/frontend/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend
+[1.757s] copying launch/frontend/parser.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend
+[1.758s] copying launch/frontend/type_utils.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend
+[1.758s] copying launch/frontend/expose.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend
+[1.760s] copying launch/frontend/entity.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend
+[1.760s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.760s] copying launch/events/process/process_stdin.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.761s] copying launch/events/process/process_matchers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.761s] copying launch/events/process/running_process_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.762s] copying launch/events/process/process_stdout.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.762s] copying launch/events/process/process_io.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.763s] copying launch/events/process/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.764s] copying launch/events/process/process_started.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.764s] copying launch/events/process/process_targeted_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.765s] copying launch/events/process/process_stderr.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.765s] copying launch/events/process/process_exited.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.766s] copying launch/events/process/shutdown_process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.768s] copying launch/events/process/signal_process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process
+[1.769s] running install
+[1.770s] running install_lib
+[1.771s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.771s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.771s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.771s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions/if_condition.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.771s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions/launch_configuration_not_equals.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.771s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.771s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions/invalid_condition_expression_error.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions/launch_configuration_equals.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions/evaluate_condition_expression_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/conditions/unless_condition.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_entity.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_service.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_context.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_introspector.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.772s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.773s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.773s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events
+[1.773s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events
+[1.773s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/shutdown.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events
+[1.773s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/matchers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events
+[1.774s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/include_launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events
+[1.774s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.774s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_stdin.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.774s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_matchers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.774s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/running_process_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.774s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_stdout.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.775s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_io.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.775s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.775s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_started.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.775s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_targeted_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.775s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_stderr.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.775s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/process_exited.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/shutdown_process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/process/signal_process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/timer_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/events/execution_complete.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/invalid_launch_file_error.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.776s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/class_tools_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.776s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/perform_substitutions_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.777s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/visit_all_entities_and_collect_futures_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.777s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.777s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/normalize_to_list_of_substitutions_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.777s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/ensure_argument_type_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.777s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/signal_management.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.777s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/utilities/create_future_impl.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities
+[1.777s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.777s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/on_process_start.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/on_shutdown.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/on_include_launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/on_process_io.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/on_process_exit.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/event_named.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handlers/on_execution_complete.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers
+[1.778s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.778s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources/any_launch_file_utilities.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources/frontend_launch_file_utilities.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources/python_launch_file_utilities.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources/frontend_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources/python_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description_sources/any_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources
+[1.779s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/logging
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/logging/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/logging
+[1.779s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/logging/handlers.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/logging
+[1.780s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/find_executable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/anon_name.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/python_expression.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/substitution_failure.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/command.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/this_launch_file.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.780s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/path_join_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/this_launch_file_dir.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/local_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/launch_configuration.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/text_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/substitutions/environment_variable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.781s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/execute_process.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/opaque_function.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.781s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/emit_event.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/opaque_coroutine.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/group_action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/unregister_event_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/declare_launch_argument.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/shutdown_action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/include_launch_description.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/push_launch_configurations.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/log_info.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/set_environment_variable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/unset_launch_configuration.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.782s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/pop_launch_configurations.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/unset_environment_variable.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/set_launch_configuration.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/timer_action.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/actions/register_event_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/some_actions_type.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/condition.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/event_handler.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/some_substitutions_type.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch
+[1.783s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend/parse_substitution.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend/parser.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend
+[1.783s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend/type_utils.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend
+[1.784s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend/expose.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend
+[1.784s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/build/lib/launch/frontend/entity.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend
+[1.784s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event.py to event.cpython-38.pyc
+[1.784s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions/if_condition.py to if_condition.cpython-38.pyc
+[1.784s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions/launch_configuration_not_equals.py to launch_configuration_not_equals.cpython-38.pyc
+[1.784s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions/__init__.py to __init__.cpython-38.pyc
+[1.784s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions/invalid_condition_expression_error.py to invalid_condition_expression_error.cpython-38.pyc
+[1.785s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions/launch_configuration_equals.py to launch_configuration_equals.cpython-38.pyc
+[1.785s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions/evaluate_condition_expression_impl.py to evaluate_condition_expression_impl.cpython-38.pyc
+[1.785s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/conditions/unless_condition.py to unless_condition.cpython-38.pyc
+[1.785s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/action.py to action.cpython-38.pyc
+[1.786s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_entity.py to launch_description_entity.cpython-38.pyc
+[1.787s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_service.py to launch_service.cpython-38.pyc
+[1.788s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_context.py to launch_context.cpython-38.pyc
+[1.789s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_introspector.py to launch_introspector.cpython-38.pyc
+[1.790s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/__init__.py to __init__.cpython-38.pyc
+[1.790s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitution.py to substitution.cpython-38.pyc
+[1.791s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/__init__.py to __init__.cpython-38.pyc
+[1.791s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/shutdown.py to shutdown.cpython-38.pyc
+[1.791s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/matchers.py to matchers.cpython-38.pyc
+[1.791s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/include_launch_description.py to include_launch_description.cpython-38.pyc
+[1.791s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_stdin.py to process_stdin.cpython-38.pyc
+[1.792s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_matchers.py to process_matchers.cpython-38.pyc
+[1.792s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/running_process_event.py to running_process_event.cpython-38.pyc
+[1.792s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_stdout.py to process_stdout.cpython-38.pyc
+[1.792s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_io.py to process_io.cpython-38.pyc
+[1.793s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/__init__.py to __init__.cpython-38.pyc
+[1.793s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_started.py to process_started.cpython-38.pyc
+[1.793s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_targeted_event.py to process_targeted_event.cpython-38.pyc
+[1.793s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_stderr.py to process_stderr.cpython-38.pyc
+[1.794s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/process_exited.py to process_exited.cpython-38.pyc
+[1.794s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/shutdown_process.py to shutdown_process.cpython-38.pyc
+[1.794s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/process/signal_process.py to signal_process.cpython-38.pyc
+[1.794s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/timer_event.py to timer_event.cpython-38.pyc
+[1.795s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/events/execution_complete.py to execution_complete.cpython-38.pyc
+[1.795s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_source.py to launch_description_source.cpython-38.pyc
+[1.795s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/invalid_launch_file_error.py to invalid_launch_file_error.cpython-38.pyc
+[1.796s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/class_tools_impl.py to class_tools_impl.cpython-38.pyc
+[1.796s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/perform_substitutions_impl.py to perform_substitutions_impl.cpython-38.pyc
+[1.796s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/visit_all_entities_and_collect_futures_impl.py to visit_all_entities_and_collect_futures_impl.cpython-38.pyc
+[1.796s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/__init__.py to __init__.cpython-38.pyc
+[1.797s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/normalize_to_list_of_substitutions_impl.py to normalize_to_list_of_substitutions_impl.cpython-38.pyc
+[1.797s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/ensure_argument_type_impl.py to ensure_argument_type_impl.cpython-38.pyc
+[1.797s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/signal_management.py to signal_management.cpython-38.pyc
+[1.799s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/utilities/create_future_impl.py to create_future_impl.cpython-38.pyc
+[1.799s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/on_process_start.py to on_process_start.cpython-38.pyc
+[1.799s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/on_shutdown.py to on_shutdown.cpython-38.pyc
+[1.800s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/on_include_launch_description.py to on_include_launch_description.cpython-38.pyc
+[1.800s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/on_process_io.py to on_process_io.cpython-38.pyc
+[1.801s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/on_process_exit.py to on_process_exit.cpython-38.pyc
+[1.801s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/event_named.py to event_named.cpython-38.pyc
+[1.801s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/__init__.py to __init__.cpython-38.pyc
+[1.802s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handlers/on_execution_complete.py to on_execution_complete.cpython-38.pyc
+[1.802s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources/any_launch_file_utilities.py to any_launch_file_utilities.cpython-38.pyc
+[1.802s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources/frontend_launch_file_utilities.py to frontend_launch_file_utilities.cpython-38.pyc
+[1.803s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources/python_launch_file_utilities.py to python_launch_file_utilities.cpython-38.pyc
+[1.803s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources/frontend_launch_description_source.py to frontend_launch_description_source.cpython-38.pyc
+[1.803s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources/__init__.py to __init__.cpython-38.pyc
+[1.803s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources/python_launch_description_source.py to python_launch_description_source.cpython-38.pyc
+[1.804s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description_sources/any_launch_description_source.py to any_launch_description_source.cpython-38.pyc
+[1.804s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/logging/__init__.py to __init__.cpython-38.pyc
+[1.805s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/logging/handlers.py to handlers.cpython-38.pyc
+[1.806s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/find_executable.py to find_executable.cpython-38.pyc
+[1.806s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/anon_name.py to anon_name.cpython-38.pyc
+[1.806s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/python_expression.py to python_expression.cpython-38.pyc
+[1.807s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/substitution_failure.py to substitution_failure.cpython-38.pyc
+[1.811s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/__init__.py to __init__.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/command.py to command.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/this_launch_file.py to this_launch_file.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/path_join_substitution.py to path_join_substitution.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/this_launch_file_dir.py to this_launch_file_dir.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/local_substitution.py to local_substitution.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/launch_configuration.py to launch_configuration.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/text_substitution.py to text_substitution.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/substitutions/environment_variable.py to environment_variable.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/launch_description.py to launch_description.cpython-38.pyc
+[1.812s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/execute_process.py to execute_process.cpython-38.pyc
+[1.813s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/opaque_function.py to opaque_function.cpython-38.pyc
+[1.814s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/emit_event.py to emit_event.cpython-38.pyc
+[1.814s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/opaque_coroutine.py to opaque_coroutine.cpython-38.pyc
+[1.814s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/group_action.py to group_action.cpython-38.pyc
+[1.815s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/__init__.py to __init__.cpython-38.pyc
+[1.815s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/unregister_event_handler.py to unregister_event_handler.cpython-38.pyc
+[1.815s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/declare_launch_argument.py to declare_launch_argument.cpython-38.pyc
+[1.816s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/shutdown_action.py to shutdown_action.cpython-38.pyc
+[1.816s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/include_launch_description.py to include_launch_description.cpython-38.pyc
+[1.817s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/push_launch_configurations.py to push_launch_configurations.cpython-38.pyc
+[1.817s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/log_info.py to log_info.cpython-38.pyc
+[1.817s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/set_environment_variable.py to set_environment_variable.cpython-38.pyc
+[1.817s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/unset_launch_configuration.py to unset_launch_configuration.cpython-38.pyc
+[1.818s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/pop_launch_configurations.py to pop_launch_configurations.cpython-38.pyc
+[1.818s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/unset_environment_variable.py to unset_environment_variable.cpython-38.pyc
+[1.818s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/set_launch_configuration.py to set_launch_configuration.cpython-38.pyc
+[1.820s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/timer_action.py to timer_action.cpython-38.pyc
+[1.820s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/actions/register_event_handler.py to register_event_handler.cpython-38.pyc
+[1.820s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/some_actions_type.py to some_actions_type.cpython-38.pyc
+[1.820s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/condition.py to condition.cpython-38.pyc
+[1.820s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/event_handler.py to event_handler.cpython-38.pyc
+[1.820s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/some_substitutions_type.py to some_substitutions_type.cpython-38.pyc
+[1.820s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend/parse_substitution.py to parse_substitution.cpython-38.pyc
+[1.821s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend/__init__.py to __init__.cpython-38.pyc
+[1.821s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend/parser.py to parser.cpython-38.pyc
+[1.822s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend/type_utils.py to type_utils.cpython-38.pyc
+[1.822s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend/expose.py to expose.cpython-38.pyc
+[1.823s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch/frontend/entity.py to entity.cpython-38.pyc
+[1.823s] running install_data
+[1.823s] running install_egg_info
+[1.825s] Copying ../../../../build/launch/launch.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch/lib/python3.8/site-packages/launch-0.10.5-py3.8.egg-info
+[1.825s] running install_scripts
+[1.840s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch/install.log'

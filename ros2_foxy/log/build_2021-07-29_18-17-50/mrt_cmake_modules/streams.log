@@ -1,0 +1,35 @@
+[0.189s] Invoking command in '/home/saitama1/ros2_foxy/build/mrt_cmake_modules': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ros_environment CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ros_environment ROS_DISTRO=foxy ROS_PYTHON_VERSION=3 ROS_VERSION=2 /usr/bin/cmake /home/saitama1/ros2_foxy/src/autoware_build_parts/mrt_cmake_modules -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saitama1/ros2_foxy/install/mrt_cmake_modules
+[0.474s] -- The C compiler identification is GNU 9.3.0
+[0.636s] -- The CXX compiler identification is GNU 9.3.0
+[0.646s] -- Check for working C compiler: /usr/bin/cc
+[0.795s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.795s] -- Detecting C compiler ABI info
+[0.861s] -- Detecting C compiler ABI info - done
+[0.879s] -- Detecting C compile features
+[0.880s] -- Detecting C compile features - done
+[0.884s] -- Check for working CXX compiler: /usr/bin/c++
+[0.957s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.958s] -- Detecting CXX compiler ABI info
+[1.040s] -- Detecting CXX compiler ABI info - done
+[1.060s] -- Detecting CXX compile features
+[1.060s] -- Detecting CXX compile features - done
+[1.073s] CMake Error at CMakeLists.txt:11 (find_package):
+[1.073s]   By not providing "Findament_cmake_core.cmake" in CMAKE_MODULE_PATH this
+[1.073s]   project has asked CMake to find a package configuration file provided by
+[1.073s]   "ament_cmake_core", but CMake did not find one.
+[1.073s] 
+[1.073s]   Could not find a package configuration file provided by "ament_cmake_core"
+[1.073s]   with any of the following names:
+[1.073s] 
+[1.073s]     ament_cmake_coreConfig.cmake
+[1.073s]     ament_cmake_core-config.cmake
+[1.074s] 
+[1.074s]   Add the installation prefix of "ament_cmake_core" to CMAKE_PREFIX_PATH or
+[1.074s]   set "ament_cmake_core_DIR" to a directory containing one of the above
+[1.074s]   files.  If "ament_cmake_core" provides a separate development package or
+[1.074s]   SDK, be sure it has been installed.
+[1.074s] 
+[1.074s] 
+[1.074s] -- Configuring incomplete, errors occurred!
+[1.074s] See also "/home/saitama1/ros2_foxy/build/mrt_cmake_modules/CMakeFiles/CMakeOutput.log".
+[1.288s] Invoked command in '/home/saitama1/ros2_foxy/build/mrt_cmake_modules' returned '1': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ros_environment CMAKE_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ros_environment ROS_DISTRO=foxy ROS_PYTHON_VERSION=3 ROS_VERSION=2 /usr/bin/cmake /home/saitama1/ros2_foxy/src/autoware_build_parts/mrt_cmake_modules -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/saitama1/ros2_foxy/install/mrt_cmake_modules

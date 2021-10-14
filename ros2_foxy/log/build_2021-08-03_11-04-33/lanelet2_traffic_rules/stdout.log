@@ -1,0 +1,54 @@
+-- Found mrt_cmake_modules: 1.0.8 (/home/saitama1/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake)
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+called: /home/saitama1/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/../scripts/generate_cmake_dependency_file.py /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_traffic_rules/package.xml /home/saitama1/ros2_foxy/install/mrt_cmake_modules/share/mrt_cmake_modules/cmake/../yaml/cmake.yaml /home/saitama1/ros2_foxy/build/lanelet2_traffic_rules/CMakeFiles/auto_dep_vars.cmake
+-- Adding library "lanelet2_traffic_rules" with source src/GenericTrafficRules.cpp;src/GermanTrafficRules.cpp;src/TrafficRulesFactory.cpp, includes include/lanelet2_traffic_rules/Exceptions.h;include/lanelet2_traffic_rules/GenericTrafficRules.h;include/lanelet2_traffic_rules/GermanTrafficRules.h;include/lanelet2_traffic_rules/TrafficRules.h;include/lanelet2_traffic_rules/TrafficRulesFactory.h
+-- Marking libraries "lanelet2_traffic_rules" of package "lanelet2_traffic_rules" for installation
+-- Marking HEADER FILES in "include/lanelet2_traffic_rules" folder of package "lanelet2_traffic_rules" for installation
+-- Generating cmake exports for lanelet2_traffic_rules to /home/saitama1/ros2_foxy/build/lanelet2_traffic_rules/devel/share
+-- Adding gtest unittest "lanelet2_traffic_rules-gtest-lanelet2_traffic_rules" with working dir /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_traffic_rules/test
+-- Creating gtest 'lanelet2_traffic_rules-gtest-lanelet2_traffic_rules' from test/lanelet2_traffic_rules.cpp
+-- Adding nosetests in folder /home/saitama1/ros2_foxy/src/autoware_build_parts/lanelet2/lanelet2_traffic_rules/test
+-- Using Python nosetests: /usr/bin/nosetests3
+-- Adding nosetest nosetests-lanelet2_traffic_rules-test
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/lanelet2_traffic_rules
+[ 20%] Built target gtest_main
+[ 40%] Built target gtest
+[ 80%] Built target lanelet2_traffic_rules
+[100%] Built target lanelet2_traffic_rules-gtest-lanelet2_traffic_rules
+[100%] Built target tests_lanelet2_traffic_rules
+[100%] Built target tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesConfigVersion.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/auto_dep_vars.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesAutoDepsConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/ament_index/resource_index/package_run_dependencies/lanelet2_traffic_rules
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/ament_index/resource_index/parent_prefix_path/lanelet2_traffic_rules
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/ament_index/resource_index/packages/lanelet2_traffic_rules
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/lib/liblanelet2_traffic_rules.so.1.1.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/lib/liblanelet2_traffic_rules.so.1
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/lib/liblanelet2_traffic_rules.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/Exceptions.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/TrafficRules.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/TrafficRulesFactory.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/internal
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/GenericTrafficRules.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/include/lanelet2_traffic_rules/GermanTrafficRules.h
+-- Up-to-date: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesTargets.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/lanelet2_traffic_rules/share/lanelet2_traffic_rules/cmake/lanelet2_traffic_rulesTargets-noconfig.cmake

@@ -1,0 +1,61 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_index_cpp: 1.1.0 (/home/saitama1/ros2_foxy/install/ament_index_cpp/share/ament_index_cpp/cmake)
+-- Found ament_cmake_gmock: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Setting yaml-cpp_DIR to: '/home/saitama1/ros2_foxy/install/yaml_cpp_vendor/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+-- Found gmock sources under '/home/saitama1/ros2_foxy/install/gmock_vendor/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rosbag2_tests
+[ 15%] Built target gmock_main
+[ 38%] Built target gmock
+[35m[1mScanning dependencies of target test_converter[0m
+[35m[1mScanning dependencies of target test_rosbag2_record_end_to_end[0m
+[35m[1mScanning dependencies of target test_rosbag2_play_end_to_end[0m
+[ 46%] [32m[1mLinking CXX executable test_rosbag2_info_end_to_end[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/test_converter.dir/test/rosbag2_tests/test_converter.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/test_rosbag2_play_end_to_end.dir/test/rosbag2_tests/test_rosbag2_play_end_to_end.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/test_rosbag2_record_end_to_end.dir/test/rosbag2_tests/test_rosbag2_record_end_to_end.cpp.o[0m
+[ 76%] Built target test_rosbag2_info_end_to_end
+[ 84%] [32m[1mLinking CXX executable test_converter[0m
+[ 84%] Built target test_converter
+[ 92%] [32m[1mLinking CXX executable test_rosbag2_play_end_to_end[0m
+[ 92%] Built target test_rosbag2_play_end_to_end
+[100%] [32m[1mLinking CXX executable test_rosbag2_record_end_to_end[0m
+[100%] Built target test_rosbag2_record_end_to_end
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/ament_index/resource_index/package_run_dependencies/rosbag2_tests
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/ament_index/resource_index/parent_prefix_path/rosbag2_tests
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/ament_index/resource_index/packages/rosbag2_tests
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/cmake/rosbag2_testsConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/cmake/rosbag2_testsConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rosbag2_tests/share/rosbag2_tests/package.xml

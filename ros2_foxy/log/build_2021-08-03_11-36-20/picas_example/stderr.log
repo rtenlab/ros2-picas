@@ -1,0 +1,33 @@
+CMake Deprecation Warning at /home/saitama1/ros2_foxy/install/ament_cmake_target_dependencies/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:103 (message):
+  Package trace_picas is exporting the variable trace_picas_INTERFACES which
+  is deprecated, it should export
+
+              trace_picas_TARGETS instead
+Call Stack (most recent call first):
+  CMakeLists.txt:20 (ament_target_dependencies)
+
+
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In function ‘[01m[Kvoid dummy_load(int)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:25:21:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kload_ms[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   25 | void dummy_load([01;35m[Kint load_ms[m[K) {
+      |                 [01;35m[K~~~~^~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In constructor ‘[01m[KStartNode::StartNode(std::string, std::string, std::shared_ptr<trace::Trace>, int, int, bool)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:58:39:[m[K [01;35m[Kwarning: [m[K‘[01m[KStartNode::trace_callbacks_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+   58 |         std::shared_ptr<trace::Trace> [01;35m[Ktrace_callbacks_[m[K;
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:55:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint StartNode::exe_time_[m[K’ [[01;35m[K-Wreorder[m[K]
+   55 |         int [01;35m[Kexe_time_[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:37:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   37 |         [01;35m[KStartNode[m[K(const std::string node_name, const std::string pub_topic, std::shared_ptr<trace::Trace> trace_ptr, int exe_time, int period, bool end_flag)
+      |         [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:[m[K In constructor ‘[01m[KIntermediateNode::IntermediateNode(std::string, std::string, std::string, std::shared_ptr<trace::Trace>, int, bool)[m[K’:
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:111:39:[m[K [01;35m[Kwarning: [m[K‘[01m[KIntermediateNode::trace_callbacks_[m[K’ will be initialized after [[01;35m[K-Wreorder[m[K]
+  111 |         std::shared_ptr<trace::Trace> [01;35m[Ktrace_callbacks_[m[K;
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:108:13:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint IntermediateNode::exe_time_[m[K’ [[01;35m[K-Wreorder[m[K]
+  108 |         int [01;35m[Kexe_time_[m[K;
+      |             [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/saitama1/ros2_foxy/src/ros2/ros2-picas-example/picas_example/src/example.cpp:97:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K-Wreorder[m[K]
+   97 |         [01;35m[KIntermediateNode[m[K(const std::string node_name, const std::string sub_topic, const std::string pub_topic, std::shared_ptr<trace::Trace> trace_ptr, int exe_time, bool end_flag)
+      |         [01;35m[K^~~~~~~~~~~~~~~~[m[K

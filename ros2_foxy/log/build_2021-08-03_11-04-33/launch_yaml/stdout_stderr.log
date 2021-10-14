@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing launch_yaml.egg-info/PKG-INFO
+writing dependency_links to launch_yaml.egg-info/dependency_links.txt
+writing entry points to launch_yaml.egg-info/entry_points.txt
+writing requirements to launch_yaml.egg-info/requires.txt
+writing top-level names to launch_yaml.egg-info/top_level.txt
+reading manifest file 'launch_yaml.egg-info/SOURCES.txt'
+writing manifest file 'launch_yaml.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/launch_yaml/lib/python3.8/site-packages/launch-yaml.egg-link (link to .)
+
+Installed /home/saitama1/ros2_foxy/build/launch_yaml
+running install_data

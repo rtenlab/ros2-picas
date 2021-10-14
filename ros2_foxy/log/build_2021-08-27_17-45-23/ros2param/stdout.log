@@ -1,0 +1,65 @@
+running egg_info
+creating ../../../../build/ros2param/ros2param.egg-info
+writing ../../../../build/ros2param/ros2param.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ros2param/ros2param.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ros2param/ros2param.egg-info/entry_points.txt
+writing requirements to ../../../../build/ros2param/ros2param.egg-info/requires.txt
+writing top-level names to ../../../../build/ros2param/ros2param.egg-info/top_level.txt
+writing manifest file '../../../../build/ros2param/ros2param.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ros2param/ros2param.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ros2param/ros2param.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param
+copying ros2param/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/command
+copying ros2param/command/param.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/command
+copying ros2param/command/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/command
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/api
+copying ros2param/api/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/api
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/delete.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/load.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/describe.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/set.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/get.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/list.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+copying ros2param/verb/dump.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/command
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/command/param.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/command
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/command/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/command
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/api
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/api/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/api
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/delete.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/load.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/describe.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/set.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/get.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/list.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/build/lib/ros2param/verb/dump.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/command/param.py to param.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/command/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/api/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/delete.py to delete.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/load.py to load.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/describe.py to describe.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/set.py to set.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/get.py to get.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/list.py to list.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param/verb/dump.py to dump.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/ros2param/ros2param.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ros2param/lib/python3.8/site-packages/ros2param-0.9.9-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ros2param/install.log'

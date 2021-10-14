@@ -1,0 +1,7 @@
+CMake Warning at /home/saitama1/ros2_foxy/install/ament_cmake_pytest/share/ament_cmake_pytest/cmake/ament_add_pytest_test.cmake:77 (message):
+  The Python module 'pytest' was not found, pytests can not be run (e.g.  on
+  Ubuntu/Debian install the package 'python3-pytest')
+Call Stack (most recent call first):
+  CMakeLists.txt:31 (ament_add_pytest_test)
+
+

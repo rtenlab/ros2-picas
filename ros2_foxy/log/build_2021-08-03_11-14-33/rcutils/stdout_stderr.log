@@ -1,0 +1,110 @@
+[  1%] Built target dummy_shared_library
+[  3%] Built target gmock_main
+[  5%] Built target gtest_main
+[  6%] Built target gtest
+[ 31%] Built target rcutils
+[ 34%] Built target gmock
+[ 36%] Built target test_logging_bad_env3
+[ 38%] Built target test_logging_bad_env
+[ 39%] Built target test_logging_enable_for
+[ 40%] Built target test_logging_custom_env
+[ 42%] Built target test_logging_console_output_handler
+[ 44%] Built target test_macros
+[ 46%] Built target test_array_list
+[ 48%] Built target test_cmdline_parser
+[ 50%] Built target test_hash_map
+[ 52%] Built target test_process
+[ 54%] Built target test_allocator
+[ 56%] Built target test_char_array
+[ 57%] Built target test_error_handling
+[ 59%] Built target test_split
+[ 61%] Built target test_strdup
+[ 62%] Built target test_format_string
+[ 63%] Built target test_atomics_executable
+[ 65%] Built target test_logging_custom_env2
+[ 67%] Built target test_logging_macros_c
+[ 69%] Built target test_time
+[ 71%] Built target test_error_handling_helpers
+[ 72%] Built target test_logging_macros
+[ 73%] Built target test_strerror
+[ 75%] Built target test_logging_long_messages
+[ 77%] Built target test_repl_str
+[ 79%] Built target test_string_array
+[ 81%] Built target test_logging
+[ 83%] Built target test_env
+[ 85%] Built target test_isalnum_no_locale
+[ 87%] Built target test_get_env
+[ 89%] Built target test_string_map
+[ 90%] Built target test_shared_library
+[ 92%] Built target test_filesystem
+[ 94%] Built target test_find
+[ 96%] Built target test_logging_bad_env2
+[ 98%] Built target test_snprintf
+[100%] Built target test_uint8_array
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/pythonpath.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages/rcutils/__init__.py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages/rcutils/logging.py
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/library_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/library_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/ament_index/resource_index/package_run_dependencies/rcutils
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/ament_index/resource_index/parent_prefix_path/rcutils
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/ament_index/resource_index/packages/rcutils
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_link_flags-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/package.xml
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/allocator.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/cmdline_parser.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/env.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/error_handling.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/filesystem.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/find.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/format_string.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/get_env.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/isalnum_no_locale.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/logging.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/macros.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/process.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/qsort.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/repl_str.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/shared_library.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/snprintf.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/split.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/stdatomic_helper.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/stdatomic_helper/gcc/stdatomic.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/stdatomic_helper/win32/stdatomic.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/strdup.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/strerror.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/testing/fault_injection.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/time.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/array_list.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/char_array.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/hash_map.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/rcutils_ret.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/string_array.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/string_map.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/types/uint8_array.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/visibility_control.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/visibility_control_macros.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/rcutils/include/rcutils/logging_macros.h
+Listing '/home/saitama1/ros2_foxy/install/rcutils/lib/python3.8/site-packages/rcutils'...
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rcutils/lib/librcutils.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsExport.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rcutils/share/rcutils/cmake/rcutilsExport-noconfig.cmake

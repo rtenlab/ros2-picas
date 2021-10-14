@@ -1,0 +1,17 @@
+[0.342s] Invoking command in '/home/saitama1/ros2_foxy/build/ament_pyflakes': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_pycodestyle PATH=/home/saitama1/ros2_foxy/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_pyflakes --editable --build-directory /home/saitama1/ros2_foxy/build/ament_pyflakes/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_pyflakes
+[0.520s] running develop
+[0.608s] running egg_info
+[0.608s] writing ament_pyflakes.egg-info/PKG-INFO
+[0.610s] writing dependency_links to ament_pyflakes.egg-info/dependency_links.txt
+[0.610s] writing entry points to ament_pyflakes.egg-info/entry_points.txt
+[0.611s] writing requirements to ament_pyflakes.egg-info/requires.txt
+[0.611s] writing top-level names to ament_pyflakes.egg-info/top_level.txt
+[0.640s] reading manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[0.640s] writing manifest file 'ament_pyflakes.egg-info/SOURCES.txt'
+[0.684s] running build_ext
+[0.685s] Creating /home/saitama1/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages/ament-pyflakes.egg-link (link to .)
+[0.685s] Installing ament_pyflakes script to /home/saitama1/ros2_foxy/install/ament_pyflakes/bin
+[0.685s] 
+[0.685s] Installed /home/saitama1/ros2_foxy/build/ament_pyflakes
+[0.685s] running install_data
+[0.797s] Invoked command in '/home/saitama1/ros2_foxy/build/ament_pyflakes' returned '0': AMENT_PREFIX_PATH=/home/saitama1/ros2_foxy/install/ament_pycodestyle PATH=/home/saitama1/ros2_foxy/install/ament_pycodestyle/bin:${PATH} PYTHONPATH=/home/saitama1/ros2_foxy/install/ament_pyflakes/lib/python3.8/site-packages:/home/saitama1/ros2_foxy/build/ament_pycodestyle:/home/saitama1/ros2_foxy/install/ament_pycodestyle/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/ament_pyflakes --editable --build-directory /home/saitama1/ros2_foxy/build/ament_pyflakes/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/ament_pyflakes

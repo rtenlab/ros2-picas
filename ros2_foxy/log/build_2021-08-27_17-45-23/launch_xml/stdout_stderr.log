@@ -1,0 +1,40 @@
+running egg_info
+creating ../../../../build/launch_xml/launch_xml.egg-info
+writing ../../../../build/launch_xml/launch_xml.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/launch_xml/launch_xml.egg-info/dependency_links.txt
+writing entry points to ../../../../build/launch_xml/launch_xml.egg-info/entry_points.txt
+writing requirements to ../../../../build/launch_xml/launch_xml.egg-info/requires.txt
+writing top-level names to ../../../../build/launch_xml/launch_xml.egg-info/top_level.txt
+writing manifest file '../../../../build/launch_xml/launch_xml.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/launch_xml/launch_xml.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/launch_xml/launch_xml.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml
+copying launch_xml/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml
+copying launch_xml/parser.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml
+copying launch_xml/entity.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/launch_description_sources
+copying launch_xml/launch_description_sources/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/launch_description_sources
+copying launch_xml/launch_description_sources/xml_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/launch_description_sources
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/parser.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/launch_description_sources
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/launch_description_sources/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/launch_description_sources
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/launch_description_sources/xml_launch_description_source.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/launch_description_sources
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/build/lib/launch_xml/entity.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/parser.py to parser.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/launch_description_sources/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/launch_description_sources/xml_launch_description_source.py to xml_launch_description_source.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml/entity.py to entity.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/launch_xml/launch_xml.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/launch_xml/lib/python3.8/site-packages/launch_xml-0.10.5-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/launch_xml/install.log'

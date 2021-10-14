@@ -1,0 +1,49 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.0.0 (/home/saitama1/ros2_foxy/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found geometry_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/geometry_msgs/share/geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/home/saitama1/ros2_foxy/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found tf2: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake)
+-- Found tf2_ros: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2_ros/share/tf2_ros/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/tf2_kdl
+[ 33%] Built target gtest
+[ 66%] Built target gtest_main
+[35m[1mScanning dependencies of target test_kdl[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/test_kdl.dir/test/test_tf2_kdl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_kdl[0m
+[100%] Built target test_kdl
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/lib/python3.8/site-packages/tf2_kdl/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/lib/python3.8/site-packages/tf2_kdl/tf2_kdl.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/include/tf2_kdl/tf2_kdl.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/ament_index/resource_index/package_run_dependencies/tf2_kdl
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/ament_index/resource_index/parent_prefix_path/tf2_kdl
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/ament_index/resource_index/packages/tf2_kdl
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/cmake/tf2_kdlConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/cmake/tf2_kdlConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/tf2_kdl/share/tf2_kdl/package.xml
+Listing '/home/saitama1/ros2_foxy/install/tf2_kdl/lib/python3.8/site-packages/tf2_kdl'...

@@ -1,0 +1,96 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.3.1 (/home/saitama1/ros2_foxy/install/rclcpp/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /home/saitama1/ros2_foxy/install/fastrtps/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found sensor_msgs: 2.0.4 (/home/saitama1/ros2_foxy/install/sensor_msgs/share/sensor_msgs/cmake)
+-- Found tf2: 0.13.10 (/home/saitama1/ros2_foxy/install/tf2/share/tf2/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/home/saitama1/ros2_foxy/install/eigen3_cmake_module/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- Found ament_cmake_cppcheck: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cppcheck/share/ament_cmake_cppcheck/cmake)
+-- Found ament_cmake_cpplint: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_cpplint/share/ament_cmake_cpplint/cmake)
+-- Found ament_cmake_lint_cmake: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_lint_cmake/share/ament_cmake_lint_cmake/cmake)
+-- Found ament_cmake_uncrustify: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_cmake_uncrustify/share/ament_cmake_uncrustify/cmake)
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_cmake_gmock: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gmock/share/ament_cmake_gmock/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/laser_geometry
+[35m[1mScanning dependencies of target laser_geometry[0m
+[35m[1mScanning dependencies of target gtest[0m
+[ 12%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/laser_geometry.dir/src/laser_geometry.cpp.o[0m
+[ 37%] [32m[1mLinking CXX shared library liblaser_geometry.so[0m
+[ 37%] Built target laser_geometry
+[ 50%] [32m[1mLinking CXX static library libgtest.a[0m
+[ 50%] Built target gtest
+[35m[1mScanning dependencies of target gtest_main[0m
+[ 62%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[ 75%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[ 75%] Built target gtest_main
+[35m[1mScanning dependencies of target projection_test[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/projection_test.dir/test/projection_test.cpp.o[0m
+[100%] [32m[1mLinking CXX executable projection_test[0m
+[100%] Built target projection_test
+-- Install configuration: ""
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/environment/library_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/environment/library_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/lib/liblaser_geometry.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/laser_geometry/lib/liblaser_geometry.so" to ""
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/include
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/include/laser_geometry
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/include/laser_geometry/laser_geometry.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/include/laser_geometry/visibility_control.hpp
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/ament_index/resource_index/package_run_dependencies/laser_geometry
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/ament_index/resource_index/parent_prefix_path/laser_geometry
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/environment/path.sh
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/environment/path.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/local_setup.bash
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/local_setup.sh
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/local_setup.zsh
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/local_setup.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/package.dsv
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/ament_index/resource_index/packages/laser_geometry
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/laser_geometryExport-noconfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/cmake/laser_geometryConfig-version.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/laser_geometry/share/laser_geometry/package.xml

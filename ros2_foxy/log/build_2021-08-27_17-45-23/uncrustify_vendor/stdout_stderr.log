@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/uncrustify_vendor
+-- Install configuration: ""
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/ament_index/resource_index/package_run_dependencies/uncrustify_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/ament_index/resource_index/parent_prefix_path/uncrustify_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/environment/ament_prefix_path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/environment/path.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.bash
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/package.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/ament_index/resource_index/packages/uncrustify_vendor
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/cmake/uncrustify_vendorConfig-version.cmake
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/uncrustify_vendor/share/uncrustify_vendor/package.xml

@@ -1,0 +1,190 @@
+[0.137s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/opt/ros/foxy PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros2/rosbag2/zstd_vendor -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor
+[0.228s] -- The C compiler identification is GNU 9.3.0
+[0.305s] -- The CXX compiler identification is GNU 9.3.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.402s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.403s] -- Detecting C compiler ABI info
+[0.476s] -- Detecting C compiler ABI info - done
+[0.498s] -- Detecting C compile features
+[0.498s] -- Detecting C compile features - done
+[0.498s] -- Check for working CXX compiler: /usr/bin/c++
+[0.594s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.595s] -- Detecting CXX compiler ABI info
+[0.728s] -- Detecting CXX compiler ABI info - done
+[0.738s] -- Detecting CXX compile features
+[0.739s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+[0.766s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.766s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.067s] -- Configuring done
+[1.076s] -- Generating done
+[1.076s] -- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor
+[1.096s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/opt/ros/foxy PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ros2/rosbag2/zstd_vendor -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor
+[1.099s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/opt/ros/foxy PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor -- -j12 -l12
+[1.149s] [35m[1mScanning dependencies of target zstd-1.4.4[0m
+[1.171s] [ 12%] [34m[1mCreating directories for 'zstd-1.4.4'[0m
+[1.261s] [ 25%] [34m[1mPerforming download step (download, verify and extract) for 'zstd-1.4.4'[0m
+[1.272s] -- Downloading...
+[1.272s]    dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+[1.273s]    timeout='60 seconds'
+[1.273s] -- Using src='https://github.com/facebook/zstd/archive/v1.4.4.zip'
+[1.506s] -- [download 100% complete]
+[2.225s] -- verifying file...
+[2.226s]        file='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+[2.228s] -- Downloading... done
+[2.360s] -- extracting...
+[2.360s]      src='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/v1.4.4.zip'
+[2.360s]      dst='/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4'
+[2.361s] -- extracting... [tar xfz]
+[2.646s] -- extracting... [analysis]
+[2.646s] -- extracting... [rename]
+[2.646s] -- extracting... [clean up]
+[2.646s] -- extracting... done
+[2.776s] [ 37%] [34m[1mPerforming patch step for 'zstd-1.4.4'[0m
+[2.804s] [ 50%] [34m[1mNo update step for 'zstd-1.4.4'[0m
+[2.834s] patching file build/cmake/CMakeLists.txt
+[2.856s] patching file build/cmake/lib/CMakeLists.txt
+[3.001s] [ 62%] [34m[1mPerforming configure step for 'zstd-1.4.4'[0m
+[3.378s] -- The C compiler identification is GNU 9.3.0
+[3.641s] -- The CXX compiler identification is GNU 9.3.0
+[3.648s] -- Check for working C compiler: /usr/bin/cc
+[4.234s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.236s] -- Detecting C compiler ABI info
+[4.853s] -- Detecting C compiler ABI info - done
+[4.896s] -- Detecting C compile features
+[4.896s] -- Detecting C compile features - done
+[4.904s] -- Check for working CXX compiler: /usr/bin/c++
+[5.554s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[5.556s] -- Detecting CXX compiler ABI info
+[5.975s] -- Detecting CXX compiler ABI info - done
+[6.013s] -- Detecting CXX compile features
+[6.014s] -- Detecting CXX compile features - done
+[6.019s] -- ZSTD VERSION: 1.4.4
+[6.019s] -- Setting build type to 'Release' as none was specified.
+[6.032s] -- Performing Test CXX_FLAG_STD_CPLUSPLUS11
+[6.551s] -- Performing Test CXX_FLAG_STD_CPLUSPLUS11 - Success
+[6.552s] -- Performing Test C_FLAG_STD_C99
+[7.115s] -- Performing Test C_FLAG_STD_C99 - Success
+[7.117s] -- Performing Test C_FLAG_WALL
+[7.701s] -- Performing Test C_FLAG_WALL - Success
+[7.702s] -- Performing Test CXX_FLAG_WALL
+[8.191s] -- Performing Test CXX_FLAG_WALL - Success
+[8.197s] -- Performing Test C_FLAG_WEXTRA
+[8.680s] -- Performing Test C_FLAG_WEXTRA - Success
+[8.681s] -- Performing Test CXX_FLAG_WEXTRA
+[9.212s] -- Performing Test CXX_FLAG_WEXTRA - Success
+[9.213s] -- Performing Test C_FLAG_WUNDEF
+[9.700s] -- Performing Test C_FLAG_WUNDEF - Success
+[9.701s] -- Performing Test CXX_FLAG_WUNDEF
+[10.438s] -- Performing Test CXX_FLAG_WUNDEF - Success
+[10.439s] -- Performing Test C_FLAG_WSHADOW
+[10.852s] -- Performing Test C_FLAG_WSHADOW - Success
+[10.853s] -- Performing Test CXX_FLAG_WSHADOW
+[15.997s] -- Performing Test CXX_FLAG_WSHADOW - Success
+[15.999s] -- Performing Test C_FLAG_WCAST_ALIGN
+[22.876s] -- Performing Test C_FLAG_WCAST_ALIGN - Success
+[22.877s] -- Performing Test CXX_FLAG_WCAST_ALIGN
+[23.478s] -- Performing Test CXX_FLAG_WCAST_ALIGN - Success
+[23.479s] -- Performing Test C_FLAG_WCAST_QUAL
+[24.054s] -- Performing Test C_FLAG_WCAST_QUAL - Success
+[24.055s] -- Performing Test CXX_FLAG_WCAST_QUAL
+[24.254s] -- Performing Test CXX_FLAG_WCAST_QUAL - Success
+[24.255s] -- Performing Test C_FLAG_WSTRICT_PROTOTYPES
+[24.380s] -- Performing Test C_FLAG_WSTRICT_PROTOTYPES - Success
+[24.380s] -- CMAKE_INSTALL_PREFIX: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install
+[24.380s] -- CMAKE_INSTALL_LIBDIR: lib
+[24.380s] -- ZSTD_LEGACY_SUPPORT not defined!
+[24.380s] -- ZSTD_MULTITHREAD_SUPPORT is enabled
+[24.381s] -- Looking for pthread.h
+[24.469s] -- Looking for pthread.h - found
+[24.469s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[24.578s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[24.578s] -- Check if compiler accepts -pthread
+[24.662s] -- Check if compiler accepts -pthread - yes
+[24.663s] -- Found Threads: TRUE  
+[24.666s] -- Configuring done
+[24.698s] -- Generating done
+[24.698s] -- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4-build
+[24.735s] [ 75%] [34m[1mPerforming build step for 'zstd-1.4.4'[0m
+[24.793s] [35m[1mScanning dependencies of target libzstd.pc[0m
+[24.816s] [  3%] [34m[1mCreating pkg-config file[0m
+[24.917s] [  3%] Built target libzstd.pc
+[24.929s] [35m[1mScanning dependencies of target libzstd_shared[0m
+[25.110s] [  6%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/debug.c.o[0m
+[25.343s] [  9%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress.c.o[0m
+[26.446s] [ 12%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress_literals.c.o[0m
+[26.528s] [ 15%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_compress_sequences.c.o[0m
+[26.752s] [ 18%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_double_fast.c.o[0m
+[28.035s] [ 21%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_fast.c.o[0m
+[30.600s] [ 24%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_lazy.c.o[0m
+[33.243s] [ 27%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_ldm.c.o[0m
+[33.732s] [ 30%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstd_opt.c.o[0m
+[41.097s] [ 33%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/zstdmt_compress.c.o[0m
+[41.611s] [ 36%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/huf_decompress.c.o[0m
+[43.267s] [ 39%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_ddict.c.o[0m
+[43.363s] [ 42%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_decompress.c.o[0m
+[43.795s] [ 45%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/decompress/zstd_decompress_block.c.o[0m
+[44.565s] [ 48%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/cover.c.o[0m
+[44.877s] [ 51%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/divsufsort.c.o[0m
+[46.028s] [ 54%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/fastcover.c.o[0m
+[46.327s] [ 57%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/dictBuilder/zdict.c.o[0m
+[46.776s] [ 60%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_common.c.o[0m
+[46.861s] [ 63%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_compress.c.o[0m
+[46.974s] [ 66%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/deprecated/zbuff_decompress.c.o[0m
+[47.067s] [ 69%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/huf_compress.c.o[0m
+[47.555s] [ 72%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/hist.c.o[0m
+[47.693s] [ 75%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/compress/fse_compress.c.o[0m
+[47.994s] [ 78%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/zstd_common.c.o[0m
+[48.055s] [ 81%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/xxhash.c.o[0m
+[48.256s] [ 84%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/threading.c.o[0m
+[48.304s] [ 87%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/pool.c.o[0m
+[48.447s] [ 90%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/fse_decompress.c.o[0m
+[48.755s] [ 93%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/error_private.c.o[0m
+[48.866s] [ 96%] [32mBuilding C object lib/CMakeFiles/libzstd_shared.dir/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd-1.4.4-prefix/src/zstd-1.4.4/lib/common/entropy_common.c.o[0m
+[49.000s] [100%] [32m[1mLinking C shared library libzstd.so[0m
+[49.097s] [100%] Built target libzstd_shared
+[49.226s] [ 87%] [34m[1mPerforming install step for 'zstd-1.4.4'[0m
+[49.342s] [  3%] [34m[1mCreating pkg-config file[0m
+[49.382s] [  3%] Built target libzstd.pc
+[49.429s] [100%] Built target libzstd_shared
+[49.456s] [36mInstall the project...[0m
+[49.468s] -- Install configuration: "Release"
+[49.469s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/pkgconfig/libzstd.pc
+[49.469s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/include/zstd.h
+[49.469s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so.1.4.4
+[49.471s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so.1
+[49.471s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor/zstd_vendor_install/lib/libzstd.so
+[49.494s] [100%] [34m[1mCompleted 'zstd-1.4.4'[0m
+[49.529s] [100%] Built target zstd-1.4.4
+[49.543s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/opt/ros/foxy PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor -- -j12 -l12
+[49.620s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/opt/ros/foxy PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor
+[49.728s] -- Install configuration: ""
+[49.728s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor
+[49.729s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/include
+[49.732s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/include/zstd.h
+[49.732s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/libzstd.so
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/libzstd.so.1.4.4
+[49.733s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/pkgconfig
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/pkgconfig/libzstd.pc
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/lib/libzstd.so.1
+[49.733s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake
+[49.733s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/Modules
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/Modules/Findzstd.cmake
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/package_run_dependencies/zstd_vendor
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/parent_prefix_path/zstd_vendor
+[49.733s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.sh
+[49.734s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/ament_prefix_path.dsv
+[49.734s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/path.sh
+[49.734s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/environment/path.dsv
+[49.734s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.bash
+[49.734s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.sh
+[49.734s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.zsh
+[49.734s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/local_setup.dsv
+[49.735s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/package.dsv
+[49.735s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/ament_index/resource_index/packages/zstd_vendor
+[49.735s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendor-extras.cmake
+[49.735s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig.cmake
+[49.735s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/cmake/zstd_vendorConfig-version.cmake
+[49.735s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/zstd_vendor/share/zstd_vendor/package.xml
+[49.741s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_target_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_targets:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_interfaces:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_dependencies:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_version:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_python:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_link_flags:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_libraries:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_include_directories:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_export_definitions:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core:/opt/ros/foxy PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_test/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/zstd_vendor

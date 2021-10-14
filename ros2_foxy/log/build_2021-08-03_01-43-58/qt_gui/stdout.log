@@ -1,0 +1,76 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/qt_gui
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/environment/pythonpath.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/environment/pythonpath.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/__init__.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/about_handler.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/application_context.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/application_dbus_interface.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/composite_plugin_provider.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/container_manager.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/dock_widget.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/dock_widget_container.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/dock_widget_title_bar.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/dockable_main_window.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/errors.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/help_provider.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/icon_loader.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/main.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/main_window.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/menu_manager.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/minimized_dock_widgets_toolbar.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/perspective_manager.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/perspective_manager_dbus_interface.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_context.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_descriptor.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_handler.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_handler_container.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_handler_dbus_service.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_handler_direct.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_handler_xembed.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_handler_xembed_client.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_handler_xembed_container.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_instance_id.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_manager.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_manager_dbus_interface.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_menu.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/plugin_provider.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/recursive_plugin_provider.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/reload_importer.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/reparent_event.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/ros_package_helper.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/settings.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/settings_proxy.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/settings_proxy_dbus_service.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui/window_changed_signaler.py
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/resource/dock_widget_title_bar.ui
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/resource/perspective_create.ui
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/resource/ros_org_vertical.png
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/ament_index/resource_index/package_run_dependencies/qt_gui
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/ament_index/resource_index/parent_prefix_path/qt_gui
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/ament_index/resource_index/packages/qt_gui
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/cmake/qt_guiConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/cmake/qt_guiConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/qt_gui/share/qt_gui/package.xml
+Listing '/home/saitama1/ros2_foxy/install/qt_gui/lib/python3.8/site-packages/qt_gui'...

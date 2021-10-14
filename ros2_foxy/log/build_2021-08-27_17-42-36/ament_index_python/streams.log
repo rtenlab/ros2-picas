@@ -1,0 +1,44 @@
+[2.623s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_index/ament_index_python': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_index_python build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/install.log --single-version-externally-managed
+[3.023s] running egg_info
+[3.023s] creating ../../../../build/ament_index_python/ament_index_python.egg-info
+[3.023s] writing ../../../../build/ament_index_python/ament_index_python.egg-info/PKG-INFO
+[3.024s] writing dependency_links to ../../../../build/ament_index_python/ament_index_python.egg-info/dependency_links.txt
+[3.024s] writing entry points to ../../../../build/ament_index_python/ament_index_python.egg-info/entry_points.txt
+[3.024s] writing requirements to ../../../../build/ament_index_python/ament_index_python.egg-info/requires.txt
+[3.024s] writing top-level names to ../../../../build/ament_index_python/ament_index_python.egg-info/top_level.txt
+[3.026s] writing manifest file '../../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[3.075s] reading manifest file '../../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[3.075s] writing manifest file '../../../../build/ament_index_python/ament_index_python.egg-info/SOURCES.txt'
+[3.075s] running build
+[3.075s] running build_py
+[3.075s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build
+[3.075s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib
+[3.075s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python
+[3.077s] copying ament_index_python/resources.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python
+[3.077s] copying ament_index_python/constants.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python
+[3.077s] copying ament_index_python/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python
+[3.082s] copying ament_index_python/packages.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python
+[3.082s] copying ament_index_python/search_paths.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python
+[3.083s] copying ament_index_python/cli.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python
+[3.084s] running install
+[3.087s] running install_lib
+[3.088s] creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[3.088s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python/resources.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[3.089s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python/constants.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[3.089s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[3.089s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python/packages.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[3.089s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python/search_paths.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[3.089s] copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build/lib/ament_index_python/cli.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python
+[3.090s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/resources.py to resources.cpython-38.pyc
+[3.090s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/constants.py to constants.cpython-38.pyc
+[3.090s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/__init__.py to __init__.cpython-38.pyc
+[3.090s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/packages.py to packages.cpython-38.pyc
+[3.090s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/search_paths.py to search_paths.cpython-38.pyc
+[3.090s] byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python/cli.py to cli.cpython-38.pyc
+[3.092s] running install_data
+[3.092s] running install_egg_info
+[3.095s] Copying ../../../../build/ament_index_python/ament_index_python.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament_index_python-1.1.0-py3.8.egg-info
+[3.095s] running install_scripts
+[3.115s] Installing ament_index script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/bin
+[3.115s] writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/install.log'
+[3.224s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/src/ament/ament_index/ament_index_python' returned '0': AMENT_PREFIX_PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint PATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/bin:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/bin:${PATH} PYTHONPATH=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_copyright/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_pep257/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_flake8/lib/python3.8/site-packages:/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_lint/lib/python3.8/site-packages /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/ament_index_python build --build-base /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/build install --prefix /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_index_python --record /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_index_python/install.log --single-version-externally-managed

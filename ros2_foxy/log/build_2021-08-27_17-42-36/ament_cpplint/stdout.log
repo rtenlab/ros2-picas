@@ -1,0 +1,33 @@
+running egg_info
+creating ../../../../build/ament_cpplint/ament_cpplint.egg-info
+writing ../../../../build/ament_cpplint/ament_cpplint.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/ament_cpplint/ament_cpplint.egg-info/dependency_links.txt
+writing entry points to ../../../../build/ament_cpplint/ament_cpplint.egg-info/entry_points.txt
+writing requirements to ../../../../build/ament_cpplint/ament_cpplint.egg-info/requires.txt
+writing top-level names to ../../../../build/ament_cpplint/ament_cpplint.egg-info/top_level.txt
+writing manifest file '../../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/ament_cpplint/ament_cpplint.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib/ament_cpplint
+copying ament_cpplint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib/ament_cpplint
+copying ament_cpplint/cpplint.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib/ament_cpplint
+copying ament_cpplint/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib/ament_cpplint
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib/ament_cpplint/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib/ament_cpplint/cpplint.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/build/lib/ament_cpplint/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/cpplint.py to cpplint.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint/main.py to main.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/ament_cpplint/ament_cpplint.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/lib/python3.8/site-packages/ament_cpplint-0.9.6-py3.8.egg-info
+running install_scripts
+Installing ament_cpplint script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cpplint/bin
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/ament_cpplint/install.log'

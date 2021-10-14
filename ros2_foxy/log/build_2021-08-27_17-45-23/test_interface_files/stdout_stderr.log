@@ -1,0 +1,38 @@
+-- Found ament_cmake_core: 0.9.8 (/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/ament_cmake_core/share/ament_cmake_core/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/test_interface_files
+-- Install configuration: ""
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Arrays.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/BasicTypes.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/BoundedSequences.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Constants.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Defaults.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Empty.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/MultiNested.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Nested.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/Strings.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/UnboundedSequences.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/msg/WStrings.msg
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/srv/Arrays.srv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/srv/BasicTypes.srv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/srv/Empty.srv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/action/Fibonacci.action
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/ament_index/resource_index/package_run_dependencies/test_interface_files
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/ament_index/resource_index/parent_prefix_path/test_interface_files
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/ament_prefix_path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/path.sh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/environment/path.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.bash
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.sh
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.zsh
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/local_setup.dsv
+-- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/package.dsv
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/ament_index/resource_index/packages/test_interface_files
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/cmake/test_interface_files-extras.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/cmake/test_interface_filesConfig.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/cmake/test_interface_filesConfig-version.cmake
+-- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/test_interface_files/share/test_interface_files/package.xml

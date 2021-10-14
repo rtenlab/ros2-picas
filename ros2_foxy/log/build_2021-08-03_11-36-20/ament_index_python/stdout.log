@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing ament_index_python.egg-info/PKG-INFO
+writing dependency_links to ament_index_python.egg-info/dependency_links.txt
+writing entry points to ament_index_python.egg-info/entry_points.txt
+writing requirements to ament_index_python.egg-info/requires.txt
+writing top-level names to ament_index_python.egg-info/top_level.txt
+reading manifest file 'ament_index_python.egg-info/SOURCES.txt'
+writing manifest file 'ament_index_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/saitama1/ros2_foxy/install/ament_index_python/lib/python3.8/site-packages/ament-index-python.egg-link (link to .)
+Installing ament_index script to /home/saitama1/ros2_foxy/install/ament_index_python/bin
+
+Installed /home/saitama1/ros2_foxy/build/ament_index_python
+running install_data

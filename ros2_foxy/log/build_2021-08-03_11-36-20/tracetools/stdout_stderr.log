@@ -1,0 +1,32 @@
+[ 60%] Built target tracetools
+[100%] Built target status
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/environment/library_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/environment/library_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/lib/tracetools/status
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/include/tracetools/config.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/include/tracetools/tracetools.h
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/include/tracetools/utils.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/include/tracetools/visibility_control.hpp
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/ament_index/resource_index/package_run_dependencies/tracetools
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/ament_index/resource_index/parent_prefix_path/tracetools
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/environment/path.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/environment/path.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/local_setup.bash
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/local_setup.sh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/local_setup.zsh
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/package.dsv
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/ament_index/resource_index/packages/tracetools
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake/tracetoolsConfig.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake/tracetoolsConfig-version.cmake
+-- Up-to-date symlink: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/package.xml
+-- Up-to-date: /home/saitama1/ros2_foxy/install/tracetools/lib/libtracetools.so
+-- Up-to-date: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake/tracetools_exportExport.cmake
+-- Up-to-date: /home/saitama1/ros2_foxy/install/tracetools/share/tracetools/cmake/tracetools_exportExport-noconfig.cmake

@@ -1,0 +1,5 @@
+[ 25%] Built target gtest
+[ 50%] Built target gtest_main
+[ 75%] Built target test_is_not_working_gtest
+[100%] Built target test_example_memory_tools_gtest
+-- Install configuration: ""

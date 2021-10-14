@@ -1,0 +1,52 @@
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_cmake_gtest: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake_gtest/share/ament_cmake_gtest/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/ros2_foxy/src/ros2/realtime_support/rttest/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rttest
+[ 25%] Built target gtest
+[ 37%] [32m[1mLinking CXX shared library librttest.so[0m
+[ 62%] Built target gtest_main
+[ 75%] Built target rttest
+[ 87%] [32mBuilding CXX object CMakeFiles/gtest_rttest_api.dir/test/test_api.cpp.o[0m
+[100%] [32m[1mLinking CXX executable gtest_rttest_api[0m
+[100%] Built target gtest_rttest_api
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/ament_index/resource_index/package_run_dependencies/rttest
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/ament_index/resource_index/parent_prefix_path/rttest
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/ament_index/resource_index/packages/rttest
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/cmake/rttestConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/cmake/rttestConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/share/rttest/package.xml
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/include/rttest/rttest.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/include/rttest/utils.h
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/bin/rttest_plot
+-- Symlinking: /home/saitama1/ros2_foxy/install/rttest/lib/librttest.so

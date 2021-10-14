@@ -1,0 +1,70 @@
+[0.378s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr
+[0.944s] -- Setting build type to 'Release' as none was specified.
+[2.050s] -- The C compiler identification is GNU 9.3.0
+[2.118s] -- The CXX compiler identification is GNU 9.3.0
+[2.125s] -- Check for working C compiler: /usr/bin/cc
+[2.202s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.203s] -- Detecting C compiler ABI info
+[2.274s] -- Detecting C compiler ABI info - done
+[2.290s] -- Detecting C compile features
+[2.290s] -- Detecting C compile features - done
+[2.293s] -- Check for working CXX compiler: /usr/bin/c++
+[2.372s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.372s] -- Detecting CXX compiler ABI info
+[2.471s] -- Detecting CXX compiler ABI info - done
+[2.485s] -- Detecting CXX compile features
+[2.485s] -- Detecting CXX compile features - done
+[2.486s] -- Configuring Fast CDR
+[2.486s] -- Version: 1.0.13
+[2.486s] -- To change the version modify the file configure.ac
+[2.493s] -- Performing Test SUPPORTS_CXX14
+[2.585s] -- Performing Test SUPPORTS_CXX14 - Success
+[2.594s] -- Check if the system is big endian
+[2.594s] -- Searching 16 bit integer
+[2.594s] -- Looking for sys/types.h
+[2.691s] -- Looking for sys/types.h - found
+[2.691s] -- Looking for stdint.h
+[2.759s] -- Looking for stdint.h - found
+[2.760s] -- Looking for stddef.h
+[2.830s] -- Looking for stddef.h - found
+[2.830s] -- Check size of unsigned short
+[2.903s] -- Check size of unsigned short - done
+[2.904s] -- Using unsigned short
+[2.973s] -- Check if the system is big endian - little endian
+[3.001s] -- Configuring done
+[3.005s] -- Generating done
+[3.005s] -- Build files have been written to: /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr
+[3.112s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake /home/saitama1/Pictures/ros2-picas/ros2_foxy/src/eProsima/Fast-CDR -DCMAKE_INSTALL_PREFIX=/home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr
+[3.112s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr': /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr -- -j12 -l12
+[3.148s] [35m[1mScanning dependencies of target fastcdr[0m
+[3.214s] [ 14%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/Cdr.cpp.o[0m
+[3.215s] [ 28%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastBuffer.cpp.o[0m
+[3.216s] [ 42%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/Exception.cpp.o[0m
+[3.216s] [ 57%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/FastCdr.cpp.o[0m
+[3.220s] [ 71%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/NotEnoughMemoryException.cpp.o[0m
+[3.221s] [ 85%] [32mBuilding CXX object src/cpp/CMakeFiles/fastcdr.dir/exceptions/BadParamException.cpp.o[0m
+[4.499s] [100%] [32m[1mLinking CXX shared library libfastcdr.so[0m
+[4.614s] [100%] Built target fastcdr
+[4.765s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --build /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr -- -j12 -l12
+[5.114s] Invoking command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr': /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr
+[5.156s] -- Install configuration: "Release"
+[5.157s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/share/fastcdr/LICENSE
+[5.157s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr
+[5.157s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/Cdr.h
+[5.157s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/fastcdr_dll.h
+[5.157s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/FastBuffer.h
+[5.157s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/eProsima_auto_link.h
+[5.157s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/exceptions
+[5.157s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/Exception.h
+[5.157s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/NotEnoughMemoryException.h
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/exceptions/BadParamException.h
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/FastCdr.h
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/include/fastcdr/config.h
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1.0.13
+[5.158s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/lib/libfastcdr.so.1
+[5.158s] -- Up-to-date: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/lib/libfastcdr.so
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets.cmake
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-targets-release.cmake
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config.cmake
+[5.158s] -- Installing: /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/fastcdr/lib/cmake/fastcdr/fastcdr-config-version.cmake
+[5.697s] Invoked command in '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr' returned '0': /usr/bin/cmake --install /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/fastcdr

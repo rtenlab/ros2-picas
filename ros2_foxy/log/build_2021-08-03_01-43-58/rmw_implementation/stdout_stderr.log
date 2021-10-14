@@ -1,0 +1,73 @@
+-- Found ament_cmake: 0.9.8 (/home/saitama1/ros2_foxy/install/ament_cmake/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rmw_implementation_cmake: 1.0.3 (/home/saitama1/ros2_foxy/install/rmw_implementation_cmake/share/rmw_implementation_cmake/cmake)
+-- Found ament_lint_auto: 0.9.6 (/home/saitama1/ros2_foxy/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Found rmw_fastrtps_cpp: 1.2.5 (/home/saitama1/ros2_foxy/install/rmw_fastrtps_cpp/share/rmw_fastrtps_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Found rosidl_adapter: 1.2.1 (/home/saitama1/ros2_foxy/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- 
+-- Default rmw implementation: 'rmw_fastrtps_cpp'
+-- 
+-- Runtime selection of RMW enabled
+-- Found gtest sources under '/home/saitama1/ros2_foxy/install/gtest_vendor/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Creating API tests for 'rmw_cyclonedds_cpp'
+-- Performance tests are disabled by default, so Google Benchmark tests will be skipped. To enable these tests, set the CMake variable 'AMENT_RUN_PERFORMANCE_TESTS'.
+-- Creating API tests for 'rmw_fastrtps_cpp'
+-- Creating API tests for 'rmw_fastrtps_dynamic_cpp'
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/saitama1/ros2_foxy/install/performance_test_fixture/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saitama1/ros2_foxy/build/rmw_implementation
+[ 14%] Built target gtest
+[ 28%] Built target gtest_main
+[ 35%] [32m[1mLinking CXX shared library librmw_implementation.so[0m
+[ 42%] Built target rmw_implementation
+[ 50%] [32m[1mLinking CXX executable test_functions[0m
+[ 57%] Built target test_functions
+[ 64%] [32m[1mLinking CXX executable benchmark_symbols__rmw_fastrtps_dynamic_cpp[0m
+[ 71%] Built target benchmark_symbols__rmw_fastrtps_dynamic_cpp
+[ 78%] [32m[1mLinking CXX executable benchmark_symbols__rmw_fastrtps_cpp[0m
+[ 85%] Built target benchmark_symbols__rmw_fastrtps_cpp
+[ 92%] [32m[1mLinking CXX executable benchmark_symbols__rmw_cyclonedds_cpp[0m
+[100%] Built target benchmark_symbols__rmw_cyclonedds_cpp
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/library_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/library_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/rmw_typesupport_c/rmw_implementation
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/rmw_typesupport_cpp/rmw_implementation
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/rmw_typesupport/rmw_implementation
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/package_run_dependencies/rmw_implementation
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/parent_prefix_path/rmw_implementation
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/ament_prefix_path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/path.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/environment/path.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.bash
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.sh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.zsh
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/local_setup.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/package.dsv
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/ament_index/resource_index/packages/rmw_implementation
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementation-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationConfig.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationConfig-version.cmake
+-- Symlinking: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/package.xml
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/lib/librmw_implementation.so
+-- Set runtime path of "/home/saitama1/ros2_foxy/install/rmw_implementation/lib/librmw_implementation.so" to ""
+-- Up-to-date: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationExport.cmake
+-- Installing: /home/saitama1/ros2_foxy/install/rmw_implementation/share/rmw_implementation/cmake/rmw_implementationExport-noconfig.cmake

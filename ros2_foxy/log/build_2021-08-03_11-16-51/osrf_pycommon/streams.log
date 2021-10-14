@@ -1,0 +1,15 @@
+[2.852s] Invoking command in '/home/saitama1/ros2_foxy/build/osrf_pycommon': PYTHONPATH=/home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/osrf_pycommon --editable --build-directory /home/saitama1/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/osrf_pycommon
+[3.582s] running develop
+[3.740s] running egg_info
+[3.740s] writing osrf_pycommon.egg-info/PKG-INFO
+[3.740s] writing dependency_links to osrf_pycommon.egg-info/dependency_links.txt
+[3.740s] writing requirements to osrf_pycommon.egg-info/requires.txt
+[3.740s] writing top-level names to osrf_pycommon.egg-info/top_level.txt
+[3.771s] reading manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[3.772s] writing manifest file 'osrf_pycommon.egg-info/SOURCES.txt'
+[3.814s] running build_ext
+[3.814s] Creating /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf-pycommon.egg-link (link to .)
+[3.820s] 
+[3.820s] Installed /home/saitama1/ros2_foxy/build/osrf_pycommon
+[3.821s] running install_data
+[3.884s] Invoked command in '/home/saitama1/ros2_foxy/build/osrf_pycommon' returned '0': PYTHONPATH=/home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/saitama1/ros2_foxy/install/osrf_pycommon --editable --build-directory /home/saitama1/ros2_foxy/build/osrf_pycommon/build --no-deps install_data --install-dir /home/saitama1/ros2_foxy/install/osrf_pycommon

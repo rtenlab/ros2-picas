@@ -1,0 +1,92 @@
+[0.902s] Invoking command in '/home/saitama1/ros2_foxy/src/osrf/osrf_pycommon': PYTHONPATH=/home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /home/saitama1/ros2_foxy/build/osrf_pycommon/build install --prefix /home/saitama1/ros2_foxy/install/osrf_pycommon --record /home/saitama1/ros2_foxy/build/osrf_pycommon/install.log --single-version-externally-managed
+[1.090s] running egg_info
+[1.090s] creating ../../../build/osrf_pycommon/osrf_pycommon.egg-info
+[1.090s] writing ../../../build/osrf_pycommon/osrf_pycommon.egg-info/PKG-INFO
+[1.090s] writing dependency_links to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/dependency_links.txt
+[1.091s] writing requirements to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/requires.txt
+[1.091s] writing top-level names to ../../../build/osrf_pycommon/osrf_pycommon.egg-info/top_level.txt
+[1.092s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[1.129s] reading manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[1.129s] reading manifest template 'MANIFEST.in'
+[1.130s] writing manifest file '../../../build/osrf_pycommon/osrf_pycommon.egg-info/SOURCES.txt'
+[1.130s] running build
+[1.130s] running build_py
+[1.130s] creating /home/saitama1/ros2_foxy/build/osrf_pycommon/build
+[1.130s] creating /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib
+[1.130s] creating /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon
+[1.130s] copying osrf_pycommon/__init__.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon
+[1.130s] copying osrf_pycommon/terminal_utils.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon
+[1.131s] creating /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] copying osrf_pycommon/process_utils/execute_process_nopty.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] copying osrf_pycommon/process_utils/async_execute_process_trollius.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] copying osrf_pycommon/process_utils/__init__.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] copying osrf_pycommon/process_utils/impl.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] copying osrf_pycommon/process_utils/async_execute_process.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] copying osrf_pycommon/process_utils/get_loop_impl.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] copying osrf_pycommon/process_utils/execute_process_pty.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils
+[1.131s] creating /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.132s] copying osrf_pycommon/cli_utils/verb_pattern.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.132s] copying osrf_pycommon/cli_utils/__init__.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.132s] copying osrf_pycommon/cli_utils/common.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils
+[1.132s] creating /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.132s] copying osrf_pycommon/terminal_color/windows.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.132s] copying osrf_pycommon/terminal_color/__init__.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.132s] copying osrf_pycommon/terminal_color/impl.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.132s] copying osrf_pycommon/terminal_color/ansi_re.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color
+[1.132s] creating /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.132s] copying osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.133s] copying osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.133s] running install
+[1.134s] running install_lib
+[1.135s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon
+[1.135s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.135s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_nopty.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.135s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_trollius.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.135s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/__init__.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.135s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/impl.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.135s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.135s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/get_loop_impl.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.135s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/process_utils/execute_process_pty.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/__init__.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon
+[1.136s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/cli_utils
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/verb_pattern.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/cli_utils
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/__init__.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/cli_utils
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/cli_utils/common.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/cli_utils
+[1.136s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color
+[1.136s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/windows.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color
+[1.137s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/__init__.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color
+[1.137s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/impl.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color
+[1.137s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_color/ansi_re.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color
+[1.137s] copying /home/saitama1/ros2_foxy/build/osrf_pycommon/build/lib/osrf_pycommon/terminal_utils.py -> /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon
+[1.137s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/execute_process_nopty.py to execute_process_nopty.cpython-38.pyc
+[1.139s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/async_execute_process_trollius.py to async_execute_process_trollius.cpython-38.pyc
+[1.140s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/__init__.py to __init__.cpython-38.pyc
+[1.140s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/impl.py to impl.cpython-38.pyc
+[1.141s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/async_execute_process.py to async_execute_process.cpython-38.pyc
+[1.141s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/get_loop_impl.py to get_loop_impl.cpython-38.pyc
+[1.142s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/__init__.py to __init__.cpython-38.pyc
+[1.142s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py to impl.cpython-38.pyc
+[1.143s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/process_utils/execute_process_pty.py to execute_process_pty.cpython-38.pyc
+[1.143s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/__init__.py to __init__.cpython-38.pyc
+[1.143s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/cli_utils/verb_pattern.py to verb_pattern.cpython-38.pyc
+[1.144s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/cli_utils/__init__.py to __init__.cpython-38.pyc
+[1.144s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/cli_utils/common.py to common.cpython-38.pyc
+[1.144s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color/windows.py to windows.cpython-38.pyc
+[1.145s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color/__init__.py to __init__.cpython-38.pyc
+[1.146s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color/impl.py to impl.cpython-38.pyc
+[1.146s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_color/ansi_re.py to ansi_re.cpython-38.pyc
+[1.147s] byte-compiling /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon/terminal_utils.py to terminal_utils.cpython-38.pyc
+[1.147s] running install_data
+[1.148s] copying package.xml -> /home/saitama1/ros2_foxy/install/osrf_pycommon/share/osrf_pycommon
+[1.148s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/share/ament_index
+[1.148s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index
+[1.148s] creating /home/saitama1/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index/packages
+[1.148s] copying resource/osrf_pycommon -> /home/saitama1/ros2_foxy/install/osrf_pycommon/share/ament_index/resource_index/packages
+[1.148s] running install_egg_info
+[1.150s] Copying ../../../build/osrf_pycommon/osrf_pycommon.egg-info to /home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages/osrf_pycommon-0.1.10-py3.8.egg-info
+[1.150s] running install_scripts
+[1.168s] writing list of installed files to '/home/saitama1/ros2_foxy/build/osrf_pycommon/install.log'
+[1.250s] Invoked command in '/home/saitama1/ros2_foxy/src/osrf/osrf_pycommon' returned '0': PYTHONPATH=/home/saitama1/ros2_foxy/install/osrf_pycommon/lib/python3.8/site-packages: /usr/bin/python3 setup.py egg_info --egg-base ../../../build/osrf_pycommon build --build-base /home/saitama1/ros2_foxy/build/osrf_pycommon/build install --prefix /home/saitama1/ros2_foxy/install/osrf_pycommon --record /home/saitama1/ros2_foxy/build/osrf_pycommon/install.log --single-version-externally-managed

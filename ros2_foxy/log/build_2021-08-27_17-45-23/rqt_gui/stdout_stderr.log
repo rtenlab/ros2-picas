@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../../build/rqt_gui/rqt_gui.egg-info
+writing ../../../../build/rqt_gui/rqt_gui.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/rqt_gui/rqt_gui.egg-info/dependency_links.txt
+writing entry points to ../../../../build/rqt_gui/rqt_gui.egg-info/entry_points.txt
+writing requirements to ../../../../build/rqt_gui/rqt_gui.egg-info/requires.txt
+writing top-level names to ../../../../build/rqt_gui/rqt_gui.egg-info/top_level.txt
+writing manifest file '../../../../build/rqt_gui/rqt_gui.egg-info/SOURCES.txt'
+reading manifest file '../../../../build/rqt_gui/rqt_gui.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/rqt_gui/rqt_gui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui
+copying src/rqt_gui/ros2_plugin_context.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui
+copying src/rqt_gui/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui
+copying src/rqt_gui/ros_plugin_provider.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui
+copying src/rqt_gui/rospkg_plugin_provider.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui
+copying src/rqt_gui/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui
+running install
+running install_lib
+creating /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui/ros2_plugin_context.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui/__init__.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui/ros_plugin_provider.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui/rospkg_plugin_provider.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui
+copying /home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/build/lib/rqt_gui/main.py -> /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui/ros2_plugin_context.py to ros2_plugin_context.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui/ros_plugin_provider.py to ros_plugin_provider.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui/rospkg_plugin_provider.py to rospkg_plugin_provider.cpython-38.pyc
+byte-compiling /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui/main.py to main.cpython-38.pyc
+running install_data
+running install_egg_info
+Copying ../../../../build/rqt_gui/rqt_gui.egg-info to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/lib/python3.8/site-packages/rqt_gui-1.1.1-py3.8.egg-info
+running install_scripts
+Installing rqt script to /home/saitama1/Pictures/ros2-picas/ros2_foxy/install/rqt_gui/bin
+writing list of installed files to '/home/saitama1/Pictures/ros2-picas/ros2_foxy/build/rqt_gui/install.log'
