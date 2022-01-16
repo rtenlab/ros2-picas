@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>launch_yaml</name>
+  <version>0.17.0</version>
+  <description>YAML frontend for the launch package.</description>
+  <maintainer email="william@osrfoundation.org">William Woodall</maintainer>
+  <maintainer email="michel@ekumenlabs.com">Michel Hidalgo</maintainer>
+  <license>Apache License 2.0</license>
+
+  <author email="ivanpauno@ekumenlabs.com">Ivan Paunovic</author>
+
+  <depend>launch</depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
