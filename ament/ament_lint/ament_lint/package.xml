@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format2.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="2">
+  <name>ament_lint</name>
+  <version>0.10.6</version>
+  <description>
+    Providing common API for ament linter packages.
+  </description>
+  <maintainer email="audrow@openrobotics.org">Audrow Nash</maintainer>
+  <license>Apache License 2.0</license>
+
+  <author>Dirk Thomas</author>
+  <author>Claire Wang</author>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

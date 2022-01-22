@@ -1,0 +1,42 @@
+/*
+ * Copyright(c) 2020 ADLINK Technology Limited and others
+ *
+ * This program and the accompanying materials are made available under the
+ * terms of the Eclipse Public License v. 2.0 which is available at
+ * http://www.eclipse.org/legal/epl-2.0, or the Eclipse Distribution License
+ * v. 1.0 which is available at
+ * http://www.eclipse.org/org/documents/edl-v10.php.
+ *
+ * SPDX-License-Identifier: EPL-2.0 OR BSD-3-Clause
+ */
+#ifndef _DDS_PUBLIC_FEATURES_H_
+#define _DDS_PUBLIC_FEATURES_H_
+
+/* Whether or not support for DDS Security is included */
+#cmakedefine DDS_HAS_SECURITY @DDS_HAS_SECURITY@
+
+/* Whether or not support for the lifespan QoS is included */
+#cmakedefine DDS_HAS_LIFESPAN @DDS_HAS_LIFESPAN@
+
+/* Whether or not support for generating "deadline missed" events is included */
+#cmakedefine DDS_HAS_DEADLINE_MISSED @DDS_HAS_DEADLINE_MISSED@
+
+/* Whether or not support for network partitions is included */
+#cmakedefine DDS_HAS_NETWORK_PARTITIONS @DDS_HAS_NETWORK_PARTITIONS@
+
+/* Whether or not support for source-specific multicast is included */
+#cmakedefine DDS_HAS_SSM @DDS_HAS_SSM@
+
+/* Whether or not features dependent on OpenSSL are included */
+#cmakedefine DDS_HAS_SSL @DDS_HAS_SSL@
+
+/* Whether or not support for type discovery is included */
+#cmakedefine DDS_HAS_TYPE_DISCOVERY @DDS_HAS_TYPE_DISCOVERY@
+
+/* Whether or not support for topic discovery is included */
+#cmakedefine DDS_HAS_TOPIC_DISCOVERY @DDS_HAS_TOPIC_DISCOVERY@
+
+/* Whether or not support for Iceoryx support is included */
+#cmakedefine DDS_HAS_SHM @DDS_HAS_SHM@
+
+#endif
