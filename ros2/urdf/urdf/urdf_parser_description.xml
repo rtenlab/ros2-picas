@@ -1,7 +1,0 @@
-<library path="urdf_xml_parser">
-  <class name="urdf_xml_parser/URDFXMLParser" type="urdf::URDFXMLParser" base_class_type="urdf::URDFParser">
-    <description>
-      Parse models as URDF from URDF XML.
-    </description>
-  </class>
-</library>

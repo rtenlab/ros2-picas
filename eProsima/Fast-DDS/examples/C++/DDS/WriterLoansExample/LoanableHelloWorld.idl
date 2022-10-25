@@ -1,5 +1,0 @@
-struct LoanableHelloWorld
-{
-	unsigned long index;
-	char message[256];
-};

@@ -26,7 +26,7 @@ target_link_libraries(trace_picas ${rclcpp_LIBRARIES})
 
 ament_target_dependencies(trace_picas rclcpp)
 ament_export_dependencies(rclcpp)
-ament_export_interfaces(export_trace HAS_LIBRARY_TARGET)
+ament_export_targets(export_trace HAS_LIBRARY_TARGET)
 
 
 #ament_export_interfaces(${PROJECT_NAME} HAS_LIBRARY_TARGET)

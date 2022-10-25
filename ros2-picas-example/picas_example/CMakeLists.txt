@@ -7,17 +7,21 @@ if(NOT CMAKE_CXX_STANDARD)
 endif()
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
+  add_compile_options(-Wall -Wextra -Wpedantic -Wno-reorder)
+endif()
+
+if(${PICAS})
+  add_compile_options(-DPICAS)
 endif()
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
+find_package(test_msgs REQUIRED)
 find_package(trace_picas REQUIRED)
 
 add_executable(example src/example.cpp)
-ament_target_dependencies(example rclcpp std_msgs trace_picas)
+ament_target_dependencies(example rclcpp test_msgs trace_picas)
 
 install(TARGETS
   example
