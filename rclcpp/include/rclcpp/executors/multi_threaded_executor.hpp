@@ -28,6 +28,36 @@
 #include "rclcpp/memory_strategies.hpp"
 #include "rclcpp/visibility_control.hpp"
 
+#ifdef PICAS
+#include <rclcpp/cb_sched.hpp>
+#include <unistd.h>
+#include <sys/types.h>
+#include <errno.h>
+#include <sys/syscall.h>
+#include <linux/sched.h>
+
+// for sched_deadline
+#include <pthread.h>
+#define gettid() syscall(__NR_gettid)
+struct sched_attr {
+    int32_t size;
+
+    int32_t sched_policy;
+    int64_t sched_flags;
+
+    /* SCHED_NORMAL, SCHED_BATCH */
+    int32_t sched_nice;
+
+    /* SCHED_FIFO, SCHED_RR */
+    int32_t sched_priority;
+
+    /* SCHED_DEADLINE (nsec) */
+    int64_t sched_runtime;
+    int64_t sched_deadline;
+    int64_t sched_period;
+};
+#endif
+
 namespace rclcpp
 {
 namespace executors
@@ -73,6 +103,11 @@ public:
   RCLCPP_PUBLIC
   size_t
   get_number_of_threads();
+
+#ifdef PICAS
+  std::vector<int> cpus;
+  struct sched_attr rt_attr;
+#endif
 
 protected:
   RCLCPP_PUBLIC

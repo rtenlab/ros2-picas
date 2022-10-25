@@ -19,7 +19,12 @@
 using rclcpp::executors::SingleThreadedExecutor;
 
 SingleThreadedExecutor::SingleThreadedExecutor(const rclcpp::ExecutorOptions & options)
-: rclcpp::Executor(options) {}
+: rclcpp::Executor(options) {
+#ifdef PICAS
+  executor_cpu = -1;
+  executor_priority = 0;
+#endif
+}
 
 SingleThreadedExecutor::~SingleThreadedExecutor() {}
 
@@ -67,22 +72,22 @@ struct sched_attr {
     int64_t sched_period;
 };
 
-long int sched_setattr(pid_t pid, const struct sched_attr *attr, unsigned int flags)
+static long int sched_setattr(pid_t pid, const struct sched_attr *attr, unsigned int flags)
 {
   return syscall(__NR_sched_setattr, pid, attr, flags);
 }
 
-long int sched_getattr(pid_t pid, struct sched_attr *attr, unsigned int size, unsigned int flags)
-{
-  return syscall(__NR_sched_getattr, pid, attr, size, flags);
-}
+//static long int sched_getattr(pid_t pid, struct sched_attr *attr, unsigned int size, unsigned int flags)
+//{
+//  return syscall(__NR_sched_getattr, pid, attr, size, flags);
+//}
 
 // Belows are the added code for ROS2-PiCAS
 void
 SingleThreadedExecutor::spin_cpu(int cpu)
 {
   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Singlethreadedexecutor spin: in Thread ID %ld", gettid());
-  if (cpu != 0) {
+  if (cpu >= 0) {
     cpu_set_t cpuset;
     CPU_ZERO(&cpuset);
     CPU_SET(cpu, &cpuset);
@@ -90,7 +95,6 @@ SingleThreadedExecutor::spin_cpu(int cpu)
         RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "spin_cpu has an error.");
     }
   }
-
 
   if (spinning.exchange(true)) {
     throw std::runtime_error("spin() called while already spinning");
@@ -119,7 +123,7 @@ SingleThreadedExecutor::spin_rt()
     }
   }
 
-  if (this->executor_cpu != 0) {
+  if (this->executor_cpu >= 0) {
     cpu_set_t cpuset;
     CPU_ZERO(&cpuset);
     CPU_SET(this->executor_cpu, &cpuset);

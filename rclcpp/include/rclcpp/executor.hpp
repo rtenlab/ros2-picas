@@ -408,7 +408,7 @@ public:
 
   RCLCPP_PUBLIC
   void 
-  set_executor_priority_cpu(int priority, int cpu)
+  set_executor_priority_cpu(int priority, int cpu) // deprecated: for single-threaded executors only
   {
     executor_priority = priority;
     executor_cpu = cpu;    
