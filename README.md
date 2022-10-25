@@ -2,11 +2,16 @@
 
 ## 1. Implementation of Priority-Driven Chain-Aware scheduling
 ### Setup
-- This repository includes the entire source code of ros2-galactic with our priority-based scheduling.
-- Before building source codes, required development tools and dependencies should be met (please see this [link](https://docs.ros.org/en/eloquent/Installation/Linux-Development-Setup.html#add-the-ros-2-apt-repository)).
-- Build source codes
+- ~~This repository includes the entire source code of ros2-galactic with our priority-based scheduling.~~
+- This repository includes the PICAS-enabled rclcpp package and some example code that tests PICAS APIs.
+- Before building source code, required development tools and dependencies should be met (please see this [link](https://docs.ros.org/en/eloquent/Installation/Linux-Development-Setup.html#add-the-ros-2-apt-repository)).
+- Build source code with PICAS support enabled
   ```
-  colcon build --symlink-install
+  colcon build --cmake-args -DPICAS=TRUE
+  ```
+- Build source code without PICAS (default rclcpp)
+  ```
+  colcon build --cmake-args -DPICAS=FALSE
   ```
 
 ### How to use API
@@ -48,7 +53,7 @@
 ```
 - Run example
 ```
-  ros2 run picas_example example
+  ./build/picas_example/example
 ```
 
 **NOTE**: Please reference our ROS2-PiCAS paper that was published in RTAS 2021.
