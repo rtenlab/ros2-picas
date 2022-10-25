@@ -17,12 +17,19 @@
   ```
 
 ### How to use API
-- Please see the example code in `ros2-picas-example > picas_example > src > example.cpp`
+- Please see the example code in `ros2-picas-example > picas_example > src > example.cpp` for a single-threaded executor, and `ros2-picas-example > picas_example_mt > src > example_mt.cpp` for a multi-threaded executor
 - Create executor and callbacks, e.g., timer_callback, regular_callback, exec1
   ```
   auto timer_callback = std::make_shared<StartNode>("callback_name", "pub_topic_name", trace_callbacks, exe_time(msec), period(msec), false);
   auto regular_callback = std::make_shared<IntermediateNode>("callback_name", "sub_topic_name", "pub_topic_name", trace_callbacks, exe_time(msec), true);
-  rclcpp::executors::SingleThreadedExecutor exec1;
+  ```
+  Then, 
+  ```
+  rclcpp::executors::SingleThreadedExecutor exec1; // single-threaded executor
+  ```
+  or 
+  ```
+  rclcpp::executors::MultiThreadedExecutor exec1; // multi-threaded executor
   ```
   - `sub_topic_name`: the name of subscription topic
   - `pub_topic_name`: the name of publishing topic
@@ -35,16 +42,29 @@
   exec1.enable_callback_priority();
   ```
 - Set executor's rt priority (`SCHED_FIFO` in linux) and CPU assignment
+  - For single-threaded executors:
   ```
   exec1.set_executor_priority_cpu(90, 5); // (90: rt priority, 5: cpu #)
   ```  
+  - For multi-threaded executors:
+  ```
+  exec1.cpus = {1, 2, 3}; // CPU1, 2, 3
+  exec1.rt_attr.sched_priority = SCHED_FIFO;
+  exec1.rt_attr.sched_priority = 80;
+  ```
+  Other policies such as SCHED_RR and SCHED_DEADLINE are also usable.
 - Set priority of callback
   ```
   exec1.set_callback_priority(timer_callback->timer_, 10); // 10: callback's priority (the higher, more critical callback)
   ```
-- Spin executor (use `spin_rt` for real-time priority in linux)
+- Finally, spin
+  - Single-threaded executor: use `spin_rt` for real-time priority in linux
   ```
   std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec1);
+  ```
+  - Multi-threaded executor: `spin` assigns each thread's rt priority and cpu affinity based on prespecified params.
+  ```
+  exec1.spin();
   ```
 ### Run example
 - Use sudo authority when running ros2 package to leverage rt priority in linux system.
@@ -55,7 +75,10 @@
 ```
 - Run example
 ```
-  ./build/picas_example/example
+  source install/setup.bash
+  ./build/picas_example/example   # single-threaded version
+
+  ./build/picas_example_mt/example_mt   # multi-threaded version
 ```
 
 **NOTE**: Please reference our ROS2-PiCAS paper that was published in RTAS 2021.
