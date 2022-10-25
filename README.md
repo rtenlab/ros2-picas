@@ -7,10 +7,12 @@
 - Before building source code, required development tools and dependencies should be met (please see this [link](https://docs.ros.org/en/eloquent/Installation/Linux-Development-Setup.html#add-the-ros-2-apt-repository)).
 - Build source code with PICAS support enabled
   ```
+  source /opt/ros/galactic/setup.bash
   colcon build --cmake-args -DPICAS=TRUE
   ```
 - Build source code without PICAS (default rclcpp)
   ```
+  source /opt/ros/galactic/setup.bash
   colcon build --cmake-args -DPICAS=FALSE
   ```
 
