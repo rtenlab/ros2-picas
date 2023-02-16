@@ -7,7 +7,7 @@
 - Build repo with PICAS support enabled
   ```
   source /opt/ros/galactic/setup.bash
-  colcon build --cmake-args -DPICAS=TRUE
+  colcon build --allow-overriding rclcpp --cmake-args -DPICAS=TRUE
   ```
 - Build repo  without PICAS (default rclcpp)
   ```
