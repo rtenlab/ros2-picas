@@ -3,13 +3,13 @@
 ## 1. Implementation of Priority-Driven Chain-Aware scheduling
 ### Setup
 - This repository includes the PICAS-enabled rclcpp package and some example code that tests PICAS APIs.
-- Before building source code, required development tools and dependencies should be met (please see this [link](https://docs.ros.org/en/galactic/Installation/Alternatives/Ubuntu-Development-Setup.html#)).
-- Build source code with PICAS support enabled
+- Before building this repo, make sure that your system has ROS 2 packages installed on it (see this [link](https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html#) for ROS 2 installation).
+- Build repo with PICAS support enabled
   ```
   source /opt/ros/galactic/setup.bash
   colcon build --cmake-args -DPICAS=TRUE
   ```
-- Build source code without PICAS (default rclcpp)
+- Build repo  without PICAS (default rclcpp)
   ```
   source /opt/ros/galactic/setup.bash
   colcon build --cmake-args -DPICAS=FALSE
