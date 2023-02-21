@@ -25,7 +25,7 @@ using std::placeholders::_1;
 //#define USE_INTRA_PROCESS_COMMS false
 #define USE_INTRA_PROCESS_COMMS true
 
-#define DUMMY_LOAD_ITER	10000
+#define DUMMY_LOAD_ITER	1000
 int dummy_load_calib = 1;
 
 void dummy_load(int load_ms) {
@@ -408,10 +408,14 @@ int main(int argc, char * argv[])
     exec4.add_node(task17); exec4.add_node(task18);
     exec4.add_node(task25); exec4.add_node(task22);
         
-    std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec1, 2);
-    std::thread spinThread2(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec2, 3);
-    std::thread spinThread3(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec3, 4);
-    std::thread spinThread4(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec4, 5);
+    //std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec1, 2);
+    //std::thread spinThread2(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec2, 3);
+    //std::thread spinThread3(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec3, 4);
+    //std::thread spinThread4(&rclcpp::executors::SingleThreadedExecutor::spin_cpu, &exec4, 5);
+    std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin, &exec1);
+    std::thread spinThread2(&rclcpp::executors::SingleThreadedExecutor::spin, &exec2);
+    std::thread spinThread3(&rclcpp::executors::SingleThreadedExecutor::spin, &exec3);
+    std::thread spinThread4(&rclcpp::executors::SingleThreadedExecutor::spin, &exec4);
 
     spinThread1.join();
     spinThread2.join();

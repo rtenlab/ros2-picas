@@ -22,10 +22,10 @@ using std::placeholders::_1;
 
 #define gettid() syscall(__NR_gettid)
 
-#define USE_INTRA_PROCESS_COMMS false
-//#define USE_INTRA_PROCESS_COMMS true // FIXME: IPC-based comm has problems with PICAS multithreaded version
+//#define USE_INTRA_PROCESS_COMMS false
+#define USE_INTRA_PROCESS_COMMS true // Note: if this doesn't work with ROS2 Galactic, update Galactic version to 0.9.3 (20221208) or higher
 
-#define DUMMY_LOAD_ITER	10000
+#define DUMMY_LOAD_ITER	1000
 int dummy_load_calib = 1;
 
 void dummy_load(int load_ms) {
@@ -174,10 +174,10 @@ int main(int argc, char * argv[])
     trace_callbacks->trace_write("init",std::to_string(ctime.tv_sec*1000+ctime.tv_usec/1000));
 
     // Create callbacks
-    auto c1_t_cb = std::make_shared<StartNode>("Timer_callback", "c1", trace_callbacks, 1000, 10000, false);
-    auto c1_r_cb_1 = std::make_shared<IntermediateNode>("Regular_callback1", "c1", "", trace_callbacks, 1000, true);
-    auto c1_r_cb_2 = std::make_shared<IntermediateNode>("Regular_callback2", "c1", "", trace_callbacks, 1000, true);
-    auto c1_r_cb_3 = std::make_shared<IntermediateNode>("Regular_callback3", "c1", "", trace_callbacks, 1000, true);    
+    auto c1_t_cb = std::make_shared<StartNode>("Timer_callback", "c1", trace_callbacks, 100, 1000, false);
+    auto c1_r_cb_1 = std::make_shared<IntermediateNode>("Regular_callback1", "c1", "", trace_callbacks, 100, true);
+    auto c1_r_cb_2 = std::make_shared<IntermediateNode>("Regular_callback2", "c1", "", trace_callbacks, 100, true);
+    auto c1_r_cb_3 = std::make_shared<IntermediateNode>("Regular_callback3", "c1", "", trace_callbacks, 100, true);    
     //auto c1_r_cb_1 = std::make_shared<IntermediateNode>("Regular_callback1", "c1", "c2", trace_callbacks, 1000, true);
     //auto c1_r_cb_2 = std::make_shared<IntermediateNode>("Regular_callback2", "c2", "c3", trace_callbacks, 1000, true);
     //auto c1_r_cb_3 = std::make_shared<IntermediateNode>("Regular_callback3", "c3", "c4", trace_callbacks, 1000, true);

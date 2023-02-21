@@ -25,7 +25,7 @@ using std::placeholders::_1;
 //#define USE_INTRA_PROCESS_COMMS false
 #define USE_INTRA_PROCESS_COMMS true
 
-#define DUMMY_LOAD_ITER	10000
+#define DUMMY_LOAD_ITER	1000
 int dummy_load_calib = 1;
 
 void dummy_load(int load_ms) {
