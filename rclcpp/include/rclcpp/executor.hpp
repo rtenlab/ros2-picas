@@ -42,6 +42,37 @@
 #include "rclcpp/visibility_control.hpp"
 #include "rclcpp/scope_exit.hpp"
 
+#ifdef PICAS
+#include <rclcpp/cb_sched.hpp>
+#include <unistd.h>
+#include <sys/types.h>
+#include <errno.h>
+#include <sys/syscall.h>
+#include <linux/sched.h>
+#include <vector>
+#include <pthread.h>  // for sched_deadline
+
+#define gettid() syscall(__NR_gettid)
+
+struct sched_attr {
+    int32_t size;
+
+    int32_t sched_policy;
+    int64_t sched_flags;
+
+    /* SCHED_NORMAL, SCHED_BATCH */
+    int32_t sched_nice;
+
+    /* SCHED_FIFO, SCHED_RR */
+    int32_t sched_priority;
+
+    /* SCHED_DEADLINE (nsec) */
+    int64_t sched_runtime;
+    int64_t sched_deadline;
+    int64_t sched_period;
+};
+#endif
+
 namespace rclcpp
 {
 
@@ -403,15 +434,23 @@ public:
 
 #ifdef PICAS
   bool callback_priority_enabled = false;
-  int executor_priority = 0;
-  int executor_cpu = 0;
+  struct sched_attr rt_attr;
+  std::vector<int> cpus;
 
   RCLCPP_PUBLIC
   void 
-  set_executor_priority_cpu(int priority, int cpu) // deprecated: for single-threaded executors only
-  {
-    executor_priority = priority;
-    executor_cpu = cpu;    
+  set_executor_priority_cpu(int policy, int priority, std::vector<int> assigned_cpus){
+    rt_attr.sched_policy = policy;
+    rt_attr.sched_priority = priority;
+    cpus = assigned_cpus;
+  }
+
+  RCLCPP_PUBLIC
+  void 
+  set_executor_priority_cpu(int policy, int priority, int cpu){
+    rt_attr.sched_policy = policy;
+    rt_attr.sched_priority = priority;
+    cpus.push_back(cpu);
   }
 
   RCLCPP_PUBLIC
@@ -483,6 +522,10 @@ protected:
   RCLCPP_PUBLIC
   void
   print_list_ready_executable(AnyExecutable & any_executable);
+
+  RCLCPP_PUBLIC
+  long int
+  sched_setattr(pid_t pid, const struct sched_attr *attr, unsigned int flags);
 #endif
 
   RCLCPP_PUBLIC

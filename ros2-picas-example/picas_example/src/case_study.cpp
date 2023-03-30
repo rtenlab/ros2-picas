@@ -270,24 +270,24 @@ int main(int argc, char * argv[])
     exec18.enable_callback_priority();
     
     // Set executor's RT priority and CPU allocation
-    exec1.set_executor_priority_cpu(90, 2);
-    exec2.set_executor_priority_cpu(89, 3);
-    exec3.set_executor_priority_cpu(88, 4);
-    exec4.set_executor_priority_cpu(87, 5);
-    exec5.set_executor_priority_cpu(86, 2);
-    exec6.set_executor_priority_cpu(85, 5);
-    exec7.set_executor_priority_cpu(84, 4);
-    exec8.set_executor_priority_cpu(83, 3);
-    exec9.set_executor_priority_cpu(82, 3);
-    exec10.set_executor_priority_cpu(81, 5);
-    exec11.set_executor_priority_cpu(80, 2);
-    exec12.set_executor_priority_cpu(79, 4);
-    exec13.set_executor_priority_cpu(78, 5);
-    exec14.set_executor_priority_cpu(77, 2);
-    exec15.set_executor_priority_cpu(76, 2);
-    exec16.set_executor_priority_cpu(75, 3);
-    exec17.set_executor_priority_cpu(74, 3);
-    exec18.set_executor_priority_cpu(73, 4);
+    exec1.set_executor_priority_cpu(SCHED_FIFO, 90, 2);
+    exec2.set_executor_priority_cpu(SCHED_FIFO, 89, 3);
+    exec3.set_executor_priority_cpu(SCHED_FIFO, 88, 4);
+    exec4.set_executor_priority_cpu(SCHED_FIFO, 87, 5);
+    exec5.set_executor_priority_cpu(SCHED_FIFO, 86, 2);
+    exec6.set_executor_priority_cpu(SCHED_FIFO, 85, 5);
+    exec7.set_executor_priority_cpu(SCHED_FIFO, 84, 4);
+    exec8.set_executor_priority_cpu(SCHED_FIFO, 83, 3);
+    exec9.set_executor_priority_cpu(SCHED_FIFO, 82, 3);
+    exec10.set_executor_priority_cpu(SCHED_FIFO, 81, 5);
+    exec11.set_executor_priority_cpu(SCHED_FIFO, 80, 2);
+    exec12.set_executor_priority_cpu(SCHED_FIFO, 79, 4);
+    exec13.set_executor_priority_cpu(SCHED_FIFO, 78, 5);
+    exec14.set_executor_priority_cpu(SCHED_FIFO, 77, 2);
+    exec15.set_executor_priority_cpu(SCHED_FIFO, 76, 2);
+    exec16.set_executor_priority_cpu(SCHED_FIFO, 75, 3);
+    exec17.set_executor_priority_cpu(SCHED_FIFO, 74, 3);
+    exec18.set_executor_priority_cpu(SCHED_FIFO, 73, 4);
 #endif
 
     
@@ -344,24 +344,24 @@ int main(int argc, char * argv[])
     exec17.set_callback_priority(task29->timer_, 1);
     exec18.set_callback_priority(task30->subscription_, 2);
 
-    std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec1);
-    std::thread spinThread2(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec2);
-    std::thread spinThread3(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec3);
-    std::thread spinThread4(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec4);
-    std::thread spinThread5(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec5);
-    std::thread spinThread6(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec6);
-    std::thread spinThread7(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec7);
-    std::thread spinThread8(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec8);
-    std::thread spinThread9(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec9);
-    std::thread spinThread10(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec10);
-    std::thread spinThread11(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec11);
-    std::thread spinThread12(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec12);
-    std::thread spinThread13(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec13);
-    std::thread spinThread14(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec14);
-    std::thread spinThread15(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec15);
-    std::thread spinThread16(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec16);
-    std::thread spinThread17(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec17);
-    std::thread spinThread18(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec18);
+    std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin, &exec1);
+    std::thread spinThread2(&rclcpp::executors::SingleThreadedExecutor::spin, &exec2);
+    std::thread spinThread3(&rclcpp::executors::SingleThreadedExecutor::spin, &exec3);
+    std::thread spinThread4(&rclcpp::executors::SingleThreadedExecutor::spin, &exec4);
+    std::thread spinThread5(&rclcpp::executors::SingleThreadedExecutor::spin, &exec5);
+    std::thread spinThread6(&rclcpp::executors::SingleThreadedExecutor::spin, &exec6);
+    std::thread spinThread7(&rclcpp::executors::SingleThreadedExecutor::spin, &exec7);
+    std::thread spinThread8(&rclcpp::executors::SingleThreadedExecutor::spin, &exec8);
+    std::thread spinThread9(&rclcpp::executors::SingleThreadedExecutor::spin, &exec9);
+    std::thread spinThread10(&rclcpp::executors::SingleThreadedExecutor::spin, &exec10);
+    std::thread spinThread11(&rclcpp::executors::SingleThreadedExecutor::spin, &exec11);
+    std::thread spinThread12(&rclcpp::executors::SingleThreadedExecutor::spin, &exec12);
+    std::thread spinThread13(&rclcpp::executors::SingleThreadedExecutor::spin, &exec13);
+    std::thread spinThread14(&rclcpp::executors::SingleThreadedExecutor::spin, &exec14);
+    std::thread spinThread15(&rclcpp::executors::SingleThreadedExecutor::spin, &exec15);
+    std::thread spinThread16(&rclcpp::executors::SingleThreadedExecutor::spin, &exec16);
+    std::thread spinThread17(&rclcpp::executors::SingleThreadedExecutor::spin, &exec17);
+    std::thread spinThread18(&rclcpp::executors::SingleThreadedExecutor::spin, &exec18);
 
     spinThread1.join();
     spinThread2.join();
