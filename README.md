@@ -40,16 +40,15 @@
   ```
   exec1.enable_callback_priority();
   ```
-- Set executor's rt priority (`SCHED_FIFO` in linux) and CPU assignment
+- Set executor's rt priority and CPU assignment
   - For single-threaded executors:
   ```
-  exec1.set_executor_priority_cpu(90, 5); // (90: rt priority, 5: cpu #)
+  exec1.set_executor_priority_cpu(SCHED_FIFO, 90, 5); // (SCHED_FIFO: scheduling policy, 90: rt priority, 5: cpu #)
   ```  
   - For multi-threaded executors:
   ```
-  exec1.cpus = {1, 2, 3}; // CPU1, 2, 3
-  exec1.rt_attr.sched_priority = SCHED_FIFO;
-  exec1.rt_attr.sched_priority = 80;
+  std::vector<int> cpus = {1, 2, 3}; // CPU 1, 2, 3
+  exec1.set_executor_priority_cpu(SCHED_FIFO, 90, cpus); // (SCHED_FIFO: scheduling policy, 90: rt priority, cpus: cpu #)
   ```
   Other policies such as SCHED_RR and SCHED_DEADLINE are also usable.
 - Set priority of callback
@@ -57,11 +56,7 @@
   exec1.set_callback_priority(timer_callback->timer_, 10); // 10: callback's priority (the higher, more critical callback)
   ```
 - Finally, spin
-  - Single-threaded executor: use `spin_rt` for real-time priority in linux
-  ```
-  std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec1);
-  ```
-  - Multi-threaded executor: `spin` assigns each thread's rt priority and cpu affinity based on prespecified params.
+  - `spin` assigns each executor thread's rt priority and cpu affinity based on prespecified params.
   ```
   exec1.spin();
   ```

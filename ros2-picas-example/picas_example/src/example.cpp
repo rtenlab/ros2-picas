@@ -191,8 +191,10 @@ int main(int argc, char * argv[])
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "PiCAS priority-based callback scheduling: %s", exec1.callback_priority_enabled ? "Enabled" : "Disabled");
 
     // Set executor's RT priority and CPU allocation
-    exec1.set_executor_priority_cpu(90, 5);
-    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "PiCAS executor 1's rt-priority %d and CPU %d", exec1.executor_priority, exec1.executor_cpu);
+    exec1.set_executor_priority_cpu(SCHED_FIFO, 90, 5);
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "PiCAS executor 1's rt-priority %d and CPU:", exec1.rt_attr.sched_priority);
+    for (int x:exec1.cpus)     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "CPU %d", x);
+
 #endif
 
     // Allocate callbacks to executors
@@ -212,11 +214,9 @@ int main(int argc, char * argv[])
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback2->priority: %d", c1_r_cb_2->subscription_->callback_priority);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback3->priority: %d", c1_r_cb_3->subscription_->callback_priority);
 
-    std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec1);
-#else
-    std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin, &exec1);
 #endif
-
+    
+    std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin, &exec1);
     spinThread1.join();
 
     exec1.remove_node(c1_t_cb);
