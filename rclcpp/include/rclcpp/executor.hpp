@@ -49,7 +49,6 @@
 #include <errno.h>
 #include <sys/syscall.h>
 #include <linux/sched.h>
-#include <vector>
 #include <pthread.h>  // for sched_deadline
 
 #define gettid() syscall(__NR_gettid)
