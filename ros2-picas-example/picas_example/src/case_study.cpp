@@ -15,7 +15,7 @@
 
 #include "rclcpp/rclcpp.hpp"
 //#include "std_msgs/msg/string.hpp"
-#include "test_msgs/msg/detail/test_string__struct.hpp"
+#include "test_interfaces/msg/test_string.hpp"
 
 using std::placeholders::_1;
 //std::mutex mtx;
@@ -44,7 +44,7 @@ public:
         : Node(node_name, rclcpp::NodeOptions().use_intra_process_comms(USE_INTRA_PROCESS_COMMS)), count_(0), trace_callbacks_(trace_ptr), exe_time_(exe_time), period_(period), end_flag_(end_flag)
     {
         //publisher_ = this->create_publisher<std_msgs::msg::String>(pub_topic, 1);
-        publisher_ = this->create_publisher<test_msgs::msg::TestString>(pub_topic, 1);
+        publisher_ = this->create_publisher<test_interfaces::msg::TestString>(pub_topic, 1);
 
         if (period_ == 70)
             timer_ = this->create_wall_timer(70ms, std::bind(&StartNode::timer_callback, this));
@@ -68,7 +68,7 @@ public:
     }
 
     rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<test_msgs::msg::TestString>::SharedPtr publisher_;
+    rclcpp::Publisher<test_interfaces::msg::TestString>::SharedPtr publisher_;
 private:
     size_t count_;
     int exe_time_;
@@ -93,7 +93,7 @@ private:
 
         dummy_load(exe_time_);
 
-        auto message = test_msgs::msg::TestString();
+        auto message = test_interfaces::msg::TestString();
         message.data = std::to_string(count_++);
         message.stamp.sec = ctime.tv_sec;
         message.stamp.usec = ctime.tv_usec;
@@ -116,12 +116,12 @@ public:
     IntermediateNode(const std::string node_name, const std::string sub_topic, const std::string pub_topic, std::shared_ptr<trace::Trace> trace_ptr, int exe_time, bool end_flag) 
         : Node(node_name, rclcpp::NodeOptions().use_intra_process_comms(USE_INTRA_PROCESS_COMMS)), count_(0), trace_callbacks_(trace_ptr), exe_time_(exe_time), end_flag_(end_flag)
     {                        
-        subscription_ = this->create_subscription<test_msgs::msg::TestString>(sub_topic, 1, std::bind(&IntermediateNode::callback, this, _1));
-        if (pub_topic != "") publisher_ = this->create_publisher<test_msgs::msg::TestString>(pub_topic, 1);
+        subscription_ = this->create_subscription<test_interfaces::msg::TestString>(sub_topic, 1, std::bind(&IntermediateNode::callback, this, _1));
+        if (pub_topic != "") publisher_ = this->create_publisher<test_interfaces::msg::TestString>(pub_topic, 1);
     }
 
-    rclcpp::Publisher<test_msgs::msg::TestString>::SharedPtr publisher_;
-    rclcpp::Subscription<test_msgs::msg::TestString>::SharedPtr subscription_;
+    rclcpp::Publisher<test_interfaces::msg::TestString>::SharedPtr publisher_;
+    rclcpp::Subscription<test_interfaces::msg::TestString>::SharedPtr subscription_;
 private:
     size_t count_;
     int exe_time_;
@@ -136,14 +136,14 @@ private:
             __asm__ volatile ("nop");
     }
 
-    void callback(const test_msgs::msg::TestString::SharedPtr msg) {
+    void callback(const test_interfaces::msg::TestString::SharedPtr msg) {
         std::string name = this->get_name();
         RCLCPP_INFO(this->get_logger(), ("callback: " + name).c_str());
         //gettimeofday(&ctime, NULL);            
         //trace_callbacks_->trace_write(name+"_in",std::to_string(ctime.tv_sec*1000+ctime.tv_usec/1000));            
         dummy_load(exe_time_);
 
-        auto message = test_msgs::msg::TestString();
+        auto message = test_interfaces::msg::TestString();
         message.data = msg->data;
         message.stamp = msg->stamp;
 

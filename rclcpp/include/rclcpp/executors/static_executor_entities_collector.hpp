@@ -57,15 +57,13 @@ public:
   /**
    * \param p_wait_set A reference to the wait set to be used in the executor
    * \param memory_strategy Shared pointer to the memory strategy to set.
-   * \param executor_guard_condition executor's guard condition
    * \throws std::runtime_error if memory strategy is null
    */
   RCLCPP_PUBLIC
   void
   init(
     rcl_wait_set_t * p_wait_set,
-    rclcpp::memory_strategy::MemoryStrategy::SharedPtr memory_strategy,
-    rcl_guard_condition_t * executor_guard_condition);
+    rclcpp::memory_strategy::MemoryStrategy::SharedPtr memory_strategy);
 
   /// Finalize StaticExecutorEntitiesCollector to clear resources
   RCLCPP_PUBLIC
@@ -104,7 +102,7 @@ public:
    * \throws std::runtime_error if it couldn't add guard condition to wait set
    */
   RCLCPP_PUBLIC
-  bool
+  void
   add_to_wait_set(rcl_wait_set_t * wait_set) override;
 
   RCLCPP_PUBLIC
@@ -301,7 +299,8 @@ private:
 
   /// Return true if the node belongs to the collector
   /**
-   * \param[in] group_ptr a node base interface shared pointer
+   * \param[in] node_ptr a node base interface shared pointer
+   * \param[in] weak_groups_to_nodes map to nodes to lookup
    * \return boolean whether a node belongs the collector
    */
   bool
@@ -330,13 +329,17 @@ private:
   WeakCallbackGroupsToNodesMap weak_groups_to_nodes_associated_with_executor_;
 
   typedef std::map<rclcpp::node_interfaces::NodeBaseInterface::WeakPtr,
-      const rcl_guard_condition_t *,
+      const rclcpp::GuardCondition *,
       std::owner_less<rclcpp::node_interfaces::NodeBaseInterface::WeakPtr>>
     WeakNodesToGuardConditionsMap;
   WeakNodesToGuardConditionsMap weak_nodes_to_guard_conditions_;
 
   /// List of weak nodes registered in the static executor
   std::list<rclcpp::node_interfaces::NodeBaseInterface::WeakPtr> weak_nodes_;
+
+  // Mutex to protect vector of new nodes.
+  std::mutex new_nodes_mutex_;
+  std::vector<rclcpp::node_interfaces::NodeBaseInterface::WeakPtr> new_nodes_;
 
   /// Wait set for managing entities that the rmw layer waits on.
   rcl_wait_set_t * p_wait_set_ = nullptr;

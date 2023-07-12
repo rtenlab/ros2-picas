@@ -148,11 +148,6 @@ public:
     rclcpp::CallbackGroupType group_type,
     bool automatically_add_to_executor_with_node = true);
 
-  /// Return the list of callback groups in the node.
-  RCLCPP_PUBLIC
-  const std::vector<rclcpp::CallbackGroup::WeakPtr> &
-  get_callback_groups() const;
-
   /// Iterate over the callback groups in the node, calling the given function on each valid one.
   /**
    * This method is called in a thread-safe way, and also makes sure to only call the given
@@ -217,13 +212,8 @@ public:
     typename MessageT,
     typename CallbackT,
     typename AllocatorT = std::allocator<void>,
-    typename CallbackMessageT =
-    typename rclcpp::subscription_traits::has_message_type<CallbackT>::type,
-    typename SubscriptionT = rclcpp::Subscription<CallbackMessageT, AllocatorT>,
-    typename MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<
-      CallbackMessageT,
-      AllocatorT
-    >
+    typename SubscriptionT = rclcpp::Subscription<MessageT, AllocatorT>,
+    typename MessageMemoryStrategyT = typename SubscriptionT::MessageMemoryStrategyType
   >
   std::shared_ptr<SubscriptionT>
   create_subscription(
@@ -404,22 +394,6 @@ public:
     const rcl_interfaces::msg::ParameterDescriptor & parameter_descriptor =
     rcl_interfaces::msg::ParameterDescriptor{},
     bool ignore_override = false);
-
-  /// Declare a parameter
-  [[deprecated(
-    "declare_parameter() with only a name is deprecated and will be deleted in the future.\n" \
-    "If you want to declare a parameter that won't change type without a default value use:\n" \
-    "`node->declare_parameter<ParameterT>(name)`, where e.g. ParameterT=int64_t.\n\n" \
-    "If you want to declare a parameter that can dynamically change type use:\n" \
-    "```\n" \
-    "rcl_interfaces::msg::ParameterDescriptor descriptor;\n" \
-    "descriptor.dynamic_typing = true;\n" \
-    "node->declare_parameter(name, rclcpp::ParameterValue{}, descriptor);\n" \
-    "```"
-  )]]
-  RCLCPP_PUBLIC
-  const rclcpp::ParameterValue &
-  declare_parameter(const std::string & name);
 
   /// Declare and initialize a parameter with a type.
   /**
@@ -728,6 +702,24 @@ public:
   get_parameter_or(
     const std::string & name,
     ParameterT & parameter,
+    const ParameterT & alternative_value) const;
+
+  /// Return the parameter value, or the "alternative_value" if not set.
+  /**
+   * If the parameter was not set, then the "alternative_value" argument is returned.
+   *
+   * This method will not throw the rclcpp::exceptions::ParameterNotDeclaredException exception.
+   *
+   * In all cases, the parameter is never set or declared within the node.
+   *
+   * \param[in] name The name of the parameter to get.
+   * \param[in] alternative_value Value to be stored in output if the parameter was not set.
+   * \returns The value of the parameter.
+   */
+  template<typename ParameterT>
+  ParameterT
+  get_parameter_or(
+    const std::string & name,
     const ParameterT & alternative_value) const;
 
   /// Return the parameters by the given parameter names.

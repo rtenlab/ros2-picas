@@ -18,11 +18,14 @@
 #include <rmw/error_handling.h>
 #include <rmw/rmw.h>
 
+#include <chrono>
 #include <functional>
 #include <iostream>
 #include <memory>
 #include <sstream>
 #include <string>
+#include <unordered_map>
+#include <utility>
 #include <vector>
 
 #include "rcl/publisher.h"
@@ -33,6 +36,7 @@
 #include "rclcpp/qos_event.hpp"
 #include "rclcpp/type_support_decl.hpp"
 #include "rclcpp/visibility_control.hpp"
+#include "rcpputils/time.hpp"
 
 namespace rclcpp
 {
@@ -110,9 +114,10 @@ public:
   get_publisher_handle() const;
 
   /// Get all the QoS event handlers associated with this publisher.
-  /** \return The vector of QoS event handlers. */
+  /** \return The map of QoS event handlers. */
   RCLCPP_PUBLIC
-  const std::vector<std::shared_ptr<rclcpp::QOSEventHandlerBase>> &
+  const
+  std::unordered_map<rcl_publisher_event_type_t, std::shared_ptr<rclcpp::QOSEventHandlerBase>> &
   get_event_handlers() const;
 
   /// Get subscription count
@@ -203,6 +208,111 @@ public:
   std::vector<rclcpp::NetworkFlowEndpoint>
   get_network_flow_endpoints() const;
 
+  /// Wait until all published messages are acknowledged or until the specified timeout elapses.
+  /**
+   * This method waits until all published messages are acknowledged by all matching
+   * subscriptions or the given timeout elapses.
+   *
+   * If the timeout is negative then this method will block indefinitely until all published
+   * messages are acknowledged.
+   * If the timeout is zero then this method will not block, it will check if all published
+   * messages are acknowledged and return immediately.
+   * If the timeout is greater than zero, this method will wait until all published messages are
+   * acknowledged or the timeout elapses.
+   *
+   * This method only waits for acknowledgments if the publisher's QoS profile is RELIABLE.
+   * Otherwise this method will immediately return `true`.
+   *
+   * \param[in] timeout the duration to wait for all published messages to be acknowledged.
+   * \return `true` if all published messages were acknowledged before the given timeout
+   *   elapsed, otherwise `false`.
+   * \throws rclcpp::exceptions::RCLError if middleware doesn't support or internal error occurs
+   * \throws std::invalid_argument if timeout is greater than std::chrono::nanoseconds::max() or
+   *   less than std::chrono::nanoseconds::min()
+   */
+  template<typename DurationRepT = int64_t, typename DurationT = std::milli>
+  bool
+  wait_for_all_acked(
+    std::chrono::duration<DurationRepT, DurationT> timeout =
+    std::chrono::duration<DurationRepT, DurationT>(-1)) const
+  {
+    rcl_duration_value_t rcl_timeout = rcpputils::convert_to_nanoseconds(timeout).count();
+
+    rcl_ret_t ret = rcl_publisher_wait_for_all_acked(publisher_handle_.get(), rcl_timeout);
+    if (ret == RCL_RET_OK) {
+      return true;
+    } else if (ret == RCL_RET_TIMEOUT) {
+      return false;
+    } else {
+      rclcpp::exceptions::throw_from_rcl_error(ret);
+    }
+  }
+
+  /// Set a callback to be called when each new qos event instance occurs.
+  /**
+   * The callback receives a size_t which is the number of events that occurred
+   * since the last time this callback was called.
+   * Normally this is 1, but can be > 1 if events occurred before any
+   * callback was set.
+   *
+   * Since this callback is called from the middleware, you should aim to make
+   * it fast and not blocking.
+   * If you need to do a lot of work or wait for some other event, you should
+   * spin it off to another thread, otherwise you risk blocking the middleware.
+   *
+   * Calling it again will clear any previously set callback.
+   *
+   * An exception will be thrown if the callback is not callable.
+   *
+   * This function is thread-safe.
+   *
+   * If you want more information available in the callback, like the qos event
+   * or other information, you may use a lambda with captures or std::bind.
+   *
+   * \sa rclcpp::QOSEventHandlerBase::set_on_ready_callback
+   *
+   * \param[in] callback functor to be called when a new event occurs
+   * \param[in] event_type identifier for the qos event we want to attach the callback to
+   */
+  void
+  set_on_new_qos_event_callback(
+    std::function<void(size_t)> callback,
+    rcl_publisher_event_type_t event_type)
+  {
+    if (event_handlers_.count(event_type) == 0) {
+      RCLCPP_WARN(
+        rclcpp::get_logger("rclcpp"),
+        "Calling set_on_new_qos_event_callback for non registered publisher event_type");
+      return;
+    }
+
+    if (!callback) {
+      throw std::invalid_argument(
+              "The callback passed to set_on_new_qos_event_callback "
+              "is not callable.");
+    }
+
+    // The on_ready_callback signature has an extra `int` argument used to disambiguate between
+    // possible different entities within a generic waitable.
+    // We hide that detail to users of this method.
+    std::function<void(size_t, int)> new_callback = std::bind(callback, std::placeholders::_1);
+    event_handlers_[event_type]->set_on_ready_callback(new_callback);
+  }
+
+  /// Unset the callback registered for new qos events, if any.
+  void
+  clear_on_new_qos_event_callback(rcl_publisher_event_type_t event_type)
+  {
+    if (event_handlers_.count(event_type) == 0) {
+      RCLCPP_WARN(
+        rclcpp::get_logger("rclcpp"),
+        "Calling clear_on_new_qos_event_callback for non registered event_type");
+      return;
+    }
+
+    event_handlers_[event_type]->clear_on_ready_callback();
+  }
+
 protected:
   template<typename EventCallbackT>
   void
@@ -216,7 +326,7 @@ protected:
       rcl_publisher_event_init,
       publisher_handle_,
       event_type);
-    event_handlers_.emplace_back(handler);
+    event_handlers_.insert(std::make_pair(event_type, handler));
   }
 
   RCLCPP_PUBLIC
@@ -226,7 +336,8 @@ protected:
 
   std::shared_ptr<rcl_publisher_t> publisher_handle_;
 
-  std::vector<std::shared_ptr<rclcpp::QOSEventHandlerBase>> event_handlers_;
+  std::unordered_map<rcl_publisher_event_type_t,
+    std::shared_ptr<rclcpp::QOSEventHandlerBase>> event_handlers_;
 
   using IntraProcessManagerWeakPtr =
     std::weak_ptr<rclcpp::experimental::IntraProcessManager>;
@@ -235,6 +346,8 @@ protected:
   uint64_t intra_process_publisher_id_;
 
   rmw_gid_t rmw_gid_;
+
+  const rosidl_message_type_support_t type_support_;
 };
 
 }  // namespace rclcpp

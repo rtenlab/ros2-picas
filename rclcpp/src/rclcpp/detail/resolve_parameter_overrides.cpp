@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "./resolve_parameter_overrides.hpp"
+#include "resolve_parameter_overrides.hpp"
 
 #include <string>
 #include <map>
 #include <vector>
 
 #include "rcl_yaml_param_parser/parser.h"
+#include "rcpputils/scope_exit.hpp"
 
-#include "rclcpp/scope_exit.hpp"
 #include "rclcpp/parameter_map.hpp"
 
 std::map<std::string, rclcpp::ParameterValue>
@@ -47,22 +47,17 @@ rclcpp::detail::resolve_parameter_overrides(
       rclcpp::exceptions::throw_from_rcl_error(ret);
     }
     if (params) {
-      auto cleanup_params = make_scope_exit(
+      auto cleanup_params = rcpputils::make_scope_exit(
         [params]() {
           rcl_yaml_node_struct_fini(params);
         });
-      rclcpp::ParameterMap initial_map = rclcpp::parameter_map_from(params);
+      rclcpp::ParameterMap initial_map = rclcpp::parameter_map_from(params, node_fqn.c_str());
 
-      // Enforce wildcard matching precedence
-      // TODO(cottsay) implement further wildcard matching
-      const std::array<std::string, 2> node_matching_names{"/**", node_fqn};
-      for (const auto & node_name : node_matching_names) {
-        if (initial_map.count(node_name) > 0) {
-          // Combine parameter yaml files, overwriting values in older ones
-          for (const rclcpp::Parameter & param : initial_map.at(node_name)) {
-            result[param.get_name()] =
-              rclcpp::ParameterValue(param.get_value_message());
-          }
+      if (initial_map.count(node_fqn) > 0) {
+        // Combine parameter yaml files, overwriting values in older ones
+        for (const rclcpp::Parameter & param : initial_map.at(node_fqn)) {
+          result[param.get_name()] =
+            rclcpp::ParameterValue(param.get_value_message());
         }
       }
     }

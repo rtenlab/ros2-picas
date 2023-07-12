@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>test_msgs</name>
+  <name>test_interfaces</name>
   <version>1.0.0</version>
   <description>A package containing some messages for PiCAS examples.</description>
   <maintainer email="noaa99@gmail.com">hyunjong</maintainer>

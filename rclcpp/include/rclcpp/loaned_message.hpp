@@ -103,6 +103,9 @@ public:
    * \param[in] allocator Allocator instance in case middleware can not allocate messages
    * \throws anything rclcpp::exceptions::throw_from_rcl_error can throw.
    */
+  [[
+    deprecated("used the LoanedMessage constructor that does not use a shared_ptr to the allocator")
+  ]]
   LoanedMessage(
     const rclcpp::PublisherBase * pub,
     std::shared_ptr<std::allocator<MessageT>> allocator)
@@ -114,7 +117,9 @@ public:
   : pub_(std::move(other.pub_)),
     message_(std::move(other.message_)),
     message_allocator_(std::move(other.message_allocator_))
-  {}
+  {
+    other.message_ = nullptr;
+  }
 
   /// Destructor of the LoanedMessage class.
   /**

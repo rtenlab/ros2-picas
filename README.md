@@ -1,4 +1,4 @@
-<h2 align="center">PiCAS for ROS2 Galactic</h2>
+<h2 align="center">PiCAS for ROS2 Humble</h2>
 
 ## 1. Implementation of Priority-Driven Chain-Aware scheduling
 ### Setup
@@ -78,6 +78,13 @@
   ./build/picas_example/example   # single-threaded version
 
   ./build/picas_example_mt/example_mt   # multi-threaded version
+```
+or
+```
+  source install/setup.bash
+  ros2 run picas_example example # single-threaded version
+
+  ros2 run picas_example_mt example_mt # multi-threaded version
 ```
 
 **NOTE**: Please reference our ROS2-PiCAS paper that was published in RTAS 2021.

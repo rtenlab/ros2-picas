@@ -17,11 +17,11 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
-find_package(test_msgs REQUIRED)
+find_package(test_interfaces REQUIRED)
 find_package(trace_picas REQUIRED)
 
 add_executable(example_mt src/example_mt.cpp)
-ament_target_dependencies(example_mt rclcpp test_msgs trace_picas)
+ament_target_dependencies(example_mt rclcpp test_interfaces trace_picas)
 
 install(TARGETS
   example_mt

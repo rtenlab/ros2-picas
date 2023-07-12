@@ -10,7 +10,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <depend>rclcpp</depend>
-  <depend>test_msgs</depend>
+  <depend>test_interfaces</depend>
   <depend>trace_picas</depend>
 
   <test_depend>ament_lint_auto</test_depend>

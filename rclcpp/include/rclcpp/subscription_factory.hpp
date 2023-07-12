@@ -25,14 +25,14 @@
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
 
 #include "rclcpp/any_subscription_callback.hpp"
-#include "rclcpp/intra_process_buffer_type.hpp"
+#include "rclcpp/get_message_type_support_handle.hpp"
 #include "rclcpp/node_interfaces/node_base_interface.hpp"
 #include "rclcpp/qos.hpp"
 #include "rclcpp/subscription.hpp"
 #include "rclcpp/subscription_options.hpp"
 #include "rclcpp/subscription_traits.hpp"
-#include "rclcpp/visibility_control.hpp"
 #include "rclcpp/topic_statistics/subscription_topic_statistics.hpp"
+#include "rclcpp/visibility_control.hpp"
 
 namespace rclcpp
 {
@@ -74,26 +74,23 @@ template<
   typename MessageT,
   typename CallbackT,
   typename AllocatorT,
-  typename CallbackMessageT =
-  typename rclcpp::subscription_traits::has_message_type<CallbackT>::type,
-  typename SubscriptionT = rclcpp::Subscription<CallbackMessageT, AllocatorT>,
-  typename MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<
-    CallbackMessageT,
-    AllocatorT
-  >>
+  typename SubscriptionT = rclcpp::Subscription<MessageT, AllocatorT>,
+  typename MessageMemoryStrategyT = typename SubscriptionT::MessageMemoryStrategyType,
+  typename ROSMessageType = typename SubscriptionT::ROSMessageType
+>
 SubscriptionFactory
 create_subscription_factory(
   CallbackT && callback,
   const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT> & options,
   typename MessageMemoryStrategyT::SharedPtr msg_mem_strat,
-  std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<CallbackMessageT>>
+  std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<ROSMessageType>>
   subscription_topic_stats = nullptr
 )
 {
   auto allocator = options.get_allocator();
 
   using rclcpp::AnySubscriptionCallback;
-  AnySubscriptionCallback<CallbackMessageT, AllocatorT> any_subscription_callback(*allocator);
+  AnySubscriptionCallback<MessageT, AllocatorT> any_subscription_callback(*allocator);
   any_subscription_callback.set(std::forward<CallbackT>(callback));
 
   SubscriptionFactory factory {
@@ -107,9 +104,9 @@ create_subscription_factory(
       using rclcpp::Subscription;
       using rclcpp::SubscriptionBase;
 
-      auto sub = Subscription<CallbackMessageT, AllocatorT>::make_shared(
+      auto sub = Subscription<MessageT, AllocatorT>::make_shared(
         node_base,
-        *rosidl_typesupport_cpp::get_message_type_support_handle<MessageT>(),
+        rclcpp::get_message_type_support_handle<MessageT>(),
         topic_name,
         qos,
         any_subscription_callback,

@@ -20,13 +20,13 @@
 #include <utility>
 
 #include "rcl/wait.h"
+#include "rcpputils/scope_exit.hpp"
 
 #include "rclcpp/client.hpp"
 #include "rclcpp/context.hpp"
 #include "rclcpp/contexts/default_context.hpp"
 #include "rclcpp/guard_condition.hpp"
 #include "rclcpp/macros.hpp"
-#include "rclcpp/scope_exit.hpp"
 #include "rclcpp/service.hpp"
 #include "rclcpp/subscription_base.hpp"
 #include "rclcpp/subscription_wait_set_mask.hpp"
@@ -155,7 +155,8 @@ public:
           this->storage_add_subscription(std::move(local_subscription));
         }
         if (mask.include_events) {
-          for (auto event : inner_subscription->get_event_handlers()) {
+          for (auto key_event_pair : inner_subscription->get_event_handlers()) {
+            auto event = key_event_pair.second;
             auto local_subscription = inner_subscription;
             bool already_in_use =
             local_subscription->exchange_in_use_by_wait_set_state(event.get(), true);
@@ -225,7 +226,8 @@ public:
           this->storage_remove_subscription(std::move(local_subscription));
         }
         if (mask.include_events) {
-          for (auto event : inner_subscription->get_event_handlers()) {
+          for (auto key_event_pair : inner_subscription->get_event_handlers()) {
+            auto event = key_event_pair.second;
             auto local_subscription = inner_subscription;
             local_subscription->exchange_in_use_by_wait_set_state(event.get(), false);
             this->storage_remove_waitable(std::move(event));
@@ -657,7 +659,7 @@ public:
 
     // ensure the ownership of the entities in the wait set is shared for the duration of wait
     this->storage_acquire_ownerships();
-    RCLCPP_SCOPE_EXIT({this->storage_release_ownerships();});
+    RCPPUTILS_SCOPE_EXIT({this->storage_release_ownerships();});
 
     // this method comes from the SynchronizationPolicy
     return this->template sync_wait<WaitResult<WaitSetTemplate>>(

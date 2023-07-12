@@ -31,18 +31,22 @@ namespace rclcpp
 {
 
 void
-init(int argc, char const * const argv[], const InitOptions & init_options)
+init(
+  int argc,
+  char const * const * argv,
+  const InitOptions & init_options,
+  SignalHandlerOptions signal_handler_options)
 {
   using rclcpp::contexts::get_global_default_context;
   get_global_default_context()->init(argc, argv, init_options);
   // Install the signal handlers.
-  install_signal_handlers();
+  install_signal_handlers(signal_handler_options);
 }
 
 bool
-install_signal_handlers()
+install_signal_handlers(SignalHandlerOptions signal_handler_options)
 {
-  return SignalHandler::get_global_signal_handler().install();
+  return SignalHandler::get_global_signal_handler().install(signal_handler_options);
 }
 
 bool
@@ -50,6 +54,13 @@ signal_handlers_installed()
 {
   return SignalHandler::get_global_signal_handler().is_installed();
 }
+
+SignalHandlerOptions
+get_current_signal_handler_options()
+{
+  return SignalHandler::get_global_signal_handler().get_current_signal_handler_options();
+}
+
 
 bool
 uninstall_signal_handlers()
@@ -60,7 +71,7 @@ uninstall_signal_handlers()
 static
 std::vector<std::string>
 _remove_ros_arguments(
-  char const * const argv[],
+  char const * const * argv,
   const rcl_arguments_t * args,
   rcl_allocator_t alloc)
 {
@@ -101,7 +112,7 @@ _remove_ros_arguments(
 std::vector<std::string>
 init_and_remove_ros_arguments(
   int argc,
-  char const * const argv[],
+  char const * const * argv,
   const InitOptions & init_options)
 {
   init(argc, argv, init_options);
@@ -112,7 +123,7 @@ init_and_remove_ros_arguments(
 }
 
 std::vector<std::string>
-remove_ros_arguments(int argc, char const * const argv[])
+remove_ros_arguments(int argc, char const * const * argv)
 {
   rcl_allocator_t alloc = rcl_get_default_allocator();
   rcl_arguments_t parsed_args = rcl_get_zero_initialized_arguments();
@@ -154,12 +165,6 @@ ok(Context::SharedPtr context)
     context = get_global_default_context();
   }
   return context->is_valid();
-}
-
-bool
-is_initialized(Context::SharedPtr context)
-{
-  return ok(context);
 }
 
 bool
@@ -207,6 +212,19 @@ const char *
 get_c_string(const std::string & string_in)
 {
   return string_in.c_str();
+}
+
+std::vector<const char *>
+get_c_vector_string(const std::vector<std::string> & strings_in)
+{
+  std::vector<const char *> cstrings;
+  cstrings.reserve(strings_in.size());
+
+  for (size_t i = 0; i < strings_in.size(); ++i) {
+    cstrings.push_back(strings_in[i].c_str());
+  }
+
+  return cstrings;
 }
 
 }  // namespace rclcpp

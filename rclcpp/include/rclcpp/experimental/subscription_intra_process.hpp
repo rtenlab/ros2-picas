@@ -15,23 +15,22 @@
 #ifndef RCLCPP__EXPERIMENTAL__SUBSCRIPTION_INTRA_PROCESS_HPP_
 #define RCLCPP__EXPERIMENTAL__SUBSCRIPTION_INTRA_PROCESS_HPP_
 
-#include <rmw/rmw.h>
+#include <rmw/types.h>
 
-#include <functional>
-#include <map>
 #include <memory>
 #include <stdexcept>
 #include <string>
+#include <type_traits>
 #include <utility>
 
-#include "rcl/error_handling.h"
+#include "rcl/types.h"
 
 #include "rclcpp/any_subscription_callback.hpp"
+#include "rclcpp/context.hpp"
 #include "rclcpp/experimental/buffers/intra_process_buffer.hpp"
-#include "rclcpp/experimental/create_intra_process_buffer.hpp"
-#include "rclcpp/experimental/subscription_intra_process_base.hpp"
+#include "rclcpp/experimental/subscription_intra_process_buffer.hpp"
+#include "rclcpp/qos.hpp"
 #include "rclcpp/type_support_decl.hpp"
-#include "rclcpp/waitable.hpp"
 #include "tracetools/tracetools.h"
 
 namespace rclcpp
@@ -41,57 +40,53 @@ namespace experimental
 
 template<
   typename MessageT,
-  typename Alloc = std::allocator<void>,
-  typename Deleter = std::default_delete<MessageT>,
-  typename CallbackMessageT = MessageT>
-class SubscriptionIntraProcess : public SubscriptionIntraProcessBase
+  typename SubscribedType,
+  typename SubscribedTypeAlloc = std::allocator<SubscribedType>,
+  typename SubscribedTypeDeleter = std::default_delete<SubscribedType>,
+  typename ROSMessageType = SubscribedType,
+  typename Alloc = std::allocator<void>
+>
+class SubscriptionIntraProcess
+  : public SubscriptionIntraProcessBuffer<
+    SubscribedType,
+    SubscribedTypeAlloc,
+    SubscribedTypeDeleter,
+    ROSMessageType
+  >
 {
+  using SubscriptionIntraProcessBufferT = SubscriptionIntraProcessBuffer<
+    SubscribedType,
+    SubscribedTypeAlloc,
+    SubscribedTypeDeleter,
+    ROSMessageType
+  >;
+
 public:
   RCLCPP_SMART_PTR_DEFINITIONS(SubscriptionIntraProcess)
 
-  using MessageAllocTraits = allocator::AllocRebind<MessageT, Alloc>;
-  using MessageAlloc = typename MessageAllocTraits::allocator_type;
-  using ConstMessageSharedPtr = std::shared_ptr<const MessageT>;
-  using MessageUniquePtr = std::unique_ptr<MessageT, Deleter>;
-
-  using BufferUniquePtr = typename rclcpp::experimental::buffers::IntraProcessBuffer<
-    MessageT,
-    Alloc,
-    Deleter
-    >::UniquePtr;
+  using MessageAllocTraits =
+    typename SubscriptionIntraProcessBufferT::SubscribedTypeAllocatorTraits;
+  using MessageAlloc = typename SubscriptionIntraProcessBufferT::SubscribedTypeAllocator;
+  using ConstMessageSharedPtr = typename SubscriptionIntraProcessBufferT::ConstDataSharedPtr;
+  using MessageUniquePtr = typename SubscriptionIntraProcessBufferT::SubscribedTypeUniquePtr;
+  using BufferUniquePtr = typename SubscriptionIntraProcessBufferT::BufferUniquePtr;
 
   SubscriptionIntraProcess(
-    AnySubscriptionCallback<CallbackMessageT, Alloc> callback,
+    AnySubscriptionCallback<MessageT, Alloc> callback,
     std::shared_ptr<Alloc> allocator,
     rclcpp::Context::SharedPtr context,
     const std::string & topic_name,
-    rmw_qos_profile_t qos_profile,
+    const rclcpp::QoS & qos_profile,
     rclcpp::IntraProcessBufferType buffer_type)
-  : SubscriptionIntraProcessBase(topic_name, qos_profile),
+  : SubscriptionIntraProcessBuffer<SubscribedType, SubscribedTypeAlloc,
+      SubscribedTypeDeleter, ROSMessageType>(
+      std::make_shared<SubscribedTypeAlloc>(*allocator),
+      context,
+      topic_name,
+      qos_profile,
+      buffer_type),
     any_callback_(callback)
   {
-    if (!std::is_same<MessageT, CallbackMessageT>::value) {
-      throw std::runtime_error("SubscriptionIntraProcess wrong callback type");
-    }
-
-    // Create the intra-process buffer.
-    buffer_ = rclcpp::experimental::create_intra_process_buffer<MessageT, Alloc, Deleter>(
-      buffer_type,
-      qos_profile,
-      allocator);
-
-    // Create the guard condition.
-    rcl_guard_condition_options_t guard_condition_options =
-      rcl_guard_condition_get_default_options();
-
-    gc_ = rcl_get_zero_initialized_guard_condition();
-    rcl_ret_t ret = rcl_guard_condition_init(
-      &gc_, context->get_rcl_context().get(), guard_condition_options);
-
-    if (RCL_RET_OK != ret) {
-      throw std::runtime_error("SubscriptionIntraProcess init error initializing guard condition");
-    }
-
     TRACEPOINT(
       rclcpp_subscription_callback_added,
       static_cast<const void *>(this),
@@ -104,34 +99,32 @@ public:
 #endif
   }
 
-  ~SubscriptionIntraProcess()
-  {
-    if (rcl_guard_condition_fini(&gc_) != RCL_RET_OK) {
-      RCUTILS_LOG_ERROR_NAMED(
-        "rclcpp",
-        "Failed to destroy guard condition: %s",
-        rcutils_get_error_string().str);
-    }
-  }
-
-  bool
-  is_ready(rcl_wait_set_t * wait_set)
-  {
-    (void) wait_set;
-    return buffer_->has_data();
-  }
+  virtual ~SubscriptionIntraProcess() = default;
 
   std::shared_ptr<void>
-  take_data()
+  take_data() override
   {
     ConstMessageSharedPtr shared_msg;
     MessageUniquePtr unique_msg;
 
     if (any_callback_.use_take_shared_method()) {
-      shared_msg = buffer_->consume_shared();
+      shared_msg = this->buffer_->consume_shared();
+      if (!shared_msg) {
+        return nullptr;
+      }
     } else {
-      unique_msg = buffer_->consume_unique();
+      unique_msg = this->buffer_->consume_unique();
+      if (!unique_msg) {
+        return nullptr;
+      }
     }
+
+    if (this->buffer_->has_data()) {
+      // If there is data still to be processed, indicate to the
+      // executor or waitset by triggering the guard condition.
+      this->trigger_guard_condition();
+    }
+
     return std::static_pointer_cast<void>(
       std::make_shared<std::pair<ConstMessageSharedPtr, MessageUniquePtr>>(
         std::pair<ConstMessageSharedPtr, MessageUniquePtr>(
@@ -139,39 +132,12 @@ public:
     );
   }
 
-  void execute(std::shared_ptr<void> & data)
+  void execute(std::shared_ptr<void> & data) override
   {
-    execute_impl<CallbackMessageT>(data);
+    execute_impl<SubscribedType>(data);
   }
 
-  void
-  provide_intra_process_message(ConstMessageSharedPtr message)
-  {
-    buffer_->add_shared(std::move(message));
-    trigger_guard_condition();
-  }
-
-  void
-  provide_intra_process_message(MessageUniquePtr message)
-  {
-    buffer_->add_unique(std::move(message));
-    trigger_guard_condition();
-  }
-
-  bool
-  use_take_shared_method() const
-  {
-    return buffer_->use_take_shared_method();
-  }
-
-private:
-  void
-  trigger_guard_condition()
-  {
-    rcl_ret_t ret = rcl_trigger_guard_condition(&gc_);
-    (void)ret;
-  }
-
+protected:
   template<typename T>
   typename std::enable_if<std::is_same<T, rcl_serialized_message_t>::value, void>::type
   execute_impl(std::shared_ptr<void> & data)
@@ -185,7 +151,7 @@ private:
   execute_impl(std::shared_ptr<void> & data)
   {
     if (!data) {
-      throw std::runtime_error("'data' is empty");
+      return;
     }
 
     rmw_message_info_t msg_info;
@@ -205,8 +171,7 @@ private:
     shared_ptr.reset();
   }
 
-  AnySubscriptionCallback<CallbackMessageT, Alloc> any_callback_;
-  BufferUniquePtr buffer_;
+  AnySubscriptionCallback<MessageT, Alloc> any_callback_;
 };
 
 }  // namespace experimental
