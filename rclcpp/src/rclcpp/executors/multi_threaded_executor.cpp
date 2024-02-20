@@ -21,6 +21,8 @@
 
 #include "rclcpp/utilities.hpp"
 #include "rclcpp/scope_exit.hpp"
+#include "rclcpp/node_interfaces/node_base.hpp"
+#include "rclcpp/executor.hpp"
 
 using rclcpp::detail::MutexTwoPriorities;
 using rclcpp::executors::MultiThreadedExecutor;
@@ -85,6 +87,8 @@ MultiThreadedExecutor::spin()
     }
   }
 
+  // this->set_thread_affinity(threads);
+
   run(thread_id);
   for (auto & thread : threads) {
     thread.join();
@@ -101,6 +105,8 @@ MultiThreadedExecutor::get_number_of_threads()
 void
 MultiThreadedExecutor::run(size_t thread_id)
 {
+
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug MultiThreadedExecutor(109) Thread %lu ", std::this_thread::get_id());
   if (cpus.size() > 0 && cpus.size() <= thread_id) {
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "MultiThreadedExecutor: spin: Thread %lu (PID %ld): no CPU assigned", thread_id, gettid());
   }
@@ -137,7 +143,7 @@ MultiThreadedExecutor::run(size_t)
       if (!rclcpp::ok(this->context_) || !spinning.load()) {
         return;
       }
-      if (!get_next_executable(any_exec, next_exec_timeout_)) {
+      if (!get_next_executable(any_exec, next_exec_timeout_, (thread_id + 1))) {
         continue;
       }
       if (any_exec.timer) {

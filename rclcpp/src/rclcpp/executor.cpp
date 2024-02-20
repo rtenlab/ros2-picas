@@ -293,7 +293,29 @@ Executor::add_node(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_pt
     });
 
   weak_nodes_.push_back(node_ptr);
+
+  // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug [executor.cpp (297)]: weak_nodes size: %d", weak_nodes_.size());
 }
+
+//Tej
+
+// RCLCPP_PUBLIC
+// void set_thread_affinity(std::vector<std::thread>& threads) {
+
+//     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug [executor.cpp (307)]: threads size: %d", threads.size());
+
+//     // for(auto& thread : threads) {
+
+      
+
+//     // }
+
+
+
+//   }
+
+
+//
 
 void
 Executor::remove_callback_group_from_map(
@@ -464,7 +486,7 @@ Executor::spin_some_impl(std::chrono::nanoseconds max_duration, bool exhaustive)
     if (!work_available) {
       wait_for_work(std::chrono::milliseconds::zero());
     }
-    if (get_next_ready_executable(any_exec)) {
+    if (get_next_ready_executable(any_exec, 1)) { //static value for size_t thread_affinity_id.
       execute_any_executable(any_exec);
       work_available = true;
     } else {
@@ -605,6 +627,7 @@ Executor::execute_subscription(rclcpp::SubscriptionBase::SharedPtr subscription)
 {
   rclcpp::MessageInfo message_info;
   message_info.get_rmw_message_info().from_intra_process = false;
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug - sub topic name : %s", subscription->get_topic_name());
 
   if (subscription->is_serialized()) {
     // This is the case where a copy of the serialized message is taken from
@@ -841,9 +864,18 @@ Executor::get_group_by_timer(rclcpp::TimerBase::SharedPtr timer)
 }
 
 bool
-Executor::get_next_ready_executable(AnyExecutable & any_executable)
+Executor::get_next_ready_executable(AnyExecutable & any_executable, size_t thread_affinity_id)
 {
-  bool success = get_next_ready_executable_from_map(any_executable, weak_groups_to_nodes_);
+  // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug : number of ready callbacks = %zu", weak_groups_to_nodes_.size());
+  for(const auto& pair : weak_groups_to_nodes_) {
+    // auto cbg = pair.first.lock();
+    auto node = pair.second.lock();
+    // if(node) {
+    //   // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug : weak_groups_to_nodes_ element = %s", node->get_name());
+    // }
+    
+  }
+  bool success = get_next_ready_executable_from_map(any_executable, weak_groups_to_nodes_, thread_affinity_id);
   return success;
 }
 
@@ -851,7 +883,7 @@ bool
 Executor::get_next_ready_executable_from_map(
   AnyExecutable & any_executable,
   const rclcpp::memory_strategy::MemoryStrategy::WeakCallbackGroupsToNodesMap &
-  weak_groups_to_nodes)
+  weak_groups_to_nodes, size_t thread_affinity_id)
 {
   bool success = false;
 
@@ -862,7 +894,7 @@ Executor::get_next_ready_executable_from_map(
     // keep only the highest-priority one
     int highest_priority = -1;
 
-    memory_strategy_->get_next_timer(any_executable, weak_groups_to_nodes);
+    memory_strategy_->get_next_timer(any_executable, weak_groups_to_nodes, thread_affinity_id);
     if (any_executable.timer) {
       highest_priority = any_executable.timer->callback_priority;
     }
@@ -891,14 +923,19 @@ Executor::get_next_ready_executable_from_map(
     }
     else any_executable.client = nullptr;
 
-    memory_strategy_->get_next_waitable(any_executable, weak_groups_to_nodes);
+    memory_strategy_->get_next_waitable(any_executable, weak_groups_to_nodes, thread_affinity_id);
     if (any_executable.waitable && highest_priority < any_executable.waitable->callback_priority) {
+
+      // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug : get next waitable = %d", any_executable.waitable->callback_priority);
       highest_priority = any_executable.waitable->callback_priority;
       any_executable.data = any_executable.waitable->take_data();
       any_executable.timer = nullptr;
       any_executable.subscription = nullptr;
       any_executable.service = nullptr;
       any_executable.client = nullptr;
+
+      // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[executor.cpp(915)] Manual Debug : get next waitable TA = %d", any_executable.waitable->threadAffinity);
+      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[executor.cpp(915)] Manual Debug : thread_affinity_id = %d", thread_affinity_id);
     }
     else any_executable.waitable = nullptr;
 
@@ -907,7 +944,7 @@ Executor::get_next_ready_executable_from_map(
 #endif
     std::lock_guard<std::mutex> guard{mutex_};
     // Check the timers to see if there are any that are ready
-    memory_strategy_->get_next_timer(any_executable, weak_groups_to_nodes);
+    memory_strategy_->get_next_timer(any_executable, weak_groups_to_nodes, thread_affinity_id);
     if (any_executable.timer) {
       success = true;
     }
@@ -934,8 +971,9 @@ Executor::get_next_ready_executable_from_map(
     }
     if (!success) {
       // Check the waitables to see if there are any that are ready
-      memory_strategy_->get_next_waitable(any_executable, weak_groups_to_nodes);
+      memory_strategy_->get_next_waitable(any_executable, weak_groups_to_nodes, thread_affinity_id);
       if (any_executable.waitable) {
+
         any_executable.data = any_executable.waitable->take_data();
         success = true;
       }
@@ -972,7 +1010,7 @@ Executor::get_next_ready_executable_from_map(
 }
 
 bool
-Executor::get_next_executable(AnyExecutable & any_executable, std::chrono::nanoseconds timeout)
+Executor::get_next_executable(AnyExecutable & any_executable, std::chrono::nanoseconds timeout, size_t thread_affinity_id)
 {
   bool success = false;
   // Check to see if there are any subscriptions or timers needing service
@@ -984,7 +1022,7 @@ Executor::get_next_executable(AnyExecutable & any_executable, std::chrono::nanos
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[get_next_executable] Begin. Call get_next_ready_executable().");
   #endif 
 
-  success = get_next_ready_executable(any_executable);
+  success = get_next_ready_executable(any_executable, thread_affinity_id);
 
   #ifdef PICAS_DEBUG
     if (success) print_list_ready_executable(any_executable);
@@ -1003,6 +1041,7 @@ Executor::get_next_executable(AnyExecutable & any_executable, std::chrono::nanos
     gettimeofday(&ctime, NULL);
 #endif
 
+    // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug inside executor cpp - Before wait for work call");
     wait_for_work(timeout);
 
 #ifdef PICAS_DEBUG
@@ -1016,7 +1055,10 @@ Executor::get_next_executable(AnyExecutable & any_executable, std::chrono::nanos
       return false;
     }
     // Try again
-    success = get_next_ready_executable(any_executable);
+    success = get_next_ready_executable(any_executable, thread_affinity_id);
+    if(any_executable.waitable && success) {
+      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[excecutor.cpp(1037) get_next_executable] waitable TA : %d and current thread_id : %d", any_executable.waitable->threadAffinity, thread_affinity_id);    
+    }
 #ifdef PICAS_DEBUG
     if (success) print_list_ready_executable(any_executable);
 #endif

@@ -127,6 +127,7 @@ private:
     void callback(const test_msgs::msg::TestString::SharedPtr msg) {
         std::string name = this->get_name();
         RCLCPP_INFO(this->get_logger(), ("callback: " + name).c_str());
+        // RCLCPP_INFO(this->get_logger(), ("***********Tejas is running this example: **************"));
         //gettimeofday(&ctime, NULL);            
         //trace_callbacks_->trace_write(name+"_in",std::to_string(ctime.tv_sec*1000+ctime.tv_usec/1000));            
         dummy_load(exe_time_);
@@ -174,7 +175,7 @@ int main(int argc, char * argv[])
     trace_callbacks->trace_write("init",std::to_string(ctime.tv_sec*1000+ctime.tv_usec/1000));
 
     // Create callbacks
-    auto c1_t_cb = std::make_shared<StartNode>("Timer_callback", "c1", trace_callbacks, 1000, 10000, false);
+    auto c1_t_cb = std::make_shared<StartNode>("Timer_callback", "c2", trace_callbacks, 1000, 10000, false);
     auto c1_r_cb_1 = std::make_shared<IntermediateNode>("Regular_callback1", "c1", "", trace_callbacks, 1000, true);
     auto c1_r_cb_2 = std::make_shared<IntermediateNode>("Regular_callback2", "c1", "", trace_callbacks, 1000, true);
     auto c1_r_cb_3 = std::make_shared<IntermediateNode>("Regular_callback3", "c1", "", trace_callbacks, 1000, true);    
@@ -211,6 +212,9 @@ int main(int argc, char * argv[])
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback1->priority: %d", c1_r_cb_1->subscription_->callback_priority);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback2->priority: %d", c1_r_cb_2->subscription_->callback_priority);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback3->priority: %d", c1_r_cb_3->subscription_->callback_priority);
+
+    // exec1.set_thread_affinity(c1_r_cb_1->subscription_, 11);
+    // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Example: in Thread ID %ld", gettid());
 
     std::thread spinThread1(&rclcpp::executors::SingleThreadedExecutor::spin_rt, &exec1);
 #else

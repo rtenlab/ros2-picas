@@ -159,6 +159,7 @@ IntraProcessManager::get_subscription_intra_process(uint64_t intra_process_subsc
   } else {
     auto subscription = subscription_it->second.subscription.lock();
     if (subscription) {
+      RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug - Inside intra process exchange ?");
       return subscription;
     } else {
       subscriptions_.erase(subscription_it);

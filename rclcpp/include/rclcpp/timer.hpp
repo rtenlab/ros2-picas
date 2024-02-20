@@ -50,6 +50,7 @@ public:
   
 #ifdef PICAS
   int callback_priority = 0;
+  int threadAffinity = -1;
 #endif
 
   /// TimerBase constructor

@@ -182,6 +182,8 @@ int main(int argc, char * argv[])
     //auto c1_r_cb_2 = std::make_shared<IntermediateNode>("Regular_callback2", "c2", "c3", trace_callbacks, 1000, true);
     //auto c1_r_cb_3 = std::make_shared<IntermediateNode>("Regular_callback3", "c3", "c4", trace_callbacks, 1000, true);
 
+    // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual debug pub_topic - sub_topic : %s - %s", c1_r_cb_2::subscription_, c1_r_cb_2::publisher_);
+
     // Create executors
     int number_of_threads = 3;
     rclcpp::executors::MultiThreadedExecutor exec1(rclcpp::ExecutorOptions(), number_of_threads, true); 
@@ -222,10 +224,22 @@ int main(int argc, char * argv[])
     exec1.set_callback_priority(c1_r_cb_1->subscription_, 11);
     exec1.set_callback_priority(c1_r_cb_2->subscription_, 12);
     exec1.set_callback_priority(c1_r_cb_3->subscription_, 13);
+    //try to set thread affinity
+    int affinity_threads[] = {1, 2, 3};
+    exec1.set_thread_affinity(c1_r_cb_1->subscription_, affinity_threads, (sizeof(affinity_threads) / sizeof(affinity_threads[0])));
+    exec1.set_thread_affinity(c1_r_cb_2->subscription_, affinity_threads, (sizeof(affinity_threads) / sizeof(affinity_threads[0])));
+    exec1.set_thread_affinity(c1_r_cb_3->subscription_, affinity_threads, (sizeof(affinity_threads) / sizeof(affinity_threads[0])));
+    
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Timer_callback->priority: %d", c1_t_cb->timer_->callback_priority);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback1->priority: %d", c1_r_cb_1->subscription_->callback_priority);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback2->priority: %d", c1_r_cb_2->subscription_->callback_priority);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback3->priority: %d", c1_r_cb_3->subscription_->callback_priority);
+
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Timer_callback->affinity: %d", c1_r_cb_1->subscription_->threadAffinity);
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback1->affinity: %d", c1_r_cb_1->subscription_->threadAffinity);
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback2->affinity: %d", c1_r_cb_2->subscription_->threadAffinity);
+    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback3->affinity: %d", c1_r_cb_3->subscription_->threadAffinity);
+    
 #endif
 
     exec1.spin();

@@ -20,6 +20,7 @@
 #include <string>
 #include <utility>
 #include <vector>
+#include <stdio.h>
 
 #include "rclcpp/memory_strategy.hpp"
 #include "rclcpp/executors/static_single_threaded_executor.hpp"
@@ -285,6 +286,7 @@ bool
 StaticExecutorEntitiesCollector::add_node(
   rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr)
 {
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual debug - inside add node.");
   bool is_new_node = false;
   // If the node already has an executor
   std::atomic_bool & has_executor = node_ptr->get_associated_with_executor_atomic();

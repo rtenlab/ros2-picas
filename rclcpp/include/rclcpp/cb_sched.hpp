@@ -1,7 +1,7 @@
 #ifndef RCLCPP__CB_SCHED_HPP_
 #define RCLCPP__CB_SCHED_HPP_
 
-//#define PICAS_DEBUG // comment this out for non-debug mode
+// #define PICAS_DEBUG // comment this out for non-debug mode
 
 #ifdef PICAS_DEBUG
 #include <sys/time.h>

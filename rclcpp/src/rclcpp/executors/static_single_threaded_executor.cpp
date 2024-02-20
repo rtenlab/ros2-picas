@@ -160,6 +160,7 @@ StaticSingleThreadedExecutor::add_node(
 void
 StaticSingleThreadedExecutor::add_node(std::shared_ptr<rclcpp::Node> node_ptr, bool notify)
 {
+  RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual debug - inside add node.");
   this->add_node(node_ptr->get_node_base_interface(), notify);
 }
 
