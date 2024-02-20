@@ -225,10 +225,13 @@ int main(int argc, char * argv[])
     exec1.set_callback_priority(c1_r_cb_2->subscription_, 12);
     exec1.set_callback_priority(c1_r_cb_3->subscription_, 13);
     //try to set thread affinity
-    int affinity_threads[] = {1, 2, 3};
-    exec1.set_thread_affinity(c1_r_cb_1->subscription_, affinity_threads, (sizeof(affinity_threads) / sizeof(affinity_threads[0])));
-    exec1.set_thread_affinity(c1_r_cb_2->subscription_, affinity_threads, (sizeof(affinity_threads) / sizeof(affinity_threads[0])));
-    exec1.set_thread_affinity(c1_r_cb_3->subscription_, affinity_threads, (sizeof(affinity_threads) / sizeof(affinity_threads[0])));
+    int affinity_threads_timer[] = {1, 2};
+    exec1.set_thread_affinity(c1_t_cb->timer_, affinity_threads_timer, (sizeof(affinity_threads_timer) / sizeof(affinity_threads_timer[0])));
+
+    int affinity_threads_sub[] = {2, 3};
+    exec1.set_thread_affinity(c1_r_cb_1->subscription_, affinity_threads_sub, (sizeof(affinity_threads_sub) / sizeof(affinity_threads_sub[0])));
+    exec1.set_thread_affinity(c1_r_cb_2->subscription_, affinity_threads_sub, (sizeof(affinity_threads_sub) / sizeof(affinity_threads_sub[0])));
+    exec1.set_thread_affinity(c1_r_cb_3->subscription_, affinity_threads_sub, (sizeof(affinity_threads_sub) / sizeof(affinity_threads_sub[0])));
     
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Timer_callback->priority: %d", c1_t_cb->timer_->callback_priority);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Regular_callback1->priority: %d", c1_r_cb_1->subscription_->callback_priority);

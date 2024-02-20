@@ -899,14 +899,14 @@ Executor::get_next_ready_executable_from_map(
       highest_priority = any_executable.timer->callback_priority;
     }
 
-    memory_strategy_->get_next_subscription(any_executable, weak_groups_to_nodes);
+    memory_strategy_->get_next_subscription(any_executable, weak_groups_to_nodes, thread_affinity_id);
     if (any_executable.subscription && highest_priority < any_executable.subscription->callback_priority) {
       highest_priority = any_executable.subscription->callback_priority;
       any_executable.timer = nullptr;
     }
     else any_executable.subscription = nullptr;
 
-    memory_strategy_->get_next_service(any_executable, weak_groups_to_nodes);
+    memory_strategy_->get_next_service(any_executable, weak_groups_to_nodes, thread_affinity_id);
     if (any_executable.service && highest_priority < any_executable.service->callback_priority) {
       highest_priority = any_executable.service->callback_priority;
       any_executable.timer = nullptr;
@@ -914,7 +914,7 @@ Executor::get_next_ready_executable_from_map(
     }
     else any_executable.service = nullptr;
 
-    memory_strategy_->get_next_client(any_executable, weak_groups_to_nodes);
+    memory_strategy_->get_next_client(any_executable, weak_groups_to_nodes, thread_affinity_id);
     if (any_executable.client && highest_priority < any_executable.client->callback_priority) {
       highest_priority = any_executable.client->callback_priority;
       any_executable.timer = nullptr;
@@ -950,21 +950,21 @@ Executor::get_next_ready_executable_from_map(
     }
     if (!success) {
       // Check the subscriptions to see if there are any that are ready
-      memory_strategy_->get_next_subscription(any_executable, weak_groups_to_nodes);
+      memory_strategy_->get_next_subscription(any_executable, weak_groups_to_nodes, thread_affinity_id);
       if (any_executable.subscription) {
         success = true;
       }
     }
     if (!success) {
       // Check the services to see if there are any that are ready
-      memory_strategy_->get_next_service(any_executable, weak_groups_to_nodes);
+      memory_strategy_->get_next_service(any_executable, weak_groups_to_nodes, thread_affinity_id);
       if (any_executable.service) {
         success = true;
       }
     }
     if (!success) {
       // Check the clients to see if there are any that are ready
-      memory_strategy_->get_next_client(any_executable, weak_groups_to_nodes);
+      memory_strategy_->get_next_client(any_executable, weak_groups_to_nodes, thread_affinity_id);
       if (any_executable.client) {
         success = true;
       }

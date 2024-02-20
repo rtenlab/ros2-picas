@@ -46,6 +46,7 @@ public:
 
 #ifdef PICAS
   int callback_priority = 0;
+  size_t threadAffinity = 0;
 #endif
 
   RCLCPP_PUBLIC

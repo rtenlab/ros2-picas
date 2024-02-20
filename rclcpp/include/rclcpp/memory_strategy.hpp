@@ -71,17 +71,17 @@ public:
   virtual void
   get_next_subscription(
     rclcpp::AnyExecutable & any_exec,
-    const WeakCallbackGroupsToNodesMap & weak_groups_to_nodes) = 0;
+    const WeakCallbackGroupsToNodesMap & weak_groups_to_nodes, size_t thread_affinity_id) = 0;
 
   virtual void
   get_next_service(
     rclcpp::AnyExecutable & any_exec,
-    const WeakCallbackGroupsToNodesMap & weak_groups_to_nodes) = 0;
+    const WeakCallbackGroupsToNodesMap & weak_groups_to_nodes, size_t thread_affinity_id) = 0;
 
   virtual void
   get_next_client(
     rclcpp::AnyExecutable & any_exec,
-    const WeakCallbackGroupsToNodesMap & weak_groups_to_nodes) = 0;
+    const WeakCallbackGroupsToNodesMap & weak_groups_to_nodes, size_t thread_affinity_id) = 0;
 
   virtual void
   get_next_timer(

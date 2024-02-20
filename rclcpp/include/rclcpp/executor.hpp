@@ -438,7 +438,14 @@ public:
   {
     if (!ptr) return;
     ptr->callback_priority = priority;
-    ptr->threadAffinity = 1;
+  }
+
+  RCLCPP_PUBLIC
+  void
+  set_thread_affinity(rclcpp::TimerBase::SharedPtr ptr, int* affinity_threads, int size)
+  {
+    if (!ptr) return;
+    ptr->threadAffinity = get_final_affinity_value(affinity_threads, size);
   }
 
   RCLCPP_PUBLIC
@@ -447,7 +454,6 @@ public:
   {
     if (!ptr) return;
     ptr->callback_priority = priority;
-    // ptr->threadAffinity = 2;
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[executor.hpp] Inside set Callback priority.");
  
     // There might be other waitables associated with the subscription
@@ -456,7 +462,6 @@ public:
     if (intra_process_waitable) {
       RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[executor.hpp] Inside intra_process_waitable condition in set Callback priority.");
       intra_process_waitable->callback_priority = priority;
-      // intra_process_waitable->threadAffinity = 2;       //Tej : setting static callback priority.
     }
     for (auto & subscription_event : ptr->get_event_handlers()) {
       subscription_event->callback_priority = priority;
@@ -468,10 +473,7 @@ public:
   set_thread_affinity(rclcpp::SubscriptionBase::SharedPtr ptr, int* affinity_threads, int size)
   {
     if (!ptr) return;
-    for(int i = 0; i < size; i++) {
-      ptr->threadAffinity += (1 << (affinity_threads[i] - 1));
-    }
-    
+    ptr->threadAffinity = get_final_affinity_value(affinity_threads, size);
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[executor.hpp] Inside set thread affinity.");
  
     // There might be other waitables associated with the subscription
@@ -479,7 +481,7 @@ public:
     auto intra_process_waitable = ptr->get_intra_process_waitable();
     if (intra_process_waitable) {
       RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[executor.hpp] Inside intra_process_waitable condition in set thread affinity.");
-      intra_process_waitable->threadAffinity = ptr->threadAffinity;      //Tej : setting static callback priority.
+      intra_process_waitable->threadAffinity = ptr->threadAffinity;
     }
     for (auto & subscription_event : ptr->get_event_handlers()) {
       subscription_event->threadAffinity = ptr->threadAffinity;
@@ -495,9 +497,25 @@ public:
 
   RCLCPP_PUBLIC
   void
+  set_thread_affinity(rclcpp::ServiceBase::SharedPtr ptr, int* affinity_threads, int size)
+  {
+    if (!ptr) return;
+    ptr->threadAffinity = get_final_affinity_value(affinity_threads, size);
+  }
+
+  RCLCPP_PUBLIC
+  void
   set_callback_priority(rclcpp::ClientBase::SharedPtr ptr, int priority)
   {
     if (ptr) ptr->callback_priority = priority;
+  }
+
+  RCLCPP_PUBLIC
+  void
+  set_thread_affinity(rclcpp::ClientBase::SharedPtr ptr, int* affinity_threads, int size)
+  {
+    if (!ptr) return;
+    ptr->threadAffinity = get_final_affinity_value(affinity_threads, size);
   }
 
   RCLCPP_PUBLIC
@@ -508,15 +526,17 @@ public:
     if (ptr) ptr->callback_priority = priority;
   }
 
-// Previous thread affinity setter which sets thread affinity to waitables directly.
-  // RCLCPP_PUBLIC
-  // void
-  // set_thread_affinity(rclcpp::SubscriptionBase::SharedPtr ptr, int affinity)
-  // {
-    
-  //   if (ptr) ptr->threadAffinity = affinity;
-  //   RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "[executor.hpp] Inside set thread affinity : %d", ptr->threadAffinity);
-  // }
+  RCLCPP_PUBLIC
+  size_t 
+  get_final_affinity_value(int* affinity_threads, int size)
+  {
+    size_t final_affinity = 0;
+    for(int i = 0; i < size; i++) {
+      final_affinity += (1 << (affinity_threads[i] - 1));
+    }
+
+    return final_affinity;
+  }
 #endif
 
 protected:
@@ -632,29 +652,6 @@ protected:
 
   // RCLCPP_PUBLIC
   // virtual void set_thread_affinity(std::vector<std::thread>& threads);
-
-  RCLCPP_PUBLIC
-  void set_thread_affinity(std::vector<std::thread>& threads) {
-
-    // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug [executor.cpp (307)]: threads size: %d", threads.size());
-
-    // for(auto& thread : threads) {
-      // RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Manual Debug [executor.cpp (307)]: thread element: %ld", thread.get_id());
-    // }
-
-    // for(auto & weak_node : weak_nodes_) {
-    //   auto node = weak_node.lock();
-    //   if(node) {
-    //     for(auto& cb_grp : node->get_callback_groups()) {
-    //       cb_grp->find_waitable_ptrs_if
-    //     }
-    //   }
-    // }
-
-    
-
-
-  }
 
   /// Add all callback groups that can be automatically added from associated nodes.
   /**
