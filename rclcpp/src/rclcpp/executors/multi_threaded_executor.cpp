@@ -143,7 +143,7 @@ MultiThreadedExecutor::run(size_t)
       if (!rclcpp::ok(this->context_) || !spinning.load()) {
         return;
       }
-      if (!get_next_executable(any_exec, next_exec_timeout_, (thread_id + 1))) {
+      if (!get_next_executable(any_exec, next_exec_timeout_, thread_id)) {
         continue;
       }
       if (any_exec.timer) {
